@@ -1,0 +1,121 @@
+\documentclass[a4paper, english, 11pt]{article}   
+\usepackage[T1]{fontenc} 			                  % Nødvendig for fonter
+\usepackage[latin1]{inputenc}                   % Nødvendig for æøå
+\usepackage[english]{babel}						            % Bruk norsk orddeling
+\usepackage{graphicx}					                  % For å kunne inkludere grafikk
+\usepackage{amsmath, amsfonts, amssymb}         % Pakker for å skrive matte
+\usepackage[amssymb]{SIunits}                   % For å bruke \unit til SI-enheter
+\usepackage{float}                              % For å bruke H som posisjon
+\usepackage[bookmarks]{hyperref}                % For linker til kapitler
+\usepackage{url}                                % For å bruke \url
+\usepackage{array}                              % For å bruke m{1cm} på tabell (midtstilt)
+
+% Tegninger, som båndgap
+\usepackage{tikz,tkz-tab}                       % Pakke til å tegne med i latex
+\usetikzlibrary{decorations.pathmorphing}       % For å lage foton streker
+\usetikzlibrary{decorations.pathreplacing}      % For å bruke krøllparantes (brace)
+\usetikzlibrary{shapes,arrows}                  % For å kunne tegne piler i tikz
+\usepackage{xcolor}                             % Farger
+\usepackage{rotating}                           % Rotere på stash
+\usepackage{subfigure}                          % Sette figurer ved siden av hverandre
+\usepackage{epstopdf}                           % For at .eps figurer skal funke
+\DeclareGraphicsExtensions{.pdf,.jpg,.png,.eps} % For å slippe å skrive extensions
+\graphicspath{{./images/}}                      % For å slippe å skrive path til bilder
+
+% Info om rapporten
+\author{Jon Skarpeteig}
+\title{Kryogen mikro-fotoluminiscense på silisium solcellemateriale}
+\date{\today}
+
+
+%\setcounter{errorcontextlines}{\maxdimen} % Debug stuff
+
+\begin{document}
+
+% Tittleside
+\begin{titlepage}
+ \thispagestyle{empty}
+
+% \maketitle
+ 
+ \centering
+ 
+ \includegraphics[width=5cm]{NTNU_engelsk_CMYK}
+ 
+  \vspace{15mm} % Vertikalt mellomrom
+ 
+    \Large
+  {\bf{\textsl{TFE4530 - Fotonikk, Fordypningsprosjekt}}} \\
+  
+  % Tittel
+  \vspace{25mm}          % Vertikalt mellomrom
+  \huge
+  \textbf{Cryogenic micro-photoluminescence of silicon solar cell materials} \\
+  \vspace{5mm}
+  \textbf{av} \\
+  \vspace{5mm}
+ 
+  % Forfatter
+  \large
+  \textbf{Jon Skarpeteig} \\
+  \vspace{25mm}
+
+  \large
+  \today \\
+  \vspace{25mm}
+  Veiledere: \\ Helge Weman \\ Arne Røyset \\
+  \vspace{25mm} 
+  \textsl{Norges Teknisk-Naturvitenskapelige Universitet} \\
+  \textsl{Instittutt for Elektronikk og Telekommunikasjon} \\
+  
+\end{titlepage}
+
+\pagenumbering{roman}
+
+% Sammendrag
+\begin{abstract}
+%\input{sammendrag}
+not ready
+\end{abstract}
+
+% Innholdsfortegnelser
+\clearpage
+\tableofcontents
+
+%\addcontentsline{toc}{section}{Liste over figurer} % Legg til innholdsfortegnelse
+
+\clearpage
+\listoffigures
+
+% Faktisk tekst til rapport
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%\input{introduksjon}
+\clearpage
+%\input{solcelle_teori}
+%\input{solcelle_teori_inhomogene_halvledere}
+%\input{spektroskopi}
+%\input{tap}
+%\clearpage
+%\input{maalemetode}
+%\clearpage
+%\input{resultater}
+%\clearpage
+%\input{diskusjon}
+%\clearpage
+%\input{konklusjon}
+%\input{test}
+
+% Referanseliste
+\clearpage
+\bibliographystyle{plain}
+\nocite{}
+\bibliography{bibliography} % bibliography.bib
+
+% Vedlegg
+\clearpage
+%\input{vedlegg_transmisjon}
+
+\end{document}
