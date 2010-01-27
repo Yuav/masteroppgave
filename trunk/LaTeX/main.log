@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.11.11)  20 JAN 2010 15:02
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  27 JAN 2010 13:27
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/../.
 ./../Masteroppgave/LaTeX/main.tex
@@ -723,7 +723,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 429.
 ))
-No file main.aux.
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
@@ -738,6 +738,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
+
 ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -772,6 +773,9 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
+
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.out")
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.out")
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box44
 Package epstopdf Info: Source file: <./images/NTNU_engelsk_CMYK.eps>
@@ -779,16 +783,12 @@ Package epstopdf Info: Source file: <./images/NTNU_engelsk_CMYK.eps>
 (epstopdf)                    size: 413590 bytes
 (epstopdf)             Output file: <./images/NTNU_engelsk_CMYK-eps-converted-t
 o.pdf>
+(epstopdf)                    date: 2010-01-20 15:02:50
+(epstopdf)                    size: 21684 bytes
 (epstopdf)             Command: <epstopdf --outfile=./images/NTNU_engelsk_CMYK-
 eps-converted-to.pdf ./images/NTNU_engelsk_CMYK.eps>
 (epstopdf)             \includegraphics on input line 43.
-runsystem(epstopdf --outfile=./images/NTNU_engelsk_CMYK-eps-converted-to.pdf ./
-images/NTNU_engelsk_CMYK.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <./images/NTNU_engelsk_CMYK-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2010-01-20 15:02:50
-(epstopdf)                    size: 21684 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <./images/NTNU_engelsk_CMYK-eps-converted-to.pdf, id=9, 359.3425pt x 120.45pt>
 File: ./images/NTNU_engelsk_CMYK-eps-converted-to.pdf Graphic file (type pdf)
@@ -798,42 +798,168 @@ File: ./images/NTNU_engelsk_CMYK-eps-converted-to.pdf Graphic file (type pdf)
 {C:/Documents and Settings/Jon/Local Settings/Application Data/MiKTeX/2.8/pdfte
 x/config/pdftex.map} <C:/Documents and Settings/Jon/My Documents/Masteroppgave/
 LaTeX/images/NTNU_engelsk_CMYK-eps-converted-to.pdf>] [1]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.toc")
 \tf@toc=\write5
- [2
 
-]
+[2
+
+] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.lof")
 \tf@lof=\write6
- [3
+[3
+
+] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\dlinjer.tex"
+
+
+LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 1.
+
+
+LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 1.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 1.
+
+
+LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `staiger94' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 5.
+
+
+Overfull \hbox (1.8884pt too wide) in paragraph at lines 5--6
+[]\T1/cmr/m/n/10.95 Both [] and [] stud-ied plas-ti-cally de-formed sil-i-con m
+ade by the Czochral-
+ []
+
+
+LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 13.
+
+
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 25.
+
+
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 25.
+
+
+LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sugimoto06' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `sugimoto06' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `sugimoto06' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `dean67' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `sugimoto06' on page 1 undefined on input line 28.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 
+      [1
+
 
 ]
-No file main.bbl.
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux") ) 
+
+LaTeX Warning: Reference `sugimoto07' on page 2 undefined on input line 30.
+
+
+LaTeX Warning: Reference `inoue07' on page 2 undefined on input line 32.
+
+
+LaTeX Warning: Reference `inoue07' on page 2 undefined on input line 32.
+
+) [2] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\teori.te
+x") [3
+
+]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [4
+
+] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux")
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15208 strings out of 495285
- 277440 string characters out of 3180345
- 366869 words of memory out of 3000000
- 18039 multiletter control sequences out of 15000+200000
- 12533 words of font info for 26 fonts, out of 3000000 for 9000
+ 15293 strings out of 495285
+ 279456 string characters out of 3180346
+ 374869 words of memory out of 3000000
+ 18079 multiletter control sequences out of 15000+200000
+ 18513 words of font info for 47 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,5n,58p,489b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
- <
-C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\Jon\Local 
-Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm109
-5.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon
-\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1000.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiK
-TeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Documents and Setti
-ngs\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Settings\Application D
-ata\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents an
-d Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecbx2074.pk> <C:\Documents and Settings\Jon\Local Settings\Applic
-ation Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbl1440.pk>
-Output written on main.pdf (4 pages, 64335 bytes).
+ 47i,9n,58p,991b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Documents and Settings\Jon\Lo
+cal Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
+x1440.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX
+\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Documents and Settings
+\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi
+600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data
+\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Documents and S
+ettings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecsl1200.pk> <C:\Documents and Settings\Jon\Local Settings\Applicati
+on Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Document
+s and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Jon\Local Settings\Ap
+plication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\D
+ocuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecbl1440.pk><C:/Program Files/MiKTeX 2.8/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (8 pages, 101057 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  30 words of extra memory for PDF output out of 10000 (max. 10000000)
 
