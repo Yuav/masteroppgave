@@ -9,6 +9,8 @@
 \usepackage[bookmarks]{hyperref}                % For linker til kapitler
 \usepackage{url}                                % For å bruke \url
 \usepackage{array}                              % For å bruke m{1cm} på tabell (midtstilt)
+\usepackage{changepage}													% Allows for temporary adjustment of side margins
+
 
 % Tegninger, som båndgap
 \usepackage{tikz,tkz-tab}                       % Pakke til å tegne med i latex
@@ -28,64 +30,23 @@
 \date{\today}
 
 
-%\setcounter{errorcontextlines}{\maxdimen} % Debug stuff
-
 \begin{document}
 
 % Tittleside
-\begin{titlepage}
- \thispagestyle{empty}
-
-% \maketitle
- 
- \centering
- 
- \includegraphics[width=5cm]{NTNU_engelsk_CMYK}
- 
-  \vspace{15mm} % Vertikalt mellomrom
- 
-    \Large
-  {\bf{\textsl{TFE4530 - Fotonikk, Fordypningsprosjekt}}} \\
-  
-  % Tittel
-  \vspace{25mm}          % Vertikalt mellomrom
-  \huge
-  \textbf{Cryogenic micro-photoluminescence of silicon solar cell materials} \\
-  \vspace{5mm}
-  \textbf{av} \\
-  \vspace{5mm}
- 
-  % Forfatter
-  \large
-  \textbf{Jon Skarpeteig} \\
-  \vspace{25mm}
-
-  \large
-  \today \\
-  \vspace{25mm}
-  Veiledere: \\ Helge Weman \\ Arne Røyset \\
-  \vspace{25mm} 
-  \textsl{Norges Teknisk-Naturvitenskapelige Universitet} \\
-  \textsl{Instittutt for Elektronikk og Telekommunikasjon} \\
-  
-\end{titlepage}
+%\input{titlepage}
 
 \pagenumbering{roman}
 
 % Sammendrag
-\begin{abstract}
-%\input{sammendrag}
-not ready
-\end{abstract}
+%\input{abstract}
+
 
 % Innholdsfortegnelser
 \clearpage
-\tableofcontents
-
-%\addcontentsline{toc}{section}{Liste over figurer} % Legg til innholdsfortegnelse
+%\tableofcontents
 
 \clearpage
-\listoffigures
+%\listoffigures
 
 % Faktisk tekst til rapport
 \clearpage
@@ -100,6 +61,7 @@ not ready
 %\input{tap}
 %\clearpage
 \input{dlinjer}
+\input{tabeller}
 \clearpage
 \input{teori}
 %\input{maalemetode}
