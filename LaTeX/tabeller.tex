@@ -1,58 +1,136 @@
-Defekt tabell
+\appendix
 
-Reference & spekter/forurensing & Navn + eV & Temperatur & Framstillingsmetode & Eksitasjonsprosess & Areal / Effekt per areal  & Doping
+\section{Silicon energy bands}
+
+\begin{center}
+\begin{longtable}{|c|c|c|c|c|}
+
+% Header for first page
+\hline 
+\multicolumn{1}{|c|}{\textbf{Energy}} & 
+\multicolumn{1}{c|}{\textbf{Name}} & 
+\multicolumn{1}{c|}{\textbf{Temp.}} & 
+\multicolumn{1}{c|}{\textbf{Impurity / Defect}} & 
+\multicolumn{1}{c|}{\textbf{Observed in}} \\ \hline
+\endfirsthead
 
 
-\begin{adjustwidth}{-2in}{-2in}% adjust the L and R margins by 1 inch
-\begin{table}[H]
-\centering
-\begin{tabular}{|c|c|c|c|m{2.2cm}|m{2.2cm}|c|c|}
+% Header for page 2 3 4 etc.
+\multicolumn{5}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline 
+\multicolumn{1}{|c|}{\textbf{Energy}} & 
+\multicolumn{1}{c|}{\textbf{Name}} & 
+\multicolumn{1}{c|}{\textbf{Temp.}} & 
+\multicolumn{1}{c|}{\textbf{Impurity / Defect}} & 
+\multicolumn{1}{c|}{\textbf{Observed in}} \\ \hline
+\endhead
+
+% Table footer on first pages
+\hline \multicolumn{5}{|r|}{{Continued on next page}} \\ \hline
+\endfoot
+
+% Table footer on last page
+\caption{Silicon energy bands}
+\label{energy_bands}
+\endlastfoot
+
 
 \hline
-Reference & PL Line & Energy eV & Temperature & Sample type & Excitation process & Area & Doping \\ \hline
-\ref{sugimoto07} & B$_{TO}$ & 1.093eV & 4.2K & mc-Si & 532nm Nd:YVO$_4$ laser & 10nmW/400 \micro m diameter and 0.1mW/10 \mirco m diameter & p-doped \\ \hline
-\ref{tajima95} & D$_b$ & 0.77eV & 4.2-295K & Cz-Si & Kr ion laser 647nm & 10 \micro m & Undoped \\ \hline
-\ref{tajima95} & D$_{a1}$ & 0.8-0.9eV & 11K & Cz-Si & Kr ion laser at 647nm & 10\micro m & Undoped \\ \hline
-\ref{tajima95} & D$_{a2}$ & 0.9-1.0eV & 11K & Cz-Si & Kr ion laser at 647nm & 10\micro m & Undoped \\ \hline
-\ref{drozdov76} & D1 & 0.812eV & 4.2K & Cz-Si deformed by bending at 850 degrees C & Xenon lamp & 50mW on 3mm modulated at 9Hz & undoped, with weak n and p \\ \hline
-\ref{tarasov00} & D1' & 0.80eV & 77K & mc-Si on dislocation rich area & 800nm AlGaAs laser & Pulsed 300mW / 3mm & undoped \\ \hline
-\ref{drozdov76} & D2 & 0.875eV & 4.2K & Cz-Si deformed by bending at 850 degrees C & Xenon lamp & 50mW on 3mm modulated at 9Hz & weak both n and p \\ \hline
-\ref{tarasov00} & D2' & 0.89eV & 77K & mc-Si on dislocation rich area & 800nm AlGaAs laser & Pulsed 300mW / 3mm & undoped \\ \hline
-\ref{drozdov76} & D3 & 0.934eV & 4.2K & Cz-Si deformed by bending at 850 degrees C & Xenon lamp & 50mW on 3mm modulated at 9Hz & weak both n and p \\ \hline
-\ref{tarasov00} & D3' & 0.95eV & 77K & mc-Si on dislocation rich area & 800nm AlGaAs laser & Pulsed 300mW / 3mm & undoped \\ \hline
-\ref{drozdov76} & D4 & 1.000eV & 4.2K & Cz-Si deformed by bending at 850 degrees C & Xenon lamp & 50mW on 3mm modulated at 9Hz & weak both n and p \\ \hline
-\ref{tarasov00} & D4' & 1.00eV & 77K & mc-Si on dislocation rich area & 800nm AlGaAs laser & Pulsed 300mW / 3mm & undoped \\ \hline
-\ref{arguirov03} & R1BB & 1.04eV & 80K & mc-Si and FZ-Si & Ar ion 514nm at 300mW on 100\micro m & 30W/cm$^-1$ & boron doped p - $10^15cm^-1$ \\ \hline
-\ref{arguirov03} & R2BB & 0.98eV & 80K & mc-Si and FZ-Si & Ar ion 514nm at 300mW on 100\micro m & 30W/cm$^-1$ & boron doped p - $10^15cm^-1$ \\ \hline
+0.735eV & ZPL & 22K & Fe contamination & \cite{calao88} \\ \hline
+0.76-0.8eV & Defect & 290K & Dislocation with low contamination & \cite{tarasov00} \cite{tarasov01} \\ \hline
+0.77-0.78eV & D$_b$ & 4.2-295K & Oxygen impurity band & \cite{tajima95} \cite{inoue07} \\ \hline
+0.780eV & CrB$^{0 \Gamma }$ & 4.2K & CrB$^0$ phonon replica & \cite{conzelmann83} \\ \hline
+0.80eV & D1' & 77K & Dislocations & \cite{tarasov00} \cite{tarasov01} \\ \hline
+0.812eV & D1 & 4.2K & Dislocation related line & \cite{drozdov76} \cite{sauer85} \cite{arguirov03} \\ \hline
+0.8160 & CrB$^2$ & 4.2K & Cr-B excitation of local vibrations & \cite{conzelmann83} \\ \hline
+0.8402 & CrB$^1$ & 4.2K & Cr-B excitation of local vibrations & \cite{conzelmann83} \\ \hline
+0.8432eV & CrB$^0$ & 4.2K & Cr-B pair no-phonon & \cite{conzelmann83} \\ \hline
+0.875eV & D2 & 4.2K & Dislocation related line & \cite{drozdov76} \cite{sauer85} \cite{arguirov03} \\ \hline
+0.89eV & D2' & 77K & Dislocations & \cite{tarasov00} \cite{tarasov01} \\ \hline
+0.8-0.9eV & D$_{a1}$ & 11K & Broad background emission under D1/D2 & \cite{tajima95} \\ \hline
+0.934eV & D3 & 4.2K & Dislocations & \cite{drozdov76} \cite{sauer85} \cite{arguirov03} \\ \hline
+0.95eV & D3' & 77K & Dislocations & \cite{tarasov00} \cite{tarasov01} \\ \hline
+0.953eV & D5 & 4.2K & Straight dislocations & \cite{sauer85} \\ \hline
+0.98eV & R2BB & 80K & Two phonon replica of band edge emission & \cite{arguirov03} \\ \hline
+0.9-1.0eV & D$_{a2}$ & 11K & Broad background emission under D3/D4 & \cite{tajima95} \\ \hline
+1.000eV & D4 & 4.2K & Dislocations & \cite{drozdov76} \cite{sauer85} \cite{arguirov03} \\ \hline
+1.00eV & D4' & 77K & Dislocations & \cite{tarasov00} \cite{tarasov01} \\ \hline
+1.014eV & Cu$_0$ & 4.2K & Copper doping & \cite{weber82} \\ \hline
+1.0089eV & FeB$^0$(TO) & Fe-B pair phonon replica \cite{mohring83} \\ \hline
+1.0126eV & D6 & Stacking faults & \cite{sauer85} \\ \hline
+1.04eV & R1BB & 80K & One phonon replica of band edge emission & \cite{arguirov03} \\ \hline
+1.0504eV & FeB$^{2}$ & Fe-B pair contamination & \cite{mohring83} \\ \hline
+1.0595eV & FeB$^{1}$ & Fe-B pair contamination & \cite{mohring83} \\ \hline
+1.0692eV & FeB$^{0}$ & 6K & Fe-B pair no phonon & \cite{mohring83} \\ \hline
+1.092eV & BE1 & 4.2K & Bound exciton & \cite{drozdov76} \\ \hline
+1.093eV & B$_{TO}$ & 4.2K & TO phonon replica of Boron bound exiton & \cite{sugimoto07} \cite{inoue07} \\ \hline
+
+%1.25eV? EHD$^{TO}$ \cite{sauer85}
+%1.26eV? Fe$^{TO}$ \cite{sauer85}
+%BE \cite{inoue07}
+
+\end{longtable}
+\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\clearpage
+%\section{Sample types}
+
+
+\begin{center}
+\begin{sidewaystable}%
+\begin{tabular}{|c|c|m{3cm}|m{4cm}|m{4cm}|m{2cm}|}
+
+% Header for first page
+%\hline 
+%\multicolumn{1}{|c|}{\textbf{Ref.}} & 
+%\multicolumn{1}{c|}{\textbf{Sample type}} & 
+%\multicolumn{1}{c|}{\textbf{Excitation process}} & 
+%\multicolumn{1}{c|}{\textbf{Area}} & 
+%\multicolumn{1}{c|}{\textbf{Surface process}} & 
+%\multicolumn{1}{c|}{\textbf{Doping}} \\ \hline
+%\endfirsthead
+
+% Header for page 2 3 4 etc.
+%\multicolumn{6}{c}{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+%\hline 
+%\multicolumn{1}{|c|}{\textbf{Ref.}} & 
+%\multicolumn{1}{c|}{\textbf{Sample type}} & 
+%\multicolumn{1}{c|}{\textbf{Excitation process}} & 
+%\multicolumn{1}{c|}{\textbf{Area}} & 
+%\multicolumn{1}{c|}{\textbf{Processing}} & 
+%\multicolumn{1}{c|}{\textbf{Doping}} \\ \hline\endhead
+
+% Table footer on first pages
+%\hline \multicolumn{6}{|r|}{{Continued on next page}} \\ \hline
+%\endfoot
+
+% Table footer on last page
+%\endlastfoot
+\hline
+Ref. & Sample type & Excitation process & Area & Processing & Doping \\ 
+
+\hline
+\cite{sugimoto07} & mc-Si & 532nm Nd:YVO$_4$ & $0.1mW/10$ $µ$m diameter & Sawing damage etched by HNO$_3$/HF & B-doped \\ \hline
+\cite{tajima95} & Cz-Si & Kr ion laser 647nm & 10 \micro m &  & Undoped \\ \hline
+\cite{drozdov76} & Cz-Si & Xenon lamp & 50mW on 3mm modulated at 9Hz & deformed by bending at 850$^\circ$ C & undoped, weak n and p \\ \hline
+\cite{tarasov00} & mc-Si & 800nm AlGaAs laser & Pulsed 300mW / 3mm & surface & Produced by block-casting technique for Baysix \\ \hline
+\cite{tarasov01} & mc-Si & 800nm AlGaAs at 140mW & & Produced by EFG & \\ \hline
+\cite{arguirov03} & mc-Si and FZ-Si & Ar ion 514nm at 300mW & 100\micro m & Produced by EFG & boron doped $10^15cm^-1$ \\ \hline
+\cite{sauer85} & FZ-Si & Kr-ion 647nm, Ar-ion 415nm and Nd-YAG 1064nm &  & Deformed a 650$^\circ$ C and 850$^\circ$ C & residual $10^{12}$cm$^{-3}$ boron \\ \hline
+\cite{inoue07} & mc-Si & Nd:YVO 532nm & 6mW, 10$µ$m diameter & Slicing damage etched off by HNO$_3$/HF & boron doped \\ \hline
+\cite{conzelmann83} & FZ-Si and CZ-Si & & 50mW laser & Etched with HNO$_3$/HF. Chromium diffused & boron doped \\ \hline
+\cite{mohring83} & FZ-Si & Ar$+$ 514nm & 500mW & Fe diffused & boron doped \\ \hline
+\cite{calao88} & FZ-Si & Argon laser & & Fe diffusion & undoped \\ \hline
+\cite{weber82} & & Ar$+$ 514nm at 1.5W & & & Cu doped \\ \hline
 
 \end{tabular}
-\caption{Energy positions of dislocation D-lines in Cz-Si and D' bands in mc-Si}
-\label{}
-\end{table}
-\end{adjustwidth}
-		
-		Phenomena & Description
-		B$_TO$ & TO phonon replica of the Boron bound exiton \ref{sugimoto07}
-		Da & Broad background emission \ref{tajima95}
-		Db & Oxygen impurity band \ref{tajima95}
-		CZ-Si & Czochralski processed Silicon
-		D1	& Dislocation related line 1 \ref{drozdov76}
-		D1' & Dislocation related line 1 for mc-Si \ref{tarasov00}
-		D2	& Dislocation related line 2 \ref{drozdov76}
-		D2' & Dislocation related line 2 for mc-Si \ref{tarasov00}
-		D3	& Dislocation related line 3 \ref{drozdov76}
-		D3' & Dislocation related line 3 for mc-Si \ref{tarasov00}
-		D4	& Dislocation related line 4 \ref{drozdov76}
-		D4' & Dislocation related line 4 for mc-Si \ref{tarasov00}
-		EBIC & Electron beam induced current \ref{arguirov03}
-		EBSP & Electron Backscatter Diffraction Pattern \ref{sugimoto07}
-		FZ-Si & Float-zone silicon
-		mc-Si & Multicrystalline silicon
-		R1BB & One phonon replica of band edge emission \ref{arguirov03}
-		R2BB & Two phonon replica of band edge emission \ref{arguirov03}
-		SA GB & Small Angle Grain Boundary
-		
-		
-	D1 and D2:	It has been argued that they originate in electronic transition at the geometrical kinks on dislocations \ref{suezawa83}, point defects \ref{sauer85} and impurities \ref{higgs91} and/or from the reaction products of dislocations \ref{segiguchi95}.
-	
-	D3 and D4 lines is generally thought to be related to electronic transition within dislocation cores \ref{kveder95}. In addition, it has been suggested that the D3 line most likely is a phonon-assisted replica of D4 \ref{kveder95}.
+
+\caption{Sample types}
+\label{tab:sample_types}
+
+\end{sidewaystable}
+\end{center}
+
+

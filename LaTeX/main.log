@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  4 FEB 2010 18:01
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  10 FEB 2010 10:58
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/../.
 ./../Masteroppgave/LaTeX/main.tex
@@ -10,8 +10,8 @@ Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\base\article.cls"
 Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\size11.clo"
-File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\size12.clo"
+File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -289,10 +289,28 @@ Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
 \extratabsurround=\skip47
 \backup@length=\skip48
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\chngpage.sty"
-Package: chngpage 2003/08/10 v1.2 change page layout
-\c@cp@cnt=\count109
-\c@cp@tempcnt=\count110
+("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\changepage.sty"
+Package: changepage 2008/08/15 v1.0a check page and change page layout
+\c@cp@cntr=\count109
+\cp@tempcnt=\count110
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count111
+\LTcapwidth=\dimen120
+\LT@head=\box30
+\LT@firsthead=\box31
+\LT@foot=\box32
+\LT@lastfoot=\box33
+\LT@cols=\count112
+\LT@rows=\count113
+\c@LT@tables=\count114
+\c@LT@chunks=\count115
+\LT@p@ftn=\toks26
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\front
 endlayer\tikz.sty"
@@ -302,7 +320,7 @@ layer\pgf.sty"
 ties\pgfrcs.sty"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgfutil-common.tex"
-\pgfutil@everybye=\toks26
+\pgfutil@everybye=\toks27
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgfutil-latex.def")
@@ -322,21 +340,21 @@ Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 )
-\pgf@x=\dimen120
-\pgf@y=\dimen121
-\pgf@xa=\dimen122
-\pgf@ya=\dimen123
-\pgf@xb=\dimen124
-\pgf@yb=\dimen125
-\pgf@xc=\dimen126
-\pgf@yc=\dimen127
-\c@pgf@counta=\count111
-\c@pgf@countb=\count112
-\c@pgf@countc=\count113
-\c@pgf@countd=\count114
+\pgf@x=\dimen121
+\pgf@y=\dimen122
+\pgf@xa=\dimen123
+\pgf@ya=\dimen124
+\pgf@xb=\dimen125
+\pgf@yb=\dimen126
+\pgf@xc=\dimen127
+\pgf@yc=\dimen128
+\c@pgf@counta=\count116
+\c@pgf@countb=\count117
+\c@pgf@countc=\count118
+\c@pgf@countd=\count119
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgf.cfg"
@@ -355,8 +373,8 @@ File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
-\pgfsyssoftpath@smallbuffer@items=\count115
-\pgfsyssoftpath@bigbuffer@items=\count116
+\pgfsyssoftpath@smallbuffer@items=\count120
+\pgfsyssoftpath@bigbuffer@items=\count121
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\sys
 temlayer\pgfsysprotocol.code.tex"
@@ -389,15 +407,15 @@ h\pgfmath.code.tex"
 h\pgfmathcalc.code.tex"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
 h\pgfmathutil.code.tex"
-\pgfmath@box=\box30
+\pgfmath@box=\box34
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
 h\pgfmathparser.code.tex"
-\pgfmath@stack=\toks29
-\c@pgfmath@parsecounta=\count117
-\c@pgfmath@parsecountb=\count118
-\c@pgfmath@parsecountc=\count119
-\pgfmath@parsex=\dimen128
+\pgfmath@stack=\toks30
+\c@pgfmath@parsecounta=\count122
+\c@pgfmath@parsecountb=\count123
+\c@pgfmath@parsecountc=\count124
+\pgfmath@parsex=\dimen129
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mat
 h\pgfmathoperations.code.tex"
@@ -410,52 +428,52 @@ h\pgfmathbase.code.tex")))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
-\pgf@picminx=\dimen129
-\pgf@picmaxx=\dimen130
-\pgf@picminy=\dimen131
-\pgf@picmaxy=\dimen132
-\pgf@pathminx=\dimen133
-\pgf@pathmaxx=\dimen134
-\pgf@pathminy=\dimen135
-\pgf@pathmaxy=\dimen136
-\pgf@xx=\dimen137
-\pgf@xy=\dimen138
-\pgf@yx=\dimen139
-\pgf@yy=\dimen140
-\pgf@zx=\dimen141
-\pgf@zy=\dimen142
+\pgf@picminx=\dimen130
+\pgf@picmaxx=\dimen131
+\pgf@picminy=\dimen132
+\pgf@picmaxy=\dimen133
+\pgf@pathminx=\dimen134
+\pgf@pathmaxx=\dimen135
+\pgf@pathminy=\dimen136
+\pgf@pathmaxy=\dimen137
+\pgf@xx=\dimen138
+\pgf@xy=\dimen139
+\pgf@yx=\dimen140
+\pgf@yy=\dimen141
+\pgf@zx=\dimen142
+\pgf@zy=\dimen143
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
-\pgf@path@lastx=\dimen143
-\pgf@path@lasty=\dimen144
+\pgf@path@lastx=\dimen144
+\pgf@path@lasty=\dimen145
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
-\pgf@shorten@end@additional=\dimen145
-\pgf@shorten@start@additional=\dimen146
+\pgf@shorten@end@additional=\dimen146
+\pgf@shorten@start@additional=\dimen147
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
-\pgfpic=\box31
-\pgf@hbox=\box32
-\pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count120
+\pgfpic=\box35
+\pgf@hbox=\box36
+\pgf@layerbox@main=\box37
+\pgf@picture@serial@count=\count125
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
-\pgflinewidth=\dimen147
+\pgflinewidth=\dimen148
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
-\pgf@pt@x=\dimen148
-\pgf@pt@y=\dimen149
-\pgf@pt@temp=\dimen150
+\pgf@pt@x=\dimen149
+\pgf@pt@y=\dimen150
+\pgf@pt@temp=\dimen151
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorequick.code.tex"
@@ -476,13 +494,13 @@ File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
-\pgf@max=\dimen151
-\pgf@sys@shading@range@num=\count121
+\pgf@max=\dimen152
+\pgf@sys@shading@range@num=\count126
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgfexternal@startupbox=\box34
+\pgfexternal@startupbox=\box38
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\bas
 iclayer\pgfcorelayers.code.tex"
@@ -499,8 +517,8 @@ File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
 ules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
-\pgfnodeparttextbox=\box35
-\toks@savedmacro=\toks30
+\pgfnodeparttextbox=\box39
+\toks@savedmacro=\toks31
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
 ules\pgfmoduleplot.code.tex"
@@ -510,8 +528,8 @@ File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\compa
 tibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen152
-\pgf@nodesepend=\dimen153
+\pgf@nodesepstart=\dimen153
+\pgf@nodesepend=\dimen154
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\pgf\compa
 tibility\pgfcomp-version-1-18.sty"
@@ -522,8 +540,8 @@ ties\pgffor.sty"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\uti
 lities\pgffor.code.tex"
 Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
-\pgffor@iter=\dimen154
-\pgffor@skip=\dimen155
+\pgffor@iter=\dimen155
+\pgffor@skip=\dimen156
 ))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
 ntendlayer\tikz\tikz.code.tex"
@@ -532,30 +550,30 @@ Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
 raries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
-\pgf@plot@mark@count=\count122
-\pgfplotmarksize=\dimen156
+\pgf@plot@mark@count=\count127
+\pgfplotmarksize=\dimen157
 )
-\tikz@lastx=\dimen157
-\tikz@lasty=\dimen158
-\tikz@lastxsaved=\dimen159
-\tikz@lastysaved=\dimen160
-\tikzleveldistance=\dimen161
-\tikzsiblingdistance=\dimen162
-\tikz@figbox=\box36
-\tikz@tempbox=\box37
-\tikztreelevel=\count123
-\tikznumberofchildren=\count124
-\tikznumberofcurrentchild=\count125
-\tikz@fig@count=\count126
+\tikz@lastx=\dimen158
+\tikz@lasty=\dimen159
+\tikz@lastxsaved=\dimen160
+\tikz@lastysaved=\dimen161
+\tikzleveldistance=\dimen162
+\tikzsiblingdistance=\dimen163
+\tikz@figbox=\box40
+\tikz@tempbox=\box41
+\tikztreelevel=\count128
+\tikznumberofchildren=\count129
+\tikznumberofcurrentchild=\count130
+\tikz@fig@count=\count131
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
 ules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgfmatrixcurrentrow=\count127
-\pgfmatrixcurrentcolumn=\count128
-\pgf@matrix@numberofcolumns=\count129
+\pgfmatrixcurrentrow=\count132
+\pgfmatrixcurrentcolumn=\count133
+\pgf@matrix@numberofcolumns=\count134
 )
-\tikz@expandcount=\count130
+\tikz@expandcount=\count135
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
 ntendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
@@ -566,7 +584,7 @@ kz-tab.sty"
 Package: tkz-tab 2009/02/21 v1.0c variations (ctan version) 
  ("C:\Program Files\MiKTeX 2.8\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count131
+\et@xins=\count136
 )
 ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -575,9 +593,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.8\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks31
-\XKV@tempa@toks=\toks32
-\XKV@depth=\count132
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
+\XKV@depth=\count137
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
@@ -596,20 +614,20 @@ File: tikzlibrarypatterns.code.tex 2008/01/15 v2.00 (rcs-revision 1.2)
 raries\pgflibrarypatterns.code.tex"
 File: pgflibrarypatterns.code.tex 2008/01/15 v2.00 (rcs-revision 1.12)
 ))
-\tkz@XF=\dimen163
-\tkz@YF=\dimen164
-\c@tkz@cnt@line=\count133
-\c@tkz@cnt@lg=\count134
-\c@tkz@cnt@cl=\count135
-\c@tkz@cnt@pred=\count136
-\c@tkz@cnt@temp=\count137
-\c@tkz@cnt@arrow=\count138
-\c@tkz@cnt@zone=\count139
-\c@tkz@cnt@lgnext=\count140
-\c@tkz@cnt@clnext=\count141
-\c@tkz@cnt@pair=\count142
-\c@tkz@cnt@impair=\count143
-\c@tkz@cnt@aw=\count144
+\tkz@XF=\dimen164
+\tkz@YF=\dimen165
+\c@tkz@cnt@line=\count138
+\c@tkz@cnt@lg=\count139
+\c@tkz@cnt@cl=\count140
+\c@tkz@cnt@pred=\count141
+\c@tkz@cnt@temp=\count142
+\c@tkz@cnt@arrow=\count143
+\c@tkz@cnt@zone=\count144
+\c@tkz@cnt@lgnext=\count145
+\c@tkz@cnt@clnext=\count146
+\c@tkz@cnt@pair=\count147
+\c@tkz@cnt@impair=\count148
+\c@tkz@cnt@aw=\count149
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\fro
 ntendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
@@ -617,14 +635,14 @@ ntendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
 ntendlayer\tikz\libraries\tikzlibrarydecorations.code.tex"
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\mod
 ules\pgfmoduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen165
-\pgfdecoratedremainingdistance=\dimen166
-\pgfdecoratedinputsegmentcompleteddistance=\dimen167
-\pgfdecoratedinputsegmentremainingdistance=\dimen168
-\pgf@decorate@distancetomove=\dimen169
-\pgf@decorate@repeatstate=\count145
-\pgfdecorationsegmentamplitude=\dimen170
-\pgfdecorationsegmentlength=\dimen171
+\pgfdecoratedcompleteddistance=\dimen166
+\pgfdecoratedremainingdistance=\dimen167
+\pgfdecoratedinputsegmentcompleteddistance=\dimen168
+\pgfdecoratedinputsegmentremainingdistance=\dimen169
+\pgf@decorate@distancetomove=\dimen170
+\pgf@decorate@repeatstate=\count150
+\pgfdecorationsegmentamplitude=\dimen171
+\pgfdecorationsegmentlength=\dimen172
 ))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
 raries\pgflibrarydecorations.pathmorphing.code.tex"))
@@ -679,33 +697,33 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\generic\pgf\lib
 raries\pgflibraryshapes.multipart.code.tex"
 File: pgflibraryshapes.multipart.code.tex 2008/01/15 v2.00 (rcs-revision 1.7)
-\pgfnodepartlowerbox=\box38
-\pgfnodepartsecondbox=\box39
-\pgfnodepartthirdbox=\box40
-\pgfnodepartfourthbox=\box41
+\pgfnodepartlowerbox=\box42
+\pgfnodepartsecondbox=\box43
+\pgfnodepartthirdbox=\box44
+\pgfnodepartfourthbox=\box45
 )))
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\rotating\
 rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count146
-\rotFPtop=\skip49
-\rotFPbot=\skip50
-\rot@float@box=\box42
-\rot@mess@toks=\toks33
+\c@r@tfl@t=\count151
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box46
+\rot@mess@toks=\toks34
 )
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\subfigure
 \subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip51
-\subfigcapskip=\skip52
-\subfigcaptopadj=\dimen172
-\subfigbottomskip=\skip53
-\subfigcapmargin=\dimen173
-\subfiglabelskip=\skip54
-\c@subfigure=\count147
-\c@lofdepth=\count148
-\c@subtable=\count149
-\c@lotdepth=\count150
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen173
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen174
+\subfiglabelskip=\skip58
+\c@subfigure=\count152
+\c@lofdepth=\count153
+\c@subtable=\count154
+\c@lotdepth=\count155
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -713,8 +731,8 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 
 ("C:\Documents and Settings\Jon\Application Data\MiKTeX\2.8\tex\latex\subfigure
 \subfigure.cfg")
-\subfig@top=\skip55
-\subfig@bottom=\skip56
+\subfig@top=\skip59
+\subfig@bottom=\skip60
 ) ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2009/07/16 v2.2 Conversion with epstopdf on the fly (HO)
  ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\epstopdf-base.sty"
@@ -728,82 +746,65 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 429.
 ))
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux"
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
 
-LaTeX Warning: Label `' multiply defined.
-
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
- ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 ("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count151
-\scratchdimen=\dimen174
-\scratchbox=\box43
-\nofMPsegments=\count152
-\nofMParguments=\count153
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count154
-\MPscratchDim=\dimen175
-\MPnumerator=\count155
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count156
+\scratchdimen=\dimen175
+\scratchbox=\box47
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen176
+\MPnumerator=\count160
+\everyMPtoPDFconversion=\toks36
 )
 Option `amssymb' provided! 
  Command \square redefined by SIunits package!
 
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 35.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\refcount.sty"
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count156
+\c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
 
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.out")
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.out")
 \@outlinefile=\write4
-\AtBeginShipoutBox=\box44
+\AtBeginShipoutBox=\box48
 
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\dlinjer.tex"
-
-LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 1.
-
-! Undefined control sequence.
-l.1 ... The samples where deformed at 850 \degrees
-                                                   by bending, so that dislo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 1.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
@@ -812,733 +813,190 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Reference `lee09' on page 1 undefined on input line 1.
-
-
-LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Reference `suezawa83' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Reference `higgs91' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sekiguchi95' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Reference `kveder95' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Reference `kveder95' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `staiger94' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `sauer85' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 11.
-
-
-Overfull \hbox (1.8884pt too wide) in paragraph at lines 11--12
-[]\T1/cmr/m/n/10.95 Both [] and [] stud-ied plas-ti-cally de-formed sil-i-con m
-ade by the Czochral-
- []
-
-
-LaTeX Warning: Reference `drozdov76' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Reference `tarasov00' on page 1 undefined on input line 21.
-
-[1
+ [1
 
 
 
 
 
 {C:/Documents and Settings/Jon/Local Settings/Application Data/MiKTeX/2.8/pdfte
-x/config/pdftex.map}]
-
-LaTeX Warning: Reference `tarasov00' on page 2 undefined on input line 30.
-
-
-LaTeX Warning: Reference `tarasov00' on page 2 undefined on input line 30.
-
-
-LaTeX Warning: Reference `tarasov00' on page 2 undefined on input line 30.
-
-
-LaTeX Warning: Reference `tarasov01' on page 2 undefined on input line 32.
-
-
-LaTeX Warning: Reference `tarasov01' on page 2 undefined on input line 32.
-
-
-LaTeX Warning: Reference `sugimoto06' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sugimoto06' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sauer85' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sugimoto06' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Reference `dean67' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sugimoto06' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sugimoto07' on page 2 undefined on input line 37.
-
-
-LaTeX Warning: Reference `higgs92' on page 2 undefined on input line 46.
-
-
-LaTeX Warning: Reference `sekiguchi95' on page 2 undefined on input line 46.
-
-
-LaTeX Warning: Reference `tajima95' on page 2 undefined on input line 48.
-
-
-LaTeX Warning: Reference `tajima95' on page 2 undefined on input line 48.
-
-
-LaTeX Warning: Reference `inoue07' on page 2 undefined on input line 53.
-
-
-LaTeX Warning: Reference `inoue07' on page 2 undefined on input line 53.
-
-) ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\tabeller.tex
-" [2]
-! Misplaced alignment tab character &.
-l.3 Reference &
-                spekter/forurensing & Navn + eV & Temperatur & Framstillings...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.3 Reference & spekter/forurensing &
-                                      Navn + eV & Temperatur & Framstillings...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.3 Reference & spekter/forurensing & Navn + eV &
-                                                  Temperatur & Framstillings...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.3 ...kter/forurensing & Navn + eV & Temperatur &
-                                                   Framstillingsmetode & Eks...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.3 ...n + eV & Temperatur & Framstillingsmetode &
-                                                   Eksitasjonsprosess & Area...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.3 ... Framstillingsmetode & Eksitasjonsprosess &
-                                                   Areal / Effekt per areal ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.3 ...asjonsprosess & Areal / Effekt per areal  &
-                                                   Doping
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]|\T1/cmr/m/n/10.95 Excitation
- []
-
-
-LaTeX Warning: Reference `sugimoto07' on page 3 undefined on input line 13.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\T1/cmr/m/n/10.95 532nm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\T1/cmr/m/n/10.95 Nd:YVO$[]$
- []
-
-! Undefined control sequence.
-l.13 .../400 \micro m diameter and 0.1mW/10 \mirco
-                                                   m diameter & p-doped \\ \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `tajima95' on page 3 undefined on input line 14.
-
-
-LaTeX Warning: Reference `tajima95' on page 3 undefined on input line 15.
-
-
-LaTeX Warning: Reference `tajima95' on page 3 undefined on input line 16.
-
-
-LaTeX Warning: Reference `drozdov76' on page 3 undefined on input line 17.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\T1/cmr/m/n/10.95 Cz-Si de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\T1/cmr/m/n/10.95 formed by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\T1/cmr/m/n/10.95 bend-ing at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\T1/cmr/m/n/10.95 850 de-grees
- []
-
-
-LaTeX Warning: Reference `tarasov00' on page 3 undefined on input line 18.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]|\T1/cmr/m/n/10.95 800nm Al-
- []
-
-
-LaTeX Warning: Reference `drozdov76' on page 3 undefined on input line 19.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]|\T1/cmr/m/n/10.95 Cz-Si de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\T1/cmr/m/n/10.95 formed by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\T1/cmr/m/n/10.95 bend-ing at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\T1/cmr/m/n/10.95 850 de-grees
- []
-
-
-LaTeX Warning: Reference `tarasov00' on page 3 undefined on input line 20.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\T1/cmr/m/n/10.95 800nm Al-
- []
-
-
-LaTeX Warning: Reference `drozdov76' on page 3 undefined on input line 21.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\T1/cmr/m/n/10.95 Cz-Si de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\T1/cmr/m/n/10.95 formed by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\T1/cmr/m/n/10.95 bend-ing at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-\T1/cmr/m/n/10.95 850 de-grees
- []
-
-
-LaTeX Warning: Reference `tarasov00' on page 3 undefined on input line 22.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\T1/cmr/m/n/10.95 800nm Al-
- []
-
-
-LaTeX Warning: Reference `drozdov76' on page 3 undefined on input line 23.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T1/cmr/m/n/10.95 Cz-Si de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\T1/cmr/m/n/10.95 formed by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\T1/cmr/m/n/10.95 bend-ing at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\T1/cmr/m/n/10.95 850 de-grees
- []
-
-
-LaTeX Warning: Reference `tarasov00' on page 3 undefined on input line 24.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\T1/cmr/m/n/10.95 800nm Al-
- []
-
-
-LaTeX Warning: Reference `arguirov03' on page 3 undefined on input line 25.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\T1/cmr/m/n/10.95 mc-Si and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]|\T1/cmr/m/n/10.95 Ar ion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/cmr/m/n/10.95 514nm at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/cmr/m/n/10.95 300mW on
- []
-
-
-LaTeX Warning: Reference `arguirov03' on page 3 undefined on input line 26.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/cmr/m/n/10.95 mc-Si and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/cmr/m/n/10.95 Ar ion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-\T1/cmr/m/n/10.95 514nm at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-\T1/cmr/m/n/10.95 300mW on
- []
-
-
-Overfull \hbox (451.4674pt too wide) in paragraph at lines 9--29
- [][] 
- []
-
-[3]
-Overfull \vbox (136.34122pt too high) has occurred while \output is active []
-
-
-[4]
-! Misplaced alignment tab character &.
-l.34 		Phenomena &
-                   Description
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.35 		B$_TO$ &
-                TO phonon replica of the Boron bound exiton \ref{sugimoto07}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `sugimoto07' on page 5 undefined on input line 35.
-
-! Misplaced alignment tab character &.
-l.36 		Da &
-            Broad background emission \ref{tajima95}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `tajima95' on page 5 undefined on input line 36.
-
-! Misplaced alignment tab character &.
-l.37 		Db &
-            Oxygen impurity band \ref{tajima95}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `tajima95' on page 5 undefined on input line 37.
-
-! Misplaced alignment tab character &.
-l.38 		CZ-Si &
-               Czochralski processed Silicon
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.39 		D1	&
-            Dislocation related line 1 \ref{drozdov76}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `drozdov76' on page 5 undefined on input line 39.
-
-! Misplaced alignment tab character &.
-l.40 		D1' &
-             Dislocation related line 1 for mc-Si \ref{tarasov00}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `tarasov00' on page 5 undefined on input line 40.
-
-! Misplaced alignment tab character &.
-l.41 		D2	&
-            Dislocation related line 2 \ref{drozdov76}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `drozdov76' on page 5 undefined on input line 41.
-
-! Misplaced alignment tab character &.
-l.42 		D2' &
-             Dislocation related line 2 for mc-Si \ref{tarasov00}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `tarasov00' on page 5 undefined on input line 42.
-
-! Misplaced alignment tab character &.
-l.43 		D3	&
-            Dislocation related line 3 \ref{drozdov76}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `drozdov76' on page 5 undefined on input line 43.
-
-! Misplaced alignment tab character &.
-l.44 		D3' &
-             Dislocation related line 3 for mc-Si \ref{tarasov00}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `tarasov00' on page 5 undefined on input line 44.
-
-! Misplaced alignment tab character &.
-l.45 		D4	&
-            Dislocation related line 4 \ref{drozdov76}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `drozdov76' on page 5 undefined on input line 45.
-
-! Misplaced alignment tab character &.
-l.46 		D4' &
-             Dislocation related line 4 for mc-Si \ref{tarasov00}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `tarasov00' on page 5 undefined on input line 46.
-
-! Misplaced alignment tab character &.
-l.47 		EBIC &
-              Electron beam induced current \ref{arguirov03}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `arguirov03' on page 5 undefined on input line 47.
-
-! Misplaced alignment tab character &.
-l.48 		EBSP &
-              Electron Backscatter Diffraction Pattern \ref{sugimoto07}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `sugimoto07' on page 5 undefined on input line 48.
-
-! Misplaced alignment tab character &.
-l.49 		FZ-Si &
-               Float-zone silicon
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.50 		mc-Si &
-               Multicrystalline silicon
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.51 		R1BB &
-              One phonon replica of band edge emission \ref{arguirov03}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `arguirov03' on page 5 undefined on input line 51.
-
-! Misplaced alignment tab character &.
-l.52 		R2BB &
-              Two phonon replica of band edge emission \ref{arguirov03}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `arguirov03' on page 5 undefined on input line 52.
-
-! Misplaced alignment tab character &.
-l.53 		SA GB &
-               Small Angle Grain Boundary
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `suezawa83' on page 5 undefined on input line 56.
-
-
-LaTeX Warning: Reference `sauer85' on page 5 undefined on input line 56.
-
-
-LaTeX Warning: Reference `higgs91' on page 5 undefined on input line 56.
-
-
-LaTeX Warning: Reference `segiguchi95' on page 5 undefined on input line 56.
-
-
-LaTeX Warning: Reference `kveder95' on page 5 undefined on input line 58.
-
-
-LaTeX Warning: Reference `kveder95' on page 5 undefined on input line 58.
-
-) [5] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\teori.te
-x") [6
+x/config/pdftex.map}] [2]) [3]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\abbrevation.te
+x") [4
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
+[5
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+]) [6]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\tabeller.tex"
+Overfull \hbox (130.30458pt too wide) in alignment at lines 6--15
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (130.30458pt too wide) in alignment at lines 15--26
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (130.30458pt too wide) in alignment at lines 26--30
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (130.30458pt too wide) in alignment at lines 30--35
+ [] [] [] [] [] 
+ []
+
+
+LaTeX Warning: Reference `inoue07' on page 7 undefined on input line 56.
+
+
+Overfull \hbox (130.30458pt too wide) in alignment at lines 35--62
+ [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 62
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 102--102
+[]|\T1/cmr/m/n/12 Excitation pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|\T1/cmr/m/n/12 532nm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/cmr/m/n/12 Kr ion laser
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\T1/cmr/m/n/12 undoped,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/cmr/m/n/12 weak n
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 108--108
+[]|\T1/cmr/m/n/12 800nm Al-GaAs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\T1/cmr/m/n/12 Produced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\T1/cmr/m/n/12 by block-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\T1/cmr/m/n/12 casting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\T1/cmr/m/n/12 tech-nique
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 109--109
+[]|\T1/cmr/m/n/12 800nm Al-GaAs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]|\T1/cmr/m/n/12 boron
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\T1/cmr/m/n/12 doped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|\T1/cmr/m/n/12 Kr-ion 647nm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\T1/cmr/m/n/12 Ar-ion 415nm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\T1/cmr/m/n/12 and Nd-YAG
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 111--111
+[]|\T1/cmr/m/n/12 Deformed a 650$[]$ C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|\T1/cmr/m/n/12 residual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\OT1/cmr/m/n/12 10[]$\T1/cmr/m/n/12 cm$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\T1/cmr/m/n/12 boron
+ []
 
 ) [7
 
-] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux")
+] [8]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux")
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 15323 strings out of 495285
- 279629 string characters out of 3180346
- 384587 words of memory out of 3000000
- 18120 multiletter control sequences out of 15000+200000
- 13772 words of font info for 41 fonts, out of 3000000 for 9000
+ 15440 strings out of 495285
+ 281016 string characters out of 3180346
+ 396098 words of memory out of 3000000
+ 18210 multiletter control sequences out of 15000+200000
+ 14446 words of font info for 42 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,13n,58p,1145b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,15n,58p,1151b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Documents and Settings\Jon\Lo
-cal Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
-x1200.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX
-\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Documents and Settings
+nts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Jon\Lo
+cal Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ect
+i1200.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX
+\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Documents and Settings
 \Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecrm1095.pk><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
-KTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/ty
-pe1/public/amsfonts/euler/eurm10.pfb>
-Output written on main.pdf (7 pages, 103540 bytes).
+600\ecbx1440.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data
+\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk><C:/Program Files/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/euler/eurm10.pfb
+>
+Output written on main.pdf (8 pages, 162362 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

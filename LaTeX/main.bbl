@@ -1,3 +1,102 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{arguirov03}
+Tz. Arguirov, W.~Seifert, M.~Kittler, and J.~Reif.
+\newblock Temperature behaviour of extended defects in solar grade silicon
+  investigated by photoluminescence and ebic.
+\newblock {\em Elsevier B.V.}, 2003.
+
+\bibitem{dean67}
+P.~J. Dean, J.R. Haynes, and W.F. Flood.
+\newblock New radiative recombination processes involving neutral donors and
+  acceptors in silicon and germanium.
+\newblock {\em Physical Review Volume 161 Number 3}, 1967.
+
+\bibitem{drozdov76}
+N.~A. Drozdov, A.A. Patrin, and V.D Tkachev.
+\newblock Recombination radiation on dislocations in silicon.
+\newblock {\em Pis'ma Xh. Eksp. Teor. Fiz.}, 1976.
+
+\bibitem{higgs92}
+V.~Higgs, M.~Goulding, and P.~Kightley.
+\newblock Characterization of epitaxial and oxidation-induced stacking faults
+  in silicon: The influence of transition-metal contamination.
+\newblock {\em Appl. Phys. Lett.}, 1992.
+
+\bibitem{higgs91}
+V.~Higgs, P.~Kightley, P.J. Goodhew, and P.D. Augustus.
+\newblock Metal-induced dislocation nucleation for metastable sige/si.
+\newblock {\em Appl. Phys. Lett.}, 1991.
+
+\bibitem{inoue07}
+M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura.
+\newblock Microscopic and spectroscopic mapping of dislocation-related
+  photoluminescence in multicrystalline silicon wafers.
+\newblock {\em J. Mater Sci}, 2007.
+
+\bibitem{kveder95}
+V.V Kveder, E.A. Steinman, S.A. Shevchenko, and H.G. Grimmeiss.
+\newblock Dislocation-related electroluminescence at room temperature in
+  plastically deformed silicon.
+\newblock {\em Phys. Rev. B}, 1995.
+
+\bibitem{lee09}
+Woong Lee, Jun Chen, Bin Chen, Jiho Chang, and Takashi Sekiguchi.
+\newblock Cathodoluminescence study of dislocation-related luminescence from
+  small-angle grain boundaries in multicrystalline silicon.
+\newblock {\em Applied Physics Letters}, 2009.
+
+\bibitem{sauer85}
+R.~Sauer, J.~Weber, and J.~Stolz.
+\newblock Dislocation-related photoluminescence in silicon.
+\newblock {\em Appl. Phys.}, 1985.
+
+\bibitem{sekiguchi95}
+T.~Sekiguchi and K.~Sumino.
+\newblock Cathodoluminescence study on dislocations in silicon.
+\newblock {\em J. Appl. Phys.}, 1995.
+
+\bibitem{staiger94}
+W.~Staiger, G.~Pfeiffer, K.~Weronek, A.~Höpner, and J.~Weber.
+\newblock Dislocation-induced defect levels in silicon.
+\newblock {\em Materials Science Forum}, 1994.
+
+\bibitem{suezawa83}
+M.~Suezawa, Y.~Sasaki, and K.~Sumino.
+\newblock Dependence of photoluminescence on temperature in dislocated silicon
+  crystals.
+\newblock {\em Physica Status Solidi}, 1983.
+
+\bibitem{sugimoto07}
+H.~Sugimoto, K.~Araki, M.~Tajima, T.~Eguchi, I.~Yamaga, M.~Dhamrin,
+  K.~Kamisako, and T.~Saitoh.
+\newblock Photoluminescence analysis of intragrain defects in multicrystalline
+  silicon wafers for solar cells.
+\newblock {\em Journal of Applied Physics}, 2007.
+
+\bibitem{sugimoto06}
+Hiroki Sugimoto, Masaaki Inoue, Michio Tajima, Atsushi Ogura, and Yoshio
+  Ohsita.
+\newblock Analysis of intra-grain defects in multicrystalline silicon wafers by
+  photoluminescence mapping and spectroscopy.
+\newblock {\em Japanese Journal of Applied Physics}, 2006.
+
+\bibitem{tajima95}
+M.~Tajima, M.~Tokita, and M.~Warashina.
+\newblock Photoluminescence due to oxygen precipitates distinguished from the
+  d-lines in annealed si.
+\newblock {\em Materials Science Forum}, 1995.
+
+\bibitem{tarasov00}
+I.~Tarasov, S.~Ostapenko, C.Haessler, and E.-U. Reisner.
+\newblock Spatially resolved defect diagnostics in multicrystalline silicon for
+  solar cells.
+\newblock {\em Elsevier Science S.A}, 2000.
+
+\bibitem{tarasov01}
+I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.P. Kaleis.
+\newblock Defect diagnostics in multicrystalline silicon using scanning
+  techniques.
+\newblock {\em Elsevier Science B.V.}, 2001.
 
 \end{thebibliography}
