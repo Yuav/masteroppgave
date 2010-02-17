@@ -6,6 +6,16 @@ Tz. Arguirov, W.~Seifert, M.~Kittler, and J.~Reif.
   investigated by photoluminescence and ebic.
 \newblock {\em Elsevier B.V.}, 2003.
 
+\bibitem{calao88}
+M.I. Càlão and M.C. do~Carmo.
+\newblock Luminescence from an iron related deep center in silicon.
+\newblock {\em Physica Scripta}, 1988.
+
+\bibitem{conzelmann83}
+H.~Conzelmann and J.~Weber.
+\newblock Photoluminescence from chromium-boron pairs in silicon.
+\newblock {\em Physica}, 1983.
+
 \bibitem{dean67}
 P.~J. Dean, J.R. Haynes, and W.F. Flood.
 \newblock New radiative recombination processes involving neutral donors and
@@ -45,6 +55,18 @@ Woong Lee, Jun Chen, Bin Chen, Jiho Chang, and Takashi Sekiguchi.
 \newblock Cathodoluminescence study of dislocation-related luminescence from
   small-angle grain boundaries in multicrystalline silicon.
 \newblock {\em Applied Physics Letters}, 2009.
+
+\bibitem{macdonald08}
+D.~Macdonald, J.~Tan, and T.~Trupke.
+\newblock Imaging interstitial iron concentrations in boron-doped crystalline
+  silicon.
+\newblock {\em Journal of applied physics}, 2008.
+
+\bibitem{mohring83}
+H.D. Mohring, J.~Weber, and R.~Sauer.
+\newblock Photoluminescence of excitons bound to an isoelectronic trap in
+  silicon associated with boron and iron.
+\newblock {\em Physical Review B}, 1983.
 
 \bibitem{sauer85}
 R.~Sauer, J.~Weber, and J.~Stolz.
@@ -98,5 +120,11 @@ I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.P. Kaleis.
 \newblock Defect diagnostics in multicrystalline silicon using scanning
   techniques.
 \newblock {\em Elsevier Science B.V.}, 2001.
+
+\bibitem{weber82}
+J.~Weber, H.~Bauch, and R.~Sauer.
+\newblock Optical properties of copper in silicon: Excitons bound to
+  isoelectronic copper pairs.
+\newblock {\em Physical Review B}, 1982.
 
 \end{thebibliography}
