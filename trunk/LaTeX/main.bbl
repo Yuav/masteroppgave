@@ -1,10 +1,22 @@
 \begin{thebibliography}{10}
 
+\bibitem{arguirov06}
+T.~Arguirov, W.Seifer, G.~Jia, and M.~Kittler.
+\newblock Photoluminiscence study on defects multicrystalline silicon.
+\newblock {\em Semiconductors}, 2006.
+
 \bibitem{arguirov03}
 Tz. Arguirov, W.~Seifert, M.~Kittler, and J.~Reif.
 \newblock Temperature behaviour of extended defects in solar grade silicon
   investigated by photoluminescence and ebic.
 \newblock {\em Elsevier B.V.}, 2003.
+
+\bibitem{binetti08}
+S.~Binetti, J~Libal, M~Acciarri, M.~Di Sabatino, H.~Nordmark, E.J. Øverlid,
+  J.C. Walmsley, and R.~Holmestad.
+\newblock Study of defects and impurities in multicrystalline silicon grown
+  from metallurgical silicon feedstock.
+\newblock {\em Materials Science and Egnineering B}, 2008.
 
 \bibitem{calao88}
 M.I. Càlão and M.C. do~Carmo.
@@ -16,16 +28,37 @@ H.~Conzelmann and J.~Weber.
 \newblock Photoluminescence from chromium-boron pairs in silicon.
 \newblock {\em Physica}, 1983.
 
+\bibitem{davies88}
+Gordon Davies.
+\newblock The optical properties of luminescence centres in silicon.
+\newblock {\em Physics Report}, 1988.
+
 \bibitem{dean67}
 P.~J. Dean, J.R. Haynes, and W.F. Flood.
 \newblock New radiative recombination processes involving neutral donors and
   acceptors in silicon and germanium.
 \newblock {\em Physical Review Volume 161 Number 3}, 1967.
 
+\bibitem{drozdov03}
+N.~Drozdov and A.~Fedotov.
+\newblock Electron-hole drops in dislocational silicon.
+\newblock {\em Microelectronic Engineering 66}, 2002.
+
 \bibitem{drozdov76}
 N.~A. Drozdov, A.A. Patrin, and V.D Tkachev.
 \newblock Recombination radiation on dislocations in silicon.
 \newblock {\em Pis'ma Xh. Eksp. Teor. Fiz.}, 1976.
+
+\bibitem{gundel08}
+Paul Gundel, Martin~C. Shubert, and Wilhelm Warta.
+\newblock Origin of trapping in multicrystalline silicon.
+\newblock {\em Journal of applied physics}, 2008.
+
+\bibitem{hammond75}
+R.B. Hammond, TC. McGill, and J.W. Mayer.
+\newblock Temperature dependence of the electron-hole-liquid luminescence in
+  si.
+\newblock {\em Physical Review B}, 1975.
 
 \bibitem{higgs92}
 V.~Higgs, M.~Goulding, and P.~Kightley.
@@ -67,6 +100,12 @@ H.D. Mohring, J.~Weber, and R.~Sauer.
 \newblock Photoluminescence of excitons bound to an isoelectronic trap in
   silicon associated with boron and iron.
 \newblock {\em Physical Review B}, 1983.
+
+\bibitem{satoshi04}
+Satoshi Nihonyanagi and Yoshihiko Kanemitsu.
+\newblock Enhanced luminescence from electron-hole droplets in silicon
+  nanolayers.
+\newblock {\em Applied physics letters}, 2004.
 
 \bibitem{sauer85}
 R.~Sauer, J.~Weber, and J.~Stolz.
@@ -126,5 +165,10 @@ J.~Weber, H.~Bauch, and R.~Sauer.
 \newblock Optical properties of copper in silicon: Excitons bound to
   isoelectronic copper pairs.
 \newblock {\em Physical Review B}, 1982.
+
+\bibitem{weronek91}
+K.~Weronek, J.~Weber, and R.~Buchner.
+\newblock Origin of d-band photoluminescence in silicon.
+\newblock {\em Springer Proceedings in Physics}, 1991.
 
 \end{thebibliography}
