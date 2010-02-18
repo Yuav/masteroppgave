@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  17 FEB 2010 12:57
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  18 FEB 2010 17:47
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/../.
 ./../Masteroppgave/LaTeX/main.tex
@@ -803,295 +803,276 @@ LaTeX Info: Redefining \pageref on input line 35.
 \AtBeginShipoutBox=\box48
 
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\dlinjer.tex"
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (4.8687pt too wide) in paragraph at lines 14--15
+[]\T1/cmr/m/n/12 Both [[]] and [[]] stud-ied plas-ti-cally de-formed sil-i-con 
+made by the Czochral-
+ []
 
- [1
+[1
+
 
 
 
 
 
 {C:/Documents and Settings/Jon/Local Settings/Application Data/MiKTeX/2.8/pdfte
-x/config/pdftex.map}]
-
-LaTeX Warning: Citation `weber82' on page 2 undefined on input line 50.
-
-
-LaTeX Warning: Citation `calao88' on page 2 undefined on input line 51.
+x/config/pdftex.map}] [2] [3]) [4]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
+[5
 
 
-LaTeX Warning: Citation `conzelmann83' on page 2 undefined on input line 55.
-
-
-LaTeX Warning: Citation `mohring83' on page 2 undefined on input line 55.
-
-[2]
-
-LaTeX Warning: Citation `macdonald08' on page 3 undefined on input line 68.
-
-) [3]
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\abbrevation.te
-x"
-
-LaTeX Warning: Citation `calao88' on page 4 undefined on input line 29.
-
-) [4
-
-] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl" [5
-
-]) [6]
+] [6]) [7]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\tabeller.tex"
-Overfull \hbox (130.30458pt too wide) in alignment at lines 6--15
+Overfull \hbox (100.68219pt too wide) in alignment at lines 8--17
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (130.30458pt too wide) in alignment at lines 15--26
+Overfull \hbox (100.68219pt too wide) in alignment at lines 17--28
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (130.30458pt too wide) in alignment at lines 26--30
+Overfull \hbox (100.68219pt too wide) in alignment at lines 28--32
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (130.30458pt too wide) in alignment at lines 30--35
+Overfull \hbox (100.68219pt too wide) in alignment at lines 32--37
  [] [] [] [] [] 
  []
 
 
-LaTeX Warning: Citation `calao88' on page 7 undefined on input line 39.
-
-
-LaTeX Warning: Citation `conzelmann83' on page 7 undefined on input line 42.
-
-
-LaTeX Warning: Citation `conzelmann83' on page 7 undefined on input line 45.
-
-
-LaTeX Warning: Citation `conzelmann83' on page 7 undefined on input line 46.
-
-
-LaTeX Warning: Citation `conzelmann83' on page 7 undefined on input line 47.
-
-
-LaTeX Warning: Citation `weber82' on page 7 undefined on input line 58.
-
-
-Overfull \hbox (99.88844pt too wide) in alignment at lines 35--58
+Overfull \hbox (100.68219pt too wide) in alignment at lines 37--60
  [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 58
+Underfull \vbox (badness 10000) detected at line 60
  []
 
 
-LaTeX Warning: Citation `mohring83' on page 7 undefined on input line 59.
-
-
-LaTeX Warning: Citation `mohring83' on page 7 undefined on input line 62.
-
-
-LaTeX Warning: Citation `mohring83' on page 7 undefined on input line 63.
-
-
-LaTeX Warning: Citation `mohring83' on page 7 undefined on input line 64.
-
-
-Overfull \hbox (216.14874pt too wide) in alignment at lines 58--72
+Overfull \hbox (100.68219pt too wide) in alignment at lines 60--80
  [] [] [] [] [] 
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table 3 on input line 72.
+Overfull \hbox (100.68219pt too wide) in alignment at lines 80--101
+ [] [] [] [] [] 
+ []
 
+[8
 
-Underfull \hbox (badness 4981) in paragraph at lines 112--112
-[]|\T1/cmr/m/n/12 Excitation pro-
+] [9]
+<./images/n-type_Si_spectra_dean67.png, id=282, 3904.5875pt x 2653.915pt>
+File: ./images/n-type_Si_spectra_dean67.png Graphic file (type png)
+
+<use ./images/n-type_Si_spectra_dean67.png>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 117--118
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 118.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
+
+<./images/boron_Si_spectra_dean67.png, id=284, 3898.565pt x 3302.3375pt>
+File: ./images/boron_Si_spectra_dean67.png Graphic file (type png)
+
+<use ./images/boron_Si_spectra_dean67.png>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 124--125
+ [][] 
+ []
+
+<./images/iron_diffused_Si_spectra.png, id=286, 733.74126pt x 671.50874pt>
+File: ./images/iron_diffused_Si_spectra.png Graphic file (type png)
+
+<use ./images/iron_diffused_Si_spectra.png>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 132--133
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-[]|\T1/cmr/m/n/12 532nm
+<./images/iron_diffused_boron_doped_Si_spectra.png, id=288, 2127.95pt x 1593.95
+5pt>
+File: ./images/iron_diffused_boron_doped_Si_spectra.png Graphic file (type png)
+
+ <use ./images/iron_diffused_boron_doped_Si_spectra.png>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 140--141
+ [][] 
+ []
+
+<./images/CrB_Si_spectra.png, id=290, 695.59875pt x 597.23125pt>
+File: ./images/CrB_Si_spectra.png Graphic file (type png)
+
+<use ./images/CrB_Si_spectra.png>
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 147--148
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]|\T1/cmr/m/n/12 Kr ion laser
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[]|\T1/cmr/m/n/10.95 Kr ion laser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]|\T1/cmr/m/n/12 undoped,
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]|\T1/cmr/m/n/10.95 undoped,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-\T1/cmr/m/n/12 weak n
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\T1/cmr/m/n/10.95 800nm Al-GaAs
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 118--118
-[]|\T1/cmr/m/n/12 800nm Al-GaAs
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\T1/cmr/m/n/10.95 Block-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]|\T1/cmr/m/n/12 Produced
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+\T1/cmr/m/n/10.95 casting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\T1/cmr/m/n/12 by block-
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+\T1/cmr/m/n/10.95 tech-nique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\T1/cmr/m/n/12 casting
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\T1/cmr/m/n/12 tech-nique
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+\T1/cmr/m/n/10.95 doped
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 119--119
-[]|\T1/cmr/m/n/12 800nm Al-GaAs
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\T1/cmr/m/n/10.95 Kr-ion 647nm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]|\T1/cmr/m/n/12 boron
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\T1/cmr/m/n/10.95 residual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\T1/cmr/m/n/12 doped
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+\OT1/cmr/m/n/10.95 10[]$\T1/cmr/m/n/10.95 cm$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\T1/cmr/m/n/12 Kr-ion 647nm,
+Underfull \hbox (badness 1173) in paragraph at lines 194--194
+[]|\T1/cmr/m/n/10.95 Slicing dam-age etched
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\T1/cmr/m/n/12 Ar-ion 415nm
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\T1/cmr/m/n/12 and Nd-YAG
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 121--121
-[]|\T1/cmr/m/n/12 Deformed a 650$[]$ C
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\T1/cmr/m/n/12 residual
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
+[]|\T1/cmr/m/n/10.95 Ar$[]$ 514nm at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\OT1/cmr/m/n/12 10[]$\T1/cmr/m/n/12 cm$[]$
+Underfull \hbox (badness 5036) in paragraph at lines 199--199
+\T1/cmr/m/n/10.95 Cu and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]|\T1/cmr/m/n/12 boron
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[]|\T1/cmr/m/n/10.95 200W mer-cury
  []
 
 
-LaTeX Warning: Citation `conzelmann83' on page 7 undefined on input line 123.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]|\T1/cmr/m/n/12 Etched with
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[]|\T1/cmr/m/n/10.95 Undoped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-\T1/cmr/m/n/12 HNO$[]$/HF.
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]|\T1/cmr/m/n/10.95 phosphorus
  []
 
+) [10
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-[]|\T1/cmr/m/n/12 boron
- []
-
-
-LaTeX Warning: Citation `mohring83' on page 7 undefined on input line 124.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]|\T1/cmr/m/n/12 boron
- []
-
-
-LaTeX Warning: Citation `calao88' on page 7 undefined on input line 125.
-
-
-LaTeX Warning: Citation `weber82' on page 7 undefined on input line 126.
-
-
-Underfull \hbox (badness 1997) in paragraph at lines 126--126
-[]|\T1/cmr/m/n/12 Ar$\OT1/cmr/m/n/12 +$ \T1/cmr/m/n/12 514nm at
- []
-
-) [7
-
-] [8]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/n-type_
+Si_spectra_dean67.png (PNG copy)>] [11 <C:/Documents and Settings/Jon/My Docume
+nts/Masteroppgave/LaTeX/images/boron_Si_spectra_dean67.png (PNG copy)>]
+[12 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/iron
+_diffused_Si_spectra.png (PNG copy)>] [13 <C:/Documents and Settings/Jon/My Doc
+uments/Masteroppgave/LaTeX/images/iron_diffused_boron_doped_Si_spectra.png (PNG
+ copy)>] [14 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/im
+ages/CrB_Si_spectra.png (PNG copy)>] [15]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux") ) 
 Here is how much of TeX's memory you used:
- 15444 strings out of 495285
- 281063 string characters out of 3180346
- 407098 words of memory out of 3000000
- 18214 multiletter control sequences out of 15000+200000
- 14446 words of font info for 42 fonts, out of 3000000 for 9000
+ 15568 strings out of 495285
+ 283181 string characters out of 3180346
+ 419887 words of memory out of 3000000
+ 18291 multiletter control sequences out of 15000+200000
+ 22672 words of font info for 65 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,15n,58p,1151b,418s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fo
-nts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\Jon\Lo
-cal Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
-x1728.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX
-\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings
-\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecbx1440.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data
-\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk><C:/Program Files/Mi
-KTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/euler/eurm10.pfb
->
-Output written on main.pdf (8 pages, 165620 bytes).
+ 47i,15n,58p,1199b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <
+C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local 
+Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm070
+0.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Documents and Settings\Jon
+\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrm1095.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiK
+TeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Documents and Setti
+ngs\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecti1200.pk> <C:\Documents and Settings\Jon\Local Settings\Application D
+ata\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents an
+d Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Settings\Applic
+ation Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Docum
+ents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx1728.pk><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
+m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
+iKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.8/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts
+/euler/eurm10.pfb>
+Output written on main.pdf (15 pages, 1156403 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
