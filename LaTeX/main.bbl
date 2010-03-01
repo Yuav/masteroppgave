@@ -5,11 +5,22 @@ T.~Arguirov, W.Seifer, G.~Jia, and M.~Kittler.
 \newblock Photoluminiscence study on defects multicrystalline silicon.
 \newblock {\em Semiconductors}, 2006.
 
+\bibitem{arguirov07}
+T.~V. Arguirov.
+\newblock Electro-optical properties of dislocations in silicon and their
+  possible application for light emmiters.
+\newblock {\em .}, 2007.
+
 \bibitem{arguirov03}
 Tz. Arguirov, W.~Seifert, M.~Kittler, and J.~Reif.
 \newblock Temperature behaviour of extended defects in solar grade silicon
   investigated by photoluminescence and ebic.
 \newblock {\em Elsevier B.V.}, 2003.
+
+\bibitem{bailey93}
+J.~Bailey and E.~R. Weber.
+\newblock Precipitation of iron in polycrystalline silicon.
+\newblock {\em Physica Status Solidi (a)}, 1993.
 
 \bibitem{binetti08}
 S.~Binetti, J~Libal, M~Acciarri, M.~Di Sabatino, H.~Nordmark, E.J. Øverlid,
@@ -22,6 +33,11 @@ S.~Binetti, J~Libal, M~Acciarri, M.~Di Sabatino, H.~Nordmark, E.J. Øverlid,
 M.I. Càlão and M.C. do~Carmo.
 \newblock Luminescence from an iron related deep center in silicon.
 \newblock {\em Physica Scripta}, 1988.
+
+\bibitem{conzelmann82}
+H.~Conzelmann, K.~Graff, and E.R. Weber.
+\newblock Chromium and chromium-boron pairs in silicon.
+\newblock {\em Appl. Phys. A}, 1982.
 
 \bibitem{conzelmann83}
 H.~Conzelmann and J.~Weber.
@@ -48,6 +64,14 @@ N.~Drozdov and A.~Fedotov.
 N.~A. Drozdov, A.A. Patrin, and V.D Tkachev.
 \newblock Recombination radiation on dislocations in silicon.
 \newblock {\em Pis'ma Xh. Eksp. Teor. Fiz.}, 1976.
+
+\bibitem{gundel09}
+Paul Gundel, Martin~C. Schubert, Wolfram Kwapil, Jonas Schön, Manfred Reiche,
+  Hele Savin, Marko Yli-Koski, Juan Angel~Sans ans Gema Martinez-Criado,
+  Winfried Seifert, Wilhelm Warta, and Eicke~R. Weber.
+\newblock Micro-photoluminescence spectroscopy on metal precipitates in
+  silicon.
+\newblock {\em Phys. Status Solidi RRL}, 2009.
 
 \bibitem{gundel08}
 Paul Gundel, Martin~C. Shubert, and Wilhelm Warta.
@@ -89,6 +113,11 @@ Woong Lee, Jun Chen, Bin Chen, Jiho Chang, and Takashi Sekiguchi.
   small-angle grain boundaries in multicrystalline silicon.
 \newblock {\em Applied Physics Letters}, 2009.
 
+\bibitem{lightowlers93}
+E.~C. Lightowlers and V.~Higgs.
+\newblock Luminescence associated with the presence of dislocations in silicon.
+\newblock {\em Physica Status Solidi (a)}, 1993.
+
 \bibitem{macdonald08}
 D.~Macdonald, J.~Tan, and T.~Trupke.
 \newblock Imaging interstitial iron concentrations in boron-doped crystalline
@@ -106,6 +135,11 @@ Satoshi Nihonyanagi and Yoshihiko Kanemitsu.
 \newblock Enhanced luminescence from electron-hole droplets in silicon
   nanolayers.
 \newblock {\em Applied physics letters}, 2004.
+
+\bibitem{patrick74}
+L.~Patrick and W.J. Choyke.
+\newblock Photoluminescence of ti in four sic polytypes.
+\newblock {\em Physical Review B}, 1974.
 
 \bibitem{sauer85}
 R.~Sauer, J.~Weber, and J.~Stolz.
@@ -160,6 +194,18 @@ I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.P. Kaleis.
   techniques.
 \newblock {\em Elsevier Science B.V.}, 2001.
 
+\bibitem{kemenade74}
+A.W.C van Kemenade and S.H. Hagen.
+\newblock Proof of the involvement of ti in the low-temperature abc
+  luminescence spectrum of 6h sic.
+\newblock {\em Solid State Communications}, 1974.
+
+\bibitem{wagner2002}
+Mt. Wagner, I.G. Ivanov, L.~Storasta, J.P. Bergman, B.~Magnusson, W.M. Chen,
+  and E.~Janzén.
+\newblock Photoluminescence upconversion in 4h-sic.
+\newblock {\em Applied Physics Letters}, 2002.
+
 \bibitem{weber82}
 J.~Weber, H.~Bauch, and R.~Sauer.
 \newblock Optical properties of copper in silicon: Excitons bound to
@@ -170,5 +216,10 @@ J.~Weber, H.~Bauch, and R.~Sauer.
 K.~Weronek, J.~Weber, and R.~Buchner.
 \newblock Origin of d-band photoluminescence in silicon.
 \newblock {\em Springer Proceedings in Physics}, 1991.
+
+\bibitem{zoth90}
+G.~Zoth and W.~Bergholz.
+\newblock A fast preparation-free method to detect iron in silicon.
+\newblock {\em J. Appl. Phys}, 1990.
 
 \end{thebibliography}
