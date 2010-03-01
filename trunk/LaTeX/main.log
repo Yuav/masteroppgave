@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  18 FEB 2010 17:47
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  1 MAR 2010 15:13
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/../.
 ./../Masteroppgave/LaTeX/main.tex
@@ -813,7 +813,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Overfull \hbox (4.8687pt too wide) in paragraph at lines 14--15
+Overfull \hbox (10.74226pt too wide) in paragraph at lines 14--15
 []\T1/cmr/m/n/12 Both [[]] and [[]] stud-ied plas-ti-cally de-formed sil-i-con 
 made by the Czochral-
  []
@@ -826,12 +826,17 @@ made by the Czochral-
 
 
 {C:/Documents and Settings/Jon/Local Settings/Application Data/MiKTeX/2.8/pdfte
-x/config/pdftex.map}] [2] [3]) [4]
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
-[5
+x/config/pdftex.map}] [2] [3]
+<./images/gundel_iron_precipitates.png, id=157, 1309.89375pt x 735.74875pt>
+File: ./images/gundel_iron_precipitates.png Graphic file (type png)
+
+<use ./images/gundel_iron_precipitates.png> [4]) [5 <C:/Documents and Settings/
+Jon/My Documents/Masteroppgave/LaTeX/images/gundel_iron_precipitates.png (PNG c
+opy)>] ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bb
+l" [6
 
 
-] [6]) [7]
+] [7] [8]) [9]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\tabeller.tex"
 Overfull \hbox (100.68219pt too wide) in alignment at lines 8--17
  [] [] [] [] [] 
@@ -867,182 +872,190 @@ Overfull \hbox (100.68219pt too wide) in alignment at lines 60--80
  []
 
 
-Overfull \hbox (100.68219pt too wide) in alignment at lines 80--101
+Overfull \hbox (100.68219pt too wide) in alignment at lines 80--100
  [] [] [] [] [] 
  []
 
-[8
+[10
 
-] [9]
-<./images/n-type_Si_spectra_dean67.png, id=282, 3904.5875pt x 2653.915pt>
+]
+Overfull \hbox (100.68219pt too wide) in alignment at lines 100--106
+ [] [] [] [] [] 
+ []
+
+[11] <./images/n-type_Si_spectra_dean67.png, id=327, 3904.5875pt x 2653.915pt>
 File: ./images/n-type_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/n-type_Si_spectra_dean67.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 117--118
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 118.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 123.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
 
-<./images/boron_Si_spectra_dean67.png, id=284, 3898.565pt x 3302.3375pt>
+<./images/boron_Si_spectra_dean67.png, id=329, 3898.565pt x 3302.3375pt>
 File: ./images/boron_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/boron_Si_spectra_dean67.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 124--125
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 129--130
  [][] 
  []
 
-<./images/iron_diffused_Si_spectra.png, id=286, 733.74126pt x 671.50874pt>
+<./images/iron_diffused_Si_spectra.png, id=331, 733.74126pt x 671.50874pt>
 File: ./images/iron_diffused_Si_spectra.png Graphic file (type png)
 
 <use ./images/iron_diffused_Si_spectra.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 132--133
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 137--138
  [][] 
  []
 
 
-<./images/iron_diffused_boron_doped_Si_spectra.png, id=288, 2127.95pt x 1593.95
+<./images/iron_diffused_boron_doped_Si_spectra.png, id=333, 2127.95pt x 1593.95
 5pt>
 File: ./images/iron_diffused_boron_doped_Si_spectra.png Graphic file (type png)
 
  <use ./images/iron_diffused_boron_doped_Si_spectra.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 140--141
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 145--146
  [][] 
  []
 
-<./images/CrB_Si_spectra.png, id=290, 695.59875pt x 597.23125pt>
+<./images/CrB_Si_spectra.png, id=335, 695.59875pt x 597.23125pt>
 File: ./images/CrB_Si_spectra.png Graphic file (type png)
 
 <use ./images/CrB_Si_spectra.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 147--148
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 152--153
  [][] 
  []
 
+<./images/Ti_4H_SiC.png, id=337, 1279.78125pt x 1905.1175pt>
+File: ./images/Ti_4H_SiC.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+<use ./images/Ti_4H_SiC.png>
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []|\T1/cmr/m/n/10.95 Kr ion laser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 []|\T1/cmr/m/n/10.95 undoped,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 []|\T1/cmr/m/n/10.95 800nm Al-GaAs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 []|\T1/cmr/m/n/10.95 Block-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \T1/cmr/m/n/10.95 casting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \T1/cmr/m/n/10.95 tech-nique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 []|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 \T1/cmr/m/n/10.95 doped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []|\T1/cmr/m/n/10.95 Kr-ion 647nm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []|\T1/cmr/m/n/10.95 residual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 \OT1/cmr/m/n/10.95 10[]$\T1/cmr/m/n/10.95 cm$[]$
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 194--194
+Underfull \hbox (badness 1173) in paragraph at lines 205--205
 []|\T1/cmr/m/n/10.95 Slicing dam-age etched
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
 []|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 []|\T1/cmr/m/n/10.95 Ar$[]$ 514nm at
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 199--199
+Underfull \hbox (badness 5036) in paragraph at lines 210--210
 \T1/cmr/m/n/10.95 Cu and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []|\T1/cmr/m/n/10.95 200W mer-cury
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []|\T1/cmr/m/n/10.95 Undoped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
 []|\T1/cmr/m/n/10.95 phosphorus
  []
 
-) [10
+) [12
 
  <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/n-type_
-Si_spectra_dean67.png (PNG copy)>] [11 <C:/Documents and Settings/Jon/My Docume
+Si_spectra_dean67.png (PNG copy)>] [13 <C:/Documents and Settings/Jon/My Docume
 nts/Masteroppgave/LaTeX/images/boron_Si_spectra_dean67.png (PNG copy)>]
-[12 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/iron
-_diffused_Si_spectra.png (PNG copy)>] [13 <C:/Documents and Settings/Jon/My Doc
+[14 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/iron
+_diffused_Si_spectra.png (PNG copy)>] [15 <C:/Documents and Settings/Jon/My Doc
 uments/Masteroppgave/LaTeX/images/iron_diffused_boron_doped_Si_spectra.png (PNG
- copy)>] [14 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/im
-ages/CrB_Si_spectra.png (PNG copy)>] [15]
+ copy)>] [16 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/im
+ages/CrB_Si_spectra.png (PNG copy)>] [17 <C:/Documents and Settings/Jon/My Docu
+ments/Masteroppgave/LaTeX/images/Ti_4H_SiC.png (PNG copy)>] [18]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux") ) 
 Here is how much of TeX's memory you used:
- 15568 strings out of 495285
- 283181 string characters out of 3180346
- 419887 words of memory out of 3000000
- 18291 multiletter control sequences out of 15000+200000
+ 15603 strings out of 495285
+ 283811 string characters out of 3180346
+ 423284 words of memory out of 3000000
+ 18310 multiletter control sequences out of 15000+200000
  22672 words of font info for 65 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,15n,58p,1199b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,15n,58p,1868b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
  <
 C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\
 pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local 
@@ -1070,9 +1083,9 @@ fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts
 /euler/eurm10.pfb>
-Output written on main.pdf (15 pages, 1156403 bytes).
+Output written on main.pdf (18 pages, 1568944 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
