@@ -59,14 +59,10 @@
 \clearpage
 %\input{spektroskopi}
 %\input{tap}
-%\clearpage
-%\input{abbrevation}
-\input{dlinjer}
-
+% Teori
+\input{theory}
 \clearpage
-
-%\input{teori}
-%\input{maalemetode}
+\input{experimental}
 %\clearpage
 %\input{resultater}
 %\clearpage
@@ -77,13 +73,13 @@
 
 % Referanseliste
 \clearpage
-\bibliographystyle{plain}
-\nocite{}
+%\bibliographystyle{plain} % Alfabetisk liste
+\bibliographystyle{ieeetr} % To number the references in order of appearance, rather than alphabetical order use ieeetr
+\nocite{*} % List all references, including not used ones
 \bibliography{bibliography} % bibliography.bib
 
 % Vedlegg
 \clearpage
-\input{tabeller}
-%\input{vedlegg_transmisjon}
+\input{appendix}
 
 \end{document}
