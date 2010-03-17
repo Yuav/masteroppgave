@@ -1,225 +1,230 @@
 \begin{thebibliography}{10}
 
-\bibitem{arguirov06}
-T.~Arguirov, W.Seifer, G.~Jia, and M.~Kittler.
-\newblock Photoluminiscence study on defects multicrystalline silicon.
-\newblock {\em Semiconductors}, 2006.
-
-\bibitem{arguirov07}
-T.~V. Arguirov.
-\newblock Electro-optical properties of dislocations in silicon and their
-  possible application for light emmiters.
-\newblock {\em .}, 2007.
-
-\bibitem{arguirov03}
-Tz. Arguirov, W.~Seifert, M.~Kittler, and J.~Reif.
-\newblock Temperature behaviour of extended defects in solar grade silicon
-  investigated by photoluminescence and ebic.
-\newblock {\em Elsevier B.V.}, 2003.
-
-\bibitem{bailey93}
-J.~Bailey and E.~R. Weber.
-\newblock Precipitation of iron in polycrystalline silicon.
-\newblock {\em Physica Status Solidi (a)}, 1993.
-
-\bibitem{binetti08}
-S.~Binetti, J~Libal, M~Acciarri, M.~Di Sabatino, H.~Nordmark, E.J. Øverlid,
-  J.C. Walmsley, and R.~Holmestad.
-\newblock Study of defects and impurities in multicrystalline silicon grown
-  from metallurgical silicon feedstock.
-\newblock {\em Materials Science and Egnineering B}, 2008.
-
-\bibitem{calao88}
-M.I. Càlão and M.C. do~Carmo.
-\newblock Luminescence from an iron related deep center in silicon.
-\newblock {\em Physica Scripta}, 1988.
-
-\bibitem{conzelmann82}
-H.~Conzelmann, K.~Graff, and E.R. Weber.
-\newblock Chromium and chromium-boron pairs in silicon.
-\newblock {\em Appl. Phys. A}, 1982.
-
-\bibitem{conzelmann83}
-H.~Conzelmann and J.~Weber.
-\newblock Photoluminescence from chromium-boron pairs in silicon.
-\newblock {\em Physica}, 1983.
-
-\bibitem{davies88}
-Gordon Davies.
-\newblock The optical properties of luminescence centres in silicon.
-\newblock {\em Physics Report}, 1988.
-
-\bibitem{dean67}
-P.~J. Dean, J.R. Haynes, and W.F. Flood.
-\newblock New radiative recombination processes involving neutral donors and
-  acceptors in silicon and germanium.
-\newblock {\em Physical Review Volume 161 Number 3}, 1967.
-
-\bibitem{drozdov03}
-N.~Drozdov and A.~Fedotov.
-\newblock Electron-hole drops in dislocational silicon.
-\newblock {\em Microelectronic Engineering 66}, 2002.
-
 \bibitem{drozdov76}
-N.~A. Drozdov, A.A. Patrin, and V.D Tkachev.
-\newblock Recombination radiation on dislocations in silicon.
-\newblock {\em Pis'ma Xh. Eksp. Teor. Fiz.}, 1976.
-
-\bibitem{gundel09}
-Paul Gundel, Martin~C. Schubert, Wolfram Kwapil, Jonas Schön, Manfred Reiche,
-  Hele Savin, Marko Yli-Koski, Juan Angel~Sans ans Gema Martinez-Criado,
-  Winfried Seifert, Wilhelm Warta, and Eicke~R. Weber.
-\newblock Micro-photoluminescence spectroscopy on metal precipitates in
-  silicon.
-\newblock {\em Phys. Status Solidi RRL}, 2009.
-
-\bibitem{gundel08}
-Paul Gundel, Martin~C. Shubert, and Wilhelm Warta.
-\newblock Origin of trapping in multicrystalline silicon.
-\newblock {\em Journal of applied physics}, 2008.
-
-\bibitem{hammond75}
-R.B. Hammond, TC. McGill, and J.W. Mayer.
-\newblock Temperature dependence of the electron-hole-liquid luminescence in
-  si.
-\newblock {\em Physical Review B}, 1975.
-
-\bibitem{higgs92}
-V.~Higgs, M.~Goulding, and P.~Kightley.
-\newblock Characterization of epitaxial and oxidation-induced stacking faults
-  in silicon: The influence of transition-metal contamination.
-\newblock {\em Appl. Phys. Lett.}, 1992.
-
-\bibitem{higgs91}
-V.~Higgs, P.~Kightley, P.J. Goodhew, and P.D. Augustus.
-\newblock Metal-induced dislocation nucleation for metastable sige/si.
-\newblock {\em Appl. Phys. Lett.}, 1991.
-
-\bibitem{inoue07}
-M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura.
-\newblock Microscopic and spectroscopic mapping of dislocation-related
-  photoluminescence in multicrystalline silicon wafers.
-\newblock {\em J. Mater Sci}, 2007.
-
-\bibitem{kveder95}
-V.V Kveder, E.A. Steinman, S.A. Shevchenko, and H.G. Grimmeiss.
-\newblock Dislocation-related electroluminescence at room temperature in
-  plastically deformed silicon.
-\newblock {\em Phys. Rev. B}, 1995.
+N.~A. Drozdov, A.~Patrin, and V.~Tkachev, ``Recombination radiation on
+  dislocations in silicon,'' {\em Pis'ma Xh. Eksp. Teor. Fiz.}, 1976.
 
 \bibitem{lee09}
-Woong Lee, Jun Chen, Bin Chen, Jiho Chang, and Takashi Sekiguchi.
-\newblock Cathodoluminescence study of dislocation-related luminescence from
-  small-angle grain boundaries in multicrystalline silicon.
-\newblock {\em Applied Physics Letters}, 2009.
-
-\bibitem{lightowlers93}
-E.~C. Lightowlers and V.~Higgs.
-\newblock Luminescence associated with the presence of dislocations in silicon.
-\newblock {\em Physica Status Solidi (a)}, 1993.
-
-\bibitem{macdonald08}
-D.~Macdonald, J.~Tan, and T.~Trupke.
-\newblock Imaging interstitial iron concentrations in boron-doped crystalline
-  silicon.
-\newblock {\em Journal of applied physics}, 2008.
-
-\bibitem{mohring83}
-H.D. Mohring, J.~Weber, and R.~Sauer.
-\newblock Photoluminescence of excitons bound to an isoelectronic trap in
-  silicon associated with boron and iron.
-\newblock {\em Physical Review B}, 1983.
-
-\bibitem{satoshi04}
-Satoshi Nihonyanagi and Yoshihiko Kanemitsu.
-\newblock Enhanced luminescence from electron-hole droplets in silicon
-  nanolayers.
-\newblock {\em Applied physics letters}, 2004.
-
-\bibitem{patrick74}
-L.~Patrick and W.J. Choyke.
-\newblock Photoluminescence of ti in four sic polytypes.
-\newblock {\em Physical Review B}, 1974.
+W.~Lee, J.~Chen, B.~Chen, J.~Chang, and T.~Sekiguchi, ``Cathodoluminescence
+  study of dislocation-related luminescence from small-angle grain boundaries
+  in multicrystalline silicon,'' {\em Applied Physics Letters}, 2009.
 
 \bibitem{sauer85}
-R.~Sauer, J.~Weber, and J.~Stolz.
-\newblock Dislocation-related photoluminescence in silicon.
-\newblock {\em Appl. Phys.}, 1985.
+R.~Sauer, J.~Weber, and J.~Stolz, ``Dislocation-related photoluminescence in
+  silicon,'' {\em Appl. Phys.}, 1985.
 
-\bibitem{sekiguchi95}
-T.~Sekiguchi and K.~Sumino.
-\newblock Cathodoluminescence study on dislocations in silicon.
-\newblock {\em J. Appl. Phys.}, 1995.
-
-\bibitem{staiger94}
-W.~Staiger, G.~Pfeiffer, K.~Weronek, A.~Höpner, and J.~Weber.
-\newblock Dislocation-induced defect levels in silicon.
-\newblock {\em Materials Science Forum}, 1994.
+\bibitem{sugimoto06}
+H.~Sugimoto, M.~Inoue, M.~Tajima, A.~Ogura, and Y.~Ohsita, ``Analysis of
+  intra-grain defects in multicrystalline silicon wafers by photoluminescence
+  mapping and spectroscopy,'' {\em Japanese Journal of Applied Physics}, 2006.
 
 \bibitem{suezawa83}
-M.~Suezawa, Y.~Sasaki, and K.~Sumino.
-\newblock Dependence of photoluminescence on temperature in dislocated silicon
-  crystals.
-\newblock {\em Physica Status Solidi}, 1983.
+M.~Suezawa, Y.~Sasaki, and K.~Sumino, ``Dependence of photoluminescence on
+  temperature in dislocated silicon crystals,'' {\em Physica Status Solidi},
+  1983.
+
+\bibitem{higgs91}
+V.~Higgs, P.~Kightley, P.~Goodhew, and P.~Augustus, ``Metal-induced dislocation
+  nucleation for metastable sige/si,'' {\em Appl. Phys. Lett.}, 1991.
+
+\bibitem{sekiguchi95}
+T.~Sekiguchi and K.~Sumino, ``Cathodoluminescence study on dislocations in
+  silicon,'' {\em J. Appl. Phys.}, 1995.
+
+\bibitem{kveder95}
+V.~Kveder, E.~Steinman, S.~Shevchenko, and H.~Grimmeiss, ``Dislocation-related
+  electroluminescence at room temperature in plastically deformed silicon,''
+  {\em Phys. Rev. B}, 1995.
+
+\bibitem{weronek91}
+K.~Weronek, J.~Weber, and R.~Buchner, ``Origin of d-band photoluminescence in
+  silicon,'' {\em Springer Proceedings in Physics}, 1991.
+
+\bibitem{tarasov00}
+I.~Tarasov, S.~Ostapenko, C.Haessler, and E.-U. Reisner, ``Spatially resolved
+  defect diagnostics in multicrystalline silicon for solar cells,'' {\em
+  Elsevier Science S.A}, 2000.
+
+\bibitem{staiger94}
+W.~Staiger, G.~Pfeiffer, K.~Weronek, A.~Höpner, and J.~Weber,
+  ``Dislocation-induced defect levels in silicon,'' {\em Materials Science
+  Forum}, 1994.
+
+\bibitem{dean67}
+P.~J. Dean, J.~Haynes, and W.~Flood, ``New radiative recombination processes
+  involving neutral donors and acceptors in silicon and germanium,'' {\em
+  Physical Review Volume 161 Number 3}, 1967.
+
+\bibitem{tarasov01}
+I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.~Kaleis, ``Defect
+  diagnostics in multicrystalline silicon using scanning techniques,'' {\em
+  Elsevier Science B.V.}, 2001.
 
 \bibitem{sugimoto07}
 H.~Sugimoto, K.~Araki, M.~Tajima, T.~Eguchi, I.~Yamaga, M.~Dhamrin,
-  K.~Kamisako, and T.~Saitoh.
-\newblock Photoluminescence analysis of intragrain defects in multicrystalline
-  silicon wafers for solar cells.
-\newblock {\em Journal of Applied Physics}, 2007.
+  K.~Kamisako, and T.~Saitoh, ``Photoluminescence analysis of intragrain
+  defects in multicrystalline silicon wafers for solar cells,'' {\em Journal of
+  Applied Physics}, 2007.
 
-\bibitem{sugimoto06}
-Hiroki Sugimoto, Masaaki Inoue, Michio Tajima, Atsushi Ogura, and Yoshio
-  Ohsita.
-\newblock Analysis of intra-grain defects in multicrystalline silicon wafers by
-  photoluminescence mapping and spectroscopy.
-\newblock {\em Japanese Journal of Applied Physics}, 2006.
+\bibitem{arguirov07}
+T.~V. Arguirov, ``Electro-optical properties of dislocations in silicon and
+  their possible application for light emmiters,'' {\em .}, 2007.
 
-\bibitem{tajima95}
-M.~Tajima, M.~Tokita, and M.~Warashina.
-\newblock Photoluminescence due to oxygen precipitates distinguished from the
-  d-lines in annealed si.
-\newblock {\em Materials Science Forum}, 1995.
+\bibitem{davies88}
+G.~Davies, ``The optical properties of luminescence centres in silicon,'' {\em
+  Physics Report}, 1988.
 
-\bibitem{tarasov00}
-I.~Tarasov, S.~Ostapenko, C.Haessler, and E.-U. Reisner.
-\newblock Spatially resolved defect diagnostics in multicrystalline silicon for
-  solar cells.
-\newblock {\em Elsevier Science S.A}, 2000.
+\bibitem{conzelmann82}
+H.~Conzelmann, K.~Graff, and E.~Weber, ``Chromium and chromium-boron pairs in
+  silicon,'' {\em Appl. Phys. A}, 1982.
 
-\bibitem{tarasov01}
-I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.P. Kaleis.
-\newblock Defect diagnostics in multicrystalline silicon using scanning
-  techniques.
-\newblock {\em Elsevier Science B.V.}, 2001.
+\bibitem{conzelmann83}
+H.~Conzelmann and J.~Weber, ``Photoluminescence from chromium-boron pairs in
+  silicon,'' {\em Physica}, 1983.
+
+\bibitem{patrick74}
+L.~Patrick and W.~Choyke, ``Photoluminescence of ti in four sic polytypes,''
+  {\em Physical Review B}, 1974.
 
 \bibitem{kemenade74}
-A.W.C van Kemenade and S.H. Hagen.
-\newblock Proof of the involvement of ti in the low-temperature abc
-  luminescence spectrum of 6h sic.
-\newblock {\em Solid State Communications}, 1974.
-
-\bibitem{wagner2002}
-Mt. Wagner, I.G. Ivanov, L.~Storasta, J.P. Bergman, B.~Magnusson, W.M. Chen,
-  and E.~Janzén.
-\newblock Photoluminescence upconversion in 4h-sic.
-\newblock {\em Applied Physics Letters}, 2002.
+A.~van Kemenade and S.~Hagen, ``Proof of the involvement of ti in the
+  low-temperature abc luminescence spectrum of 6h sic,'' {\em Solid State
+  Communications}, 1974.
 
 \bibitem{weber82}
-J.~Weber, H.~Bauch, and R.~Sauer.
-\newblock Optical properties of copper in silicon: Excitons bound to
-  isoelectronic copper pairs.
-\newblock {\em Physical Review B}, 1982.
+J.~Weber, H.~Bauch, and R.~Sauer, ``Optical properties of copper in silicon:
+  Excitons bound to isoelectronic copper pairs,'' {\em Physical Review B},
+  1982.
 
-\bibitem{weronek91}
-K.~Weronek, J.~Weber, and R.~Buchner.
-\newblock Origin of d-band photoluminescence in silicon.
-\newblock {\em Springer Proceedings in Physics}, 1991.
+\bibitem{calao88}
+M.~Càlão and M.~do~Carmo, ``Luminescence from an iron related deep center in
+  silicon,'' {\em Physica Scripta}, 1988.
+
+\bibitem{mohring83}
+H.~Mohring, J.~Weber, and R.~Sauer, ``Photoluminescence of excitons bound to an
+  isoelectronic trap in silicon associated with boron and iron,'' {\em Physical
+  Review B}, 1983.
 
 \bibitem{zoth90}
-G.~Zoth and W.~Bergholz.
-\newblock A fast preparation-free method to detect iron in silicon.
-\newblock {\em J. Appl. Phys}, 1990.
+G.~Zoth and W.~Bergholz, ``A fast preparation-free method to detect iron in
+  silicon,'' {\em J. Appl. Phys}, 1990.
+
+\bibitem{gundel09}
+P.~Gundel, M.~C. Schubert, W.~Kwapil, J.~Schön, M.~Reiche, H.~Savin,
+  M.~Yli-Koski, J.~A.~S. ans Gema Martinez-Criado, W.~Seifert, W.~Warta, and
+  E.~R. Weber, ``Micro-photoluminescence spectroscopy on metal precipitates in
+  silicon,'' {\em Phys. Status Solidi RRL}, 2009.
+
+\bibitem{macdonald08}
+D.~Macdonald, J.~Tan, and T.~Trupke, ``Imaging interstitial iron concentrations
+  in boron-doped crystalline silicon,'' {\em Journal of applied physics}, 2008.
+
+\bibitem{higgs92}
+V.~Higgs, M.~Goulding, and P.~Kightley, ``Characterization of epitaxial and
+  oxidation-induced stacking faults in silicon: The influence of
+  transition-metal contamination,'' {\em Appl. Phys. Lett.}, 1992.
+
+\bibitem{bailey93}
+J.~Bailey and E.~R. Weber, ``Precipitation of iron in polycrystalline
+  silicon,'' {\em Physica Status Solidi (a)}, 1993.
+
+\bibitem{lightowlers93}
+E.~C. Lightowlers and V.~Higgs, ``Luminescence associated with the presence of
+  dislocations in silicon,'' {\em Physica Status Solidi (a)}, 1993.
+
+\bibitem{drozdov03}
+N.~Drozdov and A.~Fedotov, ``Electron-hole drops in dislocational silicon,''
+  {\em Microelectronic Engineering 66}, 2002.
+
+\bibitem{satoshi04}
+S.~Nihonyanagi and Y.~Kanemitsu, ``Enhanced luminescence from electron-hole
+  droplets in silicon nanolayers,'' {\em Applied physics letters}, 2004.
+
+\bibitem{tajima95}
+M.~Tajima, M.~Tokita, and M.~Warashina, ``Photoluminescence due to oxygen
+  precipitates distinguished from the d-lines in annealed si,'' {\em Materials
+  Science Forum}, 1995.
+
+\bibitem{inoue07}
+M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura, ``Microscopic and
+  spectroscopic mapping of dislocation-related photoluminescence in
+  multicrystalline silicon wafers,'' {\em J. Mater Sci}, 2007.
+
+\bibitem{gundel08}
+P.~Gundel, M.~C. Shubert, and W.~Warta, ``Origin of trapping in
+  multicrystalline silicon,'' {\em Journal of applied physics}, 2008.
+
+\bibitem{laserdybde}
+E.~Palik., {\em Handbook of optical constants of solids}.
+\newblock 2001.
+
+\bibitem{hammond75}
+R.~Hammond, T.~McGill, and J.~Mayer, ``Temperature dependence of the
+  electron-hole-liquid luminescence in si,'' {\em Physical Review B}, 1975.
+
+\bibitem{streetman}
+B.~G. Streetman and S.~K. Banerjee, {\em Solid state electronic devices}.
+\newblock Prentice Hall, 2006.
+
+\bibitem{d-linje-temp}
+T.~Arguirov, W.~Seifert, and M.~K.~J. Reif, ``Temperature behaviour of
+  photoluminescence and electron-beam-induced current recombination behaviour
+  of extended defects in solar grade silicon,'' {\em J. Phys: Condens}, 2002.
+
+\bibitem{dislokasjoner85}
+R.~Sauer, J.~Weber, , and J.~Stolz, ``Dislocation-related photoluminescence in
+  silicon,'' {\em Applied Physics}, 1985.
+
+\bibitem{replica}
+V.~V. Kveder, E.~A. Steinman, S.~A. Shevchenko, and H.~G. Grimmeiss,
+  ``Dislocation-related electroluminescence at room temperature in plastically
+  deformed silicon,'' {\em Phys. Rev. B}, 1995.
+
+\bibitem{spekterbredning}
+K.~Leosson, J.~Jensen, J.~Hvam, and W.~Langbein, ``Linewidth statistics of
+  single ingaas quantum dot photoluminescence lines,'' 2000.
+
+\bibitem{arguirov06}
+T.~Arguirov, W.Seifer, G.~Jia, and M.~Kittler, ``Photoluminiscence study on
+  defects multicrystalline silicon,'' {\em Semiconductors}, 2006.
+
+\bibitem{erbium}
+A.~J. Kenyon, C.~E. Chryssoua, C.~W. Pitta, T.~Shimizu-Iwayamab, D.~E. Holec,
+  N.~Sharmad, and C.~J. Humphreysd, ``Broad-band and flashlamp pumping of 1.53
+  \micro m emission from erbium-doped silicon nanocrystals,'' 2001.
+
+\bibitem{aps}
+B.~Jalali, ``Physics and technology forefronts - silicon lasers,'' {\em
+  American Physical Society}, 2006.
+
+\bibitem{mater08}
+M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura, ``Microscopic and
+  spectroscopic mapping of dislocation-related photoluminescence in
+  multicrystalline silicon wafers,'' {\em Mater Electron}, 2008.
+
+\bibitem{katz96}
+E.~Katz, M.~Koltun, and L.~Polyak, ``Polycrystalline silicon solar cells:
+  Improvements in efficiency through hydrogen passivation,'' {\em Diffusion and
+  Defect Data Pt.B: Solid State Phenomena}, 1996.
+
+\bibitem{arguirov03}
+T.~Arguirov, W.~Seifert, M.~Kittler, and J.~Reif, ``Temperature behaviour of
+  extended defects in solar grade silicon investigated by photoluminescence and
+  ebic,'' {\em Elsevier B.V.}, 2003.
+
+\bibitem{binetti08}
+S.~Binetti, J.~Libal, M.~Acciarri, M.~D. Sabatino, H.~Nordmark, E.~Øverlid,
+  J.~Walmsley, and R.~Holmestad, ``Study of defects and impurities in
+  multicrystalline silicon grown from metallurgical silicon feedstock,'' {\em
+  Materials Science and Egnineering B}, 2008.
+
+\bibitem{patrick74)}
+L.~Patrick and W.~Choyke, ``Photoluminescence of ti in four sic polytypes,''
+  {\em Physical Review B}, 1974.
+
+\bibitem{wagner2002}
+M.~Wagner, I.~Ivanov, L.~Storasta, J.~Bergman, B.~Magnusson, W.~Chen, and
+  E.~Janzén, ``Photoluminescence upconversion in 4h-sic,'' {\em Applied Physics
+  Letters}, 2002.
 
 \end{thebibliography}
