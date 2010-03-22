@@ -11,6 +11,8 @@ delimiter = '\t';
 dirname = '..\Results\mar-18-2010-roomtemperature\ErYt\';
 dirname = '..\Results\mar-18-2010-roomtemperature\Esi-q3-201\40nmoffdislocation\';
 Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
+% Result = correct_dead_pixel_problem(Result);
+
 
 % Define X and Y values
 Ax = Result(:,1);
