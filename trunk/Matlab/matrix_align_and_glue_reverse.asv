@@ -1,0 +1,26 @@
+function[C]  = matrix_align_and_glue_reverse(A,B)
+
+overlap_index = 0;
+
+% Drop the left side in the interval
+    for i=1:length(B),
+        if (A(length(A),1) < B(i,1))
+           overlap_index = i;
+           break;
+        end
+    end
+    A = length(A)
+    B = length(B)
+    new_array_size = (length(A)+length(B)-overlap_index) 
+    temp_C = zeros([new_array_size 2]); % Define right length of array
+    
+    % Add existing elements
+    temp_C = A;    
+    % Add new elements
+    for k = 1:length(B),
+       temp_C(overlap_index+k,1) = B(j,1);
+       temp_C(overlap_index+k,2) = B(j,2);
+    end
+    
+    C = temp_C
+end

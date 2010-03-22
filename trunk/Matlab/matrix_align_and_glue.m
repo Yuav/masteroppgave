@@ -1,4 +1,4 @@
-function [C] = matrix_align_and_glue(A,B,reverse)
+function [C] = matrix_align_and_glue(A,B)
 %This function take matrix A and B, remove overlap, and return as one
 %matrix
 
@@ -7,26 +7,15 @@ function [C] = matrix_align_and_glue(A,B,reverse)
 k2=0;
 diff1 = 1;
 
-if (reverse == 1) % Drop the left side in the interval
-    for k=1:length(A),
-         diff2 = abs(A(k,1)-B(length(B),1));
-         if diff2<diff1
-             diff1=diff2;
-             k2=k;
-         end
+% Drop the right side in the interval
+for k=1:length(A),
+    diff2 = abs(A(k,1)-B(1,1));
+    if diff2<diff1
+        diff1=diff2;
+        k2=k;
     end
-    C = zeros([(k2+length(A)) 2]);    
-else % Drop the right side in the interval
-    for k=1:length(A),
-        diff2 = abs(A(k,1)-B(1,1));
-        if diff2<diff1
-            diff1=diff2;
-            k2=k;
-        end
-    end
-    C = zeros([(k2+length(B)) 2]);
-
 end
+C = zeros([(k2+length(B)) 2]);
 
 
 % Append arrays into k3
@@ -40,11 +29,11 @@ for k4=1:length(B),
     C(k2+k4,1) = B(k4,1);
     C(k2+k4,2) = B(k4,2);
 end
+
 end
 
 
-function [C] = array_append(A,B)
-%Combines matrixes
+function [C] = array_append(A,B) %Combines matrixes
 
 C = zeros([(length(A)+length(B)) 2]);
 % Append arrays into k3

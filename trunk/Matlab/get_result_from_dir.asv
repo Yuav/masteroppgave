@@ -1,9 +1,9 @@
 function [C] = get_result_from_dir(dirname,delimiter)
 % Reads all files in a directory, and return matrix elements separated by
-% delimiter f
+% delimiter from file contents
 
-    C = [];
-    
+    C = [0,0];
+
     % Read directory
     files = dir(dirname);
 
@@ -17,9 +17,13 @@ function [C] = get_result_from_dir(dirname,delimiter)
     for i=1:length(files),
        if (files(i).name == '.') % Do nothing
        elseif (strcmp(files(i).name,'..')) % Do nothing
-       else 
+           elseif (strcmp(files(i).name,'.svn')) % Do nothing
+       else C = matrix_align_and_glue(C,A,1);
            A = dlmread([dirname,files(i).name],delimiter); % Read file contents into memory
-           C = matrix_align_and_glue(C,A,1);
+           
+           if (C(0) == 0) 
+               unshift(C);
+           end
        end
     end
 end
