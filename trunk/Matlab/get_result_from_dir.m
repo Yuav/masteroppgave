@@ -20,6 +20,7 @@ function [C] = get_result_from_dir(dirname,delimiter,drop_rightside)
            elseif (strcmp(files(i).name,'.svn')) % Do nothing
        else 
            A = dlmread([dirname,files(i).name],delimiter); % Read file contents into memory
+           A = dead_pixel_correction(A); % Filter out dead pixels in the InGaAs camera
            if (0 == C)
                C=A;
            else
