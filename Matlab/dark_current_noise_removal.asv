@@ -1,0 +1,25 @@
+function [C] = dark_current_offset_removal(A)
+
+% Define X and Y values
+Ax = Result(:,1);
+Ay = Result(:,2);
+
+% Plot
+fig1 = figure(1);
+
+axes1 = axes('Parent',fig1,'FontSize',fontsize);
+box(axes1,'on');
+hold(axes1,'all');
+hold on;
+
+plot(Ax,Ay);
+
+
+%sgolay filtering
+Ay = sgolayfilt(Ay,1,255); % 1st order filtering
+
+%sgolay filtering
+intensity = sgolayfilt(intensity,1,19);
+
+
+end

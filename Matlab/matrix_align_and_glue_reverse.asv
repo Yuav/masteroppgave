@@ -1,26 +1,39 @@
 function[C]  = matrix_align_and_glue_reverse(A,B)
 
-overlap_index = 0;
+overlapIndex = 0;
 
 % Drop the left side in the interval
     for i=1:length(B),
         if (A(length(A),1) < B(i,1))
-           overlap_index = i;
+           overlapIndex = i;
            break;
         end
     end
-    A = length(A)
-    B = length(B)
-    new_array_size = (length(A)+length(B)-overlap_index) 
+    
+    % Define new array length
+    sizeA = length(A);
+    sizeB = length(B);
+    new_array_size = (sizeA+sizeB-overlapIndex);
     temp_C = zeros([new_array_size 2]); % Define right length of array
     
     % Add existing elements
-    temp_C = A;    
-    % Add new elements
-    for k = 1:length(B),
-       temp_C(overlap_index+k,1) = B(j,1);
-       temp_C(overlap_index+k,2) = B(j,2);
+    for j = 1:length(A),
+        temp_C(j,1) = A(j,1);        
+        temp_C(j,2) = A(j,2);        
     end
     
-    C = temp_C
+    % Add new elements
+    for k = 1:(length(B)-overlapIndex),
+        
+        % Dead pixel correction
+        C_value = B(overlapIndex+k,2);
+        if (overlapIndex+k == 933) % This pixel is dead
+           C_value = B(overlapIndex+k-1,2);
+        end
+        
+        temp_C((length(A)+k),1) = B(overlapIndex+k,1);
+       temp_C((length(A)+k),2) = C_value;
+    end
+    
+    C = temp_C;
 end
