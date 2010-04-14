@@ -154,6 +154,15 @@ M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura, ``Microscopic and
 P.~Gundel, M.~C. Shubert, and W.~Warta, ``Origin of trapping in
   multicrystalline silicon,'' {\em Journal of applied physics}, 2008.
 
+\bibitem{hystad09}
+M.~Hystad, ``The distribution and impact of chromium impurities in compensated
+  sog-silicon,'' Master's thesis, The Norwegian University of Science and
+  Technology, 2009.
+
+\bibitem{soporietch}
+B.~Sopori, ``A new defect etch for polycrystalline silicon,'' {\em J.
+  Electrochem. Soc.}, 1984.
+
 \bibitem{laserdybde}
 E.~Palik., {\em Handbook of optical constants of solids}.
 \newblock 2001.
@@ -226,5 +235,86 @@ L.~Patrick and W.~Choyke, ``Photoluminescence of ti in four sic polytypes,''
 M.~Wagner, I.~Ivanov, L.~Storasta, J.~Bergman, B.~Magnusson, W.~Chen, and
   E.~Janzén, ``Photoluminescence upconversion in 4h-sic,'' {\em Applied Physics
   Letters}, 2002.
+
+\bibitem{sopori09}
+B.~Sopori, P.~Rupnowski, V.~Mehta, V.~Budhraja, S.~Johnston, N.~Call,
+  H.~Moutinho, M.~Al-Jassim, A.~Shaikh, M.~Seacrist, and D.~Carlson,
+  ``Performance limitations of mc-si solar cells caused by defect clusters,''
+  {\em Conference Paper NREL/CP-520-45012}, 2009.
+
+\bibitem{dean82}
+J.~Dean, ``Photoluminescence as a diagnostic of semiconductors,'' {\em Prog.
+  Crystal growth charact.}, 1982.
+
+\bibitem{conzelmann87}
+H.~Conzelmann, ``Photoluminescence of transition metal complexes in silicon,''
+  {\em Appl. Phys. A}, 1987.
+
+\bibitem{kitler02}
+M.~Kittler, W.~Seifert, T.~Arguirov, I.~Tarasov, and S.~Ostapenko,
+  ``Room-temperature luminescence andelectronbeam-induced current (ebic)
+  recombination behaviour of crystal defects in multicrystalline silicon,''
+  {\em Solar Energy Materials and Solar Cells}, 2002.
+
+\bibitem{schevchenko03}
+S.~A. Shevchenko and A.~N. Izotov, ``Dislocation-induced photoluminescence in
+  silicon crystals of various impurity composition,'' {\em Physics of the Solid
+  State}, 2003.
+
+\bibitem{trupke06}
+T.~Trupke, R.~A. Bardos, M.~C. Schubert, and W.~Warta, ``Photoluminescence
+  imaging of silicon wafers,'' {\em Applied Physics Letters}, 2006.
+
+\bibitem{bauer07}
+J.~Bauer, O.~Breitenstein, and J.-P. Rakotoniaina, ``Electronic activity of sic
+  precipitates in multicrystalline solar silicon,'' {\em phys. stat. sol. (a)},
+  2007.
+
+\bibitem{karasuyk92}
+V.~Karasuyk, A.~Steele, A.~Mainwood, E.~Lightowlers, and G.~Davies,
+  ``Ultrahigh-resolution photoluminescence studies of excitons bound to boron
+  in silicon under uniaxial stress,'' {\em Physical Review B}, 1992.
+
+\bibitem{kasemann2008}
+M.~Kasemann, D.~Grote, B.~Walter, W.~Kwapil, T.~Trupke, Y.~Augarten, R.~Bardos,
+  E.~Pink, M.~Abbott, and W.~Warta, ``Luminescence imaging for the detection of
+  shunts on silicon solar cells,'' {\em Prog. Photovolt: Res. Appl.}, 2008.
+
+\bibitem{kasemann_progress_2008}
+M.~Kasemann, W.~Kwapil, B.~Walter, J.~Giesecke, B.~Michl, M.~The, J.~Wagner,
+  J.~Bauer, A.~Schütt, J.~Carstensen, S.~Kluska, F.~Granek, H.~Kampwerth,
+  P.~Gundel, M.~Schubert, R.~Bardos, H.~Föll, H.~Nagel, P.~Würfel, T.~Trupke,
+  O.~Breitenstein, M.~Hermle, W.~Warta, and S.~Glunz, ``Progress in silicon
+  solar cell characterization with infrared imaging methods,'' {\em 23rd
+  European Photovoltaic Solar Energy Conference}, 2008.
+
+\bibitem{mchugo96}
+S.~McHugo, H.~Hieslmair, and E.~Weber, ``Gettering of metallic impurities in
+  photovoltaic silicon,'' {\em Appl. Phys. A}, 1996.
+
+\bibitem{Ostapenko00}
+S.~Ostapenko, I.~Tarasov, J.~Kalejs, C.~Haessler, and E.~Reisner, ``Defect
+  monitoring using scanning photoluminescence spectroscopy in multicrystalline
+  silicon wafers,'' {\em Semicond. Sci. Technol.}, 2000.
+
+\bibitem{pizzini00}
+S.~Pizzini, M.~Acciarri, E.~Leoni, and A.~L. Donne, ``About the d1 and d2
+  dislocation luminescence and its correlation with oxygen segregation,'' {\em
+  phys. stat. sol. (b)}, 2000.
+
+\bibitem{steinman08}
+E.~Steinman, A.~Kenyon, and A.~Tereshchenko, ``Time-resolved measurements of
+  dislocation-related photoluminescence bands in silicon,'' {\em Semicond. Sci.
+  Technol.}, 2008.
+
+\bibitem{sugimoto_pl_06}
+H.~Sugimoto, M.~Tajima, T.~Eguchi, I.~Yamaga, and T.~Saitoh,
+  ``Photoluminescence analysis of intra-grain defects in cast-grown
+  polycrystalline silicon wafers,'' {\em Materials Science in Semiconductor
+  Processing}, 2006.
+
+\bibitem{tajima90}
+M.~Tajima, ``Characterization of semiconductors by photoluminescence mapping at
+  room temperature,'' {\em Journal of Crystal Growth}, 1990.
 
 \end{thebibliography}
