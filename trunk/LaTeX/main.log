@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  17 MAR 2010 15:01
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.1.25)  14 APR 2010 11:47
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/../.
 ./../Masteroppgave/LaTeX/main.tex
@@ -826,26 +826,75 @@ x/config/pdftex.map}])
 <./images/gundel_iron_precipitates.png, id=188, 1309.89375pt x 735.74875pt>
 File: ./images/gundel_iron_precipitates.png Graphic file (type png)
 
-<use ./images/gundel_iron_precipitates.png> [4])) [5 <C:/Documents and Settings
-/Jon/My Documents/Masteroppgave/LaTeX/images/gundel_iron_precipitates.png (PNG 
-copy)>]
+<use ./images/gundel_iron_precipitates.png> [4]
+
+LaTeX Warning: Citation `drozdov81' on page 5 undefined on input line 37.
+
+)) [5 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/gu
+ndel_iron_precipitates.png (PNG copy)>]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\experimental.t
-ex" <./images/lab_setup.png, id=225, 1224.575pt x 796.9775pt>
+ex"
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.10 \textbf{Name} & \textbf{Description} &
+                                            \textbf{Quality} & \textbf{Feeds...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.12 R6-Q3-210 & Polysilicon, good quality &
+                                             Electronic grade & Feedstock fr...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ES1-Q3-201 & Large amount of P and B &
+                                            Solar grade & Feedstock from Elk...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ... & Large amount of P and B, and added Cr &
+                                                   Solar grade & Feedstock f...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+LaTeX Warning: Citation `soporietch' on page 6 undefined on input line 20.
+
+<./images/lab_setup.png, id=228, 1224.575pt x 796.9775pt>
 File: ./images/lab_setup.png Graphic file (type png)
 
-<use ./images/lab_setup.png>
-Overfull \hbox (25.47171pt too wide) in paragraph at lines 31--43
+<use ./images/lab_setup.png> [6
+
+]
+Overfull \hbox (25.47171pt too wide) in paragraph at lines 45--56
  [][] 
  []
 
-[6
-
- <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/lab_set
-up.png>] [7]) [8]
+[7 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/lab_s
+etup.png>] [8]) [9]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
-[9
+[10
 
-] [10] [11] [12]) [13]
+] [11] [12] [13]
+Underfull \hbox (badness 3250) in paragraph at lines 245--249
+\T1/cmr/m/n/12 ``Room-temperature lu-mi-nes-cence andelectronbeam-induced cur-r
+ent
+ []
+
+[14]) [15]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\appendix.tex"
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\tabeller.tex"
 Overfull \hbox (98.83644pt too wide) in alignment at lines 6--15
@@ -886,14 +935,14 @@ Overfull \hbox (98.83644pt too wide) in alignment at lines 78--98
  [] [] [] [] [] 
  []
 
-[14
+[16
 
 ]
 Overfull \hbox (98.83644pt too wide) in alignment at lines 98--104
  [] [] [] [] [] 
  []
 
-[15] <./images/n-type_Si_spectra_dean67.png, id=413, 3904.5875pt x 2653.915pt>
+[17] <./images/n-type_Si_spectra_dean67.png, id=442, 3904.5875pt x 2653.915pt>
 File: ./images/n-type_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/n-type_Si_spectra_dean67.png>
@@ -909,7 +958,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
 
-<./images/boron_Si_spectra_dean67.png, id=416, 3898.565pt x 3302.3375pt>
+<./images/boron_Si_spectra_dean67.png, id=445, 3898.565pt x 3302.3375pt>
 File: ./images/boron_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/boron_Si_spectra_dean67.png>
@@ -917,7 +966,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 127--128
  [][] 
  []
 
-<./images/P_Si_spectra_dean67.png, id=418, 953.5625pt x 871.255pt>
+<./images/P_Si_spectra_dean67.png, id=447, 953.5625pt x 871.255pt>
 File: ./images/P_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/P_Si_spectra_dean67.png>
@@ -925,7 +974,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-<./images/iron_diffused_Si_spectra.png, id=420, 733.74126pt x 671.50874pt>
+<./images/iron_diffused_Si_spectra.png, id=449, 733.74126pt x 671.50874pt>
 File: ./images/iron_diffused_Si_spectra.png Graphic file (type png)
 
 <use ./images/iron_diffused_Si_spectra.png>
@@ -934,7 +983,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 141--142
  []
 
 
-<./images/iron_diffused_boron_doped_Si_spectra.png, id=422, 2127.95pt x 1593.95
+<./images/iron_diffused_boron_doped_Si_spectra.png, id=451, 2127.95pt x 1593.95
 5pt>
 File: ./images/iron_diffused_boron_doped_Si_spectra.png Graphic file (type png)
 
@@ -943,7 +992,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 149--150
  [][] 
  []
 
-<./images/CrB_Si_spectra.png, id=424, 695.59875pt x 597.23125pt>
+<./images/CrB_Si_spectra.png, id=453, 695.59875pt x 597.23125pt>
 File: ./images/CrB_Si_spectra.png Graphic file (type png)
 
 <use ./images/CrB_Si_spectra.png>
@@ -951,7 +1000,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 156--157
  [][] 
  []
 
-<./images/Ti_4H_SiC.png, id=426, 1279.78125pt x 1905.1175pt>
+<./images/Ti_4H_SiC.png, id=455, 1279.78125pt x 1905.1175pt>
 File: ./images/Ti_4H_SiC.png Graphic file (type png)
 
 <use ./images/Ti_4H_SiC.png>
@@ -1054,62 +1103,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--217
 []|\T1/cmr/m/n/10.95 phosphorus
  []
 
-) [16
+) [18
 
  <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/n-type_
-Si_spectra_dean67.png (PNG copy)>] [17 <C:/Documents and Settings/Jon/My Docume
+Si_spectra_dean67.png (PNG copy)>] [19 <C:/Documents and Settings/Jon/My Docume
 nts/Masteroppgave/LaTeX/images/boron_Si_spectra_dean67.png (PNG copy)>]
-[18 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/P_Si
-_spectra_dean67.png (PNG copy)>] [19 <C:/Documents and Settings/Jon/My Document
-s/Masteroppgave/LaTeX/images/iron_diffused_Si_spectra.png (PNG copy)>] [20 <C:/
+[20 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/P_Si
+_spectra_dean67.png (PNG copy)>] [21 <C:/Documents and Settings/Jon/My Document
+s/Masteroppgave/LaTeX/images/iron_diffused_Si_spectra.png (PNG copy)>] [22 <C:/
 Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/iron_diffuse
-d_boron_doped_Si_spectra.png (PNG copy)>] [21 <C:/Documents and Settings/Jon/My
- Documents/Masteroppgave/LaTeX/images/CrB_Si_spectra.png (PNG copy)>] [22 <C:/D
+d_boron_doped_Si_spectra.png (PNG copy)>] [23 <C:/Documents and Settings/Jon/My
+ Documents/Masteroppgave/LaTeX/images/CrB_Si_spectra.png (PNG copy)>] [24 <C:/D
 ocuments and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/Ti_4H_SiC.png
- (PNG copy)>] [23]
+ (PNG copy)>] [25]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\abbrevation.te
-x")) [24
+x")) [26
 
 ]
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux") ) 
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15675 strings out of 495285
- 285477 string characters out of 3180346
- 423848 words of memory out of 3000000
- 18339 multiletter control sequences out of 15000+200000
+ 15716 strings out of 495285
+ 286014 string characters out of 3180346
+ 424454 words of memory out of 3000000
+ 18360 multiletter control sequences out of 15000+200000
  22672 words of font info for 65 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,15n,58p,1886b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
- <
-C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon\Local 
-Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm070
-0.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Documents and Settings\Jon
-\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecrm1095.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiK
-TeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Documents and Setti
-ngs\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecti1200.pk> <C:\Documents and Settings\Jon\Local Settings\Application D
-ata\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents an
-d Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Settings\Applic
-ation Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Docum
-ents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbx1728.pk><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
-iKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.8/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts
-/euler/eurm10.pfb>
-Output written on main.pdf (24 pages, 1825143 bytes).
+ <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fo
+nts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Documents and Settings\Jon\Lo
+cal Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
+m0700.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data\MiKTeX
+\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Documents and Settings
+\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi
+600\ecrm1095.pk> <C:\Documents and Settings\Jon\Local Settings\Application Data
+\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Documents and S
+ettings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\Jon\Local Settings\Applicati
+on Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Document
+s and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecrm1200.pk> <C:\Documents and Settings\Jon\Local Settings\Ap
+plication Data\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\D
+ocuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Program Files/MiKTeX 2.8/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/c
+m/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 
+2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.8/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsf
+onts/euler/eurm10.pfb>
+Output written on main.pdf (26 pages, 1839417 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
+ 992 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
