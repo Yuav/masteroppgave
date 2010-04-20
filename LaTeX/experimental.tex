@@ -1,37 +1,55 @@
 \section{Experimental}
 
-Focus areas: Contaminants from Chromium, Titanium, Iron.
-
-
 \subsection{Samples}
 
-\begin{table}%
-\begin{tabular}{|c|c|}
-\textbf{Name} & \textbf{Description} & \textbf{Quality} & \textbf{Feedstock} \\
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
 \hline
-R6-Q3-210 & Polysilicon, good quality & Electronic grade & Feedstock from Siemens process \\
-ES1-Q3-201 & Large amount of P and B & Solar grade & Feedstock from Elkem \cite{hystad09} \\
-MH2-Q3-201 & Large amount of P and B, and added Cr & Solar grade & Feedstock from Elkem \cite{hystad09} \\
+\textbf{Name} & \textbf{Description} & \textbf{Quality} & \textbf{Feedstock} \\ \hline
+R6-Q3-210 & Polysilicon, good quality & Electronic grade & Feedstock from Siemens process \\ \hline
+ES1-Q3-201 & Large amount of P and B & Solar grade & Feedstock from Elkem \cite{hystad09} \\ \hline
+MH2-Q3-201 & Large amount of P and B, and added Cr & Solar grade & Feedstock from Elkem \cite{hystad09} \\ \hline
 \end{tabular}
 \caption{Samples of interest}
 \label{tab:samples}
 \end{table}
 
-The samples has been Sopori etched to bring out dislocations \cite{soporietch}. The samples ES1 and MH2 come from 90\% height, and both have boron contaminants around 650~ppbw, and phosphorus contaminants around 1400~ppbw \cite{hystad09}.
+\subsubsection{R6-Q3-201}
 
-The concentrations of titanium detected to be very low for ES1 and MH2, with a value of 1.3 ppbw, or 3.8·$10^13$ atoms/cm$^3$ at 90\% height.
+This sample is from a clean feedstock, with low amount of impurities. B,Al and Fe where measured by Glow-Discharge Mass Spectrometry (GDMS), O and C where measured by Fourier transform infrared spectroscopy (FTIR). 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Impurity} & \textbf{ppbw} & \textbf{atoms/cm$^3$} \\
+\hline
+B & 112.01 & 1.45\cdot10$^{16}$ \\ \hline
+Al & 19.48 & 1.0\cdot10$10^{15}$ \\ \hline
+Fe & nd & nd \\ \hline
+C & 2576 & 2.26\cdot10$^{17}$ \\ \hline
+O & 1932 & 8.87\cdot10$^{16}$ \\ \hline 
+\end{tabular}
+\caption{Impurities in R6}
+\label{tab:r6_impurities}
+\end{table}
 
 
+%%%%%%%%%%%CHECK THIS UNIT - NOT SURE WHAT KIND OF UNIT THAT IS
+The impurities that are not listed were not analyzed, and are expected to be present in very low levels (tenths of ppbs).
 
-4 Samples: All polished and etched on top
+\subsubsection{ES1-Q3-201}
 
-Chromium contaminated, less than 10$^13$ cm$^-3$
+This is a regular solar grade sample which originate from a compensated feedstock from Elkem Solar, from 90\% ingot height. It has been Sopori etched to bring out dislocations \cite{soporietch}.
 
-Boron and Phosphorus equally distributed around 10$^16$ cm$^-3$.
+Boron contaminants appear to be between 550 and 700~ppbw, which is between 7.1\cdot$10^{16}$ and 9.7\cdot$10^{16}$~atoms/cm$^3$ respectively using \ref{eq:ppbw}. Phosphorus is measured around 1200-1500~ppbw, which is 5.4-6.8\cdot$10^{16}$~atoms/cm$^3$.
+Aluminum contaminants is just below 2.6*10$^{15}$~atoms/cm$^3$. Other contaminants like Ti and Fe have very low values: less than 1.2\cdot$10^{14}$ and 3.8\cdot$10^{14}$~atoms/cm$^3$ respectively. For the lighter atom impurities, O have 1.7\cdot10$^{17}$~atoms/cm$^3$ and C have $6*10^{17}$~atoms/cm$^3$ \cite{hystad09}.
 
-Regular MC solar grade sample
+\subsubsection{MH2-Q3-201}
 
-Pure Si sample (FZ?)
+This sample is almost identical to ES1, but the sample also have extra chromium added. Chromium contaminants appear to be between 2 and 5 ppbw \cite{hystad09} which corresponds to 5.4\cdot$10^{13}$ and 1.3\cdot$10^{14}$~atoms/$cm^3$ respectively using \ref{eq:ppbw}, but exact concentration might be a little lower due detection limit of the instrument.
+
 
 \subsection{Setup}
 
@@ -89,7 +107,7 @@ With a larger pumping intensity, the impurity photoluminescence would in some ca
 
 \subsubsection{Phosphorus and boron doped samples}
 
-With fairly high concentrations of doping atoms, it's expected that they show up as separate lines in the photoluminescence spectra. \cite{dean67} observe a line around 1.0924eV which is attributed to B$^{TO}$. Concentrations values there are 6*10^16. Also observed is a phosphorus line at 1.0916eV, with 8*10^16cm^-3 phosphorus atoms. ES1 and MH2 have B and P values around %%%%SKJEKK VALUE
+With fairly high concentrations of doping atoms, it's expected that they show up as separate lines in the photoluminescence spectra. \cite{dean67} observe a line around 1.0924eV which is attributed to B$^{TO}$. Concentrations values for B in \cite{dean67} are $6*10^{16}$~cm$^{-3}$. Also observed is a phosphorus line at 1.0916eV, with 8*10$^{16}$cm$^-3$ phosphorus atoms. ES1 and MH2 have similar B and P values, and is expected to show the same behavior.
 
 \subsubsection{Chromium contaminated sample}
 
