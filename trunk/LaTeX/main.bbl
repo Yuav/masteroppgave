@@ -176,6 +176,10 @@ E.~Palik., {\em Handbook of optical constants of solids}.
 R.~Hammond, T.~McGill, and J.~Mayer, ``Temperature dependence of the
   electron-hole-liquid luminescence in si,'' {\em Physical Review B}, 1975.
 
+\bibitem{hare72}
+A.~Hare, G.Davies, and A.T.Collins, ``The temperature dependence of vibronic
+  spectra in irradiated silicon,'' {\em J. Phys. C: Solid State Phys.}, 1972.
+
 \bibitem{streetman}
 B.~G. Streetman and S.~K. Banerjee, {\em Solid state electronic devices}.
 \newblock Prentice Hall, 2006.
@@ -321,5 +325,15 @@ H.~Sugimoto, M.~Tajima, T.~Eguchi, I.~Yamaga, and T.~Saitoh,
 \bibitem{tajima90}
 M.~Tajima, ``Characterization of semiconductors by photoluminescence mapping at
   room temperature,'' {\em Journal of Crystal Growth}, 1990.
+
+\bibitem{heijmink91}
+B.~H. Liesert, T.~Gregorkiewicz, and C.~Ammerlaan, ``Photoluminescence studies
+  on therman donors in boron- and aluminum-doped silicon,'' {\em Physical
+  Review B}, 1991.
+
+\bibitem{irion88}
+E.~Irion, N.~Biirger, W.~Kiirner, K.~Thonke, R.~Sauer, W.~Zulehner, and
+  G.~Pensl, ``Photoluminescence study of acceptor-carbon complexes in
+  irradiated silicon - aluminum-related defects,'' {\em Appl. Phys. A}, 1988.
 
 \end{thebibliography}
