@@ -1,0 +1,62 @@
+In order to plot the results from the spectrometer, there are a few manipulations that's needed.
+
+\subsubsection{Disregarding defect pixels}
+
+By taking a spectra with the shutter closed, it is possible to measure the dark current coming from the camera. The dark current should be equally distributed across the pixels, based on the assumption that all pixels behave the same. For long integration time, this is not the case:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{Dark_current-40s}
+\caption[Defective pixels]{Dark current signal from the camera with defective pixels with shutter closed, and CCD at -75$^\circ$C using a random center wavelength}%
+\label{fig:dark_current_40s}%
+\end{figure}
+
+To solve this problem, the four pixels are disregarded, and the value of the neighbor pixel has been used instead. Matlab code for this is available in the appendix. Comparing the before and after clearly show how this is done:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{Dark_current-40s_corrected}
+\caption[Defective pixels corrected]{Dark current signal from the camera with defective pixel correction in red using a random center wavelength}%
+\label{fig:dark_current_40s-corrected}%
+\end{figure}
+
+The defective pixels are less apparent for shorter integration time, but still a problem:
+
+\begin{figure}[H]
+\centering
+\subfigure[Dark current without correction]{
+\includegraphics[width=.45\columnwidth]{Dark_current-10s}
+\label{fig:dark_current_10s}
+}
+\subfigure[Dark current with correction (red)]{
+\includegraphics[width=.45\columnwidth]{Dark_current-10s_corrected}
+\label{fig:dark_current_10s-corrected}
+}
+\label{fig:dark_current_correction_10s-parentfig}
+\caption[Dark current with 10s integration time]{Dark current with 10s integration time using a random center wavelength}
+\end{figure}
+
+Dead pixel correction is performed in all results.
+
+\subsubsection{Noise reduction}
+
+As seen in the previous section, there is a dark current signal present. Ideally, all pixels should behave exactly the same, and give an exact dark current offset to subtract. This is not the case. The dark current is unevenly distributed over the pixel array, and needs to be measured by itself in order to remove it. The dark current noise shape is fairly static, with some white noise elements on top, but the shape is nearly identical from one measurement to the other with the CCD at a constant temperature. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{Dark_current_and_background_noise-20s}
+\caption[Dark current and noise]{Dark current (blue) and dark current + background noise (red) with filtered noise floor estimation (cyan)}%
+\label{fig:dark_current_and_background_noise}%
+\end{figure}
+
+By subtracting the offset found in the dark current noise measurement, only background noise should be present. The matlab code used to do this can be found in the appendix.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{Dark_current_removed-20s}
+\caption[Dark current removed]{Dark current removed from background noise (blue), and filtered signal (cyan)}%
+\label{fig:dark_current_removed-20s}%
+\end{figure}
+
+It appears that the dark current noise is larger with the shutter open, compared to closed. But a more critical noise in the spectrum is a background signal around 1064nm. The spectrometer has a range of 140nm when using 300 as grating. It has proven difficult to align the system so that the entire array of pixels in the camera get an equally distributed light beam. And based on the noise level, the nm interval is chosen as 100nm, in order to remove the left hand side of the spectra when gluing different intervals together. This also avoid the problem of not hitting the entire array evenly. To get a full overview over the background noise, a full spectra was done, and glued together. This full spectra show that the artifact visible in \ref{fig:dark_current_removed-20s} is the only background noise line visible in the wavelength area 800-1650nm.
+

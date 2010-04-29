@@ -7,14 +7,126 @@ clear, clc,close all % clear all variables, window, and close all windows
 fontsize = 14;
 delimiter = '\t';
 
+%% R6-Q3-201
+Noise = '..\Results\april-28-2010\R6-Q3-201-A\NOISE\';
+Noise = get_result_from_dir(Noise,delimiter,1);
+Area1_dislocation_line = '..\Results\april-28-2010\R6-Q3-201-A\Dislocation-area1\';
+Area2_dislocation_dot = '..\Results\april-28-2010\R6-Q3-201-A\Area2\';
+Area3_clean_area = '..\Results\april-28-2010\R6-Q3-201-A\Area3_clean\';
 
+Area1 = get_result_from_dir(Area1_dislocation_line,delimiter,1);
+Area1_noise = Area1;
+
+Results\april-28-2010\R6-Q3-201-A\NOISE
+Area1 = dark_current_noise_removal(Area1,Area1_noise);
+plot_result(Area1,1,'ev','20s integrating time','R6-Q3-201 C area 1',fontsize,'b',0);
+
+Area2 = get_result_from_dir(Area2_dislocation_dot,delimiter,1);
+Area2 = dark_current_noise_removal(Area2,Noise);
+plot_result(Area2,2,'ev','20s integrating time','R6-Q3-201 C area 2',fontsize,'b',0);
+print -depsc 'Processed_results\R6-Area2_dislocation_dot-20s';
+
+Area3 = get_result_from_dir(Area3_clean_area,delimiter,1);
+Area3 = dark_current_noise_removal(Area3,Noise);
+plot_result(Area3,3,'ev','20s integrating time','R6-Q3-201 C area 3',fontsize,'b',0);
+print -depsc 'Processed_results\R6-Area3_clean_area-20s';
+
+
+
+%% Dark current removal plots
+%{
+% Dark current with shutter closed
+Result_dark_noise = dlmread('..\Results\april-28-2010\Noise\20s-shutter-closed-300grating-75degrees\20s-center-wavelength-1100nm',delimiter);
+Result_dark_noise = dead_pixel_correction(Result_dark_noise);
+plot_result(Result_dark_noise,1,'nm','20s integrating time','Dark current removal plots',fontsize,'b',0);
+
+% Background noise
+Result_bg_noise = dlmread('..\Results\april-28-2010\Noise\20s-background-noise\20s-BG-noise-grating-300-entrance0-05mm-1100nm',delimiter);
+Result_bg_noise = dead_pixel_correction(Result_bg_noise);
+plot_result(Result_bg_noise,1,'nm','x','x',fontsize,'r',0);
+
+% Offset estimation
+A = Result_dark_noise;
+Ay = A(:,2); % Amplitude values
+Ay = sgolayfilt(Ay,1,25); % 1st order filtering
+C = [A(:,1),Ay];
+plot_result(C,1,'nm','x','x',fontsize,'c',0);
+
+print -depsc 'Processed_results\Dark_current_and_background_noise-20s';
+
+% Dark current noise removal
+Result = dark_current_noise_removal(Result_bg_noise,Result_dark_noise);
+plot_result(Result,2,'nm','20s integration time','Dark current offset removed',fontsize,'b',0);
+plot_result(Result,2,'nm','20s integration time','Dark current offset removed',fontsize,'c',15);
+
+print -depsc 'Processed_results\Dark_current_removed-20s';
+%}
+
+
+%% Dead pixel proof plots
+%{
+% Dead pixels clearly visible
+Result_dark_40s = dlmread('..\Results\april-28-2010\Noise\40s-shutter-closed-300grating-75degrees\40s-center-wavelength-1600nm',delimiter);
+plot_result(Result_dark_40s,2,'nm','40s integrating time','Dark current',fontsize,'b',0);
+% Write to .eps for use in latex
+print -depsc 'Processed_results\Dark_current-40s';
+
+% Dead pixels corrected
+Result_dark_40s = dead_pixel_correction(Result_dark_40s);
+plot_result(Result_dark_40s,2,'nm','40s integrating time','Dark current',fontsize,'r',0);
+print -depsc 'Processed_results\Dark_current-40s_corrected';
+
+
+% Dead pixels less clearly visible
+Result_dark_10s = dlmread('..\Results\april-28-2010\Noise\10s-shutter-closed-300grating-75degrees\10s-center-wavelength-1600nm',delimiter);
+plot_result(Result_dark_10s,3,'nm','10s integrating time','Dark current',fontsize,'b',0);
+print -depsc 'Processed_results\Dark_current-10s';
+
+% Dead pixels corrected
+Result_dark_10s = dead_pixel_correction(Result_dark_10s);
+plot_result(Result_dark_10s,3,'nm','10s integrating time','Dark current',fontsize,'r',0);
+print -depsc 'Processed_results\Dark_current-10s_corrected';
+%}
+
+
+
+
+
+%% MH2-Q3-210-B2 23. April
+filter_strength = 11; % Must be odd
+
+
+
+
+%{ 
+dirname = '..\Results\april-23-2010\MH2-Q3-210-B2\Good_Clean_Spot\';
+Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
+Result = dark_current_noise_removal(Result);
+plot_result(Result,1,'ev','20s integrating time','MH2-Q3-210 B2',fontsize,'b',filter_strength);
+
+dirname = '..\Results\april-23-2010\MH2-Q3-210-B2\MiddleOfDislocationLine\';
+Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
+Result = dark_current_noise_removal(Result);
+plot_result(Result,1,'ev','20s integrating time','MH2-Q3-210 B2',fontsize,'r',filter_strength);
+
+% Write to .eps for use in latex
+print -depsc 'Processed_results\MH2-'
+
+
+%% R6-A 
+dirname = '..\Results\april-23-2010\R6-Q3-201-A\Good_Clean_Spot_mismatched_results\';
+Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
+Result = dark_current_noise_removal(Result);
+plot_result(Result,1,'ev','10s integrating time','MH2-Q3-210 B2',fontsize,'y',filter_strength);
+
+%%%%%%ROOMTEMPERATURE
 dirname = '..\Results\mar-18-2010-roomtemperature\ErYt\';
 
-% Esi-q3-201 A
+%% Esi-q3-201 A
 dirname = '..\Results\mar-18-2010-roomtemperature\Esi-q3-201\40nmoffdislocation\';
 Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
 Result = dark_current_noise_removal(Result);
-plot_result(Result,1,'ev','10s integrating time','Esi-q3-201 A',fontsize);
+%plot_result(Result,1,'nm','10s integrating time','Esi-q3-201 A',fontsize);
 
 dirname = '..\Results\mar-18-2010-roomtemperature\Esi-q3-201\40nmoffdislocationFREE\';
 Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
@@ -23,13 +135,13 @@ Result = dark_current_noise_removal(Result);
 
 Ax = Result(:,1);
 Ay = Result(:,2);
-plot(nm_to_ev(Ax),Ay,'r');
+%plot(Ax,Ay,'r');
 
-% MH2-Q3-210 D
+%% MH2-Q3-210 D
 dirname = '..\Results\mar-18-2010-roomtemperature\MH2-Q3-210\OK-40nmuselessdislocationfreespot\';
 Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
 Result = dark_current_noise_removal(Result);
-plot_result(Result,2,'ev','10s integrating time','MH2-Q3-210 D',fontsize);
+%plot_result(Result,2,'ev','10s integrating time','MH2-Q3-210 D',fontsize);
 
 dirname = '..\Results\mar-18-2010-roomtemperature\MH2-Q3-210\OK-40nmuselessdislocationspot\';
 Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
@@ -38,6 +150,12 @@ Result = dark_current_noise_removal(Result);
 
 Ax = Result(:,1);
 Ay = Result(:,2);
-plot(nm_to_ev(Ax),Ay,'r');
+%plot(nm_to_ev(Ax),Ay,'r');
 
-C:\Documents and Settings\Jon\My Documents\Masteroppgave\Results\mar-18-2010-roomtemperature\R6-Q3-201
+%% R6-Q3-201 C 300K
+dirname = '..\Results\mar-18-2010-roomtemperature\R6-Q3-201\';
+Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
+Result = dark_current_noise_removal(Result);
+%plot_result(Result,3,'ev','10s integrating time','R6-Q3-201 C',fontsize);
+
+%}
