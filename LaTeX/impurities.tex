@@ -5,23 +5,23 @@ Diffusion of transition metals into silicon crystals result in a variety of diff
 There are several units of impurities in silicon that's commonly used. Examples are: ppbw (Parts Per Billion by Weight), ppba (Parts per Billion Atomic ) and atoms/$cm^3$. To convert from ppbw to atoms/$cm^3$, the following equation can be used:
 
 \begin{equation}
-atoms/cm^{-3} = 10^{-9} [ppbw] \cdot N_A \cdot [density(Si)] / [atomic mass of element]
+atoms/cm^-3 = \frac{10^-9~[ppbw]\cdot N_A\cdot[density(Si)]}{[atomic mass of element]}
 \label{eq:ppbw}
 \end{equation}
 
-where N$_A$ is Avogradro's number, density(Si) is in g/cm$^3$, and atomic mass is in g/mol. To convert from ppba to ppbw:
+where N$_A$ is Avogadro's number, density(Si) is in g/cm$^3$, and atomic mass is in g/mole. To convert from ppba to ppbw:
 
 \begin{equation}
-ppbw = [atomic mass of element] / [atomic mass of Si]
+ppbw = \frac{[atomic mass of element]}{[atomic mass of Si]}
 \label{eq:ppba}
 \end{equation}
 
 % 'pure' impurities
 \subsubsection{Atom impurities}
 
-Early work done by \cite{dean67} compare intrinsic silicon from the Czochralski process with doped silicon. \cite{dean67} do extensive photoluminescence study with doping atoms As, P, Sb, Bi, B, Ga, In and Al. The high intensity transverse optical lines occur at 1.0907eV, 1.0916eV, 1.0921eV, 1.0888eV, 1.0924eV, 1.0914eV, 1.0835eV and ~1.092eV respectively with the different doping atoms present. Impurities like carbon complexes with many impurities in silicon, resulting in a large variety of photoluminescence centers. Detected complexes are another C atom, one oxygen atom, one N atom, one Ga atom, the four-lithium atom complex, beryllium and numerous radiation damage centres, especially involving oxygen \cite{davies88}. See appendix \ref{energy_bands} for energies.
+Early work done by \cite{dean67} compare intrinsic silicon from the Czochralski process with doped silicon. \cite{dean67} do extensive photoluminescence study with doping atoms As, P, Sb, Bi, B, Ga, In and Al. The high intensity transverse optical lines occur at 1.0907eV, 1.0916eV, 1.0921eV, 1.0888eV, 1.0924eV, 1.0914eV, 1.0835eV and ~1.092eV respectively with the different doping atoms present. Impurities like carbon complexes with many impurities in silicon, resulting in a large variety of photoluminescence centers. Detected complexes are another C atom, one oxygen atom, one N atom, one Ga atom, the four-lithium atom complex, beryllium and numerous radiation damage centers, especially involving oxygen \cite{davies88}. See appendix \ref{energy_bands} for energies.
 
-Doping atoms give rise to different characteristics in the photoluminescence spectra aswell. Boron doping exhibits a line right below the silicon bandgap. That particular peak is hard to detect due to a strong luminescence from the silicon itself, but its phonon replicas can be identified (figure \ref{fig:boronSiPL}). Phosphorous doping give rise to a line just below the boron line (figure \ref{fig:PSiPL}). 
+Doping atoms give rise to different characteristics in the photoluminescence spectra as well. Boron doping exhibits a line right below the silicon bandgap. That particular peak is hard to detect due to a strong luminescence from the silicon itself, but its phonon replicas can be identified (figure \ref{fig:boronSiPL}). Phosphorous doping give rise to a line just below the boron line (figure \ref{fig:PSiPL}). 
 
 Some impurities does not result in any specific photoluminescence spectra, like interstitial chromium \cite{conzelmann82}. Atleast not for wavelengths up to 1800nm. However, chromium bound with a boron atom can be identified as a peak around 0.85eV where the intensity increase linearly with laser power \cite{conzelmann82,conzelmann83}. Photoluminescence from another impurity, titanium, has been observed around 2.85eV in 4H silicon carbide by \cite{patrick74}, and in 6H by \cite{kemenade74} at 2.79eV, 2.82eV and 2.86eV named ABC lines (figure \ref{fig:Ti4HSiC}). These energies are far beyond that of the silicon bandgap, and can in cases described above, be uniquely identified.
 
@@ -30,8 +30,6 @@ Many of the other identified impurities are located just below the silicon bandg
 Another important impurity is iron. \cite{calao88} observe a spectrum of 0.735eV, which relate to a complex defect containing iron. Here the sample was introduced with Fe atoms into a float-zone silicon crystal (PL at figure \ref{fig:FeSiPL}). An earlier study \cite{mohring83}, observe a luminescence spectra around 1.07eV in boron-doped, iron-diffused crystalline silicon and suggest the source is Fe-B pairs. Interstitial iron Fe, is about 10 times more effective as a recombination center than Fe-B pairs by low-level lifetime measurements and therefore reduces the minority carrier diffusion length more strongly (PL at figure \ref{fig:FeBSiPL}) \cite{zoth90}.
 
 Recent work in \cite{gundel09} show that micro-photoluminescence is an excellent tool for identifying metal precipitates in silicon as seen in figure \ref{fig:gundel_iron_precipitates}. Iron images in \cite{macdonald08} reveal internal gettering of iron to grain boundaries and dislocated regions during ingot growth. The minimum size for detection is 1$µ$m, or even smaller, since the photoluminescence signal might be broadened. Precipitates from Fe and Cu are detected due to reduced band to band recombination intensity. Iron in silicon also affect the defect photoluminescence \cite{gundel09}.
-
-
 
 
 % interaction with dislocations

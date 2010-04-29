@@ -14,7 +14,9 @@ overlapIndex = 0;
     sizeA = length(A);
     sizeB = length(B);
     new_array_size = (sizeA+sizeB-overlapIndex);
-    temp_C = zeros([new_array_size 2]); % Define right length of array
+    
+    % Define right length of array
+    temp_C = zeros([new_array_size 2]); 
     
     % Add existing elements
     for j = 1:length(A),

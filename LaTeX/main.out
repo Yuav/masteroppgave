@@ -1,5 +1,5 @@
 \BOOKMARK [1][-]{section.1}{Theory}{}
-\BOOKMARK [2][-]{subsection.1.1}{Dislocation lines}{section.1}
+\BOOKMARK [2][-]{subsection.1.1}{Dislocation photoluminescence}{section.1}
 \BOOKMARK [2][-]{subsection.1.2}{Impurities}{section.1}
 \BOOKMARK [3][-]{subsubsection.1.2.1}{Atom impurities}{subsection.1.2}
 \BOOKMARK [3][-]{subsubsection.1.2.2}{Interaction with dislocations}{subsection.1.2}
@@ -16,6 +16,18 @@
 \BOOKMARK [3][-]{subsubsection.2.6.1}{Phosphorus and boron doped samples}{subsection.2.6}
 \BOOKMARK [3][-]{subsubsection.2.6.2}{Sample with added Chromium}{subsection.2.6}
 \BOOKMARK [3][-]{subsubsection.2.6.3}{Sample from clean feedstock}{subsection.2.6}
+\BOOKMARK [2][-]{subsection.2.7}{Results plotting}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Disregarding defect pixels}{subsection.2.7}
+\BOOKMARK [3][-]{subsubsection.2.7.2}{Noise reduction}{subsection.2.7}
+\BOOKMARK [1][-]{section.3}{Results}{}
+\BOOKMARK [2][-]{subsection.3.1}{R6-Q3-201}{section.3}
 \BOOKMARK [1][-]{appendix.A}{Silicon energy bands}{}
 \BOOKMARK [1][-]{appendix.B}{Sample types and procedures}{}
 \BOOKMARK [1][-]{appendix.C}{Abbrevations}{}
+\BOOKMARK [1][-]{appendix.D}{Matlab code}{}
+\BOOKMARK [2][-]{subsection.D.1}{Main plot code}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.2}{Dead pixel correction}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.3}{Dark current noise estimation removal}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.4}{Read result files from directory}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.5}{Remove overlap and glue intervals}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.6}{Filter and plot results}{appendix.D}
