@@ -7,7 +7,169 @@ clear, clc,close all % clear all variables, window, and close all windows
 fontsize = 14;
 delimiter = '\t';
 
-%% R6-Q3-201
+
+%% MH2-Q3-210
+
+% Line mapping
+Mapping_noise = '..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Noise\';
+Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
+
+for i=1:10
+    Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationspotmapping\Step',num2str(i),'\'),delimiter,1);
+    Result = dark_current_noise_removal(Result,Mapping_noise);
+    Result = dark_current_noise_removal(Result,0);
+    plot_result(Result,1,'ev','20s integrating time','MH2-Q3-210 Line mapping',fontsize,'b',11);
+end
+print -depsc 'Processed_results\MH2-mapping-small_steps-20s';
+
+for i=1:20
+    Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step',num2str(i),'\'),delimiter,1);
+    Result = dark_current_noise_removal(Result,Mapping_noise);
+    Result = dark_current_noise_removal(Result,0);
+    plot_result(Result,2,'ev','20s integrating time','MH2-Q3-210 Line mapping',fontsize,'b',11);
+end
+print -depsc 'Processed_results\MH2-mapping-5_small_steps-20s';
+
+
+% Low temperature
+MH2_noise_20s = '..\Results\april-28-2010\MH2-Q3-210-B2\Noise-20s-during-spot3\';
+MH2_noise_20s = get_result_from_dir(MH2_noise_20s,delimiter,1);
+
+% Area 1
+MH2_area1 = '..\Results\april-28-2010\MH2-Q3-210-B2\spot1-goodspot\';
+MH2_area1 = get_result_from_dir(MH2_area1,delimiter,1);
+MH2_area1 = dark_current_noise_removal(MH2_area1,MH2_noise_20s);
+plot_result(MH2_area1,2,'ev','20s integrating time','MH2-Q3-210 B2 Area 1',fontsize,'b',0);
+print -depsc 'Processed_results\MH2-Area1-dislocation_free-20s';
+% Area 2
+MH2_area2 = '..\Results\april-28-2010\MH2-Q3-210-B2\spot2-dislocationline\';
+MH2_area2 = get_result_from_dir(MH2_area2,delimiter,1);
+MH2_area2 = dark_current_noise_removal(MH2_area2,MH2_noise_20s);
+plot_result(MH2_area2,3,'ev','20s integrating time','MH2-Q3-210 B2 Area 2',fontsize,'b',0);
+print -depsc 'Processed_results\MH2-Area2-dislocation_line-20s';
+% Area 3
+MH2_area3 = '..\Results\april-28-2010\MH2-Q3-210-B2\spot3-dislocation2\Signal-20s\';
+MH2_area3 = get_result_from_dir(MH2_area3,delimiter,1);
+MH2_area3 = dark_current_noise_removal(MH2_area3,MH2_noise_20s);
+plot_result(MH2_area3,4,'ev','20s integrating time','MH2-Q3-210 B2 Area 3',fontsize,'k',0);
+print -depsc 'Processed_results\MH2-Area3-dislocation_dot-20s';
+
+A = dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1200',delimiter));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1300',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1400',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1500',delimiter)));
+Area3_noise_60s = A;
+
+MH2_area3_60s = '..\Results\april-28-2010\MH2-Q3-210-B2\spot3-dislocation2\Signal-60s\';
+MH2_area3_60s = get_result_from_dir(MH2_area3_60s,delimiter,1);
+MH2_area3_60s = dark_current_noise_removal(MH2_area3_60s,Area3_noise_60s);
+MH2_area3_60s = dark_current_noise_removal(MH2_area3_60s,0);
+plot_result(MH2_area3_60s,4,'ev','60s integrating time','MH2-Q3-210 B2 Area 3',fontsize,'b',0);
+legend('20s integrating time','60s integrating time');
+print -depsc 'Processed_results\MH2-Area3-dislocation_dot-60s';
+
+
+% Room temperature
+MH2_room_gd = '..\Results\mar-18-2010-roomtemperature\MH2-Q3-210-D\OK-40nmuselessdislocationspot\';
+MH2_room_gd = get_result_from_dir(MH2_room_gd,delimiter,1);
+MH2_room_gd = dark_current_noise_removal(MH2_room_gd,0);
+plot_result(MH2_room_gd,5,'ev','10s integrating time','MH2-Q3-210 D room temperature',fontsize,'k',11);
+
+MH2_room_bad = '..\Results\mar-18-2010-roomtemperature\MH2-Q3-210-D\OK-40nmuselessdislocationfreespot\';
+MH2_room_bad = get_result_from_dir(MH2_room_bad,delimiter,1);
+MH2_room_bad = dark_current_noise_removal(MH2_room_bad,0);
+plot_result(MH2_room_bad,5,'ev','10s integrating time','MH2-Q3-210 D room temperature',fontsize,'b',11);
+print -depsc 'Processed_results\MH2-room_temperature';
+
+% At 70K
+MH2_70K_bad = '..\Results\april-28-2010\MH2-Q3-210-B2\70K\dislocation\';
+MH2_70K_bad = get_result_from_dir(MH2_70K_bad,delimiter,1);
+MH2_70K_bad = dark_current_noise_removal(MH2_70K_bad,0);
+plot_result(MH2_70K_bad,6,'ev','20s integrating time','MH2-Q3-210 B2 70K',fontsize,'k',11);
+
+MH2_70K_gd = '..\Results\april-28-2010\MH2-Q3-210-B2\70K\cleanarea\';
+MH2_70K_gd = get_result_from_dir(MH2_70K_gd,delimiter,1);
+MH2_70K_gd = dark_current_noise_removal(MH2_70K_gd,0);
+plot_result(MH2_70K_gd,6,'ev','20s integrating time','MH2-Q3-210 B2 70K',fontsize,'b',11);
+print -depsc 'Processed_results\MH2-70K';
+
+%}
+
+
+%% ES1-Q3-201 C
+
+% Room temperature
+ES_room_gd = '..\Results\mar-18-2010-roomtemperature\Esi-q3-201-A\40nmoffdislocationFREE\';
+ES_room_gd = get_result_from_dir(ES_room_gd,delimiter,1);
+ES_room_gd = dark_current_noise_removal(ES_room_gd,0);
+plot_result(ES_room_gd,7,'ev','10s integrating time','ES1-Q3-201 A Room temperature',fontsize,'k',0);
+
+ES_room_bad = '..\Results\mar-18-2010-roomtemperature\Esi-q3-201-A\40nmoffdislocation\';
+ES_room_bad = get_result_from_dir(ES_room_bad,delimiter,1);
+ES_room_bad = dark_current_noise_removal(ES_room_bad,0);
+plot_result(ES_room_bad,7,'ev','10s integrating time','ES1-Q3-201 A Dislocation free area',fontsize,'b',0);
+print -depsc 'Processed_results\ES1-room_temperature';
+
+% Low temperature
+ES_noise_10s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-10s\';
+ES_noise_10s = get_result_from_dir(ES_noise_10s,delimiter,1);
+
+% Area 1
+ES_Area1 = '..\Results\april-28-2010\Esi-q3-201-C\Good-area1\';
+ES_Area1 = get_result_from_dir(ES_Area1,delimiter,1);
+ES_Area1 = dark_current_noise_removal(ES_Area1,ES_noise_10s);
+plot_result(ES_Area1,8,'ev','10s integrating time','ES1-Q3-201 C Area 1',fontsize,'b',0);
+print -depsc 'Processed_results\ES1-Area1_dislocation_free-10s';
+
+% Area 2
+ES_Area2 = '..\Results\april-28-2010\Esi-q3-201-C\dislocationspotArea2\';
+ES_Area2 = get_result_from_dir(ES_Area2,delimiter,1);
+ES_Area2 = dark_current_noise_removal(ES_Area2,ES_noise_10s);
+plot_result(ES_Area2,9,'ev','10s integrating time','ES1-Q3-201 C Area 2',fontsize,'b',0);
+print -depsc 'Processed_results\ES1-Area2_dislocation_spot-10s';
+
+% Area 3
+ES_Area3 = '..\Results\april-28-2010\Esi-q3-201-C\grain_boundary-Area3\Signal-10s\';
+ES_Area3 = get_result_from_dir(ES_Area3,delimiter,1);
+ES_Area3 = dark_current_noise_removal(ES_Area3,ES_noise_10s);
+plot_result(ES_Area3,10,'ev','10s integrating time','ES1-Q3-201 C Area 3',fontsize,'k',0);
+print -depsc 'Processed_results\ES1-Area3_grain_boundary-10s';
+
+A = dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1200',delimiter));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1300',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1400',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1500',delimiter)));
+Area3_noise_60s = A;
+ES_Area3 = '..\Results\april-28-2010\Esi-q3-201-C\grain_boundary-Area3\Signal-60s\';
+ES_Area3 = get_result_from_dir(ES_Area3,delimiter,1);
+ES_Area3 = dark_current_noise_removal(ES_Area3,Area3_noise_60s);
+plot_result(ES_Area3,10,'ev','10s integrating time','ES1-Q3-201 C Area 3',fontsize,'b',0);
+legend('10s integrating time','60s integrating time');
+print -depsc 'Processed_results\ES1-Area3_grain_boundary_60s';
+
+% Area 4
+ES_signal_10s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Signal-10s\';
+ES_signal_10s = get_result_from_dir(ES_signal_10s,delimiter,1);
+ES_10s = dark_current_noise_removal(ES_signal_10s,ES_noise_10s);
+plot_result(ES_10s,11,'ev','10s integrating time','ES1-Q3-201 C Area 4',fontsize,'k',0);
+print -depsc 'Processed_results\ES1-Area4_dislocation_line-10s';
+
+ES_noise_60s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\';
+ES_noise_60s = get_result_from_dir(ES_noise_60s,delimiter,1);
+ES_signal_60s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Signal-60s\';
+ES_signal_60s = get_result_from_dir(ES_signal_60s,delimiter,1);
+ES_60s = dark_current_noise_removal(ES_signal_60s,ES_noise_60s);
+plot_result(ES_60s,11,'ev','60s integrating time','ES1-Q3-201 C Area 4',fontsize,'b',0);
+legend('10s integrating time','60s integrating time');
+print -depsc 'Processed_results\ES1-Area4_dislocation_line-60s';
+%}
+
+
+
+%% R6-Q3-210 A
+
+% Low temperature
+
 Noise = '..\Results\april-28-2010\R6-Q3-201-A\NOISE\';
 Noise = get_result_from_dir(Noise,delimiter,1);
 Area1_dislocation_line = '..\Results\april-28-2010\R6-Q3-201-A\Dislocation-area1\';
@@ -15,147 +177,82 @@ Area2_dislocation_dot = '..\Results\april-28-2010\R6-Q3-201-A\Area2\';
 Area3_clean_area = '..\Results\april-28-2010\R6-Q3-201-A\Area3_clean\';
 
 Area1 = get_result_from_dir(Area1_dislocation_line,delimiter,1);
-Area1_noise = Area1;
 
-Results\april-28-2010\R6-Q3-201-A\NOISE
+A = dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1200',delimiter));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1300',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1400',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1500',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1600',delimiter)));
+Area1_noise = A;
+
 Area1 = dark_current_noise_removal(Area1,Area1_noise);
-plot_result(Area1,1,'ev','20s integrating time','R6-Q3-201 C area 1',fontsize,'b',0);
+plot_result(Area1,12,'ev','20s integrating time','R6-Q3-210 A Area 1',fontsize,'b',0);
+print -depsc 'Processed_results\R6-Area1_dislocation_line-20s';
 
 Area2 = get_result_from_dir(Area2_dislocation_dot,delimiter,1);
 Area2 = dark_current_noise_removal(Area2,Noise);
-plot_result(Area2,2,'ev','20s integrating time','R6-Q3-201 C area 2',fontsize,'b',0);
+plot_result(Area2,13,'ev','20s integrating time','R6-Q3-210 A Area 2',fontsize,'b',0);
 print -depsc 'Processed_results\R6-Area2_dislocation_dot-20s';
 
 Area3 = get_result_from_dir(Area3_clean_area,delimiter,1);
 Area3 = dark_current_noise_removal(Area3,Noise);
-plot_result(Area3,3,'ev','20s integrating time','R6-Q3-201 C area 3',fontsize,'b',0);
+plot_result(Area3,14,'ev','20s integrating time','R6-Q3-210 A Area 3',fontsize,'b',0);
 print -depsc 'Processed_results\R6-Area3_clean_area-20s';
-
+%}
 
 
 %% Dark current removal plots
-%{
+
 % Dark current with shutter closed
 Result_dark_noise = dlmread('..\Results\april-28-2010\Noise\20s-shutter-closed-300grating-75degrees\20s-center-wavelength-1100nm',delimiter);
 Result_dark_noise = dead_pixel_correction(Result_dark_noise);
-plot_result(Result_dark_noise,1,'nm','20s integrating time','Dark current removal plots',fontsize,'b',0);
+plot_result(Result_dark_noise,15,'nm','20s integrating time','Dark current removal plots',fontsize,'b',0);
 
 % Background noise
 Result_bg_noise = dlmread('..\Results\april-28-2010\Noise\20s-background-noise\20s-BG-noise-grating-300-entrance0-05mm-1100nm',delimiter);
 Result_bg_noise = dead_pixel_correction(Result_bg_noise);
-plot_result(Result_bg_noise,1,'nm','x','x',fontsize,'r',0);
+plot_result(Result_bg_noise,15,'nm','x','x',fontsize,'r',0);
 
 % Offset estimation
 A = Result_dark_noise;
 Ay = A(:,2); % Amplitude values
 Ay = sgolayfilt(Ay,1,25); % 1st order filtering
 C = [A(:,1),Ay];
-plot_result(C,1,'nm','x','x',fontsize,'c',0);
+plot_result(C,15,'nm','x','x',fontsize,'c',0);
 
 print -depsc 'Processed_results\Dark_current_and_background_noise-20s';
 
 % Dark current noise removal
 Result = dark_current_noise_removal(Result_bg_noise,Result_dark_noise);
-plot_result(Result,2,'nm','20s integration time','Dark current offset removed',fontsize,'b',0);
-plot_result(Result,2,'nm','20s integration time','Dark current offset removed',fontsize,'c',15);
+plot_result(Result,16,'nm','20s integration time','Dark current offset removed',fontsize,'b',0);
+plot_result(Result,16,'nm','20s integration time','Dark current offset removed',fontsize,'c',15);
 
 print -depsc 'Processed_results\Dark_current_removed-20s';
 %}
 
 
 %% Dead pixel proof plots
-%{
+
 % Dead pixels clearly visible
 Result_dark_40s = dlmread('..\Results\april-28-2010\Noise\40s-shutter-closed-300grating-75degrees\40s-center-wavelength-1600nm',delimiter);
-plot_result(Result_dark_40s,2,'nm','40s integrating time','Dark current',fontsize,'b',0);
+plot_result(Result_dark_40s,17,'nm','40s integrating time','Dark current',fontsize,'b',0);
 % Write to .eps for use in latex
 print -depsc 'Processed_results\Dark_current-40s';
 
 % Dead pixels corrected
 Result_dark_40s = dead_pixel_correction(Result_dark_40s);
-plot_result(Result_dark_40s,2,'nm','40s integrating time','Dark current',fontsize,'r',0);
+plot_result(Result_dark_40s,17,'nm','40s integrating time','Dark current',fontsize,'r',0);
 print -depsc 'Processed_results\Dark_current-40s_corrected';
 
 
 % Dead pixels less clearly visible
 Result_dark_10s = dlmread('..\Results\april-28-2010\Noise\10s-shutter-closed-300grating-75degrees\10s-center-wavelength-1600nm',delimiter);
-plot_result(Result_dark_10s,3,'nm','10s integrating time','Dark current',fontsize,'b',0);
+plot_result(Result_dark_10s,18,'nm','10s integrating time','Dark current',fontsize,'b',0);
 print -depsc 'Processed_results\Dark_current-10s';
 
 % Dead pixels corrected
 Result_dark_10s = dead_pixel_correction(Result_dark_10s);
-plot_result(Result_dark_10s,3,'nm','10s integrating time','Dark current',fontsize,'r',0);
+plot_result(Result_dark_10s,18,'nm','10s integrating time','Dark current',fontsize,'r',0);
 print -depsc 'Processed_results\Dark_current-10s_corrected';
 %}
 
-
-
-
-
-%% MH2-Q3-210-B2 23. April
-filter_strength = 11; % Must be odd
-
-
-
-
-%{ 
-dirname = '..\Results\april-23-2010\MH2-Q3-210-B2\Good_Clean_Spot\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-plot_result(Result,1,'ev','20s integrating time','MH2-Q3-210 B2',fontsize,'b',filter_strength);
-
-dirname = '..\Results\april-23-2010\MH2-Q3-210-B2\MiddleOfDislocationLine\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-plot_result(Result,1,'ev','20s integrating time','MH2-Q3-210 B2',fontsize,'r',filter_strength);
-
-% Write to .eps for use in latex
-print -depsc 'Processed_results\MH2-'
-
-
-%% R6-A 
-dirname = '..\Results\april-23-2010\R6-Q3-201-A\Good_Clean_Spot_mismatched_results\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-plot_result(Result,1,'ev','10s integrating time','MH2-Q3-210 B2',fontsize,'y',filter_strength);
-
-%%%%%%ROOMTEMPERATURE
-dirname = '..\Results\mar-18-2010-roomtemperature\ErYt\';
-
-%% Esi-q3-201 A
-dirname = '..\Results\mar-18-2010-roomtemperature\Esi-q3-201\40nmoffdislocation\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-%plot_result(Result,1,'nm','10s integrating time','Esi-q3-201 A',fontsize);
-
-dirname = '..\Results\mar-18-2010-roomtemperature\Esi-q3-201\40nmoffdislocationFREE\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-%plot_result(Result,1,'ev','10s integrating time','Esi-q3-201',fontsize);
-
-Ax = Result(:,1);
-Ay = Result(:,2);
-%plot(Ax,Ay,'r');
-
-%% MH2-Q3-210 D
-dirname = '..\Results\mar-18-2010-roomtemperature\MH2-Q3-210\OK-40nmuselessdislocationfreespot\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-%plot_result(Result,2,'ev','10s integrating time','MH2-Q3-210 D',fontsize);
-
-dirname = '..\Results\mar-18-2010-roomtemperature\MH2-Q3-210\OK-40nmuselessdislocationspot\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-%plot_result(Result,1,'ev','10s integrating time','Esi-q3-201',fontsize);
-
-Ax = Result(:,1);
-Ay = Result(:,2);
-%plot(nm_to_ev(Ax),Ay,'r');
-
-%% R6-Q3-201 C 300K
-dirname = '..\Results\mar-18-2010-roomtemperature\R6-Q3-201\';
-Result = get_result_from_dir(dirname,delimiter,1); % Drop right hand side when gluing results
-Result = dark_current_noise_removal(Result);
-%plot_result(Result,3,'ev','10s integrating time','R6-Q3-201 C',fontsize);
-
-%}
