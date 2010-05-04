@@ -33,9 +33,8 @@
 \BOOKMARK [1][-]{appendix.B}{Sample types and procedures}{}
 \BOOKMARK [1][-]{appendix.C}{Abbrevations}{}
 \BOOKMARK [1][-]{appendix.D}{Matlab code}{}
-\BOOKMARK [2][-]{subsection.D.1}{Main plot code}{appendix.D}
-\BOOKMARK [2][-]{subsection.D.2}{Dead pixel correction}{appendix.D}
-\BOOKMARK [2][-]{subsection.D.3}{Dark current noise estimation removal}{appendix.D}
-\BOOKMARK [2][-]{subsection.D.4}{Read result files from directory}{appendix.D}
-\BOOKMARK [2][-]{subsection.D.5}{Remove overlap and glue intervals}{appendix.D}
-\BOOKMARK [2][-]{subsection.D.6}{Filter and plot results}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.1}{Dead pixel correction}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.2}{Dark current noise estimation removal}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.3}{Read result files from directory}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.4}{Remove overlap and glue intervals}{appendix.D}
+\BOOKMARK [2][-]{subsection.D.5}{Filter and plot results}{appendix.D}

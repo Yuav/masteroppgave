@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.4.26)  30 APR 2010 18:28
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.4.26)  4 MAY 2010 17:06
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/../.
 ./../Masteroppgave/LaTeX/main.tex
@@ -926,7 +926,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 x/config/pdftex.map}])
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\impurities.tex
 " [2] [3] [4]
-<./images/gundel_iron_precipitates.png, id=316, 1309.89375pt x 735.74875pt>
+<./images/gundel_iron_precipitates.png, id=312, 1309.89375pt x 735.74875pt>
 File: ./images/gundel_iron_precipitates.png Graphic file (type png)
 
 <use ./images/gundel_iron_precipitates.png> [5 <C:/Documents and Settings/Jon/M
@@ -940,7 +940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--10
 
 [7
 
-] <./images/lab_setup.png, id=361, 1224.575pt x 796.9775pt>
+] <./images/lab_setup.png, id=357, 1224.575pt x 796.9775pt>
 File: ./images/lab_setup.png Graphic file (type png)
 
 <use ./images/lab_setup.png>
@@ -954,11 +954,11 @@ etup.png>] [9] [10] [11] [12]
 ng.tex"
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-4
 0s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:54
+(epstopdf)                    date: 2010-05-04 16:24:16
 (epstopdf)                    size: 16260 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-4
 0s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:15
+(epstopdf)                    date: 2010-05-04 16:25:19
 (epstopdf)                    size: 8526 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-40s-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current
@@ -966,7 +966,7 @@ Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-4
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
 
-<../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf, id=421, 513
+<../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf, id=417, 513
 .92pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -974,11 +974,11 @@ File: ../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf Graphic
 <use ../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-4
 0s_corrected.eps>
-(epstopdf)                    date: 2010-04-30 17:22:55
+(epstopdf)                    date: 2010-05-04 16:24:16
 (epstopdf)                    size: 22540 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-4
 0s_corrected-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:16
+(epstopdf)                    date: 2010-05-04 16:25:19
 (epstopdf)                    size: 8900 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-40s_corrected-eps-converted-to.pdf ../Matlab/Processed_results/Da
@@ -987,7 +987,7 @@ rk_current-40s_corrected.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current-40s_corrected-eps-converted-to.pdf, i
-d=422, 513.92pt x 419.5675pt>
+d=418, 513.92pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-40s_corrected-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -998,11 +998,11 @@ f> [13
 ults/Dark_current-40s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-1
 0s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:55
+(epstopdf)                    date: 2010-05-04 16:24:17
 (epstopdf)                    size: 17188 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-1
 0s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:16
+(epstopdf)                    date: 2010-05-04 16:25:20
 (epstopdf)                    size: 8749 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-10s-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current
@@ -1010,7 +1010,7 @@ Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-1
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf, id=432, 524
+<../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf, id=428, 524
 .96124pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1018,11 +1018,11 @@ File: ../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf Graphic
 <use ../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-1
 0s_corrected.eps>
-(epstopdf)                    date: 2010-04-30 17:22:56
+(epstopdf)                    date: 2010-05-04 16:24:18
 (epstopdf)                    size: 24442 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-1
 0s_corrected-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:17
+(epstopdf)                    date: 2010-05-04 16:25:20
 (epstopdf)                    size: 9097 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-10s_corrected-eps-converted-to.pdf ../Matlab/Processed_results/Da
@@ -1031,7 +1031,7 @@ rk_current-10s_corrected.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current-10s_corrected-eps-converted-to.pdf, i
-d=433, 524.96124pt x 419.5675pt>
+d=429, 524.96124pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-10s_corrected-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1040,11 +1040,11 @@ f> [14 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Process
 ed_results/Dark_current-40s_corrected-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current_a
 nd_background_noise-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:53
+(epstopdf)                    date: 2010-05-04 16:24:13
 (epstopdf)                    size: 30837 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current_a
 nd_background_noise-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:17
+(epstopdf)                    date: 2010-05-04 16:25:21
 (epstopdf)                    size: 19034 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current_and_background_noise-20s-eps-converted-to.pdf ../Matlab/Processed
@@ -1053,7 +1053,7 @@ _results/Dark_current_and_background_noise-20s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current_and_background_noise-20s-eps-converte
-d-to.pdf, id=442, 524.96124pt x 419.5675pt>
+d-to.pdf, id=438, 524.96124pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current_and_background_noise-20s-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -1064,11 +1064,11 @@ Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/Dark_current-1
 0s_corrected-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current_r
 emoved-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:54
+(epstopdf)                    date: 2010-05-04 16:24:14
 (epstopdf)                    size: 24664 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current_r
 emoved-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:18
+(epstopdf)                    date: 2010-05-04 16:25:21
 (epstopdf)                    size: 14150 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current_removed-20s-eps-converted-to.pdf ../Matlab/Processed_results/Dark
@@ -1077,7 +1077,7 @@ _current_removed-20s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current_removed-20s-eps-converted-to.pdf, id=
-457, 517.935pt x 419.5675pt>
+453, 517.935pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current_removed-20s-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1087,17 +1087,17 @@ results/Dark_current_and_background_noise-20s-eps-converted-to.pdf>]) [17 <C:/D
 ocuments and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/D
 ark_current_removed-20s-eps-converted-to.pdf>])
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\results.tex"
-<./images/R6-Q3-210-A_enlarged.png, id=475, 684.5575pt x 582.175pt>
+<./images/R6-Q3-210-A_enlarged.png, id=471, 684.5575pt x 582.175pt>
 File: ./images/R6-Q3-210-A_enlarged.png Graphic file (type png)
 
 <use ./images/R6-Q3-210-A_enlarged.png>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/R6-Area1_dislo
 cation_line-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:51
+(epstopdf)                    date: 2010-05-04 16:24:11
 (epstopdf)                    size: 36126 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/R6-Area1_dislo
 cation_line-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:18
+(epstopdf)                    date: 2010-05-04 16:25:22
 (epstopdf)                    size: 16837 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /R6-Area1_dislocation_line-20s-eps-converted-to.pdf ../Matlab/Processed_results
@@ -1106,7 +1106,7 @@ cation_line-20s-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/R6-Area1_dislocation_line-20s-eps-converted-to.pdf
-, id=476, 518.93875pt x 419.5675pt>
+, id=472, 518.93875pt x 419.5675pt>
 File: ../Matlab/Processed_results/R6-Area1_dislocation_line-20s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -1118,11 +1118,11 @@ o.pdf Graphic file (type pdf)
 10-A_enlarged.png (PNG copy)>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/R6-Area2_dislo
 cation_dot-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:52
+(epstopdf)                    date: 2010-05-04 16:24:11
 (epstopdf)                    size: 41233 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/R6-Area2_dislo
 cation_dot-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:19
+(epstopdf)                    date: 2010-05-04 16:25:22
 (epstopdf)                    size: 20585 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /R6-Area2_dislocation_dot-20s-eps-converted-to.pdf ../Matlab/Processed_results/
@@ -1131,20 +1131,19 @@ R6-Area2_dislocation_dot-20s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/R6-Area2_dislocation_dot-20s-eps-converted-to.pdf,
- id=484, 526.96875pt x 419.5675pt>
+ id=480, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/R6-Area2_dislocation_dot-20s-eps-converted-to
 .pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/R6-Area2_dislocation_dot-20s-eps-converted-to.
-pdf> [19 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proce
-ssed_results/R6-Area1_dislocation_line-20s-eps-converted-to.pdf>]
+pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/R6-Area3_clean
 _area-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:52
+(epstopdf)                    date: 2010-05-04 16:24:12
 (epstopdf)                    size: 44731 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/R6-Area3_clean
 _area-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:19
+(epstopdf)                    date: 2010-05-04 16:25:23
 (epstopdf)                    size: 23823 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /R6-Area3_clean_area-20s-eps-converted-to.pdf ../Matlab/Processed_results/R6-Ar
@@ -1153,31 +1152,33 @@ ea3_clean_area-20s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/R6-Area3_clean_area-20s-eps-converted-to.pdf, id=4
-97, 526.96875pt x 419.5675pt>
+83, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/R6-Area3_clean_area-20s-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/R6-Area3_clean_area-20s-eps-converted-to.pdf>
-[20 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
-results/R6-Area2_dislocation_dot-20s-eps-converted-to.pdf>]
-<./images/ES1-Q3-201-C_enlarged.png, id=509, 500.87125pt x 916.42375pt>
+[19 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+results/R6-Area1_dislocation_line-20s-eps-converted-to.pdf> <C:/Documents and S
+ettings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/R6-Area2_disloc
+ation_dot-20s-eps-converted-to.pdf>]
+<./images/ES1-Q3-201-C_enlarged.png, id=501, 500.87125pt x 916.42375pt>
 File: ./images/ES1-Q3-201-C_enlarged.png Graphic file (type png)
 
-<use ./images/ES1-Q3-201-C_enlarged.png> [21 <C:/Documents and Settings/Jon/My 
+<use ./images/ES1-Q3-201-C_enlarged.png> [20 <C:/Documents and Settings/Jon/My 
 Documents/Masteroppgave/Matlab/Processed_results/R6-Area3_clean_area-20s-eps-co
 nverted-to.pdf>]
 Overfull \vbox (55.89429pt too high) has occurred while \output is active []
 
 
-[22 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/ES1-
+[21 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/ES1-
 Q3-201-C_enlarged.png (PNG copy)>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-room_tempe
 rature.eps>
-(epstopdf)                    date: 2010-04-30 17:22:47
+(epstopdf)                    date: 2010-05-04 16:24:06
 (epstopdf)                    size: 92848 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-room_tempe
 rature-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:20
+(epstopdf)                    date: 2010-05-04 16:25:24
 (epstopdf)                    size: 52824 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-room_temperature-eps-converted-to.pdf ../Matlab/Processed_results/ES1-room
@@ -1185,7 +1186,7 @@ _temperature.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<../Matlab/Processed_results/ES1-room_temperature-eps-converted-to.pdf, id=524,
+<../Matlab/Processed_results/ES1-room_temperature-eps-converted-to.pdf, id=516,
  518.93875pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-room_temperature-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1193,11 +1194,11 @@ phic file (type pdf)
 <use ../Matlab/Processed_results/ES1-room_temperature-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-Area1_disl
 ocation_free-10s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:47
+(epstopdf)                    date: 2010-05-04 16:24:07
 (epstopdf)                    size: 45277 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area1_disl
 ocation_free-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:20
+(epstopdf)                    date: 2010-05-04 16:25:24
 (epstopdf)                    size: 24142 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area1_dislocation_free-10s-eps-converted-to.pdf ../Matlab/Processed_result
@@ -1206,20 +1207,20 @@ s/ES1-Area1_dislocation_free-10s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area1_dislocation_free-10s-eps-converted-to.pd
-f, id=525, 507.8975pt x 419.5675pt>
+f, id=517, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area1_dislocation_free-10s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area1_dislocation_free-10s-eps-converted-t
-o.pdf> [23 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+o.pdf> [22 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
 cessed_results/ES1-room_temperature-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-Area2_disl
 ocation_spot-10s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:48
+(epstopdf)                    date: 2010-05-04 16:24:08
 (epstopdf)                    size: 45380 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area2_disl
 ocation_spot-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:21
+(epstopdf)                    date: 2010-05-04 16:25:27
 (epstopdf)                    size: 24318 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area2_dislocation_spot-10s-eps-converted-to.pdf ../Matlab/Processed_result
@@ -1228,20 +1229,19 @@ s/ES1-Area2_dislocation_spot-10s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area2_dislocation_spot-10s-eps-converted-to.pd
-f, id=537, 507.8975pt x 419.5675pt>
+f, id=529, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area2_dislocation_spot-10s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area2_dislocation_spot-10s-eps-converted-t
-o.pdf> [24 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
-cessed_results/ES1-Area1_dislocation_free-10s-eps-converted-to.pdf>]
+o.pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-Area3_grai
 n_boundary-10s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:49
+(epstopdf)                    date: 2010-05-04 16:24:08
 (epstopdf)                    size: 35727 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area3_grai
 n_boundary-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:21
+(epstopdf)                    date: 2010-05-04 16:25:27
 (epstopdf)                    size: 18896 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area3_grain_boundary-10s-eps-converted-to.pdf ../Matlab/Processed_results/
@@ -1250,20 +1250,22 @@ ES1-Area3_grain_boundary-10s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area3_grain_boundary-10s-eps-converted-to.pdf,
- id=549, 507.8975pt x 419.5675pt>
+ id=532, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area3_grain_boundary-10s-eps-converted-to
 .pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area3_grain_boundary-10s-eps-converted-to.
-pdf> [25 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proce
-ssed_results/ES1-Area2_dislocation_spot-10s-eps-converted-to.pdf>]
+pdf> [23 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proce
+ssed_results/ES1-Area1_dislocation_free-10s-eps-converted-to.pdf> <C:/Documents
+ and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/ES1-Area2
+_dislocation_spot-10s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-Area3_grai
 n_boundary_60s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:49
+(epstopdf)                    date: 2010-05-04 16:24:09
 (epstopdf)                    size: 55816 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area3_grai
 n_boundary_60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:22
+(epstopdf)                    date: 2010-05-04 16:25:28
 (epstopdf)                    size: 31039 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area3_grain_boundary_60s-eps-converted-to.pdf ../Matlab/Processed_results/
@@ -1272,20 +1274,19 @@ ES1-Area3_grain_boundary_60s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area3_grain_boundary_60s-eps-converted-to.pdf,
- id=562, 507.8975pt x 419.5675pt>
+ id=549, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area3_grain_boundary_60s-eps-converted-to
 .pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area3_grain_boundary_60s-eps-converted-to.
-pdf> [26 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proce
-ssed_results/ES1-Area3_grain_boundary-10s-eps-converted-to.pdf>]
+pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-Area4_disl
 ocation_line-10s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:50
+(epstopdf)                    date: 2010-05-04 16:24:10
 (epstopdf)                    size: 35994 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area4_disl
 ocation_line-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:22
+(epstopdf)                    date: 2010-05-04 16:25:29
 (epstopdf)                    size: 19350 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area4_dislocation_line-10s-eps-converted-to.pdf ../Matlab/Processed_result
@@ -1294,20 +1295,22 @@ s/ES1-Area4_dislocation_line-10s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area4_dislocation_line-10s-eps-converted-to.pd
-f, id=576, 526.96875pt x 419.5675pt>
+f, id=554, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area4_dislocation_line-10s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area4_dislocation_line-10s-eps-converted-t
-o.pdf> [27 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
-cessed_results/ES1-Area3_grain_boundary_60s-eps-converted-to.pdf>]
+o.pdf> [24 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+cessed_results/ES1-Area3_grain_boundary-10s-eps-converted-to.pdf> <C:/Documents
+ and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/ES1-Area3
+_grain_boundary_60s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-Area4_disl
 ocation_line-60s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:50
+(epstopdf)                    date: 2010-05-04 16:24:10
 (epstopdf)                    size: 60272 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area4_disl
 ocation_line-60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:23
+(epstopdf)                    date: 2010-05-04 16:25:29
 (epstopdf)                    size: 33624 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area4_dislocation_line-60s-eps-converted-to.pdf ../Matlab/Processed_result
@@ -1316,20 +1319,22 @@ s/ES1-Area4_dislocation_line-60s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area4_dislocation_line-60s-eps-converted-to.pd
-f, id=588, 507.8975pt x 419.5675pt>
+f, id=571, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area4_dislocation_line-60s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area4_dislocation_line-60s-eps-converted-t
-o.pdf> [28 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
-cessed_results/ES1-Area4_dislocation_line-10s-eps-converted-to.pdf>]
+o.pdf> [25 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+cessed_results/ES1-Area4_dislocation_line-10s-eps-converted-to.pdf> <C:/Documen
+ts and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/ES1-Are
+a4_dislocation_line-60s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-room_tempe
 rature.eps>
-(epstopdf)                    date: 2010-04-30 17:22:45
+(epstopdf)                    date: 2010-05-04 16:24:05
 (epstopdf)                    size: 77055 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-room_tempe
 rature-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:24
+(epstopdf)                    date: 2010-05-04 16:25:30
 (epstopdf)                    size: 48944 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-room_temperature-eps-converted-to.pdf ../Matlab/Processed_results/MH2-room
@@ -1337,41 +1342,39 @@ _temperature.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<../Matlab/Processed_results/MH2-room_temperature-eps-converted-to.pdf, id=602,
+<../Matlab/Processed_results/MH2-room_temperature-eps-converted-to.pdf, id=591,
  518.93875pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-room_temperature-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-room_temperature-eps-converted-to.pdf>
-[29 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
-results/ES1-Area4_dislocation_line-60s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-70K.eps>
-(epstopdf)                    date: 2010-04-30 17:22:46
+(epstopdf)                    date: 2010-05-04 16:24:05
 (epstopdf)                    size: 56324 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-70K-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:24
+(epstopdf)                    date: 2010-05-04 16:25:30
 (epstopdf)                    size: 34741 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-70K-eps-converted-to.pdf ../Matlab/Processed_results/MH2-70K.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf, id=612, 518.93875pt 
+<../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf, id=592, 518.93875pt 
 x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use ../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf>
-[30 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+[26 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
 results/MH2-room_temperature-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-Area1-disl
 ocation_free-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:43
-(epstopdf)                    size: 243981 bytes
+(epstopdf)                    date: 2010-05-04 16:24:02
+(epstopdf)                    size: 243997 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area1-disl
 ocation_free-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:25
-(epstopdf)                    size: 148308 bytes
+(epstopdf)                    date: 2010-05-04 16:25:31
+(epstopdf)                    size: 148329 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area1-dislocation_free-20s-eps-converted-to.pdf ../Matlab/Processed_result
 s/MH2-Area1-dislocation_free-20s.eps>
@@ -1379,20 +1382,20 @@ s/MH2-Area1-dislocation_free-20s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area1-dislocation_free-20s-eps-converted-to.pd
-f, id=622, 507.8975pt x 419.5675pt>
+f, id=602, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area1-dislocation_free-20s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-Area1-dislocation_free-20s-eps-converted-t
-o.pdf> [31 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+o.pdf> [27 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
 cessed_results/MH2-70K-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-Area2-disl
 ocation_line-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:43
+(epstopdf)                    date: 2010-05-04 16:24:03
 (epstopdf)                    size: 35470 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area2-disl
 ocation_line-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:26
+(epstopdf)                    date: 2010-05-04 16:25:32
 (epstopdf)                    size: 18932 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area2-dislocation_line-20s-eps-converted-to.pdf ../Matlab/Processed_result
@@ -1401,20 +1404,19 @@ s/MH2-Area2-dislocation_line-20s.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area2-dislocation_line-20s-eps-converted-to.pd
-f, id=633, 526.96875pt x 419.5675pt>
+f, id=612, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area2-dislocation_line-20s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-Area2-dislocation_line-20s-eps-converted-t
-o.pdf> [32 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
-cessed_results/MH2-Area1-dislocation_free-20s-eps-converted-to.pdf>]
+o.pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-Area3-disl
 ocation_dot-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:44
+(epstopdf)                    date: 2010-05-04 16:24:03
 (epstopdf)                    size: 35189 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area3-disl
 ocation_dot-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:26
+(epstopdf)                    date: 2010-05-04 16:25:33
 (epstopdf)                    size: 19084 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area3-dislocation_dot-20s-eps-converted-to.pdf ../Matlab/Processed_results
@@ -1423,20 +1425,22 @@ ocation_dot-20s-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area3-dislocation_dot-20s-eps-converted-to.pdf
-, id=643, 507.8975pt x 419.5675pt>
+, id=613, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area3-dislocation_dot-20s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-Area3-dislocation_dot-20s-eps-converted-to
-.pdf> [33 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
-essed_results/MH2-Area2-dislocation_line-20s-eps-converted-to.pdf>]
+.pdf> [28 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
+essed_results/MH2-Area1-dislocation_free-20s-eps-converted-to.pdf> <C:/Document
+s and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/MH2-Area
+2-dislocation_line-20s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-Area3-disl
 ocation_dot-60s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:45
+(epstopdf)                    date: 2010-05-04 16:24:04
 (epstopdf)                    size: 54536 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area3-disl
 ocation_dot-60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:27
+(epstopdf)                    date: 2010-05-04 16:25:33
 (epstopdf)                    size: 30429 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area3-dislocation_dot-60s-eps-converted-to.pdf ../Matlab/Processed_results
@@ -1445,69 +1449,159 @@ ocation_dot-60s-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area3-dislocation_dot-60s-eps-converted-to.pdf
-, id=653, 507.8975pt x 419.5675pt>
+, id=628, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area3-dislocation_dot-60s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-Area3-dislocation_dot-60s-eps-converted-to
-.pdf> [34 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
+.pdf> [29 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
 essed_results/MH2-Area3-dislocation_dot-20s-eps-converted-to.pdf>]
+<./images/mapping_1steps_startpoint.png, id=640, 385.44pt x 289.08pt>
+File: ./images/mapping_1steps_startpoint.png Graphic file (type png)
+
+<use ./images/mapping_1steps_startpoint.png> [30 <C:/Documents and Settings/Jon
+/My Documents/Masteroppgave/Matlab/Processed_results/MH2-Area3-dislocation_dot-
+60s-eps-converted-to.pdf>]
+<./images/mapping_1steps_endpoint.png, id=652, 385.44pt x 289.08pt>
+File: ./images/mapping_1steps_endpoint.png Graphic file (type png)
+
+<use ./images/mapping_1steps_endpoint.png>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-mapping-sm
 all_steps-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:41
-(epstopdf)                    size: 116664 bytes
+(epstopdf)                    date: 2010-05-04 16:24:00
+(epstopdf)                    size: 116680 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-sm
 all_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:27
-(epstopdf)                    size: 67221 bytes
+(epstopdf)                    date: 2010-05-04 16:25:34
+(epstopdf)                    size: 67245 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-mapping-small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_results/M
 H2-mapping-small_steps-20s.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-mapping-small_steps-20s-eps-converted-to.pdf, 
-id=663, 511.9125pt x 419.5675pt>
+id=653, 511.9125pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-mapping-small_steps-20s-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-mapping-small_steps-20s-eps-converted-to.p
-df> [35 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proces
-sed_results/MH2-Area3-dislocation_dot-60s-eps-converted-to.pdf>]
+df> [31 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/
+mapping_1steps_startpoint.png (PNG copy)> <C:/Documents and Settings/Jon/My Doc
+uments/Masteroppgave/LaTeX/images/mapping_1steps_endpoint.png (PNG copy)>]
+Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-mapping-ba
+rs-small_steps-20s.eps>
+(epstopdf)                    date: 2010-05-04 16:23:57
+(epstopdf)                    size: 12203 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-ba
+rs-small_steps-20s-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-04 16:25:34
+(epstopdf)                    size: 4352 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
+/MH2-mapping-bars-small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_resu
+lts/MH2-mapping-bars-small_steps-20s.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Matlab/Processed_results/MH2-mapping-bars-small_steps-20s-eps-converted-to.
+pdf, id=659, 501.875pt x 419.5675pt>
+File: ../Matlab/Processed_results/MH2-mapping-bars-small_steps-20s-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use ../Matlab/Processed_results/MH2-mapping-bars-small_steps-20s-eps-converted
+-to.pdf> [32 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/P
+rocessed_results/MH2-mapping-small_steps-20s-eps-converted-to.pdf> <C:/Document
+s and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/MH2-mapp
+ing-bars-small_steps-20s-eps-converted-to.pdf>]
+<./images/mapping_5steps_startpoint.png, id=678, 385.44pt x 289.08pt>
+File: ./images/mapping_5steps_startpoint.png Graphic file (type png)
+
+<use ./images/mapping_5steps_startpoint.png>
+<./images/mapping_5steps_endpoint.png, id=679, 385.44pt x 289.08pt>
+File: ./images/mapping_5steps_endpoint.png Graphic file (type png)
+
+<use ./images/mapping_5steps_endpoint.png> [33 <C:/Documents and Settings/Jon/M
+y Documents/Masteroppgave/LaTeX/images/mapping_5steps_startpoint.png (PNG copy)
+>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-mapping-5_
 small_steps-20s.eps>
-(epstopdf)                    date: 2010-04-30 17:22:42
-(epstopdf)                    size: 222979 bytes
+(epstopdf)                    date: 2010-05-04 16:24:02
+(epstopdf)                    size: 222995 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-5_
 small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-04-30 17:23:29
-(epstopdf)                    size: 139250 bytes
+(epstopdf)                    date: 2010-05-04 16:25:35
+(epstopdf)                    size: 139273 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-mapping-5_small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_results
 /MH2-mapping-5_small_steps-20s.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-mapping-5_small_steps-20s-eps-converted-to.pdf
-, id=673, 511.9125pt x 419.5675pt>
+, id=686, 511.9125pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-mapping-5_small_steps-20s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-mapping-5_small_steps-20s-eps-converted-to
-.pdf>) [36 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
-cessed_results/MH2-mapping-small_steps-20s-eps-converted-to.pdf>] [37 <C:/Docum
-ents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/MH2-m
-apping-5_small_steps-20s-eps-converted-to.pdf>]
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
-[38
+.pdf>
+Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-mapping-ba
+rs-5_small_steps-20s.eps>
+(epstopdf)                    date: 2010-05-04 16:23:58
+(epstopdf)                    size: 13746 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-ba
+rs-5_small_steps-20s-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-04 16:25:36
+(epstopdf)                    size: 4790 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
+/MH2-mapping-bars-5_small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_re
+sults/MH2-mapping-bars-5_small_steps-20s.eps>
+(epstopdf)             \includegraphics on input line 226.
+Package epstopdf Info: Output file is already uptodate.
 
-] [39] [40] [41]
+<../Matlab/Processed_results/MH2-mapping-bars-5_small_steps-20s-eps-converted-t
+o.pdf, id=689, 501.875pt x 419.5675pt>
+File: ../Matlab/Processed_results/MH2-mapping-bars-5_small_steps-20s-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use ../Matlab/Processed_results/MH2-mapping-bars-5_small_steps-20s-eps-convert
+ed-to.pdf> [34 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/
+images/mapping_5steps_endpoint.png (PNG copy)> <C:/Documents and Settings/Jon/M
+y Documents/Masteroppgave/Matlab/Processed_results/MH2-mapping-5_small_steps-20
+s-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-mapping-ba
+rs-TOonBE-5_small_steps-20s.eps>
+(epstopdf)                    date: 2010-05-04 16:23:59
+(epstopdf)                    size: 11720 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-ba
+rs-TOonBE-5_small_steps-20s-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-04 16:25:36
+(epstopdf)                    size: 4237 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
+/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps-converted-to.pdf ../Matlab/Proce
+ssed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s.eps>
+(epstopdf)             \includegraphics on input line 234.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Matlab/Processed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps-conv
+erted-to.pdf, id=703, 508.90125pt x 419.5675pt>
+File: ../Matlab/Processed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps
+-converted-to.pdf Graphic file (type pdf)
+
+<use ../Matlab/Processed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps-
+converted-to.pdf>) [35 <C:/Documents and Settings/Jon/My Documents/Masteroppgav
+e/Matlab/Processed_results/MH2-mapping-bars-5_small_steps-20s-eps-converted-to.
+pdf> <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed
+_results/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps-converted-to.pdf>]
+("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
+[36
+
+] [37] [38] [39]
 Underfull \hbox (badness 3250) in paragraph at lines 263--267
 \T1/cmr/m/n/12 ``Room-temperature lu-mi-nes-cence andelectronbeam-induced cur-r
 ent
  []
 
-[42] [43]) [44]
+[40] [41]) [42]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\appendix.tex"
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\tabeller.tex"
 Overfull \hbox (98.83644pt too wide) in alignment at lines 6--15
@@ -1548,129 +1642,124 @@ Overfull \hbox (98.83644pt too wide) in alignment at lines 78--98
  [] [] [] [] [] 
  []
 
-[45
+[43
 
 ]
-Overfull \hbox (98.83644pt too wide) in alignment at lines 98--104
+Overfull \hbox (98.83644pt too wide) in alignment at lines 98--105
  [] [] [] [] [] 
  []
 
-[46] <./images/n-type_Si_spectra_dean67.png, id=872, 3904.5875pt x 2653.915pt>
+[44] <./images/n-type_Si_spectra_dean67.png, id=902, 3904.5875pt x 2653.915pt>
 File: ./images/n-type_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/n-type_Si_spectra_dean67.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 120--121
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 121--122
  [][] 
  []
 
-<./images/boron_Si_spectra_dean67.png, id=875, 3898.565pt x 3302.3375pt>
+<./images/boron_Si_spectra_dean67.png, id=905, 3898.565pt x 3302.3375pt>
 File: ./images/boron_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/boron_Si_spectra_dean67.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 127--128
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 128--129
  [][] 
  []
 
-<./images/P_Si_spectra_dean67.png, id=877, 953.5625pt x 871.255pt>
+<./images/P_Si_spectra_dean67.png, id=907, 953.5625pt x 871.255pt>
 File: ./images/P_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/P_Si_spectra_dean67.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 134--135
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 135--136
  [][] 
  []
 
-<./images/iron_diffused_Si_spectra.png, id=879, 733.74126pt x 671.50874pt>
+<./images/iron_diffused_Si_spectra.png, id=909, 733.74126pt x 671.50874pt>
 File: ./images/iron_diffused_Si_spectra.png Graphic file (type png)
 
 <use ./images/iron_diffused_Si_spectra.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 141--142
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
 
-<./images/iron_diffused_boron_doped_Si_spectra.png, id=881, 2127.95pt x 1593.95
+<./images/iron_diffused_boron_doped_Si_spectra.png, id=911, 2127.95pt x 1593.95
 5pt>
 File: ./images/iron_diffused_boron_doped_Si_spectra.png Graphic file (type png)
 
  <use ./images/iron_diffused_boron_doped_Si_spectra.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 149--150
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
-<./images/CrB_Si_spectra.png, id=883, 695.59875pt x 597.23125pt>
+<./images/CrB_Si_spectra.png, id=913, 695.59875pt x 597.23125pt>
 File: ./images/CrB_Si_spectra.png Graphic file (type png)
 
 <use ./images/CrB_Si_spectra.png>
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 156--157
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-<./images/Ti_4H_SiC.png, id=885, 1279.78125pt x 1905.1175pt>
+<./images/Ti_4H_SiC.png, id=915, 1279.78125pt x 1905.1175pt>
 File: ./images/Ti_4H_SiC.png Graphic file (type png)
 
 <use ./images/Ti_4H_SiC.png>
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []|\T1/cmr/m/n/10.95 Kr ion laser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
 []|\T1/cmr/m/n/10.95 undoped,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []|\T1/cmr/m/n/10.95 800nm Al-GaAs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []|\T1/cmr/m/n/10.95 Block-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 \T1/cmr/m/n/10.95 casting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 \T1/cmr/m/n/10.95 tech-nique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\T1/cmr/m/n/10.95 boron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 \T1/cmr/m/n/10.95 doped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 []|\T1/cmr/m/n/10.95 Kr-ion 647nm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 []|\T1/cmr/m/n/10.95 residual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 \OT1/cmr/m/n/10.95 10[]$\T1/cmr/m/n/10.95 cm$[]$
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 209--209
+Underfull \hbox (badness 1173) in paragraph at lines 210--210
 []|\T1/cmr/m/n/10.95 Slicing dam-age etched
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\T1/cmr/m/n/10.95 boron
  []
 
 
@@ -1684,45 +1773,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--211
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\T1/cmr/m/n/10.95 boron
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 []|\T1/cmr/m/n/10.95 Ar$[]$ 514nm at
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 214--214
+Underfull \hbox (badness 5036) in paragraph at lines 215--215
 \T1/cmr/m/n/10.95 Cu and/or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
 []|\T1/cmr/m/n/10.95 200W mer-cury
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
 []|\T1/cmr/m/n/10.95 Undoped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []|\T1/cmr/m/n/10.95 phosphorus
  []
 
-) [47
+) [45
 
  <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/n-type_
-Si_spectra_dean67.png (PNG copy)>] [48 <C:/Documents and Settings/Jon/My Docume
+Si_spectra_dean67.png (PNG copy)>] [46 <C:/Documents and Settings/Jon/My Docume
 nts/Masteroppgave/LaTeX/images/boron_Si_spectra_dean67.png (PNG copy)>]
-[49 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/P_Si
-_spectra_dean67.png (PNG copy)>] [50 <C:/Documents and Settings/Jon/My Document
-s/Masteroppgave/LaTeX/images/iron_diffused_Si_spectra.png (PNG copy)>] [51 <C:/
+[47 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/P_Si
+_spectra_dean67.png (PNG copy)>] [48 <C:/Documents and Settings/Jon/My Document
+s/Masteroppgave/LaTeX/images/iron_diffused_Si_spectra.png (PNG copy)>] [49 <C:/
 Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/iron_diffuse
-d_boron_doped_Si_spectra.png (PNG copy)>] [52 <C:/Documents and Settings/Jon/My
- Documents/Masteroppgave/LaTeX/images/CrB_Si_spectra.png (PNG copy)>] [53 <C:/D
+d_boron_doped_Si_spectra.png (PNG copy)>] [50 <C:/Documents and Settings/Jon/My
+ Documents/Masteroppgave/LaTeX/images/CrB_Si_spectra.png (PNG copy)>] [51 <C:/D
 ocuments and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/Ti_4H_SiC.png
- (PNG copy)>] [54]
+ (PNG copy)>] [52]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\abbrevation.te
-x") [55
+x") [53
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -1731,494 +1825,17 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-("C:\Documents and Settings\Jon\My Documents\Masteroppgave\Matlab\plotter.m"
-Overfull \hbox (48.00446pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 4.
-("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ts1pcr.fd"
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)
-Overfull \hbox (258.00659pt too wide) in paragraph at lines 14--15
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (438.00842pt too wide) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[] 
- []
-
-
-Overfull \hbox (186.00586pt too wide) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][] 
- []
-
-
-Overfull \hbox (564.0097pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[] 
- []
-
-
-Overfull \hbox (186.00586pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][] 
- []
-
-
-Overfull \hbox (96.00494pt too wide) in paragraph at lines 35--36
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.00421pt too wide) in paragraph at lines 39--40
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (156.00555pt too wide) in paragraph at lines 42--43
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-[56
-
-]
-Overfull \hbox (66.00464pt too wide) in paragraph at lines 45--46
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (156.00555pt too wide) in paragraph at lines 48--49
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (114.00513pt too wide) in paragraph at lines 51--52
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (156.00555pt too wide) in paragraph at lines 54--55
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (696.01105pt too wide) in paragraph at lines 57--58
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (894.01306pt too wide) in paragraph at lines 58--59
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (894.01306pt too wide) in paragraph at lines 59--60
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (894.01306pt too wide) in paragraph at lines 60--61
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (138.00537pt too wide) in paragraph at lines 63--64
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (54.00452pt too wide) in paragraph at lines 65--66
-[][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (180.0058pt too wide) in paragraph at lines 67--68
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (204.00604pt too wide) in paragraph at lines 73--74
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (228.00629pt too wide) in paragraph at lines 76--78
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (234.00635pt too wide) in paragraph at lines 78--79
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (234.00635pt too wide) in paragraph at lines 81--82
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (42.0044pt too wide) in paragraph at lines 85--86
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (156.00555pt too wide) in paragraph at lines 88--90
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.00421pt too wide) in paragraph at lines 90--91
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 93--94
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][] 
- []
-
-[57]
-Overfull \hbox (156.00555pt too wide) in paragraph at lines 102--103
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (216.00616pt too wide) in paragraph at lines 105--107
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (138.00537pt too wide) in paragraph at lines 107--108
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (252.00653pt too wide) in paragraph at lines 110--111
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (138.00537pt too wide) in paragraph at lines 114--115
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (144.00543pt too wide) in paragraph at lines 121--122
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (48.00446pt too wide) in paragraph at lines 125--126
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (144.00543pt too wide) in paragraph at lines 128--129
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (114.00513pt too wide) in paragraph at lines 132--133
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 135--136
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (696.01105pt too wide) in paragraph at lines 138--139
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (894.01306pt too wide) in paragraph at lines 139--140
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (894.01306pt too wide) in paragraph at lines 140--141
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (894.01306pt too wide) in paragraph at lines 141--142
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[58]
-Overfull \hbox (114.00513pt too wide) in paragraph at lines 143--144
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 146--147
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 151--152
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (138.00537pt too wide) in paragraph at lines 154--155
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (138.00537pt too wide) in paragraph at lines 157--158
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 159--160
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (138.00537pt too wide) in paragraph at lines 162--163
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (108.00507pt too wide) in paragraph at lines 175--176
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (30.00427pt too wide) in paragraph at lines 176--177
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (36.00433pt too wide) in paragraph at lines 177--179
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (366.00769pt too wide) in paragraph at lines 181--182
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (564.0097pt too wide) in paragraph at lines 182--183
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (564.0097pt too wide) in paragraph at lines 183--184
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (564.0097pt too wide) in paragraph at lines 184--185
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (564.0097pt too wide) in paragraph at lines 185--186
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (126.00525pt too wide) in paragraph at lines 189--190
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-[59]
-Overfull \hbox (126.00525pt too wide) in paragraph at lines 194--195
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (126.00525pt too wide) in paragraph at lines 199--200
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (456.0086pt too wide) in paragraph at lines 207--208
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (246.00647pt too wide) in paragraph at lines 209--211
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][] 
- []
-
-
-Overfull \hbox (438.00842pt too wide) in paragraph at lines 212--213
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (36.00433pt too wide) in paragraph at lines 223--225
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (36.00433pt too wide) in paragraph at lines 226--227
-[][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (186.00586pt too wide) in paragraph at lines 227--228
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][] 
- []
-
-
-Overfull \hbox (192.00592pt too wide) in paragraph at lines 228--230
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][] 
- []
-
-
-Overfull \hbox (444.00848pt too wide) in paragraph at lines 237--238
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 238--239
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[60]
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 244--245
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (444.00848pt too wide) in paragraph at lines 249--250
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 250--251
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (150.0055pt too wide) in paragraph at lines 255--256
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\Matlab\dead_pixel_co
 rrection.m")
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\Matlab\dark_current_
-noise_removal.m" [61]
+noise_removal.m"
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 7.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ts1pcr.fd"
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+[54
+
+]
 Overfull \hbox (30.00427pt too wide) in paragraph at lines 33--34
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -2231,27 +1848,27 @@ Overfull \hbox (6.00403pt too wide) in paragraph at lines 1--2
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[62])
+[55])
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\Matlab\matrix_align_
-and_glue_reverse.m" [63])
+and_glue_reverse.m") [56]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\Matlab\plot_result.m
 "
 Overfull \hbox (192.00592pt too wide) in paragraph at lines 1--3
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[64])) [65]
+[57])) [58]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux"
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\results_plotti
 ng.aux")) ) 
 Here is how much of TeX's memory you used:
- 18664 strings out of 495285
- 335237 string characters out of 3180346
- 521498 words of memory out of 3000000
- 20681 multiletter control sequences out of 15000+200000
+ 18405 strings out of 495285
+ 332682 string characters out of 3180346
+ 458160 words of memory out of 3000000
+ 20675 multiletter control sequences out of 15000+200000
  24567 words of font info for 71 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,15n,58p,1886b,1821s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,15n,58p,1886b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.8/fonts/enc/dvips/fontname/8r.enc} <C:\Do
 cuments and Settings\Jon\Local Settings\Application Data\MiKTeX\2.8\fonts\pk\lj
 four\jknappen\ec\dpi600\ecrm0700.pk> <C:\Documents and Settings\Jon\Local Setti
@@ -2282,9 +1899,9 @@ am Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/
 MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.
 8/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.8/fon
 ts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (65 pages, 3194624 bytes).
+Output written on main.pdf (58 pages, 3713834 bytes).
 PDF statistics:
- 2064 PDF objects out of 2073 (max. 8388607)
- 663 named destinations out of 1000 (max. 500000)
- 528 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1764 PDF objects out of 2073 (max. 8388607)
+ 406 named destinations out of 1000 (max. 500000)
+ 555 words of extra memory for PDF output out of 10000 (max. 10000000)
 
