@@ -1,0 +1,253 @@
+Most solar cells are made from a crystalline, meaning the structure of atoms is ordered, or periodic. Generally the crystals will contain imperfections and impurities. Some solar cell materials however, is not crystalline, but are missing periodicity. These solar cells are made from amorphous materials.
+
+\subsection{Bandgap}
+
+A free electron in vacuum is able to have any energy. An electron in a crystal is bound by an energy gap divided by energy positions the electrons can't possess. Every available energy state can only room two electrons according to the Pauli principle. For a crystal, the energy bands can be viewed as an overlap in between single electron energy states. This can be viewed as the crystals 'electron'-shell.
+
+\begin{figure}[H]
+ \centering
+ 	% Tegning
+ 	\begin{tikzpicture}[scale=0.5]
+     	\draw[very thick,->] (1,6) -- node[below] {x}  (25,6); % X akse
+    	\draw[very thick,->] (1,6) -- node[left] {\begin{sideways}Energy\end{sideways}} (1,18); % Y akse
+    
+    \begin{scope} % Valens og ledningsbånd
+		    \draw[thick,fill=black!10] (2,7) rectangle node {Valence band} ++(22,4);
+        \draw[thick,fill=black!10] (2,13) rectangle node {Conduction band} ++(22,4);
+        \draw[thick,<->] (13,13) -- node[right] {Band gap} (13,11); % Pil
+    \end{scope}
+    \end{tikzpicture}    \caption{Energy bands}
+    \label{fig:energiband}
+\end{figure}
+
+The upper band is called conduction band. The band right below it, is called the valence band. This band gap is very important in relations with solar cells, and is often given in the units of electron volts (eV).
+
+For electrons to move out of the crystal, they have to be in the conduction band. For electrons to get to the conduction band, they need to have enough energy to move from the valence band. This can happen if the electron has enough thermal energy, or receive energy from the outside, like light. This gives the material increased conductivity. In addition to this, there will be a free state in the valence band, which results in a less probability of collisions among the remaining electron, which lead to a higher mean kinetic energy of the electrons in the valence band. This also contribute to a better conductivity for the material. 
+
+For light to excite an electron from the valence band to the conduction band, it needs to have equal, or more energy than the band gap. Energy of light in electron volts is given by:
+
+\begin{equation}
+E=h\nu =\frac{hc}{\lambda}
+\label{eq:light_energy}
+\end{equation}
+
+where $E$ is energy in electron volts, $h$ is Planks constant, $\nu$ is frequency, and $c$ is the speed of light.
+
+Materials is often divided into three categories; Isolators, semiconductors, and conductors. Isolators have none, or few electrons in the conduction band, which gives them poor conductivity. Conductors often have filled conduction bands in room temperature, which provide good conductivity. Even with 0K, conductors have a partially filled conduction band. Semiconductors on the other hand, does not have any electrons in the conduction band at 0K. Semiconductors have lower conductivity than conductors, but better than isolators. The bandgap for semiconductors lay in between that of the conductors and isolators. At room temperature semiconductors have a partially filled conduction band.
+
+\begin{figure}[H]
+ \centering
+ % Tegning
+ 
+
+\begin{tikzpicture}
+ 	% Styles til elementer (kan også være generelle utenfor tikzpicture)
+	\tikzstyle{ledningsband} 	=	[rectangle, draw, thick, fill=black!10, text width=9em, text centered, minimum height=1.6cm]
+	\tikzstyle{valensband}		= [rectangle, draw, thick, fill=black!10, text width=9em, text centered, minimum height=1.6cm]
+
+
+	% Boksene i bunnen
+	\node[valensband]	(valens_isolator)																										{};
+	\node[valensband]	(valens_halvleder)	[right of=valens_isolator,  node distance=4.3cm]	{};
+	\node[valensband]	(valens_metall)			[right of=valens_halvleder, node distance=4.3cm]	{};	
+	
+	% Boksene i toppen
+	\node[ledningsband]	(lednings_isolator)		[above of=valens_isolator, 	node distance=4cm]	{Empty};
+	\node[ledningsband]	(lednings_halvleder)	[above of=valens_halvleder, node distance=2cm]	{Empty};
+	\node[ledningsband]	(lednings_metall)			[above of=valens_metall, 		node distance=1cm]	{Partially filled};
+	
+	% Piler
+	\draw[thick,<->] (valens_isolator)  -- node[right] {\large $E_g$} (lednings_isolator);
+	\draw[thick,<->] (valens_halvleder) -- node[right] {\large $E_g$} (lednings_halvleder);
+	
+	% Tekst på toppen
+	\node (isolator_tekst)  [above of=lednings_isolator,node distance=1.5cm]	{\large Isolators};
+	\node (halvleder_tekst) [right of=isolator_tekst, 	node distance=4.3cm] 		{\large Semiconductors};
+	\node (metaller_tekst)  [right of=halvleder_tekst, 	node distance=4.3cm] 		{\large Conductors};
+	
+	% Elektroner i valensbånd
+	\foreach \y in {0,0.15,...,1.4}
+		\foreach \x in {0,0.15,...,3.5} {
+			\draw (\x-1.725,\y-0.67) circle (0.03cm) [fill=black];	% Isolator
+			\draw (\x+2.575,\y-0.67) circle (0.03cm) [fill=black];	% Halvleder
+			\draw (\x+6.875,\y-0.67) circle (0.03cm) [fill=black];	% Metall
+		}	
+	
+\end{tikzpicture}
+
+	    \caption{Typical bandgaps at 0K} 
+ \label{fig:bandgap}
+\end{figure}
+\vspace{10mm}
+
+Typical bandgap for semiconductor silicon is E$_g$=1.1~eV, compared with 5~eV for diamond, which is an isolator \cite[Chapter 3]{streetman}.
+
+Holes is a description of missing electrons in the valence band. A hole will appear when an electron is excited from the valence band into the conduction band. With a small bandgap, and high temperatures, there will be a considerably larger amount of electrons in the conduction band, compared to low temperatures, and a large bandgap. This is described by low of mass action
+
+\begin{equation}
+np=N_cN_ve^{-\frac{E_g}{kT}}
+\label{eq:massevirkningsloven}
+\end{equation}
+
+where $n$ is number of electrons, $p$ is number of holes, $N_c$ and $N_v$ is constants for a given material, $E_g$ is the bandgap, $k$ is Boltzmanns constant, and $T$ is temperature in Kelvin. For an intrinsic semiconductor, meaning a semiconductor without any doping atoms, like a pure silicon crystal, the law of mass action can be written as
+
+\begin{equation}
+np=n_i^2
+\label{eq:massevirkningsloven_intrinsikk}
+\end{equation}
+
+where
+
+\begin{equation}
+n_i=\sqrt{N_c N_v}e^{-\frac{E_g}{2kT}}
+\label{eq:intrinsikk}
+\end{equation}
+
+
+\subsection{Doping}
+
+By adding certain atoms of a different type than those constituting the semiconductor itself, it is possible in increase the concentration of electrons in the conduction band without a concomitant increase on the number of holes in the valence band. This is called donor-doping. An example of donor doping is added phosphorous into a silicon crystal. This will result in more electrons in the conduction band, due to phosphor having one more valence electron than silicon. The doping is usually so small that the band structure won't be affected. By adding phosphorous this way, one has increased electrons, $n$, without increasing holes, $p$. This is called donor doping. If you instead of phosphor, add boron, the material will be acceptor doped. This is due to boron having one less electron in the valence band than silicon, and would result in an extra hole in the valence band of the crystal. Usually the number of dopants in silicon are substantially larger than the intrinsic concentration, $n_i$, so that
+
+\begin{equation}
+n \approx N_d
+\label{eq:donordoping}
+\end{equation}
+
+for donor doping, and
+
+\begin{equation}
+n \approx N_a
+\label{eq:akseptordoping}
+\end{equation}
+
+for acceptor doping where $N_d$ is donor concentration, and $N_a$ is acceptor concentration.
+
+A doped semiconductor is generally called extrinsic \cite{streetman}. If a semiconductor is doped with a number of donor atoms, it is called n-doped or n-type, due to there being more electrons than holes. For acceptor doping it is called p-doped, or p-type semiconductor. The dominating charge carrier in the semiconductor are called majority carriers. The other charge carrier, i.e. holes in the n-type semiconductor are called minority carriers.
+
+\subsection{Transport and recombination processes}
+
+There are two mechanisms that contribute to transport of electrons and holes in semiconductors: drift, and diffusion. Drift is a transport of a charge carrer due to an electric field. For transport of a hole in one dimension, the current $I_p$ is equal to the amount of holes $N_p$ times the charge $q$ crossing a cross-sectional area.
+
+\begin{equation}
+I_p = N_p q
+\label{eq:drift}
+\end{equation}
+
+In vacuum, an electric field would accelerate the electrons, and the velocity would increase indefinitely. In solids, however, interactions of collisions with other species in the solid leads to a resistance towards the drift of the charged particles, and after an initial acceleration the velocity becomes constant in a constant electric field. This average drive velocity, denoted $v_p$ for holes, is related to the electric field $E$ through the hole mobility $µ_p$
+
+\begin{equation}
+v_p = µ_p E
+\label{eq:electronspeed}
+\end{equation}
+
+If all the electrons is moving in the same direction, the current per area is given by
+
+\begin{equation}
+J_p = \frac{I_p}{A} = \frac{N_p q}{A} = pAv_p \frac{q}{A} = pv_p q = pqµ_p E
+\label{eq:hulltetthet}
+\end{equation}
+
+combined with a similar expression for electrons
+
+\begin{equation}
+J = J_p + J_n = (nqµ_n + pqµ_p)E = \sigma E
+\label{eq:stromtetthet}
+\end{equation}
+
+where $µ_n$ is the mobility for electrons,$\signa$ is the semiconductors conductivity, and $J_n$ is the current density due to the concerted movement of electrons. It is also usual to define the resistivity of the semiconductor as the inverse of its conductivity. The current is then obtained by
+
+\begin{equation}
+I = JA = A\sigma E = \left( \frac{A\sigma}{L}\right)V
+\label{eq:current}
+\end{equation}
+
+which is recognized as Ohm's law.
+
+
+Diffusion is a transport process caused by the random motion of the diffusing particles in the medium in which they diffuse. The net transport of particles is in the opposite direction of the concentration gradient. For holes we have
+
+\begin{equation}
+N_p=-D_p\frac{dp}{dx}
+\label{eq:diffusion}
+\end{equation}
+
+where the proportionality constant $D_p$ is the diffusion coefficient (m$^2$/s) for holes.
+
+The movement of charged particles are frequently determined by the simultaneous presence of electric fields and concentration gradients. Both of the relevant transport parameters, mobilities and diffusion coefficients, will in general depend on temperature. The relation between diffusion coefficient and mobility is
+
+\begin{equation}
+\frac{D_p}{\my_p}=\frac{kT}{q}
+\label{eq:transport_relation}
+\end{equation}
+
+for holes, and a corresponding one exist for electrons.
+
+\subsection{Excitation and recombination}
+
+Electrons can move from one band to another directly, or indirectly. In indirect generation and recombination the electrons employ the so-called gap-states. Such conditions will always exist in semiconductors and are related to impurities, defects in the crystal structure, boundary surfaces (grain boundaries) and surfaces. Gap-states are in between the valence band and the conduction band, which is not allowed states in a perfect crystal.
+
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+
+% Styles til elementer
+\tikzstyle{band} 	=	[rectangle, draw, thick, text width=12em, fill=black!10, text centered, minimum height=1em]
+\tikzstyle{e} 	=	[circle, draw, fill=black] % radius=0.2cm
+\tikzstyle{h} 	=	[circle, draw, fill=white] % radius=0.2cm
+
+	% Direkte
+	\node[band]	(direkte_valens)																									{};
+	\node[band]	(direkte_lednings)	[above of=direkte_valens, node distance=3cm]	{};
+	\node[e] (elektron1) [right of=direkte_valens] {}; % Elektron
+	\node[h] (hull1) [left of=direkte_valens] {}; % Hull
+	\node[e] (elektron2) [left of=direkte_lednings] {}; % Elektron
+	\node[h] (hull2) [right of=direkte_lednings] {}; % Hull
+	\draw[very thick,->] (-1,0.3) -- (-1,2.7) {} ; % Pil opp
+	\draw[very thick,<-] (1,0.3) -- (1,2.7) {} ; % Pil ned
+	\node (direkte_tekst) [rectangle, draw, text width=10em, below of=direkte_valens,node distance=1.5cm]	{\large Direct generation and recombination};
+	
+	\node (lednings_tekst) [right of=direkte_lednings, node distance=3cm, text width=2em] {Conduction band};
+	\node (valens_tekst) [right of=direkte_valens, node distance=3.2cm, text width=2em] {Valence band};
+	
+	% Indirekte
+	\node[band]	(indirekte_valens)		[right of=direkte_valens,  node distance=7.5cm]	{};
+	\node[band]	(indirekte_lednings)	[above of=indirekte_valens, node distance=3cm]	{};
+	
+	\node[h] (h3) [left of=indirekte_valens, node distance=1.7cm] {}; % Hull
+	\node[e] (e3) [above of=h3, node distance=1.5cm] {}; % Elektron
+	\draw[very thick,->] (h3) -- (e3) {}; %Pil
+	\draw[thick,-] (5.5,1.5) -- (6.1,1.5) {}; % Linje gjennom
+	
+	\node[e] (e4) [left of=indirekte_lednings, node distance=0.5cm] {}; % Elektron
+	\node[h] (h4) [below of=e4, node distance=1.5cm] {}; % Hull	
+	\draw[very thick,->] (h4) -- (e4) {}; % Pil
+	\draw[thick,-] (6.7,1.5) -- (7.3,1.5) {}; % Linje gjennom
+	
+	\node[h] (h5) [right of=indirekte_lednings, node distance=0.5cm] {}; % Hull
+	\node[e] (e5) [below of=h5, node distance=1.5cm] {}; % Elektron
+	\draw[very thick,->] (h5) -- (e5) {}; % Pil
+	\draw[thick,-] (7.7,1.5) -- (8.3,1.5) {}; % Linje gjennom
+	
+	\node[e] (e6) [right of=indirekte_valens, node distance=1.7cm] {}; % Elektron
+	\node[h] (h6) [above of=e6, node distance=1.5cm] {}; % Hull	
+	\draw[very thick,->] (h6) -- (e6) {}; %Pil
+	\draw[thick,-] (8.9,1.5) -- (9.5,1.5) {}; % Linje gjennom
+	
+	\node (indirekte_tekst) [rectangle, draw, text width=10em, below of=indirekte_valens,node distance=1.5cm]	{\large Indirect generation and recombination};
+	
+\end{tikzpicture}	
+
+\caption{Generation and recombination}%
+\label{fig:indirect}%
+\end{figure}
+
+In semiconductors with direct bandgap, like GaAs, both processes will occur. In semiconductors with with indirect bandgap, like silicon, a direct process cannot happend without contributions from lattice vibrations (phonons), something which makes the process less probable. In semiconductors with indirect bandgap, indirect generation, and recombination will dominate. %%%%%%%% check english litterature - streetman etc.
+
+% Indirekte båndbap figur
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{bandgap}%
+\caption{Direct and indirect recombination (figure from \cite{aps})}%
+\label{fig:indirect_direct}%
+\end{figure}
