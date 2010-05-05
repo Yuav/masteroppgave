@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{streetman}
+B.~G. Streetman and S.~K. Banerjee, {\em Solid state electronic devices}.
+\newblock Prentice Hall, 2006.
+
+\bibitem{aps}
+B.~Jalali, ``Physics and technology forefronts - silicon lasers,'' {\em
+  American Physical Society}, 2006.
+
 \bibitem{drozdov76}
 N.~A. Drozdov, A.~Patrin, and V.~Tkachev, ``Recombination radiation on
   dislocations in silicon,'' {\em Pis'ma Xh. Eksp. Teor. Fiz.}, 1976.
@@ -180,10 +188,6 @@ R.~Hammond, T.~McGill, and J.~Mayer, ``Temperature dependence of the
 A.~Hare, G.Davies, and A.T.Collins, ``The temperature dependence of vibronic
   spectra in irradiated silicon,'' {\em J. Phys. C: Solid State Phys.}, 1972.
 
-\bibitem{streetman}
-B.~G. Streetman and S.~K. Banerjee, {\em Solid state electronic devices}.
-\newblock Prentice Hall, 2006.
-
 \bibitem{d-linje-temp}
 T.~Arguirov, W.~Seifert, and M.~K.~J. Reif, ``Temperature behaviour of
   photoluminescence and electron-beam-induced current recombination behaviour
@@ -210,10 +214,6 @@ T.~Arguirov, W.Seifer, G.~Jia, and M.~Kittler, ``Photoluminiscence study on
 A.~J. Kenyon, C.~E. Chryssoua, C.~W. Pitta, T.~Shimizu-Iwayamab, D.~E. Holec,
   N.~Sharmad, and C.~J. Humphreysd, ``Broad-band and flashlamp pumping of 1.53
   \micro m emission from erbium-doped silicon nanocrystals,'' 2001.
-
-\bibitem{aps}
-B.~Jalali, ``Physics and technology forefronts - silicon lasers,'' {\em
-  American Physical Society}, 2006.
 
 \bibitem{mater08}
 M.~Inoue, H.~Sugimoto, M.~Tajima, Y.~Ohshita, and A.~Ogura, ``Microscopic and
@@ -343,5 +343,9 @@ I.~G. G.~N. Mishinova and Y.~M. Suleimanov, ``Low-temperature luminescence of
 \bibitem{sauer73}
 R.~Sauer, ``Evidence for bound multiple-exciton complexes in silicon,'' {\em
   Phys. Rev. Let.}, 1973.
+
+\bibitem{sauer74}
+R.~Sauer, ``1974,'' {\em Solid State Communications}, Bound Multiple-Excition
+  Complexes in Silicon at High Doping Levels.
 
 \end{thebibliography}
