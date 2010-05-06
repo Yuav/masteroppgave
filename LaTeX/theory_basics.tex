@@ -1,4 +1,4 @@
-Most solar cells are made from a crystalline, meaning the structure of atoms is ordered, or periodic. Generally the crystals will contain imperfections and impurities. Some solar cell materials however, is not crystalline, but are missing periodicity. These solar cells are made from amorphous materials.
+Most solar cells made are crystalline, meaning the structure of atoms is ordered, or periodic. Generally the crystals will contain imperfections and impurities. Some solar cell materials however, is not crystalline, but are missing periodicity. These solar cells are made from amorphous materials.
 
 \subsection{Bandgap}
 
@@ -242,7 +242,8 @@ Electrons can move from one band to another directly, or indirectly. In indirect
 \label{fig:indirect}%
 \end{figure}
 
-In semiconductors with direct bandgap, like GaAs, both processes will occur. In semiconductors with with indirect bandgap, like silicon, a direct process cannot happend without contributions from lattice vibrations (phonons), something which makes the process less probable. In semiconductors with indirect bandgap, indirect generation, and recombination will dominate. %%%%%%%% check english litterature - streetman etc.
+In semiconductors with direct bandgap, like GaAs, both processes will occur. In semiconductors with with indirect bandgap, like silicon, a direct process cannot happend without contributions from lattice vibrations (phonons), something which makes the process less probable. This is one of the reasons why impurities in silicon solar cells is an important parameter. The electron in an indirect process is moving in the form of a plane wave with propagation constant \vec{k}, also called wave vector. 
+
 
 % Indirekte båndbap figur
 \begin{figure}[H]
@@ -251,3 +252,181 @@ In semiconductors with direct bandgap, like GaAs, both processes will occur. In 
 \caption{Direct and indirect recombination (figure from \cite{aps})}%
 \label{fig:indirect_direct}%
 \end{figure}
+
+
+Generation and recombination processes can be described as net flow of electrons to the conduction band, $U_n$, proportional to the deviation from equilibrium
+
+\begin{equation}
+U_n = - \frac{n-n^0}{\tau_n}
+\label{eq:generation_n}
+\end{equation}
+
+where $\tau_n$ is the lifetime of electrons. $n$ is the concentration of holes and $n^0$ is the equilibrium concentration of electrons, $n^0=n_i^2$. The lifetime is the time that an electron of average speeds in the conduction band use before recombining with a hole. Similarly, the net production of holes $U_p$
+
+\begin{equation}
+U_p = - \frac{p-p^0}{\tau_p}
+\label{eq:generation_p}
+\end{equation}
+
+\subsection{Solar cells}
+
+In a semiconductor with one p-doped, and one n-doped area laying next to each others is called a pn-junction. A pn-junction has rectifying properties, meaning the r electrical conductance are significantly better in one direction than the other, in contrast to a resistor for which it does not matter for the voltage drop across the resistance whether the current runs one way or another through it. This rectifying behavior defines a diode. Due to the p-side having a larger concentration of eletrons in the conduction band than the n-side, there will be a net transport of conduction band electrons from the n-side, to the p-side by diffusion. The same is also happening for holes from the p-side to the n-side. This net flow of charge is called the diffusion current. In principle, the dopants of Si, B, and P can also diffuse between the two parts of the crystal. Such a transport will only be significant at the temperature range of 800 to 900$^\circ$~C, and can be neglected at low temperatures like room temperature.
+
+% figur fra s. 14 i kompendiet
+
+\begin{figure}[H]%
+\centering
+\begin{tikzpicture}
+
+	\tikzstyle{box} 	=	[rectangle, draw, thick, fill=black!10, minimum width=15em, minimum height=3cm]
+	\tikzstyle{ladning} 	=	[circle, draw, fill=black!20, minimum size=0.6cm]
+	\def\edistance{0.6cm}
+	
+	\node[box]	(p)	{p};
+	\node[box]	(n) [right of=p, node distance=15em]	{n};
+	
+	\node[ladning] (p3) [right of=p, node distance=8.35em] 	{\tiny{+}};
+	\node[ladning] (p2) [above of=p3, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p1) [above of=p2, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p4) [below of=p3, node distance=\edistance] {\tiny{+}};
+	\node[ladning] (p5) [below of=p4, node distance=\edistance] {\tiny{+}};
+	
+	\node[ladning] (n3) [left of=n, node distance=8.35em] 			{\small{-}};
+	\node[ladning] (n2) [above of=n3, node distance=\edistance] {\small{-}};
+	\node[ladning] (n1) [above of=n2, node distance=\edistance] {\small{-}};
+	\node[ladning] (n4) [below of=n3, node distance=\edistance] {\small{-}};
+	\node[ladning] (n5) [below of=n4, node distance=\edistance] {\small{-}};
+	
+	% Draw curly braces using path decoration
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (2.2,1.6) -- (3.5,1.6)
+   node [black,midway,above=2pt] {\footnotesize $|E|>>0$};
+
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (-2.8,1.6) -- (2.1,1.6)
+   node [black,midway,above=2pt] {\footnotesize Neutral, $E=0$};
+
+	\draw [thick,decorate,decoration={brace,amplitude=5pt}]
+   (3.6,1.6) -- (8.5,1.6)
+   node [black,midway,above=2pt] {\footnotesize Neutral, $E=0$};
+
+	% Strømpiler
+	\draw [thick,<-] (2,-1.8) -- (3.6,-1.8) node [right=2pt]	{$I_{drift}$}; 
+	\draw [thick,->] (2,-2.3) -- (3.6,-2.3) node [left=45pt]	{$I_{diffusion}$}; 
+
+\end{tikzpicture}
+
+\caption{Depletion area}%
+\label{fig:depletionarea}%
+\end{figure}
+
+Each hole that leaves the p-side will therefor leave behind an acceptor that is no longer neutralized by a hole. Similarly, each electron in the n-side leave behind a donoor that is not neutralized by an electron. A layer near the interface between the two materials with non-neutral donors on the n-side and non-neutral acceptor in the p-side will therefor form. This layer is often called the depletion layer, since it is essentially depleted of free charge carriers. Since the n-side of the depletion layer contains non-neutral donors this side will be positively charged. The corresponding p.side will be negatively charged. These charges therefore will cause an electric field directed from n-to p-side, or a corresponding drop in electrical potential from the n-side to the p-side. This electrical potential is resulting in a drift current which is moving in the opposite direction of the diffusion current which is resulting in equilibrium, meaning zero net flow of current.
+
+By exposing the pn-junction to light, minority carriers may be generated beyond those generated thermally. The carriers are generated by photon absorption. This generation is usually significantly greater than the drift current. A diode not exposed to light has the following current voltage characteristic:
+
+\begin{equation}
+I=|I_{drift}|e^{\frac{qV}{kT}-1}
+\label{eq:diodeiv}
+\end{equation}
+
+When the diode is exposed to light, the drift current is increased, and the characteristic is changing into:
+
+% figur fra side 22 i kompendiet
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+
+	\draw [->] (-3,0) -- (3,0) node [right=5pt]	{V};  % Y-akse
+	\draw [->] (0,-2) -- (0,3) node [above=5pt]	{I}; % X-akse
+
+	% Diode
+	\draw [dashed,-] (-3,-0.2) -- (-1,-0.2);
+	\draw [dashed,-] (-1,-0.2) .. controls +(right:1.2cm) .. (1.5,3);
+	\draw [->, >=triangle 45] (-2.5,0.5) -- node[right] {$I_{drift}$} (-2.5,0);
+	\draw [->, >=triangle 45] (-2.5,-0.7) -- (-2.5,-0.2);
+	
+	% Solcelle
+	\draw [-] (-3,-1.8) -- (-1,-1.8);
+	\draw [-] (-1,-1.8) .. controls +(right:1.5cm) .. (1.5,2);
+	\draw [<->, >=triangle 45] (-1.7,-1.8) -- node[right] {$I_{light}$} (-1.7,-0.2);
+
+\end{tikzpicture}
+
+\caption{Current-voltage characteristics for a solar cell}%
+\label{fig:ivsolcelle}%
+\end{figure}
+
+For solar cells, the current going out of the cell is usually defined as positive, so that the characteristic is flipped upside-down
+
+\begin{equation}
+I=I_{light}-I_{drift}(e^{\frac{qV}{kT}-1})
+\label{eq:solarcelliv}
+\end{equation}
+
+where $I_light$, is the current generated by the exposing light. In an open circuit the voltage is defined as 
+
+\begin{equation}
+V_{OC}=\frac{kT}{q}\ln(\frac{I_{light}}{I_{drift}}+1)
+\label{eq:voc}
+\end{equation}
+
+and max power defined as
+
+\begin{equation}
+P_m=I_m V_m
+\label{eq:piv}
+\end{equation}
+
+where $P_m$ is maximum power, $I_m$ is maximum current and $V_m$ is maximum voltage. Solar cell efficiency is defined as 
+
+\begin{equation}
+\eta=\frac{P_m}{P_{inn}}=FF \frac{I_{belysning} V_{OC}}{P_{inn}}
+\label{eq:virkningsgrad}
+\end{equation}
+
+where FF is the fill factor give by
+
+\begin{equation}
+FF=\frac{I_m V_m}{I_{light} V_{OC}}
+\label{eq:fillfactor}
+\end{equation}
+
+
+% fyllfaktor figur
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+
+	\draw [->] (-0.3,0) -- (6,0) node [right=5pt]	{V};  % X-akse
+	\draw [->] (0,-0.3) -- (0,4) node [above=5pt]	{I}; % Y-akse
+
+	% Faktisk kurve
+	\draw [-] (0,2.55) -- (3,2.5);
+	\draw [-] (3,2.5) .. controls +(right:1.6cm) .. (5.5,0);
+	
+	% Fyllfaktor
+	\node [draw, rectangle,fill=black!10,minimum height=2.3cm, minimum width=4.3cm] (FF) at (2.15,1.15) {Fill factor};
+	
+	% Tekst
+	\node at (-0.9,2.65) {$I_{light}$};
+	\node at (-0.4,2.2) {$I_m$};
+	\node at (4.3,-0.3) {$V_m$};
+	\node at (5.5,-0.3) {$V_{OC}$};
+	
+	
+\end{tikzpicture}
+
+\caption{Current-voltage characteristics with fill factor}%
+\label{fig:fyllfaktor}%
+\end{figure}
+
+Solar cells with defects, have a less efficiency than clean samples
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{efficiency}%
+\caption[I-V characteristics with defects]{A comparison of calculated I-V characteristics of three cells with 0\%, 6\%, and 15\% of area covered by defects from \cite{sopori09}.}%
+\label{fig:IVwithdefects}%
+\end{figure}
+
+which makes it important to be able to characterize defects as well as impurities in order to increase solar cell efficiency.
