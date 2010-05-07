@@ -14,7 +14,11 @@ delimiter = '\t';
 Mapping_noise = '..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Noise\';
 Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
 
+% Analysis
 
+
+
+%{
 % Bars
 bar_plot = zeros([10 2]);
 relative_TO_BE_intensity = zeros([10 1]);
@@ -54,7 +58,7 @@ max1 = 0;
 for i=1:20
     Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step',num2str(i),'\'),delimiter,1);
     Result = dark_current_noise_removal(Result,Mapping_noise);
-    Result = dark_current_noise_removal(Result,0);
+    Result = dark_current_noise_removal(Result,0)
     Ay = Result(:,2); % Amplitude values
     % TO line 
     TO_intensity = max(Ay); % Array index 477
@@ -63,12 +67,14 @@ for i=1:20
     end
     % BE line
     BE_intensity = Ay(214); % Array index 214, 1.091eV
+    % D4
+    D4_intensity = Ay(1265); % Array index 1265, 1.0 eV
     bar_plot(i,1) = TO_intensity;
     bar_plot(i,2) = BE_intensity*10;
     relative_TO_BE_intensity(i) = BE_intensity / TO_intensity;
 end
 x = 1:20;
-fig = figure(3);
+fig = figure(20);
 axes('Parent',fig,'FontSize',fontsize);
 bar(x,bar_plot);
 axis([0 21 0 max1*1.2])
@@ -79,7 +85,7 @@ ylabel('Counts','FontSize',fontsize);
 xlabel('Position','FontSize',fontsize);
 print -depsc 'Processed_results\MH2-mapping-bars-5_small_steps-20s';
 
-fig = figure(4);
+fig = figure(21);
 axes('Parent',fig,'FontSize',fontsize);
 bar(x,relative_TO_BE_intensity);
 axis([0 21 0 max(relative_TO_BE_intensity)*1.2])
@@ -95,7 +101,7 @@ for i=1:10
     Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationspotmapping\Step',num2str(i),'\'),delimiter,1);
     Result = dark_current_noise_removal(Result,Mapping_noise);
     Result = dark_current_noise_removal(Result,0);
-    plot_result(Result,1,'ev','20s integrating time','MH2-Q3-210 Line mapping 5 step interval',fontsize,'b',11);
+    plot_result(Result,1,'ev','20s integrating time','MH2-Q3-210 Line mapping 1 step interval',fontsize,'b',11);
 end
 print -depsc 'Processed_results\MH2-mapping-small_steps-20s';
 
@@ -103,11 +109,11 @@ for i=1:20
     Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step',num2str(i),'\'),delimiter,1);
     Result = dark_current_noise_removal(Result,Mapping_noise);
     Result = dark_current_noise_removal(Result,0);
-    plot_result(Result,2,'ev','20s integrating time','MH2-Q3-210 Line mapping 1 step interval',fontsize,'b',11);
+    plot_result(Result,2,'ev','20s integrating time','MH2-Q3-210 Line mapping 5 step interval',fontsize,'b',11);
 end
 print -depsc 'Processed_results\MH2-mapping-5_small_steps-20s';
 
-
+%{
 % Low temperature
 MH2_noise_20s = '..\Results\april-28-2010\MH2-Q3-210-B2\Noise-20s-during-spot3\';
 MH2_noise_20s = get_result_from_dir(MH2_noise_20s,delimiter,1);
