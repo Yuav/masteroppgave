@@ -2,6 +2,49 @@ clear, clc,close all % clear all variables, window, and close all windows
 fontsize = 14;
 delimiter = '\t';
 
+
+%% MH2 line map 20 points
+
+Mapping_noise = '..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Noise\';
+Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
+
+
+% Guess what peaks/curves are present in the resultset, expect nm arg
+                %position_nm  width intensity
+    I0      = [nm_to_ev(1.1545)	9	2000]; %I_0
+    BE2     = [nm_to_ev(1.147)	9	1000]; %BE P
+    I_TA    = [nm_to_ev(1.1365)	9	1000]; %I_TA
+    TO      = [nm_to_ev(1.097)	9	20000]; %TO
+    D4      = [nm_to_ev(1.0)	9	2000]; %D4
+    D4_broad = [nm_to_ev(0.95)	50	2000]; %D3+D4 broad background emission
+    D3      = [nm_to_ev(0.934)	9	2000]; %D3
+    BE1     = [nm_to_ev(1.092)	5	10000]; %BE B
+    TO_IV   = [nm_to_ev(1.074)	5	5000]; %TO + IV
+    TO_0    = [nm_to_ev(1.0315)	5	2000]; %TO + Zone Center Phonon
+    
+
+1.147
+peak_guesses = [I0 I_TA TO D4 D4_broad D3 BE1 TO_IV TO_0];
+interval = [nm_to_ev(1.16) nm_to_ev(0.951)]; % From -> TO in wavelength (nm)
+
+for i=1:1
+    Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step',num2str(i),'\'),delimiter,1);
+    Result = dark_current_noise_removal(Result,Mapping_noise);
+    Result = dark_current_noise_removal(Result,0);
+    plot_result(Result,2,'ev','20s integrating time','MH2-Q3-210 Line mapping 5 step interval',fontsize,'g',0);
+    plot_gaussfitting(Result,peak_guesses,interval,2,'ev','20s integrating time','MH2-Q3-210 Line mapping 5 step interval',fontsize,'b',0);
+end
+
+
+
+
+
+
+
+
+
+%{
+
 % Analysis
 MH2_noise_20s = '..\Results\april-28-2010\MH2-Q3-210-B2\Noise-20s-during-spot3\';
 MH2_noise_20s = get_result_from_dir(MH2_noise_20s,delimiter,1);
@@ -29,76 +72,6 @@ t0 = [nm_to_ev(1.1045)   7  800]; %I0
 peak_guesses = [t0 t1 t2 t3 t4 t5 t6 t7 t8];
 interval = [nm_to_ev(1.2) nm_to_ev(0.79)]; % From -> TO in wavelength (nm)
 
-plot_result(MH2_area1,1,'ev','20s integration time','Gaussfitting MH2',fontsize,'y',0)
+plot_result(MH2_area1,1,'ev','20s integration time','MH2-Q3-210 B2 Area 1',fontsize,'y',0)
 plot_gaussfitting(MH2_area1,peak_guesses,interval,1,'ev','20s integration time','Gaussfitting MH2',fontsize,'b',0)
-
-%{
-
-param0 = [t1 t2 t3 t4 t5 t6 t7 t8];
-indexlow = find(x > nm_to_ev(1.2),1,'first'); % 1.2 eV at the lowest index (due to results in nm, not eV)
-indexhigh = find(x > nm_to_ev(0.79),1,'first'); % 0.79 eV at highest index (due to nm_to_ev)
-
-lambda = x(indexlow:indexhigh);
-intensity = y(indexlow:indexhigh);
-
-%sgolay filtering
-intensity = sgolayfilt(intensity,1,19);
-
-
-[calcInt,g1,g2,g3,g4,g5,g6,g7,g8] = Gn(param0,lambda);
-%[calcInt,g1,g2,g3] = Gn(param0,lambda);
-
-figure1 = figure(1);
-clf;
-
-lambda2 = lambda;
-lambda = nm_to_ev(lambda);
-
-plot(lambda,intensity,'r');
-hold on;
-plot(lambda,calcInt,'k');
-plot(lambda,g1,'--r','Color','b');
-plot(lambda,g2,'--r','Color','b');
-plot(lambda,g3,'--r','Color','b');
-plot(lambda,g4,'--r','Color','b');
-plot(lambda,g5,'--r','Color','b');
-plot(lambda,g6,'--r','Color','b');
-plot(lambda,g7,'--r','Color','b');
-plot(lambda,g8,'--r','Color','b');
-xlabel({'Wavelength [nm]'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
-ylabel({'Intensity'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
-title({'sf090604 visible spectrum Gaussian fit'},'FontWeight','bold','FontSize',24,'FontName','Calibri');
 %}
-
-
-
-
-
-
-%% Computer fit
-lambda = lambda2;
-
-param = lsqcurvefit(@Gn, param0, lambda, intensity);
-
-[calcInt,g1,g2,g3,g4,g5,g6] = Gn(param,lambda);
-
-figure(2);
-%lambda = nm_to_ev(lambda);
-%plot(lambda,intensity,'r');
-hold on;
-plot(lambda,calcInt,'k');
-plot(lambda,g1,'--r','Color','b');
-plot(lambda,g2,'--r','Color','b');
-plot(lambda,g3,'--r','Color','b');
-plot(lambda,g4,'--r','Color','b');
-plot(lambda,g5,'--r','Color','b');
-plot(lambda,g6,'--r','Color','b');
-plot(lambda,g7,'--r','Color','b');
-%xlabel({'Wavelength [nm]'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
-%ylabel({'Intensity'},'FontWeight','bold','FontSize',18,'FontName','Calibri');
-%title({'sf090604 visible spectrum Gaussian fit'},'FontWeight','bold','FontSize',24,'FontName','Calibri');
-
-
-% Skrive til fil for bruk i latex
-%print -depsc 'C:\Documents and Settings\Jon\My Documents\Prosjekt\solcelle\Latex_filer\bilder\Posisjoner_gauss'
-

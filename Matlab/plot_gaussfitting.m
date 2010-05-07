@@ -11,7 +11,7 @@ function plot_gaussfitting(Result,peak_guesses,interval,fig_number,type,legend1,
     intensity = Ay(indexlow:indexhigh);
 
     % Sgolay filtering before curvefitting
-    intensity = sgolayfilt(intensity,1,19);
+    intensity = sgolayfilt(intensity,1,13);
 
     % Create gaussian curves
     [calcInt,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10] = Gn(peak_guesses,xaxis);
