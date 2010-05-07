@@ -15,6 +15,7 @@ Mapping_noise = '..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2
 Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
 
 
+%{
 % Bars
 bar_plot = zeros([10 2]);
 relative_TO_BE_intensity = zeros([10 1]);
@@ -54,7 +55,7 @@ max1 = 0;
 for i=1:20
     Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step',num2str(i),'\'),delimiter,1);
     Result = dark_current_noise_removal(Result,Mapping_noise);
-    Result = dark_current_noise_removal(Result,0);
+    Result = dark_current_noise_removal(Result,0)
     Ay = Result(:,2); % Amplitude values
     % TO line 
     TO_intensity = max(Ay); % Array index 477
@@ -63,6 +64,8 @@ for i=1:20
     end
     % BE line
     BE_intensity = Ay(214); % Array index 214, 1.091eV
+    % D4
+    D4_intensity = Ay(1265); % Array index 1265, 1.0 eV
     bar_plot(i,1) = TO_intensity;
     bar_plot(i,2) = BE_intensity*10;
     relative_TO_BE_intensity(i) = BE_intensity / TO_intensity;
