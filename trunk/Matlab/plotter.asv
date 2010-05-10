@@ -8,17 +8,135 @@ fontsize = 14;
 delimiter = '\t';
 
 
+
+
+%% Comparison pl
+
+% Read all data to memory
+R6Noise = '..\Results\april-28-2010\R6-Q3-201-A\NOISE\';
+R6Noise = get_result_from_dir(R6Noise,delimiter,1);
+
+R6_Area1_dislocation_line = '..\Results\april-28-2010\R6-Q3-201-A\Dislocation-area1\';
+R6_Area2_dislocation_dot = '..\Results\april-28-2010\R6-Q3-201-A\Area2\';
+R6_Area3_clean_area = '..\Results\april-28-2010\R6-Q3-201-A\Area3_clean\';
+A = dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1200',delimiter));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1300',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1400',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1500',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\R6-Q3-201-A\NOISE\20s-no-signal-open-shutter-nm-1600',delimiter)));
+Area1_noise = A;
+R6_Area1_dislocation_line = get_result_from_dir(R6_Area1_dislocation_line,delimiter,1);
+R6_Area2_dislocation_dot = get_result_from_dir(R6_Area2_dislocation_dot,delimiter,1);
+R6_Area3_clean_area = get_result_from_dir(R6_Area3_clean_area,delimiter,1);
+
+ES_noise_10s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-10s\';
+ES_noise_10s = get_result_from_dir(ES_noise_10s,delimiter,1);
+ES_Area1 = '..\Results\april-28-2010\Esi-q3-201-C\Good-area1\';
+ES_Area1 = get_result_from_dir(ES_Area1,delimiter,1);
+ES_Area2 = '..\Results\april-28-2010\Esi-q3-201-C\dislocationspotArea2\';
+ES_Area2 = get_result_from_dir(ES_Area2,delimiter,1);
+ES_Area3 = '..\Results\april-28-2010\Esi-q3-201-C\grain_boundary-Area3\Signal-10s\';
+ES_Area3 = get_result_from_dir(ES_Area3,delimiter,1);
+A = dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1200',delimiter));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1300',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1400',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1500',delimiter)));
+ES_Area3_noise_60s = A;
+ES_Area3_60s = '..\Results\april-28-2010\Esi-q3-201-C\grain_boundary-Area3\Signal-60s\';
+ES_Area3_60s = get_result_from_dir(ES_Area3_60s,delimiter,1);
+ES_signal_10s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Signal-10s\';
+ES_signal_10s = get_result_from_dir(ES_signal_10s,delimiter,1);
+ES_noise_60s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\';
+ES_noise_60s = get_result_from_dir(ES_noise_60s,delimiter,1);
+ES_signal_60s = '..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Signal-60s\';
+ES_signal_60s = get_result_from_dir(ES_signal_60s,delimiter,1);
+
+MH2_noise_20s = '..\Results\april-28-2010\MH2-Q3-210-B2\Noise-20s-during-spot3\';
+MH2_noise_20s = get_result_from_dir(MH2_noise_20s,delimiter,1);
+MH2_area1 = '..\Results\april-28-2010\MH2-Q3-210-B2\spot1-goodspot\';
+MH2_area1 = get_result_from_dir(MH2_area1,delimiter,1);
+MH2_area2 = '..\Results\april-28-2010\MH2-Q3-210-B2\spot2-dislocationline\';
+MH2_area2 = get_result_from_dir(MH2_area2,delimiter,1);
+MH2_area3 = '..\Results\april-28-2010\MH2-Q3-210-B2\spot3-dislocation2\Signal-20s\';
+MH2_area3 = get_result_from_dir(MH2_area3,delimiter,1);
+A = dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1200',delimiter));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1300',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1400',delimiter)));
+A = matrix_align_and_glue_reverse(A,dead_pixel_correction(dlmread('..\Results\april-28-2010\Esi-q3-201-C\dislocationline-Area4\Noise-60s\ES1-A_800nm_pump_14K_60s_170mW_300grating_area4_center-nm-1500',delimiter)));
+MH2_Area3_noise_60s = A;
+MH2_area3_60s = '..\Results\april-28-2010\MH2-Q3-210-B2\spot3-dislocation2\Signal-60s\';
+MH2_area3_60s = get_result_from_dir(MH2_area3_60s,delimiter,1);
+MH2_area3_60s = dark_current_noise_removal(MH2_area3_60s,MH2_Area3_noise_60s);
+
+
+
+
+R6_Area1_dislocation_line = dark_current_noise_removal(R6_Area1_dislocation_line,Area1_noise);
+R6_Area2_dislocation_dot = dark_current_noise_removal(R6_Area2_dislocation_dot,R6Noise);
+R6_Area3_clean_area = dark_current_noise_removal(R6_Area3_clean_area,R6Noise);
+
+ES_Area1_dislocation_free_10s = dark_current_noise_removal(ES_Area1,ES_noise_10s);
+Ax = ES_Area1_dislocation_free_10s(:,1);
+Ay = ES_Area1_dislocation_free_10s(:,2);
+Ay = 2*Ay;
+ES_Area1_dislocation_free_10s2x = [Ax,Ay];
+ES_Area2_dislocation_spot_10s = dark_current_noise_removal(ES_Area2,ES_noise_10s);
+Ax = ES_Area2_dislocation_spot_10s(:,1);
+Ay = ES_Area2_dislocation_spot_10s(:,2);
+Ay = 2*Ay;
+ES_Area2_dislocation_spot_10sx2 = [Ax,Ay];
+ES_Area3_grain_boundary_10s = dark_current_noise_removal(ES_Area3,ES_noise_10s);
+Ax = ES_Area3_grain_boundary_10s(:,1);
+Ay = ES_Area3_grain_boundary_10s(:,2);
+Ay = 2*Ay;
+ES_Area3_grain_boundary_10sx2 = [Ax,Ay];
+ES_Area3_grain_boundary_60s = dark_current_noise_removal(ES_Area3_60s,ES_Area3_noise_60s);
+ES_Area4_dislocation_line_10s = dark_current_noise_removal(ES_signal_10s,ES_noise_10s);
+Ax = ES_Area4_dislocation_line_10s(:,1);
+Ay = ES_Area4_dislocation_line_10s(:,2);
+Ay = 2*Ay;
+ES_Area4_dislocation_line_10sx2 = [Ax,Ay];
+ES_dislocation_line_60s = dark_current_noise_removal(ES_signal_60s,ES_Area3_noise_60s);
+Ax = ES_dislocation_line_60s(:,1);
+Ay = ES_dislocation_line_60s(:,2);
+Ay = Ay/3;
+ES_dislocation_line_60sx0_33 = [Ax,Ay];
+
+MH2_area1_clean_area = dark_current_noise_removal(MH2_area1,MH2_noise_20s);
+MH2_area2_dislocation_line = dark_current_noise_removal(MH2_area2,MH2_noise_20s);
+MH2_area3_dislocation_dot = dark_current_noise_removal(MH2_area3,MH2_noise_20s);
+MH2_area3_dislocation_dot_60s = dark_current_noise_removal(MH2_area3_60s,0);
+
+% Dislocation line
+plot_result(R6_Area1_dislocation_line,22,'ev','20s integrating time','Dislocation line',fontsize,'k',3);
+plot_result(ES_Area4_dislocation_line_10sx2,22,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
+plot_result(MH2_area2_dislocation_line,22,'ev','20s integrating time','Dislocation line',fontsize,'r',3);
+legend('R6','ES1','MH2');
+print -depsc 'Processed_results\dislocation_line-20s';
+
+% Dislocation dot
+plot_result(R6_Area2_dislocation_dot,23,'ev','20s integrating time','Dislocation dot',fontsize,'k',3);
+plot_result(ES_Area2_dislocation_spot_10sx2,23,'ev','20s integrating time','Dislocation dot',fontsize,'b',3);
+plot_result(MH2_area3_dislocation_dot,23,'ev','20s integrating time','Dislocation dot',fontsize,'r',3);
+legend('R6','ES1','MH2');
+print -depsc 'Processed_results\dislocation_dot-20s';
+
+% Clean area
+plot_result(R6_Area3_clean_area,24,'ev','20s integrating time','Clean area',fontsize,'k',3);
+plot_result(ES_Area1_dislocation_free_10s2x,24,'ev','20s integrating time','Clean area',fontsize,'b',3);
+plot_result(MH2_area1_clean_area,24,'ev','20s integrating time','Clean area',fontsize,'r',3);
+legend('R6','ES1','MH2');
+print -depsc 'Processed_results\clean_area-20s';
+
+
+
 %% MH2-Q3-210
 
 % Line mapping
 Mapping_noise = '..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Noise\';
 Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
 
-% Analysis
 
-
-
-%{
 % Bars
 bar_plot = zeros([10 2]);
 relative_TO_BE_intensity = zeros([10 1]);
@@ -109,11 +227,11 @@ for i=1:20
     Result = get_result_from_dir(strcat('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step',num2str(i),'\'),delimiter,1);
     Result = dark_current_noise_removal(Result,Mapping_noise);
     Result = dark_current_noise_removal(Result,0);
-    plot_result(Result,2,'ev','20s integrating time','MH2-Q3-210 Line mapping 5 step interval',fontsize,'b',11);
+    plot_result(Result,42,'ev','20s integrating time','MH2-Q3-210 Line mapping 5 step interval',fontsize,'b',11);
 end
 print -depsc 'Processed_results\MH2-mapping-5_small_steps-20s';
 
-%{
+
 % Low temperature
 MH2_noise_20s = '..\Results\april-28-2010\MH2-Q3-210-B2\Noise-20s-during-spot3\';
 MH2_noise_20s = get_result_from_dir(MH2_noise_20s,delimiter,1);
@@ -168,12 +286,12 @@ print -depsc 'Processed_results\MH2-room_temperature';
 MH2_70K_bad = '..\Results\april-28-2010\MH2-Q3-210-B2\70K\dislocation\';
 MH2_70K_bad = get_result_from_dir(MH2_70K_bad,delimiter,1);
 MH2_70K_bad = dark_current_noise_removal(MH2_70K_bad,0);
-plot_result(MH2_70K_bad,6,'ev','20s integrating time','MH2-Q3-210 B2 70K',fontsize,'k',11);
+plot_result(MH2_70K_bad,6,'ev','20s integrating time','MH2-Q3-210 B2 70K',fontsize,'k',5);
 
 MH2_70K_gd = '..\Results\april-28-2010\MH2-Q3-210-B2\70K\cleanarea\';
 MH2_70K_gd = get_result_from_dir(MH2_70K_gd,delimiter,1);
 MH2_70K_gd = dark_current_noise_removal(MH2_70K_gd,0);
-plot_result(MH2_70K_gd,6,'ev','20s integrating time','MH2-Q3-210 B2 70K',fontsize,'b',11);
+plot_result(MH2_70K_gd,6,'ev','20s integrating time','MH2-Q3-210 B2 70K',fontsize,'b',5);
 print -depsc 'Processed_results\MH2-70K';
 
 

@@ -4,10 +4,13 @@
 \BOOKMARK [2][-]{subsection.1.3}{Transport and recombination processes}{section.1}
 \BOOKMARK [2][-]{subsection.1.4}{Excitation and recombination}{section.1}
 \BOOKMARK [2][-]{subsection.1.5}{Solar cells}{section.1}
-\BOOKMARK [2][-]{subsection.1.6}{Dislocation photoluminescence}{section.1}
-\BOOKMARK [2][-]{subsection.1.7}{Impurities}{section.1}
-\BOOKMARK [3][-]{subsubsection.1.7.1}{Atom impurities}{subsection.1.7}
-\BOOKMARK [3][-]{subsubsection.1.7.2}{Interaction with dislocations}{subsection.1.7}
+\BOOKMARK [2][-]{subsection.1.6}{Spectroscopy}{section.1}
+\BOOKMARK [2][-]{subsection.1.7}{Spectrometer}{section.1}
+\BOOKMARK [2][-]{subsection.1.8}{Noise}{section.1}
+\BOOKMARK [2][-]{subsection.1.9}{Dislocation photoluminescence}{section.1}
+\BOOKMARK [2][-]{subsection.1.10}{Impurities}{section.1}
+\BOOKMARK [3][-]{subsubsection.1.10.1}{Atom impurities}{subsection.1.10}
+\BOOKMARK [3][-]{subsubsection.1.10.2}{Interaction with dislocations}{subsection.1.10}
 \BOOKMARK [1][-]{section.2}{Experimental}{}
 \BOOKMARK [2][-]{subsection.2.1}{Samples}{section.2}
 \BOOKMARK [3][-]{subsubsection.2.1.1}{R6-Q3-201}{subsection.2.1}
@@ -34,6 +37,10 @@
 \BOOKMARK [3][-]{subsubsection.3.3.2}{At 70K}{subsection.3.3}
 \BOOKMARK [3][-]{subsubsection.3.3.3}{Low temperature}{subsection.3.3}
 \BOOKMARK [3][-]{subsubsection.3.3.4}{Line mapping}{subsection.3.3}
+\BOOKMARK [1][-]{section.4}{Results analysis}{}
+\BOOKMARK [2][-]{subsection.4.1}{Comparing different locations on sample MH2-Q3-210}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Comparing similar areas on different samples}{section.4}
+\BOOKMARK [1][-]{section.5}{Discussion}{}
 \BOOKMARK [1][-]{appendix.A}{Silicon energy bands}{}
 \BOOKMARK [1][-]{appendix.B}{Sample types and procedures}{}
 \BOOKMARK [1][-]{appendix.C}{Abbrevations}{}
