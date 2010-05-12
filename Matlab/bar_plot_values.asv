@@ -1,0 +1,12 @@
+function[C] = bar_plot_values(A)
+
+TO = max(Ay);
+bar_plot(6,1) = Ay(I0_index)/TO;
+bar_plot(5,1) = Ay(TO_IVa_index)/TO;    
+bar_plot(4,1) = Ay(TO_Zone_center_index)/TO;    
+bar_plot(3,1) = Ay(D4_index)/TO;    
+bar_plot(2,1) = Ay(TO_2_Zone_center_index)/TO;    
+bar_plot(1,1) = Ay(D3_index)/TO;    
+
+
+end

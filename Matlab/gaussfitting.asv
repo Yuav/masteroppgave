@@ -12,13 +12,33 @@ Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
 % Guess what peaks/curves are present in the resultset, expect nm arg
                 %position_nm  width intensity
     I0      = [nm_to_ev(1.1545)	9	2000]; %I_0
-    I_TA
+    BE2     = [nm_to_ev(1.147)	9	1000]; %BE P
+    I_TA    = [nm_to_ev(1.1365)	9	1000]; %I_TA
     TO      = [nm_to_ev(1.097)	9	20000]; %TO
+    
+    pos10 = nm_to_ev(1.097);
+    
+        % Define X and Y values
+    Ax = Result(:,1);
+    Ay = Result(:,2);
+
+    % Define interval to gaussfit
+    indexlow = find(Ax > interval(1),1,'first');
+    indexhigh = find(Ax > interval(2),1,'first');
+    xaxis = Ax(indexlow:indexhigh);
+    gauss10 = int10*exp(-((pos10-lambda)/width10).^2);
+    
+    
+    D4      = [nm_to_ev(1.0)	9	2000]; %D4
+    D4_broad = [nm_to_ev(0.95)	50	2000]; %D3+D4 broad background emission
+    D3      = [nm_to_ev(0.934)	9	2000]; %D3
     BE1     = [nm_to_ev(1.092)	5	10000]; %BE B
     TO_IV   = [nm_to_ev(1.074)	5	5000]; %TO + IV
+    TO_0    = [nm_to_ev(1.0315)	5	2000]; %TO + Zone Center Phonon
+    
 
-
-peak_guesses = [I0 TO BE1 TO_IV];
+1.147
+peak_guesses = [I0 I_TA TO D4 D4_broad D3 BE1 TO_IV TO_0];
 interval = [nm_to_ev(1.16) nm_to_ev(0.951)]; % From -> TO in wavelength (nm)
 
 for i=1:1
