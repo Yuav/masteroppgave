@@ -15,6 +15,37 @@ Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
     BE2     = [nm_to_ev(1.147)	9	1000]; %BE P
     I_TA    = [nm_to_ev(1.1365)	9	1000]; %I_TA
     TO      = [nm_to_ev(1.097)	9	20000]; %TO
+    
+    pos10 = nm_to_ev(1.097);
+    
+      Result = get_result_from_dir('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step1\',delimiter,1);
+    Result = dark_current_noise_removal(Result,Mapping_noise);
+    Result = dark_current_noise_removal(Result,0);
+    
+        % Define X and Y values
+    Ax = Result(:,1);
+    Ay = Result(:,2);
+
+    % Define interval to gaussfit
+    
+    xaxis = Ax(140:419);
+    
+    E = xaxis;
+    E_0 = 1.1;
+    k = 1.38*10^-(23);
+    T = 12;
+    
+    TO = [];
+    for i=1:(419-139),
+       TO(i) = (E(i)-E_0).^(1/2) * exp(-((E(i)-E_0)./(k*T)));
+        
+    end
+    
+    length(xaxis)
+    length(TO)
+    
+    plot(xaxis,TO);
+    
     D4      = [nm_to_ev(1.0)	9	2000]; %D4
     D4_broad = [nm_to_ev(0.95)	50	2000]; %D3+D4 broad background emission
     D3      = [nm_to_ev(0.934)	9	2000]; %D3

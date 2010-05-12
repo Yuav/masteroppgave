@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.4.26)  10 MAY 2010 14:55
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.4.26)  12 MAY 2010 12:00
 entering extended mode
 **C:/Documents*and*Settings/Jon/My*Documents/Prosjekt/solcelle/Latex_filer/../.
 ./../Masteroppgave/LaTeX/main.tex
@@ -990,16 +990,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--10
 
 [19
 
-] <./images/lab_setup.png, id=516, 1224.575pt x 796.9775pt>
-File: ./images/lab_setup.png Graphic file (type png)
+]
+Package epstopdf Info: Source file: <./images/full_setup.eps>
+(epstopdf)                    date: 2010-05-10 16:17:38
+(epstopdf)                    size: 291353 bytes
+(epstopdf)             Output file: <./images/full_setup-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-10 16:22:34
+(epstopdf)                    size: 35519 bytes
+(epstopdf)             Command: <epstopdf --outfile=./images/full_setup-eps-con
+verted-to.pdf ./images/full_setup.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
 
-<use ./images/lab_setup.png>
-Overfull \hbox (25.47171pt too wide) in paragraph at lines 66--77
+<./images/full_setup-eps-converted-to.pdf, id=516, 389.455pt x 636.3775pt>
+File: ./images/full_setup-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./images/full_setup-eps-converted-to.pdf> [20]
+Overfull \vbox (72.12148pt too high) has occurred while \output is active []
+
+
+[21 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/full
+_setup-eps-converted-to.pdf>]
+Overfull \hbox (34.22508pt too wide) in paragraph at lines 67--85
  [][] 
  []
 
-[20 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/lab_
-setup.png>] [21] [22] [23] [24]
+[22] [23] [24] [25]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\results_plotti
 ng.tex"
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-4
@@ -1008,22 +1024,15 @@ Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-4
 (epstopdf)                    size: 16260 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-4
 0s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:00
+(epstopdf)                    date: 2010-05-10 14:55:46
 (epstopdf)                    size: 8526 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-40s-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current
 -40s.eps>
 (epstopdf)             \includegraphics on input line 9.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/Dark_current-40s-eps-c
-onverted-to.pdf ../Matlab/Processed_results/Dark_current-40s.eps)...executed (a
-llowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Matlab/Processed_results/Dark_current-4
-0s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:46
-(epstopdf)                    size: 8526 bytes.
-
-<../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf, id=575, 513
+<../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf, id=589, 513
 .92pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-40s-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1035,28 +1044,21 @@ Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-4
 (epstopdf)                    size: 22540 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-4
 0s_corrected-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:00
+(epstopdf)                    date: 2010-05-10 14:55:47
 (epstopdf)                    size: 8900 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-40s_corrected-eps-converted-to.pdf ../Matlab/Processed_results/Da
 rk_current-40s_corrected.eps>
 (epstopdf)             \includegraphics on input line 18.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/Dark_current-40s_corre
-cted-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current-40s_correcte
-d.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/Dark_current-4
-0s_corrected-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:47
-(epstopdf)                    size: 8900 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current-40s_corrected-eps-converted-to.pdf, i
-d=576, 513.92pt x 419.5675pt>
+d=590, 513.92pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-40s_corrected-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/Dark_current-40s_corrected-eps-converted-to.pd
-f> [25
+f> [26
 
  <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_res
 ults/Dark_current-40s-eps-converted-to.pdf>]
@@ -1066,22 +1068,15 @@ Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-1
 (epstopdf)                    size: 17188 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-1
 0s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:01
+(epstopdf)                    date: 2010-05-10 14:55:47
 (epstopdf)                    size: 8749 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-10s-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current
 -10s.eps>
 (epstopdf)             \includegraphics on input line 30.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/Dark_current-10s-eps-c
-onverted-to.pdf ../Matlab/Processed_results/Dark_current-10s.eps)...executed (a
-llowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Matlab/Processed_results/Dark_current-1
-0s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:47
-(epstopdf)                    size: 8749 bytes.
-
-<../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf, id=586, 524
+<../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf, id=599, 524
 .96124pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-10s-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1093,28 +1088,21 @@ Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current-1
 (epstopdf)                    size: 24442 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current-1
 0s_corrected-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:01
+(epstopdf)                    date: 2010-05-10 14:55:48
 (epstopdf)                    size: 9097 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current-10s_corrected-eps-converted-to.pdf ../Matlab/Processed_results/Da
 rk_current-10s_corrected.eps>
 (epstopdf)             \includegraphics on input line 34.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/Dark_current-10s_corre
-cted-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current-10s_correcte
-d.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/Dark_current-1
-0s_corrected-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:48
-(epstopdf)                    size: 9097 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current-10s_corrected-eps-converted-to.pdf, i
-d=587, 524.96124pt x 419.5675pt>
+d=600, 524.96124pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current-10s_corrected-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/Dark_current-10s_corrected-eps-converted-to.pd
-f> [26 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Process
+f> [27 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Process
 ed_results/Dark_current-40s_corrected-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/Dark_current_a
 nd_background_noise-20s.eps>
@@ -1122,28 +1110,21 @@ nd_background_noise-20s.eps>
 (epstopdf)                    size: 30837 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current_a
 nd_background_noise-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:02
-(epstopdf)                    size: 19014 bytes
+(epstopdf)                    date: 2010-05-10 14:55:48
+(epstopdf)                    size: 19034 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current_and_background_noise-20s-eps-converted-to.pdf ../Matlab/Processed
 _results/Dark_current_and_background_noise-20s.eps>
 (epstopdf)             \includegraphics on input line 47.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/Dark_current_and_backg
-round_noise-20s-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current_a
-nd_background_noise-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/Dark_current_a
-nd_background_noise-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:48
-(epstopdf)                    size: 19034 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current_and_background_noise-20s-eps-converte
-d-to.pdf, id=596, 524.96124pt x 419.5675pt>
+d-to.pdf, id=609, 524.96124pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current_and_background_noise-20s-eps-con
 verted-to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/Dark_current_and_background_noise-20s-eps-conv
-erted-to.pdf> [27 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Mat
+erted-to.pdf> [28 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Mat
 lab/Processed_results/Dark_current-10s-eps-converted-to.pdf> <C:/Documents and 
 Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/Dark_current-1
 0s_corrected-eps-converted-to.pdf>]
@@ -1153,33 +1134,26 @@ emoved-20s.eps>
 (epstopdf)                    size: 24664 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/Dark_current_r
 emoved-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:02
+(epstopdf)                    date: 2010-05-10 14:55:49
 (epstopdf)                    size: 14150 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /Dark_current_removed-20s-eps-converted-to.pdf ../Matlab/Processed_results/Dark
 _current_removed-20s.eps>
 (epstopdf)             \includegraphics on input line 56.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/Dark_current_removed-2
-0s-eps-converted-to.pdf ../Matlab/Processed_results/Dark_current_removed-20s.ep
-s)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/Dark_current_r
-emoved-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:49
-(epstopdf)                    size: 14150 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/Dark_current_removed-20s-eps-converted-to.pdf, id=
-610, 517.935pt x 419.5675pt>
+623, 517.935pt x 419.5675pt>
 File: ../Matlab/Processed_results/Dark_current_removed-20s-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/Dark_current_removed-20s-eps-converted-to.pdf>
-[28 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
-results/Dark_current_and_background_noise-20s-eps-converted-to.pdf>]) [29 <C:/D
+[29 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+results/Dark_current_and_background_noise-20s-eps-converted-to.pdf>]) [30 <C:/D
 ocuments and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/D
 ark_current_removed-20s-eps-converted-to.pdf>])
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\results.tex"
-<./images/R6-Q3-210-A_enlarged.png, id=628, 684.5575pt x 582.175pt>
+<./images/R6-Q3-210-A_enlarged.png, id=641, 684.5575pt x 582.175pt>
 File: ./images/R6-Q3-210-A_enlarged.png Graphic file (type png)
 
 <use ./images/R6-Q3-210-A_enlarged.png>
@@ -1189,28 +1163,21 @@ cation_line-20s.eps>
 (epstopdf)                    size: 36126 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/R6-Area1_dislo
 cation_line-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:03
+(epstopdf)                    date: 2010-05-10 14:55:49
 (epstopdf)                    size: 16837 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /R6-Area1_dislocation_line-20s-eps-converted-to.pdf ../Matlab/Processed_results
 /R6-Area1_dislocation_line-20s.eps>
 (epstopdf)             \includegraphics on input line 19.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/R6-Area1_dislocation_l
-ine-20s-eps-converted-to.pdf ../Matlab/Processed_results/R6-Area1_dislocation_l
-ine-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/R6-Area1_dislo
-cation_line-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:49
-(epstopdf)                    size: 16837 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/R6-Area1_dislocation_line-20s-eps-converted-to.pdf
-, id=629, 518.93875pt x 419.5675pt>
+, id=642, 518.93875pt x 419.5675pt>
 File: ../Matlab/Processed_results/R6-Area1_dislocation_line-20s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/R6-Area1_dislocation_line-20s-eps-converted-to
-.pdf> [30
+.pdf> [31
 
 
  <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/R6-Q3-2
@@ -1221,23 +1188,16 @@ cation_dot-20s.eps>
 (epstopdf)                    size: 41233 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/R6-Area2_dislo
 cation_dot-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:03
+(epstopdf)                    date: 2010-05-10 14:55:50
 (epstopdf)                    size: 20585 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /R6-Area2_dislocation_dot-20s-eps-converted-to.pdf ../Matlab/Processed_results/
 R6-Area2_dislocation_dot-20s.eps>
 (epstopdf)             \includegraphics on input line 27.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/R6-Area2_dislocation_d
-ot-20s-eps-converted-to.pdf ../Matlab/Processed_results/R6-Area2_dislocation_do
-t-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/R6-Area2_dislo
-cation_dot-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:50
-(epstopdf)                    size: 20585 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/R6-Area2_dislocation_dot-20s-eps-converted-to.pdf,
- id=637, 526.96875pt x 419.5675pt>
+ id=651, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/R6-Area2_dislocation_dot-20s-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -1249,41 +1209,34 @@ _area-20s.eps>
 (epstopdf)                    size: 44731 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/R6-Area3_clean
 _area-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:04
+(epstopdf)                    date: 2010-05-10 14:55:50
 (epstopdf)                    size: 23823 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /R6-Area3_clean_area-20s-eps-converted-to.pdf ../Matlab/Processed_results/R6-Ar
 ea3_clean_area-20s.eps>
 (epstopdf)             \includegraphics on input line 35.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/R6-Area3_clean_area-20
-s-eps-converted-to.pdf ../Matlab/Processed_results/R6-Area3_clean_area-20s.eps)
-...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/R6-Area3_clean
-_area-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:50
-(epstopdf)                    size: 23823 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/R6-Area3_clean_area-20s-eps-converted-to.pdf, id=6
-40, 526.96875pt x 419.5675pt>
+54, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/R6-Area3_clean_area-20s-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/R6-Area3_clean_area-20s-eps-converted-to.pdf>
-[31 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+[32 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
 results/R6-Area1_dislocation_line-20s-eps-converted-to.pdf> <C:/Documents and S
 ettings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/R6-Area2_disloc
 ation_dot-20s-eps-converted-to.pdf>]
-<./images/ES1-Q3-201-C_enlarged.png, id=658, 500.87125pt x 916.42375pt>
+<./images/ES1-Q3-201-C_enlarged.png, id=671, 500.87125pt x 916.42375pt>
 File: ./images/ES1-Q3-201-C_enlarged.png Graphic file (type png)
 
-<use ./images/ES1-Q3-201-C_enlarged.png> [32 <C:/Documents and Settings/Jon/My 
+<use ./images/ES1-Q3-201-C_enlarged.png> [33 <C:/Documents and Settings/Jon/My 
 Documents/Masteroppgave/Matlab/Processed_results/R6-Area3_clean_area-20s-eps-co
 nverted-to.pdf>]
 Overfull \vbox (55.89429pt too high) has occurred while \output is active []
 
 
-[33 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/ES1-
+[34 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/ES1-
 Q3-201-C_enlarged.png (PNG copy)>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-room_tempe
 rature.eps>
@@ -1291,22 +1244,15 @@ rature.eps>
 (epstopdf)                    size: 92848 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-room_tempe
 rature-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:04
+(epstopdf)                    date: 2010-05-10 14:55:51
 (epstopdf)                    size: 52824 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-room_temperature-eps-converted-to.pdf ../Matlab/Processed_results/ES1-room
 _temperature.eps>
 (epstopdf)             \includegraphics on input line 56.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/ES1-room_temperature-e
-ps-converted-to.pdf ../Matlab/Processed_results/ES1-room_temperature.eps)...exe
-cuted (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Matlab/Processed_results/ES1-room_tempe
-rature-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:51
-(epstopdf)                    size: 52824 bytes.
-
-<../Matlab/Processed_results/ES1-room_temperature-eps-converted-to.pdf, id=673,
+<../Matlab/Processed_results/ES1-room_temperature-eps-converted-to.pdf, id=686,
  518.93875pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-room_temperature-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1318,28 +1264,21 @@ ocation_free-10s.eps>
 (epstopdf)                    size: 45277 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area1_disl
 ocation_free-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:05
+(epstopdf)                    date: 2010-05-10 14:55:52
 (epstopdf)                    size: 24142 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area1_dislocation_free-10s-eps-converted-to.pdf ../Matlab/Processed_result
 s/ES1-Area1_dislocation_free-10s.eps>
 (epstopdf)             \includegraphics on input line 66.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/ES1-Area1_dislocation_
-free-10s-eps-converted-to.pdf ../Matlab/Processed_results/ES1-Area1_dislocation
-_free-10s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/ES1-Area1_disl
-ocation_free-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:52
-(epstopdf)                    size: 24142 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area1_dislocation_free-10s-eps-converted-to.pd
-f, id=674, 507.8975pt x 419.5675pt>
+f, id=687, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area1_dislocation_free-10s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area1_dislocation_free-10s-eps-converted-t
-o.pdf> [34 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+o.pdf> [35 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
 cessed_results/ES1-room_temperature-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/ES1-Area2_disl
 ocation_spot-10s.eps>
@@ -1347,23 +1286,16 @@ ocation_spot-10s.eps>
 (epstopdf)                    size: 45380 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area2_disl
 ocation_spot-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:05
+(epstopdf)                    date: 2010-05-10 14:55:52
 (epstopdf)                    size: 24318 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area2_dislocation_spot-10s-eps-converted-to.pdf ../Matlab/Processed_result
 s/ES1-Area2_dislocation_spot-10s.eps>
 (epstopdf)             \includegraphics on input line 73.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/ES1-Area2_dislocation_
-spot-10s-eps-converted-to.pdf ../Matlab/Processed_results/ES1-Area2_dislocation
-_spot-10s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/ES1-Area2_disl
-ocation_spot-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:52
-(epstopdf)                    size: 24318 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area2_dislocation_spot-10s-eps-converted-to.pd
-f, id=686, 507.8975pt x 419.5675pt>
+f, id=699, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area2_dislocation_spot-10s-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -1375,28 +1307,21 @@ n_boundary-10s.eps>
 (epstopdf)                    size: 35727 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area3_grai
 n_boundary-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:06
+(epstopdf)                    date: 2010-05-10 14:55:53
 (epstopdf)                    size: 18896 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area3_grain_boundary-10s-eps-converted-to.pdf ../Matlab/Processed_results/
 ES1-Area3_grain_boundary-10s.eps>
 (epstopdf)             \includegraphics on input line 81.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/ES1-Area3_grain_bounda
-ry-10s-eps-converted-to.pdf ../Matlab/Processed_results/ES1-Area3_grain_boundar
-y-10s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/ES1-Area3_grai
-n_boundary-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:53
-(epstopdf)                    size: 18896 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area3_grain_boundary-10s-eps-converted-to.pdf,
- id=689, 507.8975pt x 419.5675pt>
+ id=702, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area3_grain_boundary-10s-eps-converted-to
 .pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area3_grain_boundary-10s-eps-converted-to.
-pdf> [35 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proce
+pdf> [36 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proce
 ssed_results/ES1-Area1_dislocation_free-10s-eps-converted-to.pdf> <C:/Documents
  and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/ES1-Area2
 _dislocation_spot-10s-eps-converted-to.pdf>]
@@ -1406,23 +1331,16 @@ n_boundary_60s.eps>
 (epstopdf)                    size: 55816 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area3_grai
 n_boundary_60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:07
+(epstopdf)                    date: 2010-05-10 14:55:53
 (epstopdf)                    size: 31039 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area3_grain_boundary_60s-eps-converted-to.pdf ../Matlab/Processed_results/
 ES1-Area3_grain_boundary_60s.eps>
 (epstopdf)             \includegraphics on input line 88.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/ES1-Area3_grain_bounda
-ry_60s-eps-converted-to.pdf ../Matlab/Processed_results/ES1-Area3_grain_boundar
-y_60s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/ES1-Area3_grai
-n_boundary_60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:53
-(epstopdf)                    size: 31039 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area3_grain_boundary_60s-eps-converted-to.pdf,
- id=706, 507.8975pt x 419.5675pt>
+ id=719, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area3_grain_boundary_60s-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -1434,28 +1352,21 @@ ocation_line-10s.eps>
 (epstopdf)                    size: 35994 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area4_disl
 ocation_line-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:07
+(epstopdf)                    date: 2010-05-10 14:55:54
 (epstopdf)                    size: 19350 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area4_dislocation_line-10s-eps-converted-to.pdf ../Matlab/Processed_result
 s/ES1-Area4_dislocation_line-10s.eps>
 (epstopdf)             \includegraphics on input line 96.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/ES1-Area4_dislocation_
-line-10s-eps-converted-to.pdf ../Matlab/Processed_results/ES1-Area4_dislocation
-_line-10s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/ES1-Area4_disl
-ocation_line-10s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:54
-(epstopdf)                    size: 19350 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area4_dislocation_line-10s-eps-converted-to.pd
-f, id=711, 526.96875pt x 419.5675pt>
+f, id=724, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area4_dislocation_line-10s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area4_dislocation_line-10s-eps-converted-t
-o.pdf> [36 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+o.pdf> [37 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
 cessed_results/ES1-Area3_grain_boundary-10s-eps-converted-to.pdf> <C:/Documents
  and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/ES1-Area3
 _grain_boundary_60s-eps-converted-to.pdf>]
@@ -1465,28 +1376,21 @@ ocation_line-60s.eps>
 (epstopdf)                    size: 60272 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/ES1-Area4_disl
 ocation_line-60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:08
+(epstopdf)                    date: 2010-05-10 14:55:54
 (epstopdf)                    size: 33624 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /ES1-Area4_dislocation_line-60s-eps-converted-to.pdf ../Matlab/Processed_result
 s/ES1-Area4_dislocation_line-60s.eps>
 (epstopdf)             \includegraphics on input line 103.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/ES1-Area4_dislocation_
-line-60s-eps-converted-to.pdf ../Matlab/Processed_results/ES1-Area4_dislocation
-_line-60s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/ES1-Area4_disl
-ocation_line-60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:54
-(epstopdf)                    size: 33624 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/ES1-Area4_dislocation_line-60s-eps-converted-to.pd
-f, id=728, 507.8975pt x 419.5675pt>
+f, id=742, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/ES1-Area4_dislocation_line-60s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/ES1-Area4_dislocation_line-60s-eps-converted-t
-o.pdf> [37 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+o.pdf> [38 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
 cessed_results/ES1-Area4_dislocation_line-10s-eps-converted-to.pdf> <C:/Documen
 ts and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/ES1-Are
 a4_dislocation_line-60s-eps-converted-to.pdf>]
@@ -1496,22 +1400,15 @@ rature.eps>
 (epstopdf)                    size: 77055 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-room_tempe
 rature-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:08
+(epstopdf)                    date: 2010-05-10 14:55:55
 (epstopdf)                    size: 48944 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-room_temperature-eps-converted-to.pdf ../Matlab/Processed_results/MH2-room
 _temperature.eps>
 (epstopdf)             \includegraphics on input line 116.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-room_temperature-e
-ps-converted-to.pdf ../Matlab/Processed_results/MH2-room_temperature.eps)...exe
-cuted (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-room_tempe
-rature-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:55
-(epstopdf)                    size: 48944 bytes.
-
-<../Matlab/Processed_results/MH2-room_temperature-eps-converted-to.pdf, id=748,
+<../Matlab/Processed_results/MH2-room_temperature-eps-converted-to.pdf, id=761,
  518.93875pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-room_temperature-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1522,25 +1419,19 @@ Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-70K.eps>
 (epstopdf)                    size: 60417 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-70K-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:10
-(epstopdf)                    size: 34741 bytes
+(epstopdf)                    date: 2010-05-10 14:55:56
+(epstopdf)                    size: 35523 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-70K-eps-converted-to.pdf ../Matlab/Processed_results/MH2-70K.eps>
 (epstopdf)             \includegraphics on input line 125.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-70K-eps-converted-
-to.pdf ../Matlab/Processed_results/MH2-70K.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-70K-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:56
-(epstopdf)                    size: 35523 bytes.
-
-<../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf, id=749, 518.93875pt 
+<../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf, id=762, 518.93875pt 
 x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use ../Matlab/Processed_results/MH2-70K-eps-converted-to.pdf>
-[38 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+[39 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
 results/MH2-room_temperature-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-Area1-disl
 ocation_free-20s.eps>
@@ -1548,28 +1439,21 @@ ocation_free-20s.eps>
 (epstopdf)                    size: 35224 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area1-disl
 ocation_free-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:10
+(epstopdf)                    date: 2010-05-10 14:55:56
 (epstopdf)                    size: 19168 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area1-dislocation_free-20s-eps-converted-to.pdf ../Matlab/Processed_result
 s/MH2-Area1-dislocation_free-20s.eps>
 (epstopdf)             \includegraphics on input line 134.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-Area1-dislocation_
-free-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-Area1-dislocation
-_free-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-Area1-disl
-ocation_free-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:56
-(epstopdf)                    size: 19168 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area1-dislocation_free-20s-eps-converted-to.pd
-f, id=759, 507.8975pt x 419.5675pt>
+f, id=772, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area1-dislocation_free-20s-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-Area1-dislocation_free-20s-eps-converted-t
-o.pdf> [39 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
+o.pdf> [40 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Pro
 cessed_results/MH2-70K-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/MH2-Area2-disl
 ocation_line-20s.eps>
@@ -1577,23 +1461,16 @@ ocation_line-20s.eps>
 (epstopdf)                    size: 35470 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area2-disl
 ocation_line-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:11
+(epstopdf)                    date: 2010-05-10 14:55:57
 (epstopdf)                    size: 18932 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area2-dislocation_line-20s-eps-converted-to.pdf ../Matlab/Processed_result
 s/MH2-Area2-dislocation_line-20s.eps>
 (epstopdf)             \includegraphics on input line 141.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-Area2-dislocation_
-line-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-Area2-dislocation
-_line-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-Area2-disl
-ocation_line-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:57
-(epstopdf)                    size: 18932 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area2-dislocation_line-20s-eps-converted-to.pd
-f, id=769, 526.96875pt x 419.5675pt>
+f, id=782, 526.96875pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area2-dislocation_line-20s-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -1605,28 +1482,21 @@ ocation_dot-20s.eps>
 (epstopdf)                    size: 35189 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area3-disl
 ocation_dot-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:11
+(epstopdf)                    date: 2010-05-10 14:55:57
 (epstopdf)                    size: 19084 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area3-dislocation_dot-20s-eps-converted-to.pdf ../Matlab/Processed_results
 /MH2-Area3-dislocation_dot-20s.eps>
 (epstopdf)             \includegraphics on input line 148.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-Area3-dislocation_
-dot-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-Area3-dislocation_
-dot-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-Area3-disl
-ocation_dot-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:57
-(epstopdf)                    size: 19084 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area3-dislocation_dot-20s-eps-converted-to.pdf
-, id=770, 507.8975pt x 419.5675pt>
+, id=783, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area3-dislocation_dot-20s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-Area3-dislocation_dot-20s-eps-converted-to
-.pdf> [40 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
+.pdf> [41 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
 essed_results/MH2-Area1-dislocation_free-20s-eps-converted-to.pdf> <C:/Document
 s and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/MH2-Area
 2-dislocation_line-20s-eps-converted-to.pdf>]
@@ -1636,36 +1506,29 @@ ocation_dot-60s.eps>
 (epstopdf)                    size: 54536 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-Area3-disl
 ocation_dot-60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:12
+(epstopdf)                    date: 2010-05-10 14:55:58
 (epstopdf)                    size: 30429 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-Area3-dislocation_dot-60s-eps-converted-to.pdf ../Matlab/Processed_results
 /MH2-Area3-dislocation_dot-60s.eps>
 (epstopdf)             \includegraphics on input line 155.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-Area3-dislocation_
-dot-60s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-Area3-dislocation_
-dot-60s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-Area3-disl
-ocation_dot-60s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:58
-(epstopdf)                    size: 30429 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-Area3-dislocation_dot-60s-eps-converted-to.pdf
-, id=785, 507.8975pt x 419.5675pt>
+, id=798, 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-Area3-dislocation_dot-60s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-Area3-dislocation_dot-60s-eps-converted-to
-.pdf> [41 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
+.pdf> [42 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Proc
 essed_results/MH2-Area3-dislocation_dot-20s-eps-converted-to.pdf>]
-<./images/mapping_1steps_startpoint.png, id=797, 385.44pt x 289.08pt>
+<./images/mapping_1steps_startpoint.png, id=810, 385.44pt x 289.08pt>
 File: ./images/mapping_1steps_startpoint.png Graphic file (type png)
 
-<use ./images/mapping_1steps_startpoint.png> [42 <C:/Documents and Settings/Jon
+<use ./images/mapping_1steps_startpoint.png> [43 <C:/Documents and Settings/Jon
 /My Documents/Masteroppgave/Matlab/Processed_results/MH2-Area3-dislocation_dot-
 60s-eps-converted-to.pdf>]
-<./images/mapping_1steps_endpoint.png, id=809, 385.44pt x 289.08pt>
+<./images/mapping_1steps_endpoint.png, id=823, 385.44pt x 289.08pt>
 File: ./images/mapping_1steps_endpoint.png Graphic file (type png)
 
 <use ./images/mapping_1steps_endpoint.png>
@@ -1675,37 +1538,30 @@ all_steps-20s.eps>
 (epstopdf)                    size: 116680 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-sm
 all_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:13
+(epstopdf)                    date: 2010-05-10 14:55:59
 (epstopdf)                    size: 67245 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-mapping-small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_results/M
 H2-mapping-small_steps-20s.eps>
 (epstopdf)             \includegraphics on input line 183.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-mapping-small_step
-s-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-mapping-small_steps-
-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-mapping-sm
-all_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:55:59
-(epstopdf)                    size: 67245 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-mapping-small_steps-20s-eps-converted-to.pdf, 
-id=810, 511.9125pt x 419.5675pt>
+id=824, 511.9125pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-mapping-small_steps-20s-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-mapping-small_steps-20s-eps-converted-to.p
-df> [43 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/
+df> [44 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/
 mapping_1steps_startpoint.png (PNG copy)> <C:/Documents and Settings/Jon/My Doc
 uments/Masteroppgave/LaTeX/images/mapping_1steps_endpoint.png (PNG copy)>]
-<./images/mapping_5steps_startpoint.png, id=818, 385.44pt x 289.08pt>
+<./images/mapping_5steps_startpoint.png, id=831, 385.44pt x 289.08pt>
 File: ./images/mapping_5steps_startpoint.png Graphic file (type png)
 
-<use ./images/mapping_5steps_startpoint.png> [44 <C:/Documents and Settings/Jon
+<use ./images/mapping_5steps_startpoint.png> [45 <C:/Documents and Settings/Jon
 /My Documents/Masteroppgave/Matlab/Processed_results/MH2-mapping-small_steps-20
 s-eps-converted-to.pdf>]
-<./images/mapping_5steps_endpoint.png, id=830, 385.44pt x 289.08pt>
+<./images/mapping_5steps_endpoint.png, id=843, 385.44pt x 289.08pt>
 File: ./images/mapping_5steps_endpoint.png Graphic file (type png)
 
 <use ./images/mapping_5steps_endpoint.png>
@@ -1715,31 +1571,24 @@ small_steps-20s.eps>
 (epstopdf)                    size: 222995 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-5_
 small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:14
+(epstopdf)                    date: 2010-05-10 14:56:00
 (epstopdf)                    size: 139273 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-mapping-5_small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_results
 /MH2-mapping-5_small_steps-20s.eps>
 (epstopdf)             \includegraphics on input line 212.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-mapping-5_small_st
-eps-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-mapping-5_small_st
-eps-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-mapping-5_
-small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:56:00
-(epstopdf)                    size: 139273 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-mapping-5_small_steps-20s-eps-converted-to.pdf
-, id=831, 511.9125pt x 419.5675pt>
+, id=844, 511.9125pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-mapping-5_small_steps-20s-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-mapping-5_small_steps-20s-eps-converted-to
-.pdf> [45 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/image
+.pdf> [46 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/image
 s/mapping_5steps_startpoint.png (PNG copy)> <C:/Documents and Settings/Jon/My D
 ocuments/Masteroppgave/LaTeX/images/mapping_5steps_endpoint.png (PNG copy)>])
-[46 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+[47 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
 results/MH2-mapping-5_small_steps-20s-eps-converted-to.pdf>]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\results_analys
 is.tex"
@@ -1749,23 +1598,16 @@ rs-small_steps-20s.eps>
 (epstopdf)                    size: 12203 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-ba
 rs-small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:14
+(epstopdf)                    date: 2010-05-10 14:56:00
 (epstopdf)                    size: 4352 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-mapping-bars-small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_resu
 lts/MH2-mapping-bars-small_steps-20s.eps>
 (epstopdf)             \includegraphics on input line 7.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-mapping-bars-small
-_steps-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-mapping-bars-sm
-all_steps-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-mapping-ba
-rs-small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:56:00
-(epstopdf)                    size: 4352 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-mapping-bars-small_steps-20s-eps-converted-to.
-pdf, id=847, 501.875pt x 419.5675pt>
+pdf, id=860, 501.875pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-mapping-bars-small_steps-20s-eps-converte
 d-to.pdf Graphic file (type pdf)
 
@@ -1777,28 +1619,21 @@ rs-5_small_steps-20s.eps>
 (epstopdf)                    size: 13746 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-ba
 rs-5_small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:15
+(epstopdf)                    date: 2010-05-10 14:56:01
 (epstopdf)                    size: 4790 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-mapping-bars-5_small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_re
 sults/MH2-mapping-bars-5_small_steps-20s.eps>
 (epstopdf)             \includegraphics on input line 14.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-mapping-bars-5_sma
-ll_steps-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-mapping-bars-
-5_small_steps-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-mapping-ba
-rs-5_small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:56:01
-(epstopdf)                    size: 4790 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-mapping-bars-5_small_steps-20s-eps-converted-t
-o.pdf, id=850, 501.875pt x 419.5675pt>
+o.pdf, id=863, 501.875pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-mapping-bars-5_small_steps-20s-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
 <use ../Matlab/Processed_results/MH2-mapping-bars-5_small_steps-20s-eps-convert
-ed-to.pdf> [47
+ed-to.pdf> [48
 
  <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_res
 ults/MH2-mapping-bars-small_steps-20s-eps-converted-to.pdf>]
@@ -1808,23 +1643,16 @@ rs-TOonBE-5_small_steps-20s.eps>
 (epstopdf)                    size: 11720 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/MH2-mapping-ba
 rs-TOonBE-5_small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:15
+(epstopdf)                    date: 2010-05-10 14:56:01
 (epstopdf)                    size: 4237 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /MH2-mapping-bars-TOonBE-5_small_steps-20s-eps-converted-to.pdf ../Matlab/Proce
 ssed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s.eps>
 (epstopdf)             \includegraphics on input line 22.
-runsystem(epstopdf --outfile=../Matlab/Processed_results/MH2-mapping-bars-TOonB
-E-5_small_steps-20s-eps-converted-to.pdf ../Matlab/Processed_results/MH2-mappin
-g-bars-TOonBE-5_small_steps-20s.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Matlab/Processed_results/MH2-mapping-ba
-rs-TOonBE-5_small_steps-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:56:01
-(epstopdf)                    size: 4237 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <../Matlab/Processed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps-conv
-erted-to.pdf, id=864, 508.90125pt x 419.5675pt>
+erted-to.pdf, id=877, 508.90125pt x 419.5675pt>
 File: ../Matlab/Processed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps
 -converted-to.pdf Graphic file (type pdf)
 
@@ -1832,11 +1660,11 @@ File: ../Matlab/Processed_results/MH2-mapping-bars-TOonBE-5_small_steps-20s-eps
 converted-to.pdf>
 Package epstopdf Info: Source file: <../Matlab/Processed_results/clean_area-20s
 .eps>
-(epstopdf)                    date: 2010-05-10 14:55:20
+(epstopdf)                    date: 2010-05-12 11:59:50
 (epstopdf)                    size: 93264 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/clean_area-20s
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:16
+(epstopdf)                    date: 2010-05-12 11:57:54
 (epstopdf)                    size: 53750 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /clean_area-20s-eps-converted-to.pdf ../Matlab/Processed_results/clean_area-20s
@@ -1848,81 +1676,188 @@ ed).
 
 Package epstopdf Info: Result file: <../Matlab/Processed_results/clean_area-20s
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:56:02
+(epstopdf)                    date: 2010-05-12 12:00:08
 (epstopdf)                    size: 53750 bytes.
 
-<../Matlab/Processed_results/clean_area-20s-eps-converted-to.pdf, id=867, 495.8
+<../Matlab/Processed_results/clean_area-20s-eps-converted-to.pdf, id=880, 495.8
 525pt x 419.5675pt>
 File: ../Matlab/Processed_results/clean_area-20s-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
-<use ../Matlab/Processed_results/clean_area-20s-eps-converted-to.pdf> [48 <C:/D
+<use ../Matlab/Processed_results/clean_area-20s-eps-converted-to.pdf> [49 <C:/D
 ocuments and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/M
 H2-mapping-bars-5_small_steps-20s-eps-converted-to.pdf> <C:/Documents and Setti
 ngs/Jon/My Documents/Masteroppgave/Matlab/Processed_results/MH2-mapping-bars-TO
 onBE-5_small_steps-20s-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../Matlab/Processed_results/clean_area-20s
+_zoom.eps>
+(epstopdf)                    date: 2010-05-12 09:46:13
+(epstopdf)                    size: 57510 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/clean_area-20s
+_zoom-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-12 09:46:26
+(epstopdf)                    size: 36825 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
+/clean_area-20s_zoom-eps-converted-to.pdf ../Matlab/Processed_results/clean_are
+a-20s_zoom.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Matlab/Processed_results/clean_area-20s_zoom-eps-converted-to.pdf, id=904, 
+518.93875pt x 419.5675pt>
+File: ../Matlab/Processed_results/clean_area-20s_zoom-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use ../Matlab/Processed_results/clean_area-20s_zoom-eps-converted-to.pdf>
+[50 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+results/clean_area-20s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <../Matlab/Processed_results/dislocation_do
 t-20s.eps>
-(epstopdf)                    date: 2010-05-10 14:55:20
+(epstopdf)                    date: 2010-05-12 11:59:49
 (epstopdf)                    size: 93324 bytes
 (epstopdf)             Output file: <../Matlab/Processed_results/dislocation_do
 t-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:53:16
+(epstopdf)                    date: 2010-05-12 11:57:55
 (epstopdf)                    size: 52778 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
 /dislocation_dot-20s-eps-converted-to.pdf ../Matlab/Processed_results/dislocati
 on_dot-20s.eps>
-(epstopdf)             \includegraphics on input line 40.
+(epstopdf)             \includegraphics on input line 46.
 runsystem(epstopdf --outfile=../Matlab/Processed_results/dislocation_dot-20s-ep
 s-converted-to.pdf ../Matlab/Processed_results/dislocation_dot-20s.eps)...execu
 ted (allowed).
 
 Package epstopdf Info: Result file: <../Matlab/Processed_results/dislocation_do
 t-20s-eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:56:02
+(epstopdf)                    date: 2010-05-12 12:00:08
 (epstopdf)                    size: 52778 bytes.
 
-<../Matlab/Processed_results/dislocation_dot-20s-eps-converted-to.pdf, id=890, 
+<../Matlab/Processed_results/dislocation_dot-20s-eps-converted-to.pdf, id=914, 
 507.8975pt x 419.5675pt>
 File: ../Matlab/Processed_results/dislocation_dot-20s-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use ../Matlab/Processed_results/dislocation_dot-20s-eps-converted-to.pdf>
-[49 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
-results/clean_area-20s-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <../Matlab/Processed_results/clean_area-20s
-.eps>
-(epstopdf)                    date: 2010-05-10 14:55:20
-(epstopdf)                    size: 93264 bytes
-(epstopdf)             Output file: <../Matlab/Processed_results/clean_area-20s
--eps-converted-to.pdf>
-(epstopdf)                    date: 2010-05-10 14:56:02
-(epstopdf)                    size: 53750 bytes
+Package epstopdf Info: Source file: <../Matlab/Processed_results/dislocation_do
+t-20s_zoom.eps>
+(epstopdf)                    date: 2010-05-12 09:46:12
+(epstopdf)                    size: 58215 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/dislocation_do
+t-20s_zoom-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-12 09:46:28
+(epstopdf)                    size: 36584 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
-/clean_area-20s-eps-converted-to.pdf ../Matlab/Processed_results/clean_area-20s
-.eps>
-(epstopdf)             \includegraphics on input line 49.
+/dislocation_dot-20s_zoom-eps-converted-to.pdf ../Matlab/Processed_results/disl
+ocation_dot-20s_zoom.eps>
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
-File: ../Matlab/Processed_results/clean_area-20s-eps-converted-to.pdf Graphic f
+
+<../Matlab/Processed_results/dislocation_dot-20s_zoom-eps-converted-to.pdf, id=
+923, 518.93875pt x 419.5675pt>
+File: ../Matlab/Processed_results/dislocation_dot-20s_zoom-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use ../Matlab/Processed_results/dislocation_dot-20s_zoom-eps-converted-to.pdf>
+[51 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_
+results/clean_area-20s_zoom-eps-converted-to.pdf> <C:/Documents and Settings/Jo
+n/My Documents/Masteroppgave/Matlab/Processed_results/dislocation_dot-20s-eps-c
+onverted-to.pdf>]
+Package epstopdf Info: Source file: <../Matlab/Processed_results/dislocation_li
+ne-20s.eps>
+(epstopdf)                    date: 2010-05-12 11:59:48
+(epstopdf)                    size: 76422 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/dislocation_li
+ne-20s-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-12 11:57:55
+(epstopdf)                    size: 42931 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
+/dislocation_line-20s-eps-converted-to.pdf ../Matlab/Processed_results/dislocat
+ion_line-20s.eps>
+(epstopdf)             \includegraphics on input line 60.
+runsystem(epstopdf --outfile=../Matlab/Processed_results/dislocation_line-20s-e
+ps-converted-to.pdf ../Matlab/Processed_results/dislocation_line-20s.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <../Matlab/Processed_results/dislocation_li
+ne-20s-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-12 12:00:10
+(epstopdf)                    size: 42931 bytes.
+
+<../Matlab/Processed_results/dislocation_line-20s-eps-converted-to.pdf, id=937,
+ 507.8975pt x 419.5675pt>
+File: ../Matlab/Processed_results/dislocation_line-20s-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use ../Matlab/Processed_results/dislocation_line-20s-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <../Matlab/Processed_results/dislocation_li
+ne-20s_zoom.eps>
+(epstopdf)                    date: 2010-05-12 09:46:11
+(epstopdf)                    size: 54598 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/dislocation_li
+ne-20s_zoom-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-12 09:46:29
+(epstopdf)                    size: 33784 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
+/dislocation_line-20s_zoom-eps-converted-to.pdf ../Matlab/Processed_results/dis
+location_line-20s_zoom.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Matlab/Processed_results/dislocation_line-20s_zoom-eps-converted-to.pdf, id
+=946, 518.93875pt x 419.5675pt>
+File: ../Matlab/Processed_results/dislocation_line-20s_zoom-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use ../Matlab/Processed_results/dislocation_line-20s_zoom-eps-converted-to.pdf
+> [52 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processe
+d_results/dislocation_dot-20s_zoom-eps-converted-to.pdf> <C:/Documents and Sett
+ings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/dislocation_line-2
+0s-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../Matlab/Processed_results/TO_comparisons
+.eps>
+(epstopdf)                    date: 2010-05-12 11:59:50
+(epstopdf)                    size: 16110 bytes
+(epstopdf)             Output file: <../Matlab/Processed_results/TO_comparisons
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-12 11:57:56
+(epstopdf)                    size: 5341 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Matlab/Processed_results
+/TO_comparisons-eps-converted-to.pdf ../Matlab/Processed_results/TO_comparisons
+.eps>
+(epstopdf)             \includegraphics on input line 75.
+runsystem(epstopdf --outfile=../Matlab/Processed_results/TO_comparisons-eps-con
+verted-to.pdf ../Matlab/Processed_results/TO_comparisons.eps)...executed (allow
+ed).
+
+Package epstopdf Info: Result file: <../Matlab/Processed_results/TO_comparisons
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2010-05-12 12:00:11
+(epstopdf)                    size: 5340 bytes.
+
+<../Matlab/Processed_results/TO_comparisons-eps-converted-to.pdf, id=960, 496.8
+5625pt x 404.51125pt>
+File: ../Matlab/Processed_results/TO_comparisons-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
-<use ../Matlab/Processed_results/clean_area-20s-eps-converted-to.pdf>) [50 <C:/
+<use ../Matlab/Processed_results/TO_comparisons-eps-converted-to.pdf>) [53 <C:/
 Documents and Settings/Jon/My Documents/Masteroppgave/Matlab/Processed_results/
-dislocation_dot-20s-eps-converted-to.pdf>] [51]
+dislocation_line-20s_zoom-eps-converted-to.pdf>] [54 <C:/Documents and Settings
+/Jon/My Documents/Masteroppgave/Matlab/Processed_results/TO_comparisons-eps-con
+verted-to.pdf>]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\discussion.tex
-") [52
+") [55
 
 ]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.bbl"
-[53
+[56
 
-] [54] [55] [56]
+] [57] [58] [59]
 Underfull \hbox (badness 3250) in paragraph at lines 263--267
 \T1/cmr/m/n/12 ``Room-temperature lu-mi-nes-cence andelectronbeam-induced cur-r
 ent
  []
 
-[57] [58]) [59]
+[60] [61]) [62]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\appendix.tex"
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\tabeller.tex"
 Overfull \hbox (98.83644pt too wide) in alignment at lines 6--15
@@ -1963,15 +1898,15 @@ Overfull \hbox (98.83644pt too wide) in alignment at lines 78--98
  [] [] [] [] [] 
  []
 
-[60
+[63
 
 ]
 Overfull \hbox (98.83644pt too wide) in alignment at lines 98--105
  [] [] [] [] [] 
  []
 
-[61]
-<./images/n-type_Si_spectra_dean67.png, id=1110, 3904.5875pt x 2653.915pt>
+[64]
+<./images/n-type_Si_spectra_dean67.png, id=1158, 3904.5875pt x 2653.915pt>
 File: ./images/n-type_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/n-type_Si_spectra_dean67.png>
@@ -1979,7 +1914,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 121--122
  [][] 
  []
 
-<./images/boron_Si_spectra_dean67.png, id=1113, 3898.565pt x 3302.3375pt>
+<./images/boron_Si_spectra_dean67.png, id=1161, 3898.565pt x 3302.3375pt>
 File: ./images/boron_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/boron_Si_spectra_dean67.png>
@@ -1987,7 +1922,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 128--129
  [][] 
  []
 
-<./images/P_Si_spectra_dean67.png, id=1115, 953.5625pt x 871.255pt>
+<./images/P_Si_spectra_dean67.png, id=1163, 953.5625pt x 871.255pt>
 File: ./images/P_Si_spectra_dean67.png Graphic file (type png)
 
 <use ./images/P_Si_spectra_dean67.png>
@@ -1995,7 +1930,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 135--136
  [][] 
  []
 
-<./images/iron_diffused_Si_spectra.png, id=1117, 733.74126pt x 671.50874pt>
+<./images/iron_diffused_Si_spectra.png, id=1165, 733.74126pt x 671.50874pt>
 File: ./images/iron_diffused_Si_spectra.png Graphic file (type png)
 
 <use ./images/iron_diffused_Si_spectra.png>
@@ -2004,7 +1939,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 142--143
  []
 
 
-<./images/iron_diffused_boron_doped_Si_spectra.png, id=1119, 2127.95pt x 1593.9
+<./images/iron_diffused_boron_doped_Si_spectra.png, id=1167, 2127.95pt x 1593.9
 55pt>
 File: ./images/iron_diffused_boron_doped_Si_spectra.png Graphic file (type png)
 
@@ -2013,7 +1948,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
-<./images/CrB_Si_spectra.png, id=1121, 695.59875pt x 597.23125pt>
+<./images/CrB_Si_spectra.png, id=1169, 695.59875pt x 597.23125pt>
 File: ./images/CrB_Si_spectra.png Graphic file (type png)
 
 <use ./images/CrB_Si_spectra.png>
@@ -2021,7 +1956,7 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
-<./images/Ti_4H_SiC.png, id=1123, 1279.78125pt x 1905.1175pt>
+<./images/Ti_4H_SiC.png, id=1171, 1279.78125pt x 1905.1175pt>
 File: ./images/Ti_4H_SiC.png Graphic file (type png)
 
 <use ./images/Ti_4H_SiC.png>
@@ -2124,21 +2059,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []|\T1/cmr/m/n/10.95 phosphorus
  []
 
-) [62
+) [65
 
  <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/n-type_
-Si_spectra_dean67.png (PNG copy)>] [63 <C:/Documents and Settings/Jon/My Docume
+Si_spectra_dean67.png (PNG copy)>] [66 <C:/Documents and Settings/Jon/My Docume
 nts/Masteroppgave/LaTeX/images/boron_Si_spectra_dean67.png (PNG copy)>]
-[64 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/P_Si
-_spectra_dean67.png (PNG copy)>] [65 <C:/Documents and Settings/Jon/My Document
-s/Masteroppgave/LaTeX/images/iron_diffused_Si_spectra.png (PNG copy)>] [66 <C:/
+[67 <C:/Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/P_Si
+_spectra_dean67.png (PNG copy)>] [68 <C:/Documents and Settings/Jon/My Document
+s/Masteroppgave/LaTeX/images/iron_diffused_Si_spectra.png (PNG copy)>] [69 <C:/
 Documents and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/iron_diffuse
-d_boron_doped_Si_spectra.png (PNG copy)>] [67 <C:/Documents and Settings/Jon/My
- Documents/Masteroppgave/LaTeX/images/CrB_Si_spectra.png (PNG copy)>] [68 <C:/D
+d_boron_doped_Si_spectra.png (PNG copy)>] [70 <C:/Documents and Settings/Jon/My
+ Documents/Masteroppgave/LaTeX/images/CrB_Si_spectra.png (PNG copy)>] [71 <C:/D
 ocuments and Settings/Jon/My Documents/Masteroppgave/LaTeX/images/Ti_4H_SiC.png
- (PNG copy)>] [69]
+ (PNG copy)>] [72]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\abbrevation.te
-x") [70
+x") [73
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -2155,7 +2090,7 @@ LaTeX Font Info:    Try loading font information for TS1+pcr on input line 7.
  ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
-[71
+[74
 
 ]
 Overfull \hbox (30.00427pt too wide) in paragraph at lines 33--34
@@ -2170,24 +2105,24 @@ Overfull \hbox (6.00403pt too wide) in paragraph at lines 1--2
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[72])
+[75])
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\Matlab\matrix_align_
-and_glue_reverse.m") [73]
+and_glue_reverse.m") [76]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\Matlab\plot_result.m
 "
 Overfull \hbox (192.00592pt too wide) in paragraph at lines 1--3
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[74])) [75]
+[77])) [78]
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\main.aux"
 ("C:\Documents and Settings\Jon\My Documents\Masteroppgave\LaTeX\results_plotti
 ng.aux")) ) 
 Here is how much of TeX's memory you used:
- 18866 strings out of 495285
- 341808 string characters out of 3180346
- 673261 words of memory out of 3000000
- 21054 multiletter control sequences out of 15000+200000
+ 18902 strings out of 495285
+ 343683 string characters out of 3180346
+ 673488 words of memory out of 3000000
+ 21078 multiletter control sequences out of 15000+200000
  27161 words of font info for 79 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  47i,15n,61p,2188b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2225,9 +2160,9 @@ m Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/M
 iKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8
 /fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.8/font
 s/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (75 pages, 3910723 bytes).
+Output written on main.pdf (78 pages, 3951560 bytes).
 PDF statistics:
- 2028 PDF objects out of 2073 (max. 8388607)
- 470 named destinations out of 1000 (max. 500000)
- 676 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2077 PDF objects out of 2487 (max. 8388607)
+ 477 named destinations out of 1000 (max. 500000)
+ 701 words of extra memory for PDF output out of 10000 (max. 10000000)
 
