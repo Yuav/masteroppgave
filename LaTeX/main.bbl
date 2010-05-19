@@ -1,12 +1,30 @@
 \begin{thebibliography}{10}
 
+\bibitem{aps}
+B.~Jalali, ``Physics and technology forefronts - silicon lasers,'' {\em
+  American Physical Society}, 2006.
+
 \bibitem{streetman}
 B.~G. Streetman and S.~K. Banerjee, {\em Solid state electronic devices}.
 \newblock Prentice Hall, 2006.
 
-\bibitem{aps}
-B.~Jalali, ``Physics and technology forefronts - silicon lasers,'' {\em
-  American Physical Society}, 2006.
+\bibitem{dean67}
+P.~J. Dean, J.~Haynes, and W.~Flood, ``New radiative recombination processes
+  involving neutral donors and acceptors in silicon and germanium,'' {\em
+  Physical Review Volume 161 Number 3}, 1967.
+
+\bibitem{calao88}
+M.~Càlão and M.~do~Carmo, ``Luminescence from an iron related deep center in
+  silicon,'' {\em Physica Scripta}, 1988.
+
+\bibitem{mohring83}
+H.~Mohring, J.~Weber, and R.~Sauer, ``Photoluminescence of excitons bound to an
+  isoelectronic trap in silicon associated with boron and iron,'' {\em Physical
+  Review B}, 1983.
+
+\bibitem{conzelmann83}
+H.~Conzelmann and J.~Weber, ``Photoluminescence from chromium-boron pairs in
+  silicon,'' {\em Physica}, 1983.
 
 \bibitem{sopori09}
 B.~Sopori, P.~Rupnowski, V.~Mehta, V.~Budhraja, S.~Johnston, N.~Call,
@@ -70,10 +88,6 @@ R.~Hammond, T.~McGill, and J.~Mayer, ``Temperature dependence of the
 H.~Conzelmann, K.~Graff, and E.~Weber, ``Chromium and chromium-boron pairs in
   silicon,'' {\em Appl. Phys. A}, 1982.
 
-\bibitem{conzelmann83}
-H.~Conzelmann and J.~Weber, ``Photoluminescence from chromium-boron pairs in
-  silicon,'' {\em Physica}, 1983.
-
 \bibitem{drozdov76}
 N.~A. Drozdov, A.~Patrin, and V.~Tkachev, ``Recombination radiation on
   dislocations in silicon,'' {\em Pis'ma Xh. Eksp. Teor. Fiz.}, 1976.
@@ -119,21 +133,16 @@ W.~Staiger, G.~Pfeiffer, K.~Weronek, A.~Höpner, and J.~Weber,
   ``Dislocation-induced defect levels in silicon,'' {\em Materials Science
   Forum}, 1994.
 
-\bibitem{dean67}
-P.~J. Dean, J.~Haynes, and W.~Flood, ``New radiative recombination processes
-  involving neutral donors and acceptors in silicon and germanium,'' {\em
-  Physical Review Volume 161 Number 3}, 1967.
-
-\bibitem{tarasov01}
-I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.~Kaleis, ``Defect
-  diagnostics in multicrystalline silicon using scanning techniques,'' {\em
-  Elsevier Science B.V.}, 2001.
-
 \bibitem{kitler02}
 M.~Kittler, W.~Seifert, T.~Arguirov, I.~Tarasov, and S.~Ostapenko,
   ``Room-temperature luminescence andelectronbeam-induced current (ebic)
   recombination behaviour of crystal defects in multicrystalline silicon,''
   {\em Solar Energy Materials and Solar Cells}, 2002.
+
+\bibitem{tarasov01}
+I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.~Kaleis, ``Defect
+  diagnostics in multicrystalline silicon using scanning techniques,'' {\em
+  Elsevier Science B.V.}, 2001.
 
 \bibitem{sugimoto07}
 H.~Sugimoto, K.~Araki, M.~Tajima, T.~Eguchi, I.~Yamaga, M.~Dhamrin,
@@ -160,15 +169,6 @@ A.~van Kemenade and S.~Hagen, ``Proof of the involvement of ti in the
 J.~Weber, H.~Bauch, and R.~Sauer, ``Optical properties of copper in silicon:
   Excitons bound to isoelectronic copper pairs,'' {\em Physical Review B},
   1982.
-
-\bibitem{calao88}
-M.~Càlão and M.~do~Carmo, ``Luminescence from an iron related deep center in
-  silicon,'' {\em Physica Scripta}, 1988.
-
-\bibitem{mohring83}
-H.~Mohring, J.~Weber, and R.~Sauer, ``Photoluminescence of excitons bound to an
-  isoelectronic trap in silicon associated with boron and iron,'' {\em Physical
-  Review B}, 1983.
 
 \bibitem{zoth90}
 G.~Zoth and W.~Bergholz, ``A fast preparation-free method to detect iron in
@@ -226,6 +226,10 @@ M.~Hystad, ``The distribution and impact of chromium impurities in compensated
 \bibitem{chiara10}
 C.~Modanese, ``Electronic grade sample impurity levels.'' private
   communication, 2010.
+
+\bibitem{signal_processing}
+S.~Orfanidis, {\em Introduction to Signal Processing}.
+\newblock Prentice-Hall, 1996.
 
 \bibitem{hare72}
 A.~Hare, G.Davies, and A.T.Collins, ``The temperature dependence of vibronic
@@ -378,5 +382,9 @@ R.~Sauer, ``Evidence for bound multiple-exciton complexes in silicon,'' {\em
 \bibitem{sauer74}
 R.~Sauer, ``1974,'' {\em Solid State Communications}, Bound Multiple-Excition
   Complexes in Silicon at High Doping Levels.
+
+\bibitem{tajima78}
+M.~Tajima, ``Determination of boron and phosphorus concentration in silicon by
+  photoluminescence analysis,'' {\em Electrotechnical Laboratory}, 1978.
 
 \end{thebibliography}
