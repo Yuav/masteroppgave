@@ -18,14 +18,58 @@ Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
     
     pos10 = nm_to_ev(1.097);
     
-      Result = get_result_from_dir('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step1\',delimiter,1);
+    Result = get_result_from_dir('..\Results\april-28-2010\MH2-Q3-210-B2\dislocationsmappingtake2with5stepsatthetime\Step1\',delimiter,1);
     Result = dark_current_noise_removal(Result,Mapping_noise);
     Result = dark_current_noise_removal(Result,0);
     
-        % Define X and Y values
-    Ax = Result(:,1);
+       
+    
+    % Define X and Y values
+    Ax = nm_to_ev(Result(:,1));
     Ay = Result(:,2);
+    
+    figure(1);
+    plot(Ax,Ay)
+    hold on
+    
+    xaxis = Ax(127:693);
+    
+    E = xaxis;
+    Ek = 1.095; % Curve start
+    k = 8.617343* 10^-5; % eV
+     T = 80;
 
+    C = 26*2*10^4;
+    
+    TO = [];
+    for i=1:length(xaxis),
+        E=xaxis(i);
+        x = (E-Ek);
+        a = x.^(1/2);
+        b = x./(k*T);
+        TO(i) = C*a * exp(-b);
+    end
+    plot(xaxis,TO,'r');
+    
+    
+       T = 12;
+
+    C = 65*2*10^4;
+    
+    TO = [];
+    for i=1:length(xaxis),
+        E=xaxis(i);
+        x = (E-Ek);
+        a = x.^(1/2);
+        b = x./(k*T);
+        TO(i) = C*a * exp(-b);
+    end
+    plot(xaxis,TO,'k');
+    
+    legend('12K Signal','80K fitting','12K fitting');
+    
+    %{
+    
     % Define interval to gaussfit
     
     xaxis = Ax(140:419);
@@ -37,7 +81,7 @@ Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
     
     TO = [];
     for i=1:(419-139),
-       TO(i) = (E(i)-E_0).^(1/2) * exp(-((E(i)-E_0)./(k*T)));
+    
         
     end
     
@@ -73,8 +117,6 @@ end
 
 
 
-
-%{
 
 % Analysis
 MH2_noise_20s = '..\Results\april-28-2010\MH2-Q3-210-B2\Noise-20s-during-spot3\';

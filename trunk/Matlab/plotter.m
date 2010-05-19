@@ -109,8 +109,47 @@ MH2_area3_dislocation_dot_60s = dark_current_noise_removal(MH2_area3_60s,0);
 
 
 
+plot_result(R6_Area3_clean_area,30,'ev','20s integrating time','R6 comparison of spots',fontsize,'k',3);
+plot_result(R6_Area1_dislocation_line,30,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
+plot_result(R6_Area2_dislocation_dot,30,'ev','20s integrating time','Dislocation line',fontsize,'r',3);
+legend('Clean Area','Dislocation line','Dislocation spot');
+print -depsc 'Processed_results\R6_comparisons';
+axis([1.11 1.18 0 3000])
+print -depsc 'Processed_results\R6_comparisons_I0';
+axis([1.09 1.115 2000 20000])
+print -depsc 'Processed_results\R6_comparisons_TO';
+axis([0.9 1.09 0 2500])
+print -depsc 'Processed_results\R6_comparisons_Darea';
 
-%{
+
+
+plot_result(ES_Area1_dislocation_free_10s,31,'ev','20s integrating time','ES1 comparison of spots',fontsize,'k',3);
+plot_result(ES_Area4_dislocation_line_10s,31,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
+plot_result(ES_Area2_dislocation_spot_10s,31,'ev','20s integrating time','Dislocation line',fontsize,'r',3);
+plot_result(ES_Area3_grain_boundary_10s,31,'ev','20s integrating time','Dislocation line',fontsize,'g',3);
+legend('Clean Area','Dislocation line','Dislocation spot','Grain boundary');
+print -depsc 'Processed_results\ES1_comparisons';
+axis([1.11 1.18 0 3000])
+print -depsc 'Processed_results\ES1_comparisons_I0';
+axis([1.081 1.105 9000 45000])
+print -depsc 'Processed_results\ES1_comparisons_TO';
+axis([0.9 1.09 0 4500])
+print -depsc 'Processed_results\ES1_comparisons_Darea';
+
+plot_result(MH2_area1_clean_area,32,'ev','20s integrating time','MH2 comparison of spots',fontsize,'k',3);
+plot_result(MH2_area2_dislocation_line,32,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
+plot_result(MH2_area3_dislocation_dot,32,'ev','20s integrating time','Dislocation line',fontsize,'r',3);
+legend('Clean Area','Dislocation line','Dislocation spot');
+print -depsc 'Processed_results\MH2_comparisons';
+axis([1.11 1.18 0 3000])
+print -depsc 'Processed_results\MH2_comparisons_I0';
+axis([1.085 1.12 5000 25000])
+print -depsc 'Processed_results\MH2_comparisons_TO';
+axis([0.9 1.09 0 4000])
+print -depsc 'Processed_results\MH2_comparisons_Darea';
+
+
+
 
 % Dislocation line
 plot_result(R6_Area1_dislocation_line,22,'ev','20s integrating time','Dislocation line',fontsize,'k',3);
