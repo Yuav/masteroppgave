@@ -51,8 +51,6 @@ This sample is almost identical to ES1, but the sample also have extra chromium 
 
 \subsection{Instrumentation}
 
-The samples are pumped with a tunable Ti-sapphire laser, where a range of pumping wavelengths are available. The spectrometer has a fixed grating, with an InGaAs camera with single array pixels for which result in a range of 140~nm, with 0.1~nm sensitivity, and is operated at -75$^\circ$C to minimize dark current noise.
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{full_setup}%
@@ -60,7 +58,11 @@ The samples are pumped with a tunable Ti-sapphire laser, where a range of pumpin
 \label{fig:full_setup}%
 \end{figure}
 
+\subsubsection{Optical components}
 
+Optical components have been chosen to maximize luminescence light transmission in of wavelengths between 1.0-1.5~$µ$m. This is because the interesting parts of silicon luminescence is in this wavelength area (See table \ref{energy_bands}). The focusing lens in front of the spectrometer has above 90\% transmission for these wavelengths, according to its spesifications. As for the objective, it has 50X magnification, numerical aperture of 0.65, and a transmission curve that shows around 60\% transmission for these wavelengths according to datasheet, with a working distance of 10~mm.
+
+The beam splitter in figure \ref{fig:full_setup}:10 transmits 90\% of light from 400~nm to 2400~nm and is only used to shine white light on the sample in order to see where on the sample the laser spot is hitting. The white light source can easily be made strong enough, so that 10\% reflectance is sufficient. As for the beam splitter in figure \ref{fig:full_setup}:9, it splits the light 50/50 in transmission and reflectance. This beam splitter is optimized for 1100-1600~nm with a splitter ratio tolerance less than 15\% over the entire wavelength range. However 50\% of the luminescence light from the sample is still not entering the detection path, due to the split process.
 
 \begin{table}[H]
 \centering
@@ -75,70 +77,44 @@ The samples are pumped with a tunable Ti-sapphire laser, where a range of pumpin
 5 & Pin hole & ID12SS/M & Thorlabs \\ \hline
 6 & Grating & 23M27 &  \\ \hline
 7 & Lens & AC254-150-B & Thorlabs \\ \hline
-9 & Beam splitter & BS017 & Thorlabs \\ \hline
+9 & Beam splitter & BS018 & Thorlabs \\ \hline
 13 & Beam splitter & BP208 & Thorlabs \\ \hline
 14 & Objective & NT56-982 & Mitutoyo \\ \hline
 15 & Cryostat & Janis ST-500 & Janis Research Company \\ \hline
-16 & Lens & ACN127-020-B & Thorlabs \\ \hline
+16 & Lens & LB4330 & Thorlabs \\ \hline
 17 & Spectrometer & iHR550 Imaging Spectrometer & Horiba Scientific \\ \hline
-18 & Camera & InGaAs Spectroscopy CCD & Andor Technology \\ \hline
+18 & Camera & iDUS InGaAs Spectroscopy CCD 491-1.7& Andor Technology \\ \hline
 \end{tabular}
 \caption{Lab setup optical components}
 \label{tab:lab_setup}
 \end{table}
 
 
+
 %% Spacial resolution, spectral resolution
 
-
-
-\subsection{Pumping wavelength}
+\subsubsection{Pumping wavelength}
 
 \cite{lee09} report that small angle grain boundaries in multicrystalline silicon of 1$^\circ$-1.5$^\circ$ show D3 and D4 lines, while 2$^\circ$-2.5$^\circ$ show D1 and D2 lines. Comparing to data from electron beam induced current measurements show D1 and D2 lines to be correlated with shallow levels, while D3 and D4 appear in both shallow and deep levels \cite{lee09}.
 
+The samples are pumped with a tunable Ti-sapphire laser, where a range of excitation wavelengths are available. A wavelength of 800 nm is chosen for excitation. This corresponds to an absorption depth of 12~$µ$m in silicon \cite{laserdybde}. 800~nm is visible to the naked eye at high intensities, unlike larger wavelengths, which would make it much more difficult to align the setup, and make sure nothing is blocking the pathway. In the case of an imperfect filter in front of the spectrometer, 800nm (1.55eV) and the second order diffraction maxima at 1600~nm (0.775~eV), would be outside the most interesting wavelengths from silicon luminescence (see table \ref{energy_bands} for silicon energy bands).
 
-A wavelength of 800 nm is chosen for excitation. This corresponds to an absorption depth of 12~$µ$m in silicon \cite{laserdybde}. 800~nm is visible to the naked eye at high intensities, unlike larger wavelengths, which would make it much more difficult to align the setup, and make sure nothing is blocking the pathway. In the case of an imperfect filter in front of the spectrometer, 800nm (1.55eV) and the second order diffraction maxima at 1600~nm (0.775~eV), would be outside the most interesting wavelengths from silicon luminescence (see table \ref{energy_bands} for silicon energy bands).
+\subsubsection{Spot size}
 
-\subsection{Spot size}
-
-For the setup given here, the spot size is around 2~$µ$m.
+For the setup given here, the spot size is around 2~$µ$m. This is given by the magnification of the objective, and the diameter of the incoming laser beam. With this spot size, it is possible to detect micro-defect, like iron precipitates \cite{gundel09}. The downside to having such a small spot size, is the potential buildup of electron-hole drops for small volumes \cite{satoshi04}. This limitation can be overcome by using a larger wavelength, to excite a larger volume in the sample.
 %% Due to the choise of optical components chosen, and be able to detect micro-defects .. lala .. cite - smallest possible by components
 
-%%%%%%%%%%\subsection{Temperature}
-
-
 \subsubsection{Laser intensity}
-
 % As large as possible, due to no EHD (as seen by experiment), and low temperature - larger signal to noise ratio - fill every single avaiblie state.
+A high signal to noise ratio, is desirable. This is achieved by exciting with as much laser intensity as possible. As long as issues with electron-hole drops and temperature are negligible, the intensity can be quite high. The maximum laser intensity achieved in this setup is 170mW measure right before entering the objective above the cryostat. With 800~nm pumping wavelength, and a spot size of \~2$µ$m, the electron-hole droplet appear small compared to other signals like the TO-line when looking at the silicon luminescence (see results section). A high intensity is also desirable to be able to fill every available electron state. With low intensities, only the most probable states will be visible in the luminescence specter.
 
-\subsection{Expected results}
+\subsubsection{Temperature}
 
-\subsubsection{Phosphorus and boron doped samples}
-
-With fairly high concentrations of doping atoms, it's expected that they show up as separate lines in the photoluminescence spectra. \cite{dean67} observe a line around 1.0924eV which is attributed to B$^{TO}$. Concentrations values for B in \cite{dean67} are $6*10^{16}$~cm$^{-3}$. Also observed is a phosphorus line at 1.0916eV, with 8*10$^{16}$cm$^-3$ phosphorus atoms. ES1 and MH2 have similar B and P values, and is expected to show the same behavior. (See figure \ref{fig:boronSiPL} and \ref{fig:PSiPL} in appendix \ref{appendix:tabeller})
-
-There is a photoluminescence line involving carbon bound to oxygen in Czochralski silicon known as the C-O band \cite{davies88}. In \cite{hare72}, it was observed only in crucible grown silicon, but not in float zone. In the crucible grown silicon, the oxygen impurities where 2\cdot10$^{18}$~atoms/cm$^3$, which is over ten times more than in ES1 and MH2. This makes it unlikely that any C-O complex luminescence will be strong enough to be detectable in these samples.
-
-Another line involving carbon, is the two-carbon atom band \cite{davies88}. This band has been detected in float-zone silicon with C = 9.7\cdot10$^{16}$~cm$^{-3}$ after irradiation, together with the C-O complex line. The relative intensity between the C-O band and the two-carbon atom band in \cite{davies88} show that the 969~meV band is close to 5 times larger than the 789~meV band. With both MH2 and ES1 having carbon impurities around 6\cdot10$^{17}$~cm$^{-3}$ it is possible that this line at 969~meV will be visible. 
-
-As for aluminum, \cite{dean67} show a line at 1.09~eV called Al$^{TO}$ in a sample with 2\cdot10$^{16}$cm$^{-3}$ Al doping atoms. In ES1 and MH2, the Al impurities are 20 times less. In addtion to a fairly low value of Al impurities, the Al$^TO$ line is very close to the I$^{TO}$, which can make it difficult to detect, and not likely to show up in the results.
-
-Fe bound with boron is also known to give rise to photoluminescence \cite{mohring83}. The sample used in the article had  10$^{13}$ to 10$^{16}$~cm$^{-3}$ boron doping concentration. The article doesn't mention how many Fe impurity atoms that's introduced into the sample, but it's done by high temperature diffusion, and assumed to be considerably larger than for all the samples in this study. 
-
-Based on the low values of Fe impurities in these samples, it's assumed that interstitial Fe won't have any effect on the photoluminescence bands. The same goes for Ti, which also have a very low amount present.
+To achieve a high spectral resolution of the luminescence signal, it is needed to cool down the sample. Without cooling, the increased number of phonon states leads to energy broadening of the signal. This result in weaker signals getting 'drowned' in the strong signal peaks. To reach temperatures of about 10K, liquid helium is used for cooling. Liquid helium is introduced into the cryostat chamber, where it evaporates, drawing energy from its environment. The sample is on top of a sample holder, which is connected by copper wires to the cooling chamber, and a temperature readout. At such low temperatures, even weak signals as the ideally forbidden zero phonon recombination in silicon is visible \cite{davies88}.
 
 
-\subsubsection{Sample with added Chromium}
+\subsubsection{Spectrometer}
 
-This sample have the same impurity values as ES1, except for chromium. The closest comparison is samples used in \cite{conzelmann82}. Here, luminescence spectra was observed for chromium in an p-type sample. Interstitial chromium concentrations where between $10^14$ and $10^16 atoms/cm^-3$ in \cite{conzelmann82}.
+The spectrometer has a fixed grating, in front of InGaAs camera. The grating is 76~mm x 76~mm, with a groove density of 300. The camera consist of a single array of pixels. The full array of pixels detect wavelengths with a range of 140~nm, with 0.1~nm sensitivity, and is operated at -75$^\circ$C to minimize dark current noise. To measure a larger wavelength spectra than 140~nm, multiple measurements are needed. The camera spectral response is from 0.8 to 1.7$µ$m, which is suitable for silicon photoluminescence.
 
-Chromium in an n-type sample doped with phosphorus atoms does not result in any luminescence, but chromium bound with boron show a clear line at 0.8432eV (CrB$^0$). The reaction velocity for the formation of CrB pairs at room temperature depend on the boron concentration. For large (10$^15$cm$^-3$) boron content, the chromium-boron reaction reach saturation in less than a day after chromium diffusion \cite{conzelmann82}.
 
-MH2 are neither n og p-type, however there is enough boron atoms to saturate chromium by forming CrB pairs. Chromium atoms are in the order of 10$^{14}$~atoms/cm$^3$ which is similar to that in \cite{conzelmann82}. Expected photoluminescence spectra is therefor expected to be similar. (See figure \ref{fig:CrBSiPL} in appendix). With most of the boron bound with chromium, it is likely that the boron lines will be severely reduced compared to ES1, and not detectable. There are also Fe impurities present in the sample, that can form bonds with boron. Based on the low amount of Fe in this sample, those bonds are not believed to have any impact on the photoluminescence.
-
-\subsubsection{Sample from clean feedstock}
-
-Having carbon values around 2.26\cdot10$^{17}$, it is possible that the two-carbon atom band is visible here also. Else this sample is expected to only show intrinsic values similar to \cite{dean67} in so called "`good"' areas due to low concentration of impurities. However, there might be precipitates and higher concentration of impurities at the grain boundaries and dislocations. Particularly heavy metals like Fe and Al can be detected here. It is expected that the band to band recombination from silicon show considerably lower intensity for these areas.
-
-\subsection{Results plotting}
-\include{results_plotting}

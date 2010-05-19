@@ -1,6 +1,6 @@
 \subsection{Spectroscopic properties of silicon}
 
-When an electron hole pair is recombining, the energy is released as a photon. By measuring this photon in a photo detector it can be determined how much energy that was released during recombination. This energy tells how large the bandgap is, which in turn tells us something about the material. By shining light with high enough energy and intensity on to a sample, the light will excite electrons into all available states. When these states recombine, the emitted light can be detected by a camera as a spectra of different wavelengths. The fundamental energy gap between the valence and conduction bads in silicon is indirect, decreasing monotonically from 1.170~eV at 0~K to ~\1.125~eV at room temperature \cite{davies88}. The main phonon contribution (TO phonons) result in energies \~1.1~eV for the emitted photons. If there are impurities or defects in the silicon crystal, they can in turn emit light at different photon energies.
+When an electron hole pair is recombining, the energy is released as a photon. By measuring this photon in a photo detector it can be determined how much energy that was released during recombination. This energy tells how large the band gap is, which in turn tells us something about the material. By shining light with high enough energy and intensity on to a sample, the light will excite electrons into all available states. When these states recombine, the emitted light can be detected by a camera as a spectra of different wavelengths. The fundamental energy gap between the valence and conduction bads in silicon is indirect, decreasing monotonically from 1.170~eV at 0~K to \~1.125~eV at room temperature \cite{davies88}. The main phonon contribution (TO phonons) result in energies \~1.1~eV for the emitted photons. If there are impurities or defects in the silicon crystal, they can in turn emit light at different photon energies. In order to generate electron-hole pairs, the sample can be excited by a laser. The laser wavelength have to be such that the energy of the light is larger than the band gap, in order to excite the sample. 
 
 
 
@@ -78,12 +78,12 @@ An exciton is a quasi particle describing an electron bound to a hole. Electrons
 \label{fig:excitons}%
 \end{figure}
 
-Excitons can be formed in every insulating crystal. When the band gap is indirect excitons near the direct gap may be unstable with respect to decay into a free electron and a free hole. All excitons are unstable with respect to the ultimate recombination process in which the electron drops into the hole. Excitons can also form complexes, such as a biexciton from two excitons \cite{kittel}. In the formation of excitons, the energy is lowered with respect to the binding energy of the exciton. For silicon, the binding energy is 14.7~meV \cite{kittel}. In a tightly bound exciton (Frenkel) the excitation is localized on or near a single atom. The hole is usually on the same atom as the electron although the pair may be anywhere in the crystal.
+Excitons can be formed in every insulating crystal. When the band gap is indirect excitons near the direct gap may be unstable with respect to decay into a free electron and a free hole. All excitons are unstable with respect to the ultimate recombination process in which the electron drops into the hole. Excitons can also form complexes, such as a biexciton from two excitons \cite{kittel}. In the formation of excitons, the energy is lowered with respect to the binding energy of the exciton. For silicon, the binding energy is 14.7~meV \cite{kittel}. In a tightly bound exciton (Frenkel) the excitation is localized on or near a single atom. The hole is usually on the same atom as the electron although the pair may be anywhere in the crystal. Boron bound excitons have binding energy 3.8~meV, and phosphorus bound excitons have binding energy 4.7~meV \cite{davies88}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\columnwidth]{exciton_levels}%
-\caption[Excitation levels]{Exciton levels in relation to the conduction band edge for a simple band structure with both conduction and valence band edges at $\vec{k}$=0}%
+\caption[Excitation levels]{Exciton levels in relation to the conduction band edge for a simple band structure with both conduction and valence band edges at $\vec{k}$=0. Figure from \cite{kittel}}%
 \label{fig:exciton_levels}%
 \end{figure}
 
@@ -96,15 +96,13 @@ A condensed phase of an electron-hole plasma forms in Ge and Si when maintained 
 
 %% figure with multiple bandgap shortages present
 
-\subsection{Spectroscopy}
 
-On recombination of an electron-hole pair, it is emitted a photon. By detecting this photon it is possible to describe features about the sample. In order to generate electron-hole pairs, the sample can be excited by a laser. The laser wavelength have to be such that the energy of the light is larger than the band gap, in order to excite the sample. 
 
 \subsubsection{Pumping wavelength}
 
 Pumping light needs to have enough energy to fill all available states in the crystal lattice, in order to detect defects and impurities. For silicon, which has a band gap of around 1.1eV, has most impurity/defect bands below the band gap. In order to fill these states, the pumping wavelength should be below 1125nm, which corresponds to energies just over 1.1eV.
 
-Silicon has different absorption lengths for different wavelengths. Absorption length is about 1~$µ$m for 532~nm laser excitation, which means that precipitates, and defects deeper in the sample won't be detected. Like iron precipitates in \cite{gundel09}. This limitation might be overcome by an excitation laser with a longer wavelength, and consequently absorption length in silicon. For 1125nm, the absorption depth is nearly 200~$µ$m \cite{laserdybde}. Compared to absorption length for 532nm, 1125nm reach 200 times deeper into the sample.
+Silicon has different absorption lengths for different wavelengths. Absorption length is about 1~$µ$m for 532~nm laser excitation, which means that precipitates, and defects deeper in the sample like iron precipitates won't be detected \cite{gundel09}. By comparison, 800~nm, reach 12~$µ$m into the sample, and 1125~nm reach as far down as 200~$µ$m \cite{laserdybde}. This limitation might be overcome by an excitation laser with a longer wavelength, and consequently absorption length in silicon. 
 
 
 \subsubsection{Spot size}
@@ -115,10 +113,11 @@ A large electron hole droplet could overshadow characteristics from impurities i
 
 \subsubsection{Laser intensity}
 
-With a large pumping intensity, an electron hole droplet become visible in the specter around 1.08eV in bulk silicon \cite{hammond75}. \cite{satoshi04} show that electron hole droplets occur at weak excitations (0.75mW) and even at high temperatures for a silicon nanolayer of 50nm. For thickness of 340nm, the electron hole droplet show up at pumping intensity of 3mW and above, and the intensity of the electron hole droplet grow larger than for the free exciton at 15mW. This electron hole droplet is not wanted, as it can mask characteristic photoluminescence from impurities.
+High excitation laser intensity gives a high signal to noise ratio. But with a large pumping intensity, an electron hole droplet become visible in the specter around 1.08eV in bulk silicon \cite{hammond75}. This electron-hole drop is also more intense at small volumes. \cite{satoshi04} show that electron hole droplets occur at weak excitations (0.75mW) and even at high temperatures for a silicon nanolayer of 50nm. For thickness of 340nm, the electron hole droplet show up at pumping intensity of 3mW and above, and the intensity of the electron hole droplet grow larger than for the free exciton at 15mW. This electron hole droplet is not wanted, as it can mask characteristic photoluminescence from impurities.
 
 With a larger pumping intensity, the impurity photoluminescence would in some cases also increase. Photoluminescence from chromium bound with a boron atom is known to increase linearly with laser power \cite{conzelmann82,conzelmann83}, and would be easier to detect at a higher pumping intensity.
 
+Temperature increase is also an issue with high laser intensity. When hitting a small area on the sample, the temperature in that particular area will rise rapidly unless subject to heavy cooling. This can lead to material stress, and broadening of the luminescence energy spectra due to different phonon energies.
 
 
 \subsubsection{Temperature dependency}
