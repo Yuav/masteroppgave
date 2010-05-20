@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {2.1}Samples}{33}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}R6-Q3-210}{33}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}ES1-Q3-201}{33}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}MH2-Q3-201}{34}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3}MH2-Q3-210}{34}{subsubsection.2.1.3}
 \contentsline {subsection}{\numberline {2.2}Instrumentation}{36}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Optical components}{37}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Pumping wavelength}{38}{subsubsection.2.2.2}
@@ -58,20 +58,20 @@
 \contentsline {subsubsection}{\numberline {4.1.2}Noise reduction}{60}{subsubsection.4.1.2}
 \contentsline {subsubsection}{\numberline {4.1.3}Savitzky-Golay filtering}{63}{subsubsection.4.1.3}
 \contentsline {subsection}{\numberline {4.2}Expected results}{64}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Phosphorus and boron doped samples}{64}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Sample with added Chromium}{65}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Sample from clean feedstock}{65}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.1}Sample from clean feedstock}{64}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Phosphorus and boron doped samples}{64}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Sample with added Chromium}{65}{subsubsection.4.2.3}
 \contentsline {subsection}{\numberline {4.3}Results analysis}{66}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Comparing different locations on sample R6-Q3-210}{66}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Comparing different locations on sample ES1-Q3-201}{68}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Comparing different locations on sample MH2-Q3-210}{70}{subsubsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.4}Comparing similar areas on different samples}{74}{subsubsection.4.3.4}
-\contentsline {section}{\numberline {A}Silicon energy bands}{85}{appendix.A}
-\contentsline {section}{\numberline {B}Sample types and procedures}{87}{appendix.B}
-\contentsline {section}{\numberline {C}Abbrevations}{95}{appendix.C}
-\contentsline {section}{\numberline {D}Matlab code}{96}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}Dead pixel correction}{96}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}Dark current noise estimation removal}{96}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}Read result files from directory}{97}{subsection.D.3}
-\contentsline {subsection}{\numberline {D.4}Remove overlap and glue intervals}{98}{subsection.D.4}
-\contentsline {subsection}{\numberline {D.5}Filter and plot results}{99}{subsection.D.5}
+\contentsline {subsubsection}{\numberline {4.3.2}Comparing different locations on sample ES1-Q3-201}{70}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Comparing different locations on sample MH2-Q3-210}{72}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Comparing similar areas on different samples}{75}{subsubsection.4.3.4}
+\contentsline {section}{\numberline {A}Silicon energy bands}{87}{appendix.A}
+\contentsline {section}{\numberline {B}Sample types and procedures}{89}{appendix.B}
+\contentsline {section}{\numberline {C}Abbrevations}{97}{appendix.C}
+\contentsline {section}{\numberline {D}Matlab code}{98}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Dead pixel correction}{98}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Dark current noise estimation removal}{98}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Read result files from directory}{99}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}Remove overlap and glue intervals}{100}{subsection.D.4}
+\contentsline {subsection}{\numberline {D.5}Filter and plot results}{101}{subsection.D.5}
