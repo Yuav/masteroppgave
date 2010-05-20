@@ -139,6 +139,12 @@ M.~Kittler, W.~Seifert, T.~Arguirov, I.~Tarasov, and S.~Ostapenko,
   recombination behaviour of crystal defects in multicrystalline silicon,''
   {\em Solar Energy Materials and Solar Cells}, 2002.
 
+\bibitem{arguirov07}
+T.~V. Arguirov, {\em Electro-optical properties of dislocations in silicon and
+  their possible application for light emiters}.
+\newblock PhD thesis, Naturwissenschaften und Informatik der Brandenburgischen
+  Technischen Universität Cottbus, 2007.
+
 \bibitem{tarasov01}
 I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.~Kaleis, ``Defect
   diagnostics in multicrystalline silicon using scanning techniques,'' {\em
@@ -149,12 +155,6 @@ H.~Sugimoto, K.~Araki, M.~Tajima, T.~Eguchi, I.~Yamaga, M.~Dhamrin,
   K.~Kamisako, and T.~Saitoh, ``Photoluminescence analysis of intragrain
   defects in multicrystalline silicon wafers for solar cells,'' {\em Journal of
   Applied Physics}, 2007.
-
-\bibitem{arguirov07}
-T.~V. Arguirov, {\em Electro-optical properties of dislocations in silicon and
-  their possible application for light emiters}.
-\newblock PhD thesis, Naturwissenschaften und Informatik der Brandenburgischen
-  Technischen Universität Cottbus, 2007.
 
 \bibitem{patrick74}
 L.~Patrick and W.~Choyke, ``Photoluminescence of ti in four sic polytypes,''
@@ -234,6 +234,10 @@ S.~Orfanidis, {\em Introduction to Signal Processing}.
 \bibitem{hare72}
 A.~Hare, G.Davies, and A.T.Collins, ``The temperature dependence of vibronic
   spectra in irradiated silicon,'' {\em J. Phys. C: Solid State Phys.}, 1972.
+
+\bibitem{sauer73}
+R.~Sauer, ``Evidence for bound multiple-exciton complexes in silicon,'' {\em
+  Phys. Rev. Let.}, 1973.
 
 \bibitem{d-linje-temp}
 T.~Arguirov, W.~Seifert, and M.~K.~J. Reif, ``Temperature behaviour of
@@ -374,10 +378,6 @@ E.~Irion, N.~Biirger, W.~Kiirner, K.~Thonke, R.~Sauer, W.~Zulehner, and
 \bibitem{gorban66)}
 I.~G. G.~N. Mishinova and Y.~M. Suleimanov, ``Low-temperature luminescence of
   silicon carbide crystals,'' {\em Zhurnal Prikladnoi Spektroskopii}, 1966.
-
-\bibitem{sauer73}
-R.~Sauer, ``Evidence for bound multiple-exciton complexes in silicon,'' {\em
-  Phys. Rev. Let.}, 1973.
 
 \bibitem{sauer74}
 R.~Sauer, ``1974,'' {\em Solid State Communications}, Bound Multiple-Excition

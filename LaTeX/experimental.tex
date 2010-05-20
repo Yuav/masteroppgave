@@ -11,7 +11,7 @@ All samples has been etched with an etch that consists of hydrofluoric acid, ace
 \textbf{Name} & \textbf{Description} & \textbf{Feedstock} \\ \hline
 R6-Q3-210 & Polysilicon, electronic grade, clean feedstock & Siemens process \\ \hline
 ES1-Q3-201 & Large amount of P and B, solar grade, dirty feedstock & From Elkem \cite{hystad09} \\ \hline
-MH2-Q3-201 & Same as ES1 with added Cr, solar grade, dirty feedstock & From Elkem \cite{hystad09} \\ \hline
+MH2-Q3-210 & Same as ES1 with added Cr, solar grade, dirty feedstock & From Elkem \cite{hystad09} \\ \hline
 \end{tabular}
 \caption{Samples}
 \label{tab:samples}
@@ -44,7 +44,7 @@ The impurities that are not listed were not analyzed, and are expected to be pre
 This is a regular solar grade sample which originate from a compensated feedstock from Elkem Solar, from 90\% ingot height. Impurities are given by plot in \cite{hystad09}. Boron contaminants is between 550 and 700~ppbw, which corresponds to 7.1\cdot$10^{16}$ and 9.7\cdot$10^{16}$~atoms/cm$^3$ respectively using \ref{eq:ppbw}. Phosphorus is measured around 1200-1500~ppbw, which is 5.4-6.8\cdot$10^{16}$~atoms/cm$^3$.
 Aluminum contaminants is just below 2.6\cdot10$^{15}$~atoms/cm$^3$. Other contaminants like Ti and Fe have very low values: less than 1.2\cdot$10^{14}$ and 3.8\cdot$10^{14}$~atoms/cm$^3$ respectively. For the lighter atom impurities, O have 1.7\cdot10$^{17}$~atoms/cm$^3$ and C have $6*10^{17}$~atoms/cm$^3$ \cite{hystad09}.
 
-\subsubsection{MH2-Q3-201}
+\subsubsection{MH2-Q3-210}
 
 This sample is almost identical to ES1, but the sample also have extra chromium added. Chromium contaminants is between 2 and 5 ppbw \cite{hystad09} which corresponds to 5.4\cdot$10^{13}$ and 1.3\cdot$10^{14}$~atoms/$cm^3$ respectively using \ref{eq:ppbw}, but exact concentration might be a little lower due detection limit of the instrument.
 
@@ -60,7 +60,7 @@ This sample is almost identical to ES1, but the sample also have extra chromium 
 
 \subsubsection{Optical components}
 
-Optical components have been chosen to maximize luminescence light transmission in of wavelengths between 1.0-1.5~$µ$m. This is because the interesting parts of silicon luminescence is in this wavelength area (See table \ref{energy_bands}). The focusing lens in front of the spectrometer has above 90\% transmission for these wavelengths, according to its spesifications. As for the objective, it has 50X magnification, numerical aperture of 0.65, and a transmission curve that shows around 60\% transmission for these wavelengths according to datasheet, with a working distance of 10~mm.
+Optical components have been chosen to maximize luminescence light transmission in of wavelengths between 1.0-1.5~$µ$m. This is because the interesting parts of silicon luminescence is in this wavelength area (See table \ref{energy_bands}). The focusing lens in front of the spectrometer has above 90\% transmission for these wavelengths, according to its spesifications. As for the objective, it has 50X magnification, numerical aperture of 0.65, and a transmission curve that shows around 60\% transmission for these wavelengths according to datasheet, with a working distance of 10~mm. Mirrors have very wide spectral coverage and are completely achromatic.
 
 The beam splitter in figure \ref{fig:full_setup}:10 transmits 90\% of light from 400~nm to 2400~nm and is only used to shine white light on the sample in order to see where on the sample the laser spot is hitting. The white light source can easily be made strong enough, so that 10\% reflectance is sufficient. As for the beam splitter in figure \ref{fig:full_setup}:9, it splits the light 50/50 in transmission and reflectance. This beam splitter is optimized for 1100-1600~nm with a splitter ratio tolerance less than 15\% over the entire wavelength range. However 50\% of the luminescence light from the sample is still not entering the detection path, due to the split process.
 
