@@ -115,12 +115,12 @@ plot_result(R6_Area2_dislocation_dot,30,'ev','20s integrating time','Dislocation
 grid on
 legend('Clean Area','Dislocation line','Dislocation spot');
 print -depsc 'Processed_results\R6_comparisons';
-axis([1.11 1.18 0 3000])
-print -depsc 'Processed_results\R6_comparisons_I0';
-axis([1.09 1.115 2000 20000])
-print -depsc 'Processed_results\R6_comparisons_TO';
-axis([0.9 1.09 0 2500])
-print -depsc 'Processed_results\R6_comparisons_Darea';
+%axis([1.11 1.18 0 3000])
+%print -depsc 'Processed_results\R6_comparisons_I0';
+%axis([1.09 1.115 2000 20000])
+%print -depsc 'Processed_results\R6_comparisons_TO';
+%axis([0.9 1.09 0 2500])
+%print -depsc 'Processed_results\R6_comparisons_Darea';
 
 
 
@@ -131,12 +131,12 @@ plot_result(ES_Area3_grain_boundary_10s,31,'ev','20s integrating time','Dislocat
 legend('Clean Area','Dislocation line','Dislocation spot','Grain boundary');
 grid on
 print -depsc 'Processed_results\ES1_comparisons';
-axis([1.11 1.18 0 3000])
-print -depsc 'Processed_results\ES1_comparisons_I0';
-axis([1.081 1.105 9000 45000])
-print -depsc 'Processed_results\ES1_comparisons_TO';
-axis([0.9 1.09 0 4500])
-print -depsc 'Processed_results\ES1_comparisons_Darea';
+%axis([1.11 1.18 0 3000])
+%print -depsc 'Processed_results\ES1_comparisons_I0';
+%axis([1.081 1.105 9000 45000])
+%print -depsc 'Processed_results\ES1_comparisons_TO';
+%axis([0.9 1.09 0 4500])
+%print -depsc 'Processed_results\ES1_comparisons_Darea';
 
 plot_result(MH2_area1_clean_area,32,'ev','20s integrating time','MH2 comparison of spots',fontsize,'k',3);
 plot_result(MH2_area2_dislocation_line,32,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
@@ -144,12 +144,12 @@ plot_result(MH2_area3_dislocation_dot,32,'ev','20s integrating time','Dislocatio
 legend('Clean Area','Dislocation line','Dislocation spot');
 grid on
 print -depsc 'Processed_results\MH2_comparisons';
-axis([1.11 1.18 0 3000])
-print -depsc 'Processed_results\MH2_comparisons_I0';
-axis([1.085 1.12 5000 25000])
-print -depsc 'Processed_results\MH2_comparisons_TO';
-axis([0.9 1.09 0 4000])
-print -depsc 'Processed_results\MH2_comparisons_Darea';
+%axis([1.11 1.18 0 3000])
+%print -depsc 'Processed_results\MH2_comparisons_I0';
+%axis([1.085 1.12 5000 25000])
+%print -depsc 'Processed_results\MH2_comparisons_TO';
+%axis([0.9 1.09 0 4000])
+%print -depsc 'Processed_results\MH2_comparisons_Darea';
 
 
 
@@ -401,7 +401,7 @@ axes('Parent',fig,'FontSize',fontsize);
 bar(x,bar_plot);
 axis([0 11 0 max0*1.2]);
 
-legend('TO line (1.128 eV)','BE line x10 (1.091 eV)');
+legend('TO line (1.097 eV)','BE line x10 (1.092 eV)');
 title('MH2-Q3-210 Line mapping 1 step interval of TO-line','FontSize',fontsize);
 ylabel('Counts','FontSize',fontsize);
 xlabel('Position','FontSize',fontsize);
@@ -435,7 +435,7 @@ axes('Parent',fig,'FontSize',fontsize);
 bar(x,bar_plot);
 axis([0 21 0 max1*1.2])
 %axes('FontSize',fontsize);
-legend('TO line (1.128 eV)','BE line x10 (1.091 eV)');
+legend('TO line (1.097 eV)','BE line x10 (1.092 eV)');
 title('MH2-Q3-210 Line mapping 5 step interval','FontSize',fontsize);
 ylabel('Counts','FontSize',fontsize);
 xlabel('Position','FontSize',fontsize);
@@ -445,7 +445,7 @@ fig = figure(21);
 axes('Parent',fig,'FontSize',fontsize);
 bar(x,relative_TO_BE_intensity);
 axis([0 21 0 max(relative_TO_BE_intensity)*1.2])
-legend('TO (1.128 eV)/BE (1.091 eV)');
+legend('TO (1.097 eV)/BE (1.092 eV)');
 title('MH2-Q3-210 Line mapping 5 step interval','FontSize',fontsize);
 ylabel('Counts','FontSize',fontsize);
 xlabel('Position','FontSize',fontsize);
