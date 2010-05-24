@@ -445,9 +445,9 @@ fig = figure(21);
 axes('Parent',fig,'FontSize',fontsize);
 bar(x,relative_TO_BE_intensity);
 axis([0 21 0 max(relative_TO_BE_intensity)*1.2])
-legend('TO (1.097 eV)/BE (1.092 eV)');
+legend('BE (1.092 eV)/TO (1.097 eV)');
 title('MH2-Q3-210 Line mapping 5 step interval','FontSize',fontsize);
-ylabel('Counts','FontSize',fontsize);
+ylabel('B_{TO}(BE)/I_{TO}(FE)','FontSize',fontsize);
 xlabel('Position','FontSize',fontsize);
 print -depsc 'Processed_results\MH2-mapping-bars-TOonBE-5_small_steps-20s';
 

@@ -235,9 +235,17 @@ S.~Orfanidis, {\em Introduction to Signal Processing}.
 A.~Hare, G.Davies, and A.T.Collins, ``The temperature dependence of vibronic
   spectra in irradiated silicon,'' {\em J. Phys. C: Solid State Phys.}, 1972.
 
+\bibitem{lemke81}
+H.~Lemke, ``Dotierungseigenschaften von eisen in silizium,'' {\em physica
+  status solidi (a)}, 1981.
+
 \bibitem{sauer73}
 R.~Sauer, ``Evidence for bound multiple-exciton complexes in silicon,'' {\em
   Phys. Rev. Let.}, 1973.
+
+\bibitem{tajima78}
+M.~Tajima, ``Determination of boron and phosphorus concentration in silicon by
+  photoluminescence analysis,'' {\em Electrotechnical Laboratory}, 1978.
 
 \bibitem{d-linje-temp}
 T.~Arguirov, W.~Seifert, and M.~K.~J. Reif, ``Temperature behaviour of
@@ -382,9 +390,5 @@ I.~G. G.~N. Mishinova and Y.~M. Suleimanov, ``Low-temperature luminescence of
 \bibitem{sauer74}
 R.~Sauer, ``1974,'' {\em Solid State Communications}, Bound Multiple-Excition
   Complexes in Silicon at High Doping Levels.
-
-\bibitem{tajima78}
-M.~Tajima, ``Determination of boron and phosphorus concentration in silicon by
-  photoluminescence analysis,'' {\em Electrotechnical Laboratory}, 1978.
 
 \end{thebibliography}
