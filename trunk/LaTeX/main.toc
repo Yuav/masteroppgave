@@ -66,12 +66,12 @@
 \contentsline {subsubsection}{\numberline {4.3.2}Comparing different locations on sample ES1-Q3-201}{70}{subsubsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.3}Comparing different locations on sample MH2-Q3-210}{73}{subsubsection.4.3.3}
 \contentsline {subsubsection}{\numberline {4.3.4}Comparing similar areas on different samples}{77}{subsubsection.4.3.4}
-\contentsline {section}{\numberline {A}Silicon energy bands}{88}{appendix.A}
-\contentsline {section}{\numberline {B}Sample types and procedures}{90}{appendix.B}
-\contentsline {section}{\numberline {C}Abbrevations}{98}{appendix.C}
-\contentsline {section}{\numberline {D}Matlab code}{99}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}Dead pixel correction}{99}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}Dark current noise estimation removal}{99}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}Read result files from directory}{100}{subsection.D.3}
-\contentsline {subsection}{\numberline {D.4}Remove overlap and glue intervals}{101}{subsection.D.4}
-\contentsline {subsection}{\numberline {D.5}Filter and plot results}{102}{subsection.D.5}
+\contentsline {section}{\numberline {A}Silicon energy bands}{89}{appendix.A}
+\contentsline {section}{\numberline {B}Sample types and procedures}{91}{appendix.B}
+\contentsline {section}{\numberline {C}Abbrevations}{99}{appendix.C}
+\contentsline {section}{\numberline {D}Matlab code}{100}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Dead pixel correction}{100}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Dark current noise estimation removal}{100}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Read result files from directory}{101}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}Remove overlap and glue intervals}{102}{subsection.D.4}
+\contentsline {subsection}{\numberline {D.5}Filter and plot results}{103}{subsection.D.5}
