@@ -1,0 +1,3 @@
+930mW = 50mW over objective
+
+100mW = 4,2mW over objective
