@@ -1,21 +1,23 @@
+\subsection{Results plotting}
+
 In order to plot the results from the spectrometer, there are a few manipulations that's needed.
 
 \subsubsection{Disregarding defect pixels}
 
-By taking a spectra with the shutter closed, it is possible to measure the dark current coming from the camera. The dark current should be equally distributed across the pixels, based on the assumption that all pixels behave the same. For long integration time, this is not the case:
+By taking a spectra with the shutter closed, it is possible to measure the dark current coming from the camera. The dark current should be equally distributed across the pixels, based on the assumption that all pixels behave the same. For long integration time, this is not the case as seen in figure \ref{fig:dark_current_40s}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{Dark_current-40s}
+\includegraphics[width=0.8\columnwidth]{Dark_current-40s}
 \caption[Defective pixels]{Dark current signal from the camera with defective pixels with shutter closed, and CCD at -75$^\circ$C using a random center wavelength}%
 \label{fig:dark_current_40s}%
 \end{figure}
 
-To solve this problem, the four pixels are disregarded, and the value of the neighbor pixel has been used instead. Matlab code for this is available in the appendix. Comparing the before and after clearly show how this is done:
+To solve this problem, the four pixels standing out are disregarded, and the value of the neighbor pixel has been used instead. Matlab code for this is available in the appendix. Comparing the before and after clearly show how this is done:
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\columnwidth]{Dark_current-40s_corrected}
+\includegraphics[width=0.8\columnwidth]{Dark_current-40s_corrected}
 \caption[Defective pixels corrected]{Dark current signal from the camera with defective pixel correction in red using a random center wavelength}%
 \label{fig:dark_current_40s-corrected}%
 \end{figure}
