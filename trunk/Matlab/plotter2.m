@@ -38,7 +38,7 @@ R6_clean_70mW = get_result_from_dir(R6_clean_70mW,delimiter,1);
 R6_clean_70mW = dark_current_noise_removal(R6_clean_70mW,R6_noise_30s);
 plot_result(R6_clean_70mW,2,'ev','30s integrating time','R6 A Area 5',fontsize,'k',3);
 
-legend('50 mW', '21 mW', '11.5 mW', '3.7 mW');
+legend('37.5 mW', '16 mW', '8.6 mW', '2.8 mW');
 print -depsc 'Processed_results\R6-A-Area5-intensities-clean_area-30s';
 
 
@@ -58,7 +58,7 @@ R6_GB_180mW = get_result_from_dir(R6_GB_180mW,delimiter,1);
 R6_GB_180mW = dark_current_noise_removal(R6_GB_180mW,R6_noise_30s);
 plot_result(R6_GB_180mW,3,'ev','30s integrating time','R6 A Area 4',fontsize,'k',7);
 
-legend('21 mW', '11.5 mW','9.7 mW');
+legend('16 mW', '8.6 mW','7.3 mW');
 print -depsc 'Processed_results\R6-A-Area4-intensities-grain_boundary-30s';
 
 
@@ -96,7 +96,7 @@ ES1_clean_10mW = get_result_from_dir(ES1_clean_10mW,delimiter,1);
 ES1_clean_10mW = dark_current_noise_removal(ES1_clean_10mW,ES1_noise_30s);
 plot_result(ES1_clean_10mW,4,'ev','30s integrating time','ES1 C Area 5 - 30s integration time',fontsize,'k',3);
 
-legend('11.5mW','9.7 mW','4.3 mW','2.15 mW','1.08 mW','0.54 mW');
+legend('8.7 mW','7.3 mW','3.2 mW','1.6 mW','0.8 mW','0.4 mW');
 print -depsc 'Processed_results\ES1-C-Area5-intensities-clean_area-30s';
 
 
@@ -134,7 +134,7 @@ ES1_GB_40mW = get_result_from_dir(ES1_GB_40mW,delimiter,1);
 ES1_GB_40mW = dark_current_noise_removal(ES1_GB_40mW,ES1_GB_noise_30s);
 plot_result(ES1_GB_40mW,5,'ev','30s integrating time','ES1 C Area 6 - 30s integration time',fontsize,'k',3);
 
-legend('45 mW','21 mW', '11.5 mW','9.7 mW','4.3 mW','2.1 mW');
+legend('33.8 mW','16 mW', '8.6 mW','7.3 mW','3.2 mW','1.6 mW');
 print -depsc 'Processed_results\ES1-C-Area6-intensities-grain_boundary-30s';
 
 
@@ -172,7 +172,7 @@ MH2_GB_40mW = get_result_from_dir(MH2_GB_40mW,delimiter,1);
 MH2_GB_40mW = dark_current_noise_removal(MH2_GB_40mW,MH2_GB_noise_30s);
 plot_result(MH2_GB_40mW,6,'ev','30s integrating time','ES1 C Area 4 - 30s integration time',fontsize,'k',3);
 
-legend('43 mW','21 mW', '11.5 mW','9.7 mW','4.3 mW','2.1 mW');
+legend('32 mW','16 mW', '8.6 mW','7.3 mW','3.2 mW','1.6 mW');
 print -depsc 'Processed_results\MH2-B2-Area4-intensities-grain_boundary-30s';
 
 %% MH2 B2 Area1 - Clean Area
@@ -209,7 +209,7 @@ MH2_clean_40mW = get_result_from_dir(MH2_clean_40mW,delimiter,1);
 MH2_clean_40mW = dark_current_noise_removal(MH2_clean_40mW,MH2_clean_noise_30s);
 plot_result(MH2_clean_40mW,7,'ev','30s integrating time','MH2 B2 Area 5 - 30s integration time',fontsize,'k',3);
 
-legend('48 mW','21.5 mW','11.5 mW','9.7 mW','4.3 mW','2.1 mW');
+legend('36 mW','16 mW','8.6 mW','7.3 mW','3.2 mW','1.6 mW');
 print -depsc 'Processed_results\MH2-B2-Area5-intensities-clean_area-30s';
 
 %% MH2 B2 Temperature plots
