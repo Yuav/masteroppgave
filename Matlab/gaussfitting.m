@@ -65,8 +65,8 @@ Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
         TO(i) = C*a * exp(-b);
     end
     plot(xaxis,TO,'k');
-    
-    legend('12K Signal','80K fitting','12K fitting');
+    title('MH2 pumped with 128 mW');
+    legend('12 K Signal','80 K fitting','12 K fitting');
     
     %{
     

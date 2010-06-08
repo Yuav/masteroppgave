@@ -258,6 +258,33 @@ T.~Arguirov, W.~Seifert, M.~Kittler, and J.~Reif, ``Temperature behaviour of
   of extended defects in solar grade silicon,'' {\em J. Phys.: Condens.
   Matter}, 2002.
 
+\bibitem{weber86}
+J.~Weber, R.~Davis, H.-U. Habermeier, W.~Sawyer, and M.~Singh {\em Appl. Phys.
+  A}, 1986.
+
+\bibitem{misiuk99}
+A.~Misiuk, H.~B. Surma, J.~Jun, J.~Bak-Misiukd, J.~Domagala, I.~V. Antonova,
+  V.~P. Popov, A.~Romano-Rodriguez, and M.~Lopez, ``Dependence of
+  photoluminescence of silicon on conditions of pressureannealing,'' {\em
+  Journal of Alloys and Compounds}, 1999.
+
+\bibitem{erzgraber96}
+H.~Erzgraber, H.~Richter, M.~Aminpur, A.~Wolff, and K.~BlumSolid {\em State
+  Phenom.}, 1996.
+
+\bibitem{enck69}
+R.~Enck and A.~Honig, ``Radiative spectra from shallow donor-acceptor electron
+  transfer in silicon.pdf,'' {\em Phys. Rev.}, 1969.
+
+\bibitem{gundel099}
+P.~Gundel, M.~C. Schubert, and W.~Warta, ``Simultaneous stress and defect
+  luminescence study on silicon,'' {\em Phys. Status. Solidi A}, 2009.
+
+\bibitem{becker07}
+M.~Becker, H.~Scheel, S.~Christiansen, and H.~P. Strunk, ``Grain orientation,
+  texture, and internal stress optically evaluated by micro-raman
+  spectroscopy,'' {\em J. Appl. Phys.}, 2007.
+
 \bibitem{d-linje-temp}
 T.~Arguirov, W.~Seifert, and M.~K.~J. Reif, ``Temperature behaviour of
   photoluminescence and electron-beam-induced current recombination behaviour
@@ -396,5 +423,13 @@ I.~G. G.~N. Mishinova and Y.~M. Suleimanov, ``Low-temperature luminescence of
 \bibitem{sauer74}
 R.~Sauer, ``1974,'' {\em Solid State Communications}, Bound Multiple-Excition
   Complexes in Silicon at High Doping Levels.
+
+\bibitem{pankove79}
+J.~Pankove and C.~P. Wu, ``Photoluminescence from hydrogenated ion-implanted
+  crystalline silicon,'' {\em Appl. Phys. Lett.}, 1979.
+
+\bibitem{gillian96}
+G.~Gilliland, ``Photoluminescence spectroscopy of crystalline semiconductors,''
+  {\em Material Science and Engeneering}, 1996.
 
 \end{thebibliography}
