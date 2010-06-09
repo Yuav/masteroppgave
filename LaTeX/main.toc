@@ -66,13 +66,13 @@
 \contentsline {subsubsection}{\numberline {4.3.2}Comparing different locations on sample ES1-Q3-201}{73}{subsubsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.3}Comparing different locations on sample MH2-Q3-210}{77}{subsubsection.4.3.3}
 \contentsline {subsubsection}{\numberline {4.3.4}Comparing similar areas on different samples}{82}{subsubsection.4.3.4}
-\contentsline {section}{\numberline {5}Conclusion}{87}{section.5}
-\contentsline {section}{\numberline {A}Silicon energy bands}{96}{appendix.A}
-\contentsline {section}{\numberline {B}Sample types and procedures}{98}{appendix.B}
-\contentsline {section}{\numberline {C}Abbrevations}{108}{appendix.C}
-\contentsline {section}{\numberline {D}Matlab code}{109}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}Dead pixel correction}{109}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}Dark current noise estimation removal}{109}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}Read result files from directory}{110}{subsection.D.3}
-\contentsline {subsection}{\numberline {D.4}Remove overlap and glue intervals}{111}{subsection.D.4}
-\contentsline {subsection}{\numberline {D.5}Filter and plot results}{112}{subsection.D.5}
+\contentsline {section}{\numberline {5}Conclusion}{85}{section.5}
+\contentsline {section}{\numberline {A}Silicon energy bands}{94}{appendix.A}
+\contentsline {section}{\numberline {B}Sample types and procedures}{96}{appendix.B}
+\contentsline {section}{\numberline {C}Abbrevations}{107}{appendix.C}
+\contentsline {section}{\numberline {D}Matlab code}{108}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Dead pixel correction}{108}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Dark current noise estimation removal}{108}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Read result files from directory}{109}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}Remove overlap and glue intervals}{110}{subsection.D.4}
+\contentsline {subsection}{\numberline {D.5}Filter and plot results}{111}{subsection.D.5}
