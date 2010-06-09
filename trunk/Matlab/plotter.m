@@ -351,7 +351,7 @@ set(gca,'XTickLabel',{'D3=0.934', 'Zone ph2=0.968', 'D4=1.0', 'Zone ph1=1.0368',
 
 title('Relative strength to TO');
 xlabel('Energy [eV]');
-ylabel('Percent of TO');
+ylabel('Relative intensity to TO');
 legend('R6 Area2 Dislocation dot','R6 Area2 clean area','MH2 Area1 clean area','MH2 Area2 dislocation line','MH2 Area3 dislocation dot','ES1 Area1 clean area','ES1 Area2 dislocation spot','ES1 Area3 dislocation line');
 axis([0 7 0 0.2]);
 

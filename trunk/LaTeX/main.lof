@@ -77,21 +77,24 @@
 \contentsline {figure}{\numberline {68}{\ignorespaces MH2-Q3-210 comparisons close}}{79}{figure.68}
 \contentsline {figure}{\numberline {69}{\ignorespaces MH2-Q3-210 line mapping}}{81}{figure.69}
 \contentsline {figure}{\numberline {70}{\ignorespaces MH2-Q3-210 line mapping}}{81}{figure.70}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Optical mode}}}{81}{figure.70}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Acoustical mode}}}{81}{figure.70}
 \contentsline {figure}{\numberline {71}{\ignorespaces Comparisons in a clean area}}{82}{figure.71}
-\contentsline {figure}{\numberline {72}{\ignorespaces Comparisons in a clean area}}{83}{figure.72}
-\contentsline {figure}{\numberline {73}{\ignorespaces Comparisons in a dislocation dot}}{83}{figure.73}
-\contentsline {figure}{\numberline {74}{\ignorespaces Comparisons in a dislocation dot}}{84}{figure.74}
-\contentsline {figure}{\numberline {75}{\ignorespaces Comparisons in a dislocation line}}{84}{figure.75}
-\contentsline {figure}{\numberline {76}{\ignorespaces Comparisons in a dislocation line}}{85}{figure.76}
-\contentsline {figure}{\numberline {77}{\ignorespaces Comparison or relative strength}}{86}{figure.77}
-\contentsline {figure}{\numberline {78}{\ignorespaces Intrinsic/low doped ($2\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{14}cm^{-3}$ P atoms) Si PL from \cite {dean67}}}{98}{figure.78}
-\contentsline {figure}{\numberline {79}{\ignorespaces Boron doped ($6\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{99}{figure.79}
-\contentsline {figure}{\numberline {80}{\ignorespaces Phosphorus doped ($8\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{100}{figure.80}
-\contentsline {figure}{\numberline {81}{\ignorespaces Iron diffused Si sample at two different temperatures from \cite {calao88}}}{101}{figure.81}
-\contentsline {figure}{\numberline {82}{\ignorespaces Iron diffused boron doped Si sample from \cite {mohring83}}}{102}{figure.82}
-\contentsline {figure}{\numberline {83}{\ignorespaces Chromium diffused Boron doped Si sample from \cite {conzelmann83}}}{103}{figure.83}
-\contentsline {figure}{\numberline {84}{\ignorespaces Titanium PL from Ti contaminated 4H SiC from \cite {patrick74}}}{104}{figure.84}
-\contentsline {figure}{\numberline {85}{\ignorespaces Dislocation lines from \cite {tarasov01}}}{105}{figure.85}
-\contentsline {figure}{\numberline {86}{\ignorespaces R1BB plot from \cite {arguirov03}}}{107}{figure.86}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons of a clean area}}}{82}{figure.71}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:clean_area-20s_comparison} in greater detail}}}{82}{figure.71}
+\contentsline {figure}{\numberline {72}{\ignorespaces Comparisons in a clean area}}{82}{figure.72}
+\contentsline {figure}{\numberline {73}{\ignorespaces Comparisons in a dislocation dot}}{82}{figure.73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons in a dislocation dot}}}{82}{figure.73}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:dislocation_dot-20s_comparison} in greater detail}}}{82}{figure.73}
+\contentsline {figure}{\numberline {74}{\ignorespaces Comparisons in a dislocation line}}{83}{figure.74}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons in a dislocation line}}}{83}{figure.74}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:dislocation_line-20s_comparison} in greater detail}}}{83}{figure.74}
+\contentsline {figure}{\numberline {75}{\ignorespaces Comparison or relative strength}}{83}{figure.75}
+\contentsline {figure}{\numberline {76}{\ignorespaces Intrinsic/low doped ($2\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{14}cm^{-3}$ P atoms) Si PL from \cite {dean67}}}{96}{figure.76}
+\contentsline {figure}{\numberline {77}{\ignorespaces Boron doped ($6\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{97}{figure.77}
+\contentsline {figure}{\numberline {78}{\ignorespaces Phosphorus doped ($8\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{98}{figure.78}
+\contentsline {figure}{\numberline {79}{\ignorespaces Boron ($3\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) and phosphorus ($6\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) doped Si PL specter from \cite {enck69} at 4.2~K}}{99}{figure.79}
+\contentsline {figure}{\numberline {80}{\ignorespaces Iron diffused Si sample at two different temperatures from \cite {calao88}}}{100}{figure.80}
+\contentsline {figure}{\numberline {81}{\ignorespaces Iron diffused boron doped Si sample from \cite {mohring83}}}{101}{figure.81}
+\contentsline {figure}{\numberline {82}{\ignorespaces Chromium diffused Boron doped Si sample from \cite {conzelmann83}}}{102}{figure.82}
+\contentsline {figure}{\numberline {83}{\ignorespaces Titanium PL from Ti contaminated 4H SiC from \cite {patrick74}}}{103}{figure.83}
+\contentsline {figure}{\numberline {84}{\ignorespaces Dislocation lines from \cite {tarasov01}}}{104}{figure.84}
+\contentsline {figure}{\numberline {85}{\ignorespaces R1BB plot from \cite {arguirov03}}}{106}{figure.85}
