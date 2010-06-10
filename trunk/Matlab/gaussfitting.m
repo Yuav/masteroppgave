@@ -68,6 +68,8 @@ Mapping_noise = get_result_from_dir(Mapping_noise,delimiter,1);
     title('MH2 pumped with 128 mW');
     legend('12 K Signal','80 K fitting','12 K fitting');
     
+    print -depsc 'Processed_results\MH2_Temperature_fitting';
+    
     %{
     
     % Define interval to gaussfit

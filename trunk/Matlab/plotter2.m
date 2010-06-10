@@ -9,7 +9,7 @@ delimiter = '\t';
 
 %%25 May 2010
 
-%% R6 A Area 2 Clean area
+%% R6 A Area 5 Clean area
 R6_noise_30s = '..\Results\25may-2010\R6\Intensity_differences\Clean_area\NOISE_30s\';
 R6_noise_30s = get_result_from_dir(R6_noise_30s,delimiter,1);
 
@@ -42,6 +42,28 @@ legend('37.5 mW', '16 mW', '8.6 mW', '2.8 mW');
 print -depsc 'Processed_results\R6-A-Area5-intensities-clean_area-30s';
 
 
+%% R6 A Area 5 - Clean area - luminescence intensities
+a = sum(R6_clean_70mW);
+I(1) = 2.8;
+A(1) = a(2)%/a(1);
+a = sum(R6_clean_220mW);
+I(2) = 8.6;
+A(2) = a(2)%/a(1);
+a = sum(R6_clean_400mW);
+I(3) = 16;
+A(3) = a(2)%/a(1);
+a = sum(R6_clean_950mW);
+I(4) = 37.5;
+A(4) = a(2)%/a(1);
+
+figa = figure(127);
+axesa = axes('Parent',figa,'FontSize',fontsize);
+plot(I,A,'--rs','MarkerEdgeColor','b');
+title('R6 A Area 5 - Relative luminescence');
+ylabel('Total luminescence [Counts]');
+xlabel('Pumping intensity [mW]');
+print -depsc 'Processed_results\R6-A-Area5-total_luminescence-clean_area-30s';
+
 %% R6 A Area 1 Grain Boundary
 R6_GB_400mW = '..\Results\25may-2010\R6\Intensity_differences\GRAIN_BOUNDARY_POS1\400mW\';
 R6_GB_400mW = get_result_from_dir(R6_GB_400mW,delimiter,1);
@@ -61,8 +83,28 @@ plot_result(R6_GB_180mW,3,'ev','30s integrating time','R6 A Area 4',fontsize,'k'
 legend('16 mW', '8.6 mW','7.3 mW');
 print -depsc 'Processed_results\R6-A-Area4-intensities-grain_boundary-30s';
 
+%% R6 A Area 4 - Grain boundary - luminescence intensities
+a = sum(R6_GB_180mW);
+I(1) = 7.3;
+A(1) = a(2)%/a(1);
+a = sum(R6_GB_220mW);
+I(2) = 8.6;
+A(2) = a(2)%/a(1);
+a = sum(R6_GB_400mW);
+I(3) = 16;
+A(3) = a(2)%/a(1);
 
-%% ES1 C Area 1 - Clean area
+
+figa = figure(128);
+axesa = axes('Parent',figa,'FontSize',fontsize);
+plot(I,A,'--rs','MarkerEdgeColor','b');
+
+title('R6 A Area 4 - Relative luminescence');
+ylabel('Total luminescence [Counts]');
+xlabel('Pumping intensity [mW]');
+print -depsc 'Processed_results\R6-A-Area4-total_luminescence-grain_boundary-30s';
+
+%% ES1 C Area 5 - Clean area
 ES1_noise_30s = '..\Results\25may-2010\ES1\NOISE_30s_bgNoise_first\';
 ES1_noise_30s = get_result_from_dir(ES1_noise_30s,delimiter,1);
 
@@ -99,8 +141,36 @@ plot_result(ES1_clean_10mW,4,'ev','30s integrating time','ES1 C Area 5 - 30s int
 legend('8.7 mW','7.3 mW','3.2 mW','1.6 mW','0.8 mW','0.4 mW');
 print -depsc 'Processed_results\ES1-C-Area5-intensities-clean_area-30s';
 
+%% ES1 C Area 5 - Clean area - Luminescence plot
+a = sum(ES1_clean_10mW);
+I(1) = 0.4;
+A(1) = a(2)%/a(1);
+a = sum(ES1_clean_20mW);
+I(2) = 0.8;
+A(2) = a(2)%/a(1);
+a = sum(ES1_clean_40mW);
+I(3) = 1.6;
+A(3) = a(2)%/a(1);
+a = sum(ES1_clean_80mW);
+I(4) = 3.2;
+A(4) = a(2)%/a(1);
+a = sum(ES1_clean_180mW);
+I(5) = 7.3;
+A(5) = a(2)%/a(1);
+a = sum(ES1_clean_220mW);
+I(6) = 8.7;
+A(6) = a(2)%/a(1);
 
-%% ES1 C Area 2 - Grain Boundary
+figa = figure(123);
+axesa = axes('Parent',figa,'FontSize',fontsize);
+plot(I,A,'--rs','MarkerEdgeColor','b');
+
+title('ES1 C Area 5 - Relative luminescence');
+ylabel('Total luminescence [Counts]');
+xlabel('Pumping intensity [mW]');
+print -depsc 'Processed_results\ES1-C-Area5-total_luminescence-clean_area-30s';
+
+%% ES1 C Area 6 - Grain Boundary
 ES1_GB_noise_30s = '..\Results\25may-2010\ES1\Grain_boundary_pos2\BG_NOISE_30S\';
 ES1_GB_noise_30s = get_result_from_dir(ES1_GB_noise_30s,delimiter,1);
 
@@ -137,8 +207,37 @@ plot_result(ES1_GB_40mW,5,'ev','30s integrating time','ES1 C Area 6 - 30s integr
 legend('33.8 mW','16 mW', '8.6 mW','7.3 mW','3.2 mW','1.6 mW');
 print -depsc 'Processed_results\ES1-C-Area6-intensities-grain_boundary-30s';
 
+%% ES1 C Area 6 - Grain boundary - luminescence intensities
+a = sum(ES1_GB_40mW);
+I(1) = 1.6;
+A(1) = a(2)%/a(1);
+a = sum(ES1_GB_80mW);
+I(2) = 3.2;
+A(2) = a(2)%/a(1);
+a = sum(ES1_GB_180mW);
+I(3) = 7.3;
+A(3) = a(2)%/a(1);
+a = sum(ES1_GB_220mW);
+I(4) = 8.6;
+A(4) = a(2)%/a(1);
+a = sum(ES1_GB_400mW);
+I(5) = 16;
+A(5) = a(2)%/a(1);
+a = sum(ES1_GB_840mW);
+I(6) = 33.8;
+A(6) = a(2)%/a(1);
 
-%% MH2 B2 Area 2 - Grain Boundary
+figa = figure(124);
+axesa = axes('Parent',figa,'FontSize',fontsize);
+plot(I,A,'--rs','MarkerEdgeColor','b');
+
+title('ES1 C Area 6 - Relative luminescence');
+ylabel('Total luminescence [Counts]');
+xlabel('Pumping intensity [mW]');
+print -depsc 'Processed_results\ES1-C-Area6-total_luminescence-grain_boundary-30s';
+
+
+%% MH2 B2 Area 4 - Grain Boundary
 MH2_GB_noise_30s = '..\Results\25may-2010\MH2\GRAIN_POS2\NOISE-30S\';
 MH2_GB_noise_30s = get_result_from_dir(MH2_GB_noise_30s,delimiter,1);
 
@@ -175,7 +274,37 @@ plot_result(MH2_GB_40mW,6,'ev','30s integrating time','ES1 C Area 4 - 30s integr
 legend('32 mW','16 mW', '8.6 mW','7.3 mW','3.2 mW','1.6 mW');
 print -depsc 'Processed_results\MH2-B2-Area4-intensities-grain_boundary-30s';
 
-%% MH2 B2 Area1 - Clean Area
+
+%% MH2 B2 Area 4 - Grain boundary - luminescence intensities
+a = sum(MH2_GB_40mW);
+I(1) = 1.6;
+A(1) = a(2)%/a(1);
+a = sum(MH2_GB_80mW);
+I(2) = 3.2;
+A(2) = a(2)%/a(1);
+a = sum(MH2_GB_180mW);
+I(3) = 7.3;
+A(3) = a(2)%/a(1);
+a = sum(MH2_GB_220mW);
+I(4) = 8.6;
+A(4) = a(2)%/a(1);
+a = sum(MH2_GB_400mW);
+I(5) = 16;
+A(5) = a(2)%/a(1);
+a = sum(MH2_GB_800mW);
+I(6) = 32;
+A(6) = a(2)%/a(1);
+
+figa = figure(125);
+axesa = axes('Parent',figa,'FontSize',fontsize);
+plot(I,A,'--rs','MarkerEdgeColor','b');
+
+title('MH2 B2 Area 4 - Relative luminescence');
+ylabel('Total luminescence [Counts]');
+xlabel('Pumping intensity [mW]');
+print -depsc 'Processed_results\MH2-B2-Area4-total_luminescence-grain_boundary-30s';
+
+%% MH2 B2 Area 5 - Clean Area
 MH2_clean_noise_30s = '..\Results\25may-2010\MH2\CLEAN_POS1\NOISE_30s\';
 MH2_clean_noise_30s = get_result_from_dir(MH2_clean_noise_30s,delimiter,1);
 
@@ -211,6 +340,36 @@ plot_result(MH2_clean_40mW,7,'ev','30s integrating time','MH2 B2 Area 5 - 30s in
 
 legend('36 mW','16 mW','8.6 mW','7.3 mW','3.2 mW','1.6 mW');
 print -depsc 'Processed_results\MH2-B2-Area5-intensities-clean_area-30s';
+
+
+%% MH2 B2 Area 5 - Clean area - luminescence intensities
+a = sum(MH2_clean_40mW);
+I(1) = 1.6;
+A(1) = a(2)%/a(1);
+a = sum(MH2_clean_80mW);
+I(2) = 3.2;
+A(2) = a(2)%/a(1);
+a = sum(MH2_clean_180mW);
+I(3) = 7.3;
+A(3) = a(2)%/a(1);
+a = sum(MH2_clean_220mW);
+I(4) = 8.6;
+A(4) = a(2)%/a(1);
+a = sum(MH2_clean_400mW);
+I(5) = 16;
+A(5) = a(2)%/a(1);
+a = sum(MH2_clean_900mW);
+I(6) = 36;
+A(6) = a(2)%/a(1);
+
+figa = figure(126);
+axesa = axes('Parent',figa,'FontSize',fontsize);
+plot(I,A,'--rs','MarkerEdgeColor','b');
+
+title('MH2 B2 Area 5 - Relative luminescence');
+ylabel('Total luminescence [Counts]');
+xlabel('Pumping intensity [mW]');
+print -depsc 'Processed_results\MH2-B2-Area5-total_luminescence-clean_area-30s';
 
 %% MH2 B2 Temperature plots
 MH2_temp_noise_30s = '..\Results\25may-2010\MH2\CLEAN_POS1\TEMPRISING\NOISE-30s\';
