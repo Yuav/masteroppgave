@@ -113,7 +113,7 @@ plot_result(R6_Area3_clean_area,30,'ev','20s integrating time','R6 comparison of
 plot_result(R6_Area1_dislocation_line,30,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
 plot_result(R6_Area2_dislocation_dot,30,'ev','20s integrating time','Dislocation line',fontsize,'r',3);
 grid on
-legend('Clean Area','Dislocation line','Dislocation spot');
+legend('Clean Area','Dislocation line','Defect dot');
 print -depsc 'Processed_results\R6_comparisons';
 %axis([1.11 1.18 0 3000])
 %print -depsc 'Processed_results\R6_comparisons_I0';
@@ -128,7 +128,7 @@ plot_result(ES_Area1_dislocation_free_10s,31,'ev','20s integrating time','ES1 co
 plot_result(ES_Area4_dislocation_line_10s,31,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
 plot_result(ES_Area2_dislocation_spot_10s,31,'ev','20s integrating time','Dislocation line',fontsize,'r',3);
 plot_result(ES_Area3_grain_boundary_10s,31,'ev','20s integrating time','Dislocation line',fontsize,'g',3);
-legend('Clean Area','Dislocation line','Dislocation spot','Grain boundary');
+legend('Clean Area','Dislocation line','Defect dot','Grain boundary');
 grid on
 print -depsc 'Processed_results\ES1_comparisons';
 %axis([1.11 1.18 0 3000])
@@ -141,7 +141,7 @@ print -depsc 'Processed_results\ES1_comparisons';
 plot_result(MH2_area1_clean_area,32,'ev','20s integrating time','MH2 comparison of spots',fontsize,'k',3);
 plot_result(MH2_area2_dislocation_line,32,'ev','20s integrating time','Dislocation line',fontsize,'b',3);
 plot_result(MH2_area3_dislocation_dot,32,'ev','20s integrating time','Dislocation line',fontsize,'r',3);
-legend('Clean Area','Dislocation line','Dislocation spot');
+legend('Clean Area','Dislocation line','Defect dot');
 grid on
 print -depsc 'Processed_results\MH2_comparisons';
 %axis([1.11 1.18 0 3000])
@@ -163,10 +163,10 @@ print -depsc 'Processed_results\dislocation_line-20s';
 %axis([0.9 1.2 0 5000])
 %print -depsc 'Processed_results\dislocation_line-20s_zoom';
 
-% Dislocation dot
-plot_result(R6_Area2_dislocation_dot,23,'ev','20s integrating time','Dislocation dot',fontsize,'k',3);
-plot_result(ES_Area2_dislocation_spot_10sx2,23,'ev','20s integrating time','Dislocation dot',fontsize,'b',3);
-plot_result(MH2_area3_dislocation_dot,23,'ev','20s integrating time','Dislocation dot',fontsize,'r',3);
+% Defect dot
+plot_result(R6_Area2_dislocation_dot,23,'ev','20s integrating time','Defect dot',fontsize,'k',3);
+plot_result(ES_Area2_dislocation_spot_10sx2,23,'ev','20s integrating time','Defect dot',fontsize,'b',3);
+plot_result(MH2_area3_dislocation_dot,23,'ev','20s integrating time','Defect dot',fontsize,'r',3);
 legend('R6','ES1','MH2');
 print -depsc 'Processed_results\dislocation_dot-20s';
 %axis([0.9 1.2 0 5000])
@@ -352,7 +352,7 @@ set(gca,'XTickLabel',{'D3=0.934', 'Zone ph2=0.968', 'D4=1.0', 'Zone ph1=1.0368',
 title('Relative strength to TO');
 xlabel('Energy [eV]');
 ylabel('Relative intensity to TO');
-legend('R6 Area2 Dislocation dot','R6 Area2 clean area','MH2 Area1 clean area','MH2 Area2 dislocation line','MH2 Area3 dislocation dot','ES1 Area1 clean area','ES1 Area2 dislocation spot','ES1 Area3 dislocation line');
+legend('R6 Area2 Defect dot','R6 Area2 clean area','MH2 Area1 clean area','MH2 Area2 dislocation line','MH2 Area3 Defect dot','ES1 Area1 clean area','ES1 Area2 Defect dot','ES1 Area3 dislocation line');
 axis([0 7 0 0.2]);
 
 print -depsc 'Processed_results\TO_comparisons';

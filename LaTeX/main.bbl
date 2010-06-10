@@ -30,10 +30,6 @@ H.~Mohring, J.~Weber, and R.~Sauer, ``Photoluminescence of excitons bound to an
 H.~Conzelmann and J.~Weber, ``Photoluminescence from chromium-boron pairs in
   silicon,'' {\em Physica}, 1983.
 
-\bibitem{patrick74}
-L.~Patrick and W.~Choyke, ``Photoluminescence of ti in four sic polytypes,''
-  {\em Physical Review B}, 1974.
-
 \bibitem{tarasov01}
 I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.~Kaleis, ``Defect
   diagnostics in multicrystalline silicon using scanning techniques,'' {\em
@@ -169,10 +165,9 @@ H.~Sugimoto, K.~Araki, M.~Tajima, T.~Eguchi, I.~Yamaga, M.~Dhamrin,
   defects in multicrystalline silicon wafers for solar cells,'' {\em Journal of
   Applied Physics}, 2007.
 
-\bibitem{kemenade74}
-A.~van Kemenade and S.~Hagen, ``Proof of the involvement of ti in the
-  low-temperature abc luminescence spectrum of 6h sic,'' {\em Solid State
-  Communications}, 1974.
+\bibitem{patrick74}
+L.~Patrick and W.~Choyke, ``Photoluminescence of ti in four sic polytypes,''
+  {\em Physical Review B}, 1974.
 
 \bibitem{weber82}
 J.~Weber, H.~Bauch, and R.~Sauer, ``Optical properties of copper in silicon:
@@ -262,6 +257,11 @@ T.~Arguirov, W.~Seifert, M.~Kittler, and J.~Reif, ``Temperature behaviour of
   of extended defects in solar grade silicon,'' {\em J. Phys.: Condens.
   Matter}, 2002.
 
+\bibitem{teng09}
+Y.-Y. Teng, J.-C. Chen, C.-W. Lu, and C.-Y. Chen, ``The carbon distribution in
+  multicrystalline silicon ingots grown using the directional solidification
+  process,'' {\em Jyh-ChenChen a,n, Chung-WeiLu b, Chi-YungChen}, 2009.
+
 \bibitem{weber86}
 J.~Weber, R.~Davis, H.-U. Habermeier, W.~Sawyer, and M.~Singh {\em Appl. Phys.
   A}, 1986.
@@ -284,6 +284,14 @@ P.~Gundel, M.~C. Schubert, and W.~Warta, ``Simultaneous stress and defect
 M.~Becker, H.~Scheel, S.~Christiansen, and H.~P. Strunk, ``Grain orientation,
   texture, and internal stress optically evaluated by micro-raman
   spectroscopy,'' {\em J. Appl. Phys.}, 2007.
+
+\bibitem{alex96}
+V.~Alex, S.~Finkbeiner, and J.~Weber, ``Temperature dependence of the indirect
+  energy gap in crystalline silicon,'' {\em J. Appl. Phys}, 1996.
+
+\bibitem{glassbrenner64}
+C.~Glassbrenner and G.~Slack, ``Thermal conductivity of silicon and germanium
+  from 3°k to the melting point,'' {\em Phys. Rev.}, 1964.
 
 \bibitem{d-linje-temp}
 T.~Arguirov, W.~Seifert, and M.~K.~J. Reif, ``Temperature behaviour of
@@ -331,11 +339,6 @@ S.~Binetti, J.~Libal, M.~Acciarri, M.~D. Sabatino, H.~Nordmark, E.~Øverlid,
 \bibitem{patrick74)}
 L.~Patrick and W.~Choyke, ``Photoluminescence of ti in four sic polytypes,''
   {\em Physical Review B}, 1974.
-
-\bibitem{wagner2002}
-M.~Wagner, I.~Ivanov, L.~Storasta, J.~Bergman, B.~Magnusson, W.~Chen, and
-  E.~Janzén, ``Photoluminescence upconversion in 4h-sic,'' {\em Applied Physics
-  Letters}, 2002.
 
 \bibitem{dean82}
 J.~Dean, ``Photoluminescence as a diagnostic of semiconductors,'' {\em Prog.
@@ -431,5 +434,13 @@ J.~Pankove and C.~P. Wu, ``Photoluminescence from hydrogenated ion-implanted
 \bibitem{gillian96}
 G.~Gilliland, ``Photoluminescence spectroscopy of crystalline semiconductors,''
   {\em Material Science and Engeneering}, 1996.
+
+\bibitem{mitchard82}
+G.~Mitchard and T.~McGill, ``Photoluminescence of si-rich si-ge alloys,'' {\em
+  Phys. Rev. B}, 1982.
+
+\bibitem{bludau74}
+W.~Bludau, A.~Onton, and W.~Heinke, ``Temperature dependence of the band gap of
+  silicon,'' {\em American Institute of Physics}, 1974.
 
 \end{thebibliography}
