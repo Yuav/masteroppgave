@@ -11,13 +11,13 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Czochralski method}{13}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Float-zone process}{14}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Siemens process}{14}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}Multicrystalline silicon}{14}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4}Multicrystalline silicon}{15}{subsubsection.2.2.4}
 \contentsline {subsubsection}{\numberline {2.2.5}Wafers}{15}{subsubsection.2.2.5}
-\contentsline {subsubsection}{\numberline {2.2.6}Doping}{15}{subsubsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.6}Doping}{16}{subsubsection.2.2.6}
 \contentsline {subsubsection}{\numberline {2.2.7}Defects}{16}{subsubsection.2.2.7}
 \contentsline {subsection}{\numberline {2.3}Spectroscopic properties of silicon}{19}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Phonons}{21}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Excitons}{21}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2}Excitons}{22}{subsubsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3}Electron-hole drops}{23}{subsubsection.2.3.3}
 \contentsline {subsubsection}{\numberline {2.3.4}Pumping wavelength}{23}{subsubsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.5}Spot size}{24}{subsubsection.2.3.5}
@@ -30,7 +30,7 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Dislocation photoluminescence}{28}{subsubsection.2.4.1}
 \contentsline {subsubsection}{\numberline {2.4.2}Impurities}{30}{subsubsection.2.4.2}
 \contentsline {subsubsection}{\numberline {2.4.3}Atom impurities}{31}{subsubsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.4}Impurity interaction with dislocations}{33}{subsubsection.2.4.4}
+\contentsline {subsubsection}{\numberline {2.4.4}Impurity interaction with dislocations}{32}{subsubsection.2.4.4}
 \contentsline {section}{\numberline {3}Experimental}{35}{section.3}
 \contentsline {subsection}{\numberline {3.1}Samples}{35}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}R6-Q3-210}{35}{subsubsection.3.1.1}
@@ -41,7 +41,7 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Pumping wavelength}{39}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}Spot size}{39}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Laser intensity}{39}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}Temperature}{40}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.5}Temperature}{39}{subsubsection.3.2.5}
 \contentsline {subsubsection}{\numberline {3.2.6}Spectrometer}{40}{subsubsection.3.2.6}
 \contentsline {section}{\numberline {4}Results}{41}{section.4}
 \contentsline {subsection}{\numberline {4.1}R6-Q3-210}{41}{subsection.4.1}
@@ -50,7 +50,7 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Low temperature}{47}{subsubsection.4.2.2}
 \contentsline {subsection}{\numberline {4.3}MH2-Q3-210}{51}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Room temperature}{52}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}At 70K}{53}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2}At 70~K}{53}{subsubsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.3}Low temperature}{54}{subsubsection.4.3.3}
 \contentsline {subsubsection}{\numberline {4.3.4}Line mapping}{58}{subsubsection.4.3.4}
 \contentsline {section}{\numberline {5}Discussion}{63}{section.5}

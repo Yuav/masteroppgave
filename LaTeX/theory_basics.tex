@@ -4,7 +4,7 @@ Most solar cells made are crystalline, meaning the structure of atoms is ordered
 
 \subsubsection{Bandgap}
 
-A free electron in vacuum is able to have any energy. An electron in a crystal is bound by an energy gap divided by energy positions the electrons can't possess. Every available energy state can only room two electrons according to the Pauli principle. For a crystal, the energy bands can be viewed as an overlap in between single electron energy states. This can be viewed as the crystals 'electron'-shell.
+A free electron in vacuum can posses any energy. An electron in a crystal is bound by an energy gap divided by energy positions the electrons can't possess. Every available energy state can only room two electrons according to the Pauli principle. For a crystal, the energy bands can be viewed as an overlap in between single electron energy states. This can be viewed as the crystals 'electron'-shell.
 
 \begin{figure}[H]
  \centering
@@ -22,7 +22,7 @@ A free electron in vacuum is able to have any energy. An electron in a crystal i
     \label{fig:energiband}
 \end{figure}
 
-The upper band is called conduction band. The band right below it, is called the valence band. This band gap is very important in relations with solar cells, and is often given in the units of electron volts (eV).
+The upper band is called conduction band, and the band right below it, is called the valence band. In between these two, are the ideally forbidden band gap. This band gap is very important in relations with solar cells, and is often given in the units of electron volts (eV).
 
 For electrons to move out of the crystal, they have to be in the conduction band. For electrons to get to the conduction band, they need to have enough energy to move from the valence band. This can happen if the electron has enough thermal energy, or receive energy from the outside, like light. This gives the material increased conductivity. In addition to this, there will be a free state in the valence band, which results in a less probability of collisions among the remaining electron, which lead to a higher mean kinetic energy of the electrons in the valence band. This also contribute to a better conductivity for the material. 
 
@@ -35,7 +35,7 @@ E=h\nu =\frac{hc}{\lambda}
 
 where $E$ is energy in electron volts, $h$ is Planks constant, $\nu$ is frequency, and $c$ is the speed of light.
 
-Materials is often divided into three categories; Isolators, semiconductors, and conductors. Isolators have none, or few electrons in the conduction band, which gives them poor conductivity. Conductors often have filled conduction bands in room temperature, which provide good conductivity. Even with 0K, conductors have a partially filled conduction band. Semiconductors on the other hand, does not have any electrons in the conduction band at 0K. Semiconductors have lower conductivity than conductors, but better than isolators. The bandgap for semiconductors lay in between that of the conductors and isolators. At room temperature semiconductors have a partially filled conduction band.
+Materials is often divided into three categories; Isolators, semiconductors, and conductors. Isolators have none, or few electrons in the conduction band, which gives them poor conductivity. Conductors often have filled conduction bands in room temperature, which provide good conductivity. Even at 0K, conductors have a partially filled conduction band. Semiconductors on the other hand, does not have any electrons in the conduction band at 0K. Semiconductors have lower conductivity than conductors, but better than isolators. The bandgap for semiconductors lay in between that of the conductors and isolators. At room temperature semiconductors have a partially filled conduction band.
 
 \begin{figure}[H]
  \centering
@@ -82,9 +82,9 @@ Materials is often divided into three categories; Isolators, semiconductors, and
 \end{figure}
 \vspace{10mm}
 
-Typical bandgap for semiconductor silicon is E$_g$=1.1~eV, compared with 5~eV for diamond, which is an isolator \cite[Chapter 3]{streetman}.
+Typical bandgap for semiconductor silicon is E$_g$=1.1~eV, compared with 5~eV for diamond, which is an isolator \cite{streetman}.
 
-Holes is a description of missing electrons in the valence band. A hole will appear when an electron is excited from the valence band into the conduction band. With a small bandgap, and high temperatures, there will be a considerably larger amount of electrons in the conduction band, compared to low temperatures, and a large bandgap. This is described by low of mass action
+Holes is a description of missing electrons in the valence band. A hole will appear when an electron is excited from the valence band into the conduction band. With a small bandgap, and high temperatures, there will be a considerably larger amount of electrons in the conduction band, compared to low temperatures, and a large bandgap. This is described by law of mass action
 
 \begin{equation}
 np=N_cN_ve^{-\frac{E_g}{kT}}
@@ -118,24 +118,24 @@ n \approx N_d
 for donor doping, and
 
 \begin{equation}
-n \approx N_a
+p \approx N_a
 \label{eq:akseptordoping}
 \end{equation}
 
 for acceptor doping where $N_d$ is donor concentration, and $N_a$ is acceptor concentration.
 
-A doped semiconductor is generally called extrinsic \cite{streetman}. If a semiconductor is doped with a number of donor atoms, it is called n-doped or n-type, due to there being more electrons than holes. For acceptor doping it is called p-doped, or p-type semiconductor. The dominating charge carrier in the semiconductor are called majority carriers. The other charge carrier, i.e. holes in the n-type semiconductor are called minority carriers.
+A doped semiconductor is generally called extrinsic \cite{streetman}. If a semiconductor is doped with a number of donor atoms, it is called n-doped or n-type, due to there being more electrons than holes. For acceptor doping, it is called p-doped, or p-type, semiconductor. The dominating charge carrier in the semiconductor are called majority carriers. The other charge carrier, i.e. holes in the n-type semiconductor are called minority carriers.
 
 \subsubsection{Transport and recombination processes}
 
-There are two mechanisms that contribute to transport of electrons and holes in semiconductors: drift, and diffusion. Drift is a transport of a charge carrer due to an electric field. For transport of a hole in one dimension, the current $I_p$ is equal to the amount of holes $N_p$ times the charge $q$ crossing a cross-sectional area.
+There are two mechanisms that contribute to transport of electrons and holes in semiconductors: drift, and diffusion. Drift is a transport of a charge carrier due to an electric field. For transport of a hole in one dimension, the current $I_p$ is equal to the amount of holes $N_p$ times the charge $q$ crossing a cross-sectional area.
 
 \begin{equation}
 I_p = N_p q
 \label{eq:drift}
 \end{equation}
 
-In vacuum, an electric field would accelerate the electrons, and the velocity would increase indefinitely. In solids, however, interactions of collisions with other species in the solid leads to a resistance towards the drift of the charged particles, and after an initial acceleration the velocity becomes constant in a constant electric field. This average drive velocity, denoted $v_p$ for holes, is related to the electric field $E$ through the hole mobility $µ_p$
+In vacuum, an electric field would accelerate the electrons, and the velocity would increase indefinitely. In solids, however, interactions of collisions with other species in the solid leads to a resistance towards the drift of the charged particles, and after an initial acceleration the mean velocity becomes constant in a constant electric field. This average drive velocity, denoted $v_p$ for holes, is related to the electric field $E$ through the hole mobility $µ_p$
 
 \begin{equation}
 v_p = µ_p E
@@ -159,7 +159,7 @@ J = J_p + J_n = (nqµ_n + pqµ_p)E = \sigma E
 where $µ_n$ is the mobility for electrons,$\sigma$ is the semiconductors conductivity, and $J_n$ is the current density due to the concerted movement of electrons. It is also usual to define the resistivity of the semiconductor as the inverse of its conductivity. The current is then obtained by
 
 \begin{equation}
-I = JA = A\sigma E = \left( \frac{A\sigma}{L}\right)V
+I = JA = A\sigma E = \left( \frac{A\sigma}{L}\right)V = \frac{V}{R}
 \label{eq:current}
 \end{equation}
 
@@ -186,7 +186,7 @@ for holes, and a corresponding one exist for electrons.
 
 \subsubsection{Excitation and recombination}
 
-Electrons can move from one band to another directly, or indirectly. In indirect generation and recombination the electrons employ the so-called gap-states. Such conditions will always exist in semiconductors and are related to impurities, defects in the crystal structure, boundary surfaces (grain boundaries) and surfaces. Gap-states are in between the valence band and the conduction band, which is not allowed states in a perfect crystal.
+Electrons can move from one band to another directly, or indirectly. In indirect generation and recombination the electrons can employ the so-called gap-states. Such conditions will always exist in semiconductors and are related to impurities, defects in the crystal structure, boundary surfaces (grain boundaries) and surfaces. Gap-states are in between the valence band and the conduction band, which is not allowed states in a perfect crystal.
 
 
 \begin{figure}[H]
@@ -263,7 +263,7 @@ U_n = - \frac{n-n^0}{\tau_n}
 \label{eq:generation_n}
 \end{equation}
 
-where $\tau_n$ is the lifetime of electrons. $n$ is the concentration of holes and $n^0$ is the equilibrium concentration of electrons, $n^0=n_i^2$. The lifetime is the time that an electron of average speeds in the conduction band use before recombining with a hole. Similarly, the net production of holes $U_p$
+where $\tau_n$ is the lifetime of electrons, which is the time that an electron of average speeds in the conduction band use before recombining with a hole. $n$ is the concentration of electrons and $n^0$ is the equilibrium concentration of electrons, $n^0=n_i^2$. Similarly, the net production of holes $U_p$
 
 \begin{equation}
 U_p = - \frac{p-p^0}{\tau_p}
@@ -272,7 +272,7 @@ U_p = - \frac{p-p^0}{\tau_p}
 
 \subsubsection{Solar cell}
 
-In a semiconductor with one p-doped, and one n-doped area laying next to each others is called a pn-junction. A pn-junction has rectifying properties, meaning the r electrical conductance are significantly better in one direction than the other, in contrast to a resistor for which it does not matter for the voltage drop across the resistance whether the current runs one way or another through it. This rectifying behavior defines a diode. Due to the p-side having a larger concentration of eletrons in the conduction band than the n-side, there will be a net transport of conduction band electrons from the n-side, to the p-side by diffusion. The same is also happening for holes from the p-side to the n-side. This net flow of charge is called the diffusion current. In principle, the dopants of Si, B, and P can also diffuse between the two parts of the crystal. Such a transport will only be significant at the temperature range of 800 to 900$^\circ$~C, and can be neglected at low temperatures like room temperature.
+In a semiconductor with one p-doped, and one n-doped area laying next to each others is called a pn-junction. A pn-junction has rectifying properties, meaning the electrical conductance are significantly better in one direction than the other, in contrast to a resistor for which it does not matter, as the voltage drops across the resistance whether the current runs one way or another through it. This rectifying behavior defines a diode. Due to the p-side having a larger concentration of electrons in the conduction band than the n-side, there will be a net transport of conduction band electrons from the n-side, to the p-side by diffusion. The same is also happening for holes from the p-side to the n-side. This net flow of charge is called the diffusion current. In principle, the dopants of Si, B, and P can also diffuse between the two parts of the crystal. Such a transport will only be significant at the temperature range of 800 to 900$^\circ$~C, and can be neglected at  temperatures like room temperature.
 
 % figur fra s. 14 i kompendiet
 
@@ -322,7 +322,7 @@ In a semiconductor with one p-doped, and one n-doped area laying next to each ot
 \label{fig:depletionarea}%
 \end{figure}
 
-Each hole that leaves the p-side will therefor leave behind an acceptor that is no longer neutralized by a hole. Similarly, each electron in the n-side leave behind a donoor that is not neutralized by an electron. A layer near the interface between the two materials with non-neutral donors on the n-side and non-neutral acceptor in the p-side will therefor form. This layer is often called the depletion layer, since it is essentially depleted of free charge carriers. Since the n-side of the depletion layer contains non-neutral donors this side will be positively charged. The corresponding p.side will be negatively charged. These charges therefore will cause an electric field directed from n-to p-side, or a corresponding drop in electrical potential from the n-side to the p-side. This electrical potential is resulting in a drift current which is moving in the opposite direction of the diffusion current which is resulting in equilibrium, meaning zero net flow of current.
+Each hole that leaves the p-side will leave behind an acceptor that is no longer neutralized by a hole. Similarly, each electron in the n-side leave behind a donor that is not neutralized by an electron. A layer near the interface between the two materials with non-neutral donors on the n-side and non-neutral acceptor in the p-side will form. This layer is often called the depletion layer, since it is essentially depleted of free charge carriers. Since the n-side of the depletion layer contains non-neutral donors this side will be positively charged. The corresponding p.side will be negatively charged. These charges therefore will cause an electric field directed from n-to p-side, or a corresponding drop in electrical potential from the n-side to the p-side. This electrical potential is resulting in a drift current which is moving in the opposite direction of the diffusion current which is resulting in equilibrium, meaning zero net flow of current.
 
 By exposing the pn-junction to light, minority carriers may be generated beyond those generated thermally. The carriers are generated by photon absorption. This generation is usually significantly greater than the drift current. A diode not exposed to light has the following current voltage characteristic:
 
@@ -331,7 +331,7 @@ I=|I_{drift}|e^{\frac{qV}{kT}-1}
 \label{eq:diodeiv}
 \end{equation}
 
-When the diode is exposed to light, the drift current is increased, and the characteristic is changing into:
+When the diode is exposed to light, the drift current is increased, and the current voltage characteristic is changing as seen in figure \ref{fig:ivsolcelle}.
 
 % figur fra side 22 i kompendiet
 \begin{figure}[H]
@@ -365,7 +365,7 @@ I=I_{light}-I_{drift}(e^{\frac{qV}{kT}-1})
 \label{eq:solarcelliv}
 \end{equation}
 
-where $I_light$, is the current generated by the exposing light. In an open circuit the voltage is defined as 
+where $I_{light}$, is the current generated by the exposing light. In an open circuit the voltage is defined as 
 
 \begin{equation}
 V_{OC}=\frac{kT}{q}\ln(\frac{I_{light}}{I_{drift}}+1)
@@ -386,7 +386,7 @@ where $P_m$ is maximum power, $I_m$ is maximum current and $V_m$ is maximum volt
 \label{eq:virkningsgrad}
 \end{equation}
 
-where FF is the fill factor give by
+where FF is the fill factor is given by
 
 \begin{equation}
 FF=\frac{I_m V_m}{I_{light} V_{OC}}
@@ -407,7 +407,7 @@ FF=\frac{I_m V_m}{I_{light} V_{OC}}
 	\draw [-] (3,2.5) .. controls +(right:1.6cm) .. (5.5,0);
 	
 	% Fyllfaktor
-	\node [draw, rectangle,fill=black!10,minimum height=2.3cm, minimum width=4.3cm] (FF) at (2.15,1.15) {Fill factor};
+	\node [draw, rectangle,fill=black!10,minimum height=2.3cm, minimum width=4.3cm] (FF) at (2.15,1.15) {Fill factor (FF)};
 	
 	% Tekst
 	\node at (-0.9,2.65) {$I_{light}$};
