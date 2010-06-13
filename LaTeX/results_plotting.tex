@@ -13,7 +13,7 @@ By taking a spectra with the shutter closed, it is possible to measure the dark 
 \label{fig:dark_current_40s}%
 \end{figure}
 
-To solve this problem, the four pixels standing out are disregarded, and the value of the neighbor pixel has been used instead. Matlab code for this is available in the appendix. Comparing the before and after clearly show how this is done:
+To solve this problem, the four pixels standing out are disregarded, and the value of the neighbor pixel has been used instead. Matlab code for this is available in the appendix. 
 
 \begin{figure}[H]
 \centering
@@ -38,11 +38,11 @@ The defective pixels are less apparent for shorter integration time, but still a
 \caption[Dark current with 10s integration time]{Dark current with 10s integration time using a random center wavelength}
 \end{figure}
 
-Dead pixel correction is performed in all results.
+Dead pixel correction is performed in all of the results.
 
 \subsubsection{Noise reduction}
 
-As seen in the previous section, there is a dark current offset present. Ideally, all pixels should behave exactly the same, and give rise to the same dark current offset. If all pixels behaved the same, and with the same variance in between measurements, it could simply be subtracted. This is not the case. The dark current is unevenly distributed over the pixel array, and needs to be measured by itself in order to remove it. The mean dark current noise shape is pretty much the same from measurement to measurement using the same CCD temperature. In addition to the mean offset, there is white noise elements. 
+As seen in the previous section, there is a dark current offset present. Ideally, all pixels should behave exactly the same, and give rise to the same dark current offset. If all pixels behaved the same, and with the same variance in between measurements, it could simply be subtracted. This is not the case. The dark current is unevenly distributed over the pixel array, and needs to be measured by itself in order to remove it. The mean dark current noise shape is pretty much the same from measurement to measurement using the same CCD temperature. There is white noise elements, in addition to the dark current offset. 
 
 \begin{figure}[H]
 \centering
@@ -60,8 +60,8 @@ By subtracting the mean offset found in the dark current noise measurement, only
 \label{fig:dark_current_removed-20s}%
 \end{figure}
 
-It appears that the dark current noise is larger with the shutter open, compared to closed. But a more critical noise in the spectrum is a background signal around 1064nm. The spectrometer has a range of 140nm when using 300 as grating. It has proven difficult to align the system so that the entire array of pixels in the camera get an equally distributed light beam. And based on the noise level, the nm interval is chosen as 100nm, in order to remove the left hand side of the spectra when gluing different intervals together. This also avoid the problem of not hitting the entire array evenly. To get a full overview over the background noise, a full spectra was done, and glued together. This full spectra show that the artifact visible in \ref{fig:dark_current_removed-20s} is the only background noise line visible in the wavelength area 800-1650nm.
+It appears that the dark current noise is larger with the shutter open, compared to closed. But a more critical noise in the spectrum is a background noise signal around 1064~nm. The spectrometer has a wavelength range of 140~nm when using 300 as grating. It has proven difficult to align the system so that the entire array of pixels in the camera get an equally distributed light beam. And based on the noise level, the nm interval is chosen as 100~nm, in order to remove the left hand side, with increased dark current offset, from the spectra when gluing different intervals together. This also avoid the problem of not hitting the entire array evenly. To get a full overview over the background noise, a full spectra was done, and glued together. This full spectra only show the peak visible in figure \ref{fig:dark_current_removed-20s} as background noise in the wavelength area 800-1650~nm.
 
 \subsubsection{Savitzky-Golay filtering}
 
-Savitzky-Golay filter (also called digital smoothing polynomial filter or least-squares smoothing filter), is a smoothing filter which essentially performs a local polynomial regression on a series of values equally spaced. This filter is chosen because of the large frequency span of the signal. Although Savitzky-Golay filters are more effective at preserving the pertinent high frequency components of the signal, they are less successful than standard averaging FIR filters at rejecting noise \cite{signal_processing}.
+Savitzky-Golay filter (also called digital smoothing polynomial filter, or least-squares smoothing filter), is a smoothing filter which essentially performs a local polynomial regression on a series of values equally spaced. This filter is chosen because of the large frequency span of the signal. Although Savitzky-Golay filters are more effective at preserving the pertinent high frequency components of the signal, they are less successful than standard averaging finite impulse response (FIR) filters at rejecting noise \cite{signal_processing}.

@@ -10,12 +10,12 @@
 \contentsline {figure}{\numberline {9}{\ignorespaces I-V characteristics with defects}}{12}{figure.9}
 \contentsline {figure}{\numberline {10}{\ignorespaces Czochralski process}}{13}{figure.10}
 \contentsline {figure}{\numberline {11}{\ignorespaces Wafer wire saw (figure from CRS Reprocessing LLC)}}{16}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Dislocations}}{18}{figure.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {An edge dislocation}}}{18}{figure.12}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A screw dislocation}}}{18}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Area defects}}{19}{figure.13}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Stacking faults from \cite {stacking_faults}}}}{19}{figure.13}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Twin boundary}}}{19}{figure.13}
+\contentsline {figure}{\numberline {12}{\ignorespaces Dislocations}}{17}{figure.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {An edge dislocation}}}{17}{figure.12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A screw dislocation}}}{17}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Area defects}}{18}{figure.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Stacking faults from \cite {stacking_faults}}}}{18}{figure.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Twin boundary}}}{18}{figure.13}
 \contentsline {figure}{\numberline {14}{\ignorespaces Excitation and recombination \cite {streetman}}}{20}{figure.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces Transverse phonon modes}}{21}{figure.15}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Optical mode}}}{21}{figure.15}
@@ -36,73 +36,70 @@
 \contentsline {figure}{\numberline {29}{\ignorespaces ES1-Q3-201 at a defect free area}}{47}{figure.29}
 \contentsline {figure}{\numberline {30}{\ignorespaces ES1-Q3-201 at a defect free area}}{47}{figure.30}
 \contentsline {figure}{\numberline {31}{\ignorespaces ES1-Q3-201 at a grain boundary}}{48}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces ES1-Q3-201 at a grain boundary}}{48}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces ES1-Q3-201 at a dislocation line}}{49}{figure.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces ES1-Q3-201 at a dislocation line}}{49}{figure.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces ES1-Q3-201 at a defect free area}}{50}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces ES1-Q3-201 at a grain boundary}}{50}{figure.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces MH2-Q3-210 B2 from light microscope}}{51}{figure.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces MH2-Q3-210 at room temperature}}{52}{figure.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces MH2-Q3-210 at 70K}}{53}{figure.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces MH2-Q3-210 at area 1}}{54}{figure.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces MH2-Q3-210 at area 2}}{54}{figure.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces MH2-Q3-210 at area 3}}{55}{figure.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces MH2-Q3-210 at area 3}}{56}{figure.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces MH2-Q3-210 at area 4 with different intensities}}{57}{figure.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces MH2-Q3-210 at area 5 with different intensities}}{57}{figure.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces MH2-Q3-210 at area 5 with different temperatures}}{58}{figure.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces MH2-Q3-210 line mapping start position}}{59}{figure.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces MH2-Q3-210 line mapping end position}}{59}{figure.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces MH2-Q3-210 line mapping}}{60}{figure.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces MH2-Q3-210 line mapping start position}}{61}{figure.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces MH2-Q3-210 line mapping start position}}{61}{figure.51}
-\contentsline {figure}{\numberline {52}{\ignorespaces MH2-Q3-210 line mapping}}{62}{figure.52}
-\contentsline {figure}{\numberline {53}{\ignorespaces Defective pixels}}{63}{figure.53}
-\contentsline {figure}{\numberline {54}{\ignorespaces Defective pixels corrected}}{64}{figure.54}
-\contentsline {figure}{\numberline {55}{\ignorespaces Dark current with 10s integration time}}{64}{figure.55}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Dark current without correction}}}{64}{figure.55}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dark current with correction (red)}}}{64}{figure.55}
-\contentsline {figure}{\numberline {56}{\ignorespaces Dark current and noise}}{65}{figure.56}
-\contentsline {figure}{\numberline {57}{\ignorespaces Dark current removed}}{66}{figure.57}
-\contentsline {figure}{\numberline {58}{\ignorespaces R6-Q3-210 comparisons}}{70}{figure.58}
-\contentsline {figure}{\numberline {59}{\ignorespaces R6-Q3-210 comparisons close}}{71}{figure.59}
-\contentsline {figure}{\numberline {60}{\ignorespaces R6-Q3-210 comparisons close}}{71}{figure.60}
-\contentsline {figure}{\numberline {61}{\ignorespaces R6-Q3-210 comparisons close}}{72}{figure.61}
-\contentsline {figure}{\numberline {62}{\ignorespaces ES1-Q3-201 comparisons}}{75}{figure.62}
-\contentsline {figure}{\numberline {63}{\ignorespaces ES1-Q3-201 comparisons close}}{75}{figure.63}
-\contentsline {figure}{\numberline {64}{\ignorespaces ES1-Q3-201 comparisons close}}{76}{figure.64}
-\contentsline {figure}{\numberline {65}{\ignorespaces ES1-Q3-201 comparisons close}}{76}{figure.65}
-\contentsline {figure}{\numberline {66}{\ignorespaces MH2-Q3-210 comparisons}}{79}{figure.66}
-\contentsline {figure}{\numberline {67}{\ignorespaces MH2-Q3-210 comparisons close}}{79}{figure.67}
-\contentsline {figure}{\numberline {68}{\ignorespaces MH2-Q3-210 comparisons close}}{80}{figure.68}
-\contentsline {figure}{\numberline {69}{\ignorespaces MH2-Q3-210 comparisons close}}{80}{figure.69}
-\contentsline {figure}{\numberline {70}{\ignorespaces MH2-Q3-210 line mapping}}{82}{figure.70}
-\contentsline {figure}{\numberline {71}{\ignorespaces MH2-Q3-210 line mapping}}{82}{figure.71}
-\contentsline {figure}{\numberline {72}{\ignorespaces Comparisons in a clean area}}{83}{figure.72}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons of a clean area}}}{83}{figure.72}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:clean_area-20s_comparison} in greater detail}}}{83}{figure.72}
-\contentsline {figure}{\numberline {73}{\ignorespaces Comparisons in a defect dot}}{83}{figure.73}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons in a defect dot}}}{83}{figure.73}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:dislocation_dot-20s_comparison} in greater detail}}}{83}{figure.73}
-\contentsline {figure}{\numberline {74}{\ignorespaces Comparisons in a dislocation line}}{84}{figure.74}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons in a dislocation line}}}{84}{figure.74}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:dislocation_line-20s_comparison} in greater detail}}}{84}{figure.74}
-\contentsline {figure}{\numberline {75}{\ignorespaces Temperature fitting using equation \ref {eq:to_line} on MH2 results from line map in figure \ref {fig:MH2-mapping-small_steps-20s}}}{85}{figure.75}
-\contentsline {figure}{\numberline {76}{\ignorespaces Total luminescence from sample R6 A, as a function of excitation intensity.}}{86}{figure.76}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Area 4 in figure \ref {fig:R6-Q3-210-A_enlarged} - Grain boundary}}}{86}{figure.76}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Area 4 in figure \ref {fig:R6-Q3-210-A_enlarged} - Clean area}}}{86}{figure.76}
-\contentsline {figure}{\numberline {77}{\ignorespaces Total luminescence from sample ES1 C, as a function of excitation intensity.}}{87}{figure.77}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Area 6 in figure \ref {fig:ES1-Q3-201-C_enlarged} - Grain boundary}}}{87}{figure.77}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Area 5 in figure \ref {fig:ES1-Q3-201-C_enlarged} - Clean area}}}{87}{figure.77}
-\contentsline {figure}{\numberline {78}{\ignorespaces Total luminescence from sample MH2 B2, as a function of excitation intensity.}}{87}{figure.78}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Area 4 in figure \ref {fig:MH2-Q3-210-B2_enlarged} - Grain boundary}}}{87}{figure.78}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Area 5 in figure \ref {fig:MH2-Q3-210-B2_enlarged} - Clean area}}}{87}{figure.78}
-\contentsline {figure}{\numberline {79}{\ignorespaces Intrinsic/low doped ($2\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{14}cm^{-3}$ P atoms) Si PL from \cite {dean67}}}{101}{figure.79}
-\contentsline {figure}{\numberline {80}{\ignorespaces Boron doped ($6\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{102}{figure.80}
-\contentsline {figure}{\numberline {81}{\ignorespaces Phosphorus doped ($8\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{103}{figure.81}
-\contentsline {figure}{\numberline {82}{\ignorespaces Boron ($3\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) and phosphorus ($6\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) doped Si PL specter from \cite {enck69} at 4.2~K}}{104}{figure.82}
-\contentsline {figure}{\numberline {83}{\ignorespaces Iron diffused Si sample at two different temperatures from \cite {calao88}}}{105}{figure.83}
-\contentsline {figure}{\numberline {84}{\ignorespaces Iron diffused boron doped Si sample from \cite {mohring83}}}{106}{figure.84}
-\contentsline {figure}{\numberline {85}{\ignorespaces Chromium diffused Boron doped Si sample from \cite {conzelmann83}}}{107}{figure.85}
-\contentsline {figure}{\numberline {86}{\ignorespaces Dislocation lines from \cite {tarasov01}}}{108}{figure.86}
-\contentsline {figure}{\numberline {87}{\ignorespaces R1BB plot from \cite {arguirov03}}}{110}{figure.87}
+\contentsline {figure}{\numberline {32}{\ignorespaces ES1-Q3-201 at a dislocation line}}{48}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces ES1-Q3-201 at a defect free area}}{49}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces ES1-Q3-201 at a grain boundary}}{49}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces MH2-Q3-210 B2 from light microscope}}{50}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces MH2-Q3-210 at room temperature}}{51}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces MH2-Q3-210 at 70K}}{52}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces MH2-Q3-210 at area 1}}{53}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces MH2-Q3-210 at area 2}}{53}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces MH2-Q3-210 at area 3}}{54}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces MH2-Q3-210 at area 4 with different intensities}}{55}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces MH2-Q3-210 at area 5 with different intensities}}{55}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces MH2-Q3-210 at area 5 with different temperatures}}{56}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces MH2-Q3-210 line mapping start position}}{57}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces MH2-Q3-210 line mapping end position}}{57}{figure.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces MH2-Q3-210 line mapping}}{58}{figure.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces MH2-Q3-210 line mapping start position}}{58}{figure.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces MH2-Q3-210 line mapping start position}}{59}{figure.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces MH2-Q3-210 line mapping}}{59}{figure.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Defective pixels}}{60}{figure.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Defective pixels corrected}}{61}{figure.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces Dark current with 10s integration time}}{61}{figure.52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Dark current without correction}}}{61}{figure.52}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Dark current with correction (red)}}}{61}{figure.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Dark current and noise}}{62}{figure.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Dark current removed}}{63}{figure.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces R6-Q3-210 comparisons}}{67}{figure.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces R6-Q3-210 comparisons close}}{68}{figure.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces R6-Q3-210 comparisons close}}{68}{figure.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces R6-Q3-210 comparisons close}}{69}{figure.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces ES1-Q3-201 comparisons}}{72}{figure.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces ES1-Q3-201 comparisons close}}{72}{figure.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces ES1-Q3-201 comparisons close}}{73}{figure.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces ES1-Q3-201 comparisons close}}{73}{figure.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces MH2-Q3-210 comparisons}}{76}{figure.63}
+\contentsline {figure}{\numberline {64}{\ignorespaces MH2-Q3-210 comparisons close}}{76}{figure.64}
+\contentsline {figure}{\numberline {65}{\ignorespaces MH2-Q3-210 comparisons close}}{77}{figure.65}
+\contentsline {figure}{\numberline {66}{\ignorespaces MH2-Q3-210 comparisons close}}{77}{figure.66}
+\contentsline {figure}{\numberline {67}{\ignorespaces MH2-Q3-210 line mapping}}{79}{figure.67}
+\contentsline {figure}{\numberline {68}{\ignorespaces MH2-Q3-210 line mapping}}{79}{figure.68}
+\contentsline {figure}{\numberline {69}{\ignorespaces Comparisons in a clean area}}{80}{figure.69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons of a clean area}}}{80}{figure.69}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:clean_area-20s_comparison} in greater detail}}}{80}{figure.69}
+\contentsline {figure}{\numberline {70}{\ignorespaces Comparisons in a defect dot}}{81}{figure.70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons in a defect dot}}}{81}{figure.70}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:dislocation_dot-20s_comparison} in greater detail}}}{81}{figure.70}
+\contentsline {figure}{\numberline {71}{\ignorespaces Comparisons in a dislocation line}}{82}{figure.71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Comparisons in a dislocation line}}}{82}{figure.71}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plot from figure \ref {fig:dislocation_line-20s_comparison} in greater detail}}}{82}{figure.71}
+\contentsline {figure}{\numberline {72}{\ignorespaces Temperature fitting using equation \ref {eq:to_line} on MH2 results from line map in figure \ref {fig:MH2-mapping-small_steps-20s}}}{83}{figure.72}
+\contentsline {figure}{\numberline {73}{\ignorespaces Total luminescence from sample R6 A, as a function of excitation intensity.}}{84}{figure.73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Area 4 in figure \ref {fig:R6-Q3-210-A_enlarged} - Grain boundary}}}{84}{figure.73}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Area 4 in figure \ref {fig:R6-Q3-210-A_enlarged} - Clean area}}}{84}{figure.73}
+\contentsline {figure}{\numberline {74}{\ignorespaces Total luminescence from sample ES1 C, as a function of excitation intensity.}}{85}{figure.74}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Area 6 in figure \ref {fig:ES1-Q3-201-C_enlarged} - Grain boundary}}}{85}{figure.74}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Area 5 in figure \ref {fig:ES1-Q3-201-C_enlarged} - Clean area}}}{85}{figure.74}
+\contentsline {figure}{\numberline {75}{\ignorespaces Total luminescence from sample MH2 B2, as a function of excitation intensity.}}{85}{figure.75}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Area 4 in figure \ref {fig:MH2-Q3-210-B2_enlarged} - Grain boundary}}}{85}{figure.75}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Area 5 in figure \ref {fig:MH2-Q3-210-B2_enlarged} - Clean area}}}{85}{figure.75}
+\contentsline {figure}{\numberline {76}{\ignorespaces Intrinsic/low doped ($2\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{14}cm^{-3}$ P atoms) Si PL from \cite {dean67}}}{99}{figure.76}
+\contentsline {figure}{\numberline {77}{\ignorespaces Boron doped ($6\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{100}{figure.77}
+\contentsline {figure}{\numberline {78}{\ignorespaces Phosphorus doped ($8\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) Si PL specter from \cite {dean67}}}{101}{figure.78}
+\contentsline {figure}{\numberline {79}{\ignorespaces Boron ($3\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) and phosphorus ($6\tmspace +\thinmuskip {.1667em}\unhbox \voidb@x \hbox {\textperiodcentered }\tmspace +\thinmuskip {.1667em}10^{16}cm^{-3}$) doped Si PL specter from \cite {enck69} at 4.2~K}}{102}{figure.79}
+\contentsline {figure}{\numberline {80}{\ignorespaces Iron diffused Si sample at two different temperatures from \cite {calao88}}}{103}{figure.80}
+\contentsline {figure}{\numberline {81}{\ignorespaces Iron diffused boron doped Si sample from \cite {mohring83}}}{104}{figure.81}
+\contentsline {figure}{\numberline {82}{\ignorespaces Chromium diffused Boron doped Si sample from \cite {conzelmann83}}}{105}{figure.82}
+\contentsline {figure}{\numberline {83}{\ignorespaces Dislocation lines from \cite {tarasov01}}}{106}{figure.83}
+\contentsline {figure}{\numberline {84}{\ignorespaces R1BB plot from \cite {arguirov03}}}{108}{figure.84}
