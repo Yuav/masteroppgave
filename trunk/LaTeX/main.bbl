@@ -8,6 +8,14 @@ B.~Jalali, ``Physics and technology forefronts - silicon lasers,'' {\em
 B.~G. Streetman and S.~K. Banerjee, {\em Solid state electronic devices}.
 \newblock Prentice Hall, 2006.
 
+\bibitem{bludau74}
+W.~Bludau, A.~Onton, and W.~Heinke, ``Temperature dependence of the band gap of
+  silicon,'' {\em American Institute of Physics}, 1974.
+
+\bibitem{alex96}
+V.~Alex, S.~Finkbeiner, and J.~Weber, ``Temperature dependence of the indirect
+  energy gap in crystalline silicon,'' {\em J. Appl. Phys}, 1996.
+
 \bibitem{dean67}
 P.~J. Dean, J.~Haynes, and W.~Flood, ``New radiative recombination processes
   involving neutral donors and acceptors in silicon and germanium,'' {\em
@@ -15,7 +23,7 @@ P.~J. Dean, J.~Haynes, and W.~Flood, ``New radiative recombination processes
 
 \bibitem{enck69}
 R.~Enck and A.~Honig, ``Radiative spectra from shallow donor-acceptor electron
-  transfer in silicon.pdf,'' {\em Phys. Rev.}, 1969.
+  transfer in silicon,'' {\em Phys. Rev.}, 1969.
 
 \bibitem{calao88}
 M.~Càlão and M.~do~Carmo, ``Luminescence from an iron related deep center in
@@ -281,10 +289,6 @@ M.~Becker, H.~Scheel, S.~Christiansen, and H.~P. Strunk, ``Grain orientation,
   texture, and internal stress optically evaluated by micro-raman
   spectroscopy,'' {\em J. Appl. Phys.}, 2007.
 
-\bibitem{alex96}
-V.~Alex, S.~Finkbeiner, and J.~Weber, ``Temperature dependence of the indirect
-  energy gap in crystalline silicon,'' {\em J. Appl. Phys}, 1996.
-
 \bibitem{glassbrenner64}
 C.~Glassbrenner and G.~Slack, ``Thermal conductivity of silicon and germanium
   from 3°k to the melting point,'' {\em Phys. Rev.}, 1964.
@@ -439,8 +443,8 @@ G.~Gilliland, ``Photoluminescence spectroscopy of crystalline semiconductors,''
 G.~Mitchard and T.~McGill, ``Photoluminescence of si-rich si-ge alloys,'' {\em
   Phys. Rev. B}, 1982.
 
-\bibitem{bludau74}
-W.~Bludau, A.~Onton, and W.~Heinke, ``Temperature dependence of the band gap of
-  silicon,'' {\em American Institute of Physics}, 1974.
+\bibitem{donnel90}
+K.~P. O'Donnell and X.~Chen, ``Temperature dependence of semiconductor band
+  gaps,'' {\em Appl. Phys. Lett.}, 1990.
 
 \end{thebibliography}
