@@ -42,7 +42,7 @@ Dead pixel correction is performed in all of the results.
 
 \subsubsection{Noise reduction}
 
-As seen in the previous section, there is a dark current offset present. Ideally, all pixels should behave exactly the same, and give rise to the same dark current offset. If all pixels behaved the same, and with the same variance in between measurements, it could simply be subtracted. This is not the case. The dark current is unevenly distributed over the pixel array, and needs to be measured by itself in order to remove it. The mean dark current noise shape is pretty much the same from measurement to measurement using the same CCD temperature. There is white noise elements, in addition to the dark current offset. 
+As seen in the previous section, there is a mean increased count, due to a dark current in the results present. Ideally, all pixels should behave exactly the same, and give rise to the same dark current offset. If all pixels behaved the same, and with the same variance in between measurements, it could simply be subtracted. This is not the case. The dark current is unevenly distributed over the pixel array, and needs to be measured, order to remove it. The mean dark current noise shape is pretty much the same from measurement to measurement using the same CCD temperature. There is white noise elements, in addition to the dark current offset. 
 
 \begin{figure}[H]
 \centering
@@ -51,7 +51,7 @@ As seen in the previous section, there is a dark current offset present. Ideally
 \label{fig:dark_current_and_background_noise}%
 \end{figure}
 
-By subtracting the mean offset found in the dark current noise measurement, only background noise and white noise would be left. The matlab code used to do this can be found in the appendix.
+By subtracting the filtered dark current found in the dark current noise measurement, only background noise and white noise would be left. The matlab code used to do this can be found in the appendix.
 
 \begin{figure}[H]
 \centering
@@ -60,7 +60,7 @@ By subtracting the mean offset found in the dark current noise measurement, only
 \label{fig:dark_current_removed-20s}%
 \end{figure}
 
-It appears that the dark current noise is larger with the shutter open, compared to closed. But a more critical noise in the spectrum is a background noise signal around 1064~nm. The spectrometer has a wavelength range of 140~nm when using 300 as grating. It has proven difficult to align the system so that the entire array of pixels in the camera get an equally distributed light beam. And based on the noise level, the nm interval is chosen as 100~nm, in order to remove the left hand side, with increased dark current offset, from the spectra when gluing different intervals together. This also avoid the problem of not hitting the entire array evenly. To get a full overview over the background noise, a full spectra was done, and glued together. This full spectra only show the peak visible in figure \ref{fig:dark_current_removed-20s} as background noise in the wavelength area 800-1650~nm.
+It appears that the dark current noise is larger with the shutter open, compared to closed. But a more critical noise in the spectrum is a background noise signal around 1064~nm. The spectrometer has a wavelength range of 140~nm when using 300 as grating. It has proven difficult to align the system so that the entire array of pixels in the camera get an equally distributed light beam. And based on the noise level, the wavelength interval is chosen as 100~nm, in order to remove the left hand side, with increased dark current offset, from the spectra when gluing different intervals together. This also avoid the problem of not hitting the entire array evenly. A full spectra from 800-1650~nm was done to map the light coming from the room, known as background noise. The only background noise peak visible in this wavelength area, is shown in figure \ref{fig:dark_current_removed-20s}.
 
 \subsubsection{Savitzky-Golay filtering}
 

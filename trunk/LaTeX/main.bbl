@@ -1,8 +1,12 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{aps}
 B.~Jalali, ``Physics and technology forefronts - silicon lasers,'' {\em
   American Physical Society}, 2006.
+
+\bibitem{wire_saw}
+W.~S. Radeker and S.~W. Cunningham, ``A hierarchy of slurry reprocessing
+  options.'' \url{http://crs-reprocessing.com/resources/paper2}, 2010.
 
 \bibitem{streetman}
 B.~G. Streetman and S.~K. Banerjee, {\em Solid state electronic devices}.
@@ -41,12 +45,12 @@ H.~Conzelmann and J.~Weber, ``Photoluminescence from chromium-boron pairs in
 \bibitem{tarasov01}
 I.~Tarasov, S.~Ostapenko, W.~Seifert, M.~Kittler, and J.~Kaleis, ``Defect
   diagnostics in multicrystalline silicon using scanning techniques,'' {\em
-  Elsevier Science B.V.}, 2001.
+  Physica B}, 2001.
 
 \bibitem{arguirov03}
 T.~Arguirov, W.~Seifert, M.~Kittler, and J.~Reif, ``Temperature behaviour of
   extended defects in solar grade silicon investigated by photoluminescence and
-  ebic,'' {\em Elsevier B.V.}, 2003.
+  ebic,'' {\em Materials Science and Engineering}, 2003.
 
 \bibitem{sopori09}
 B.~Sopori, P.~Rupnowski, V.~Mehta, V.~Budhraja, S.~Johnston, N.~Call,
@@ -74,7 +78,7 @@ G.~Davies, ``The optical properties of luminescence centres in silicon,'' {\em
 \bibitem{tarasov00}
 I.~Tarasov, S.~Ostapenko, C.Haessler, and E.-U. Reisner, ``Spatially resolved
   defect diagnostics in multicrystalline silicon for solar cells,'' {\em
-  Elsevier Science S.A}, 2000.
+  Materials Science and Engineering}, 2000.
 
 \bibitem{stacking_faults}
 J.~A. Gavira-Gallardo, J.~D. Ng, and M.~George, ``Stacking faults.''
@@ -83,6 +87,10 @@ J.~A. Gavira-Gallardo, J.~D. Ng, and M.~George, ``Stacking faults.''
 \bibitem{aksamija07}
 Z.~Aksamija, H.-S. Hahm, and U.~Ravaioli, ``Emission and absorption of phonons
   in silicon,'' {\em phys. stat. sol. (c)}, 2007.
+
+\bibitem{excitons}
+D.~B. Ullrich and A.~Erlacher, ``Measuring techniques in opto-electronics.''
+  \url{http://kottan-labs.bgsu.edu/index.php?phys694.file}, 2001.
 
 \bibitem{kittel}
 C.~Kittel, {\em Introduction to Solid State Physics}.
